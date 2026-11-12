@@ -1,0 +1,92 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import { CATEGORIES_WITH_CALCS, byCategory, calcUrl, CALCULATORS } from '../lib/registry';
+---
+<Base title="All calculators" description={`Browse all ${CALCULATORS.length} free calculators and tools by category.`}>
+  <div class="container page">
+    <h1>All calculators</h1>
+    <p class="lede">{CALCULATORS.length} tools across {CATEGORIES_WITH_CALCS.length} categories.</p>
+    <div class="index">
+      {CATEGORIES_WITH_CALCS.map((cat) => (
+        <section style={`--hue:${cat.hue}`}>
+          <a href={`/${cat.id}`} class="head">
+            <span class="b"><Icon paths={cat.icon} size={18} /></span>
+            <h2>{cat.name}</h2>
+          </a>
+          <ul>
+            {byCategory(cat.id).map((c) => (
+              <li><a href={calcUrl(c)}>{c.title}</a></li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </div>
+  </div>
+</Base>
+<style>
+  .page {
+    padding-top: 36px;
+  }
+  h1 {
+    font-size: clamp(28px, 5vw, 40px);
+    font-weight: 760;
+    letter-spacing: -0.035em;
+  }
+  .lede {
+    color: var(--text-2);
+    margin-top: 6px;
+  }
+  .index {
+    margin-top: 32px;
+    columns: 1;
+    column-gap: 32px;
+  }
+  @media (min-width: 640px) {
+    .index {
+      columns: 2;
+    }
+  }
+  @media (min-width: 980px) {
+    .index {
+      columns: 3;
+    }
+  }
+  section {
+    break-inside: avoid;
+    margin-bottom: 32px;
+  }
+  .head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--text);
+  }
+  .b {
+    display: grid;
+    place-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 9px;
+    background: oklch(60% 0.17 var(--hue));
+    color: #fff;
+  }
+  h2 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  ul {
+    list-style: none;
+    margin: 12px 0 0;
+    padding: 0 0 0 42px;
+    display: grid;
+    gap: 6px;
+  }
+  ul a {
+    color: var(--text-2);
+    font-size: 14.5px;
+  }
+  ul a:hover {
+    color: var(--accent-text);
+  }
+</style>

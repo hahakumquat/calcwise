@@ -1,0 +1,633 @@
+/* ───────────── Tokens ───────────── */
+:root {
+  --hue: 262;
+  --font: 'Inter Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace;
+
+  --bg: oklch(98.6% 0.004 var(--hue));
+  --bg-elev: #fff;
+  --bg-sunk: oklch(96.4% 0.006 var(--hue));
+  --line: oklch(91% 0.008 var(--hue));
+  --line-strong: oklch(84% 0.012 var(--hue));
+  --text: oklch(22% 0.02 var(--hue));
+  --text-2: oklch(45% 0.02 var(--hue));
+  --text-3: oklch(60% 0.015 var(--hue));
+  --accent: oklch(55% 0.19 var(--hue));
+  --accent-strong: oklch(48% 0.2 var(--hue));
+  --accent-soft: oklch(95% 0.035 var(--hue));
+  --accent-text: oklch(42% 0.17 var(--hue));
+  --on-accent: #fff;
+  --danger: oklch(55% 0.19 25);
+  --danger-soft: oklch(96% 0.03 25);
+  --ok: oklch(55% 0.14 150);
+
+  --radius-sm: 8px;
+  --radius: 12px;
+  --radius-lg: 18px;
+  --shadow-sm: 0 1px 2px oklch(20% 0.02 var(--hue) / 0.06);
+  --shadow: 0 1px 2px oklch(20% 0.02 var(--hue) / 0.05), 0 8px 24px -8px oklch(20% 0.04 var(--hue) / 0.12);
+  --shadow-lg: 0 24px 60px -20px oklch(20% 0.05 var(--hue) / 0.35);
+  --ring: 0 0 0 3px oklch(60% 0.19 var(--hue) / 0.28);
+  --maxw: 1180px;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --bg: oklch(17% 0.012 var(--hue));
+    --bg-elev: oklch(21% 0.014 var(--hue));
+    --bg-sunk: oklch(15% 0.012 var(--hue));
+    --line: oklch(28% 0.016 var(--hue));
+    --line-strong: oklch(36% 0.02 var(--hue));
+    --text: oklch(95% 0.008 var(--hue));
+    --text-2: oklch(76% 0.015 var(--hue));
+    --text-3: oklch(60% 0.015 var(--hue));
+    --accent: oklch(70% 0.16 var(--hue));
+    --accent-strong: oklch(76% 0.15 var(--hue));
+    --accent-soft: oklch(28% 0.06 var(--hue));
+    --accent-text: oklch(82% 0.12 var(--hue));
+    --on-accent: oklch(18% 0.03 var(--hue));
+    --danger-soft: oklch(28% 0.06 25);
+    --shadow: 0 1px 2px #0005, 0 8px 24px -8px #0008;
+    --shadow-lg: 0 24px 60px -20px #000c;
+    color-scheme: dark;
+  }
+}
+:root[data-theme='dark'] {
+  --bg: oklch(17% 0.012 var(--hue));
+  --bg-elev: oklch(21% 0.014 var(--hue));
+  --bg-sunk: oklch(15% 0.012 var(--hue));
+  --line: oklch(28% 0.016 var(--hue));
+  --line-strong: oklch(36% 0.02 var(--hue));
+  --text: oklch(95% 0.008 var(--hue));
+  --text-2: oklch(76% 0.015 var(--hue));
+  --text-3: oklch(60% 0.015 var(--hue));
+  --accent: oklch(70% 0.16 var(--hue));
+  --accent-strong: oklch(76% 0.15 var(--hue));
+  --accent-soft: oklch(28% 0.06 var(--hue));
+  --accent-text: oklch(82% 0.12 var(--hue));
+  --on-accent: oklch(18% 0.03 var(--hue));
+  --danger-soft: oklch(28% 0.06 25);
+  --shadow: 0 1px 2px #0005, 0 8px 24px -8px #0008;
+  --shadow-lg: 0 24px 60px -20px #000c;
+  color-scheme: dark;
+}
+
+/* ───────────── Base ───────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  font-family: var(--font);
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: 'cv11', 'ss01';
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
+}
+a {
+  color: var(--accent-text);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+:focus-visible {
+  outline: none;
+  box-shadow: var(--ring);
+}
+.container {
+  width: 100%;
+  max-width: var(--maxw);
+  margin-inline: auto;
+  padding-inline: 16px;
+}
+@media (min-width: 720px) {
+  .container {
+    padding-inline: 28px;
+  }
+}
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  flex: none;
+}
+
+/* ───────────── Buttons ───────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 38px;
+  padding: 0 14px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  background: var(--bg-elev);
+  color: var(--text-2);
+  font-size: 14px;
+  font-weight: 550;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, color 0.15s, transform 0.05s;
+  white-space: nowrap;
+}
+.btn:hover {
+  border-color: var(--line-strong);
+  color: var(--text);
+}
+.btn:active {
+  transform: translateY(1px);
+}
+.btn .icon {
+  width: 16px;
+  height: 16px;
+}
+.btn-primary {
+  background: var(--accent);
+  border-color: transparent;
+  color: var(--on-accent);
+}
+.btn-primary:hover {
+  background: var(--accent-strong);
+  color: var(--on-accent);
+}
+.btn-ghost {
+  border-color: transparent;
+  background: transparent;
+}
+.icon-btn {
+  display: inline-grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius-sm);
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text-2);
+  cursor: pointer;
+}
+.icon-btn:hover {
+  background: var(--bg-sunk);
+  color: var(--text);
+}
+
+/* ───────────── Cards / grids ───────────── */
+.card-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+.calc-card {
+  --hue: var(--card-hue);
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  padding: 16px;
+  border-radius: var(--radius);
+  background: var(--bg-elev);
+  border: 1px solid var(--line);
+  color: var(--text);
+  transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+}
+.calc-card:hover {
+  text-decoration: none;
+  border-color: var(--line-strong);
+  box-shadow: var(--shadow);
+  transform: translateY(-1px);
+}
+.calc-card .badge {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: var(--accent-soft);
+  color: var(--accent-text);
+  flex: none;
+}
+.calc-card h3 {
+  font-size: 15px;
+  font-weight: 620;
+  letter-spacing: -0.01em;
+}
+.calc-card p {
+  margin-top: 3px;
+  font-size: 13.5px;
+  color: var(--text-2);
+  line-height: 1.45;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.section-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 0 0 14px;
+}
+.section-title h2 {
+  font-size: 20px;
+  font-weight: 680;
+}
+.section-title a {
+  font-size: 14px;
+  font-weight: 550;
+}
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent-text);
+}
+
+/* ───────────── Ads (off unless configured) ───────────── */
+.ad-slot {
+  display: grid;
+  place-items: center;
+  min-height: 100px;
+  border: 1px dashed var(--line);
+  border-radius: var(--radius);
+  color: var(--text-3);
+  font-size: 12px;
+}
+
+/* Result update micro-animation */
+@keyframes flash {
+  from {
+    opacity: 0.35;
+    transform: translateY(2px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.flash {
+  animation: flash 0.22s ease-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .flash {
+    animation: none;
+  }
+  * {
+    transition: none !important;
+  }
+}
+.copied {
+  color: var(--ok) !important;
+}
+
+/* ───────────── Charts ───────────── */
+:root {
+  --c1: oklch(58% 0.19 var(--hue));
+  --c2: oklch(72% 0.15 calc(var(--hue) + 140));
+  --c3: oklch(70% 0.16 calc(var(--hue) + 220));
+  --c4: oklch(76% 0.14 calc(var(--hue) + 70));
+  --c5: oklch(62% 0.17 calc(var(--hue) + 300));
+  --c6: oklch(66% 0.05 var(--hue));
+  --tone-good: oklch(72% 0.15 150);
+  --tone-ok: oklch(80% 0.14 110);
+  --tone-warn: oklch(80% 0.15 75);
+  --tone-bad: oklch(66% 0.19 28);
+  --tone-neutral: oklch(82% 0.03 var(--hue));
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --c1: oklch(72% 0.16 var(--hue));
+    --tone-neutral: oklch(40% 0.03 var(--hue));
+  }
+}
+:root[data-theme='dark'] {
+  --c1: oklch(72% 0.16 var(--hue));
+  --tone-neutral: oklch(40% 0.03 var(--hue));
+}
+.chart {
+  margin: 0;
+  min-width: 0;
+}
+.chart + .chart {
+  margin-top: 20px;
+}
+.chart-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+.chart-title {
+  font-size: 14px;
+  font-weight: 650;
+  color: var(--text);
+}
+.chart-unit {
+  font-size: 12px;
+  color: var(--text-3);
+}
+.chart-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  margin-bottom: 8px;
+  font-size: 12.5px;
+  color: var(--text-2);
+}
+.chart-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.chart-legend i,
+.donut-list i {
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  flex: none;
+}
+.chart-body {
+  position: relative;
+}
+.chart-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+  font-family: var(--font);
+}
+.chart-svg .grid {
+  stroke: var(--line);
+  stroke-width: 1;
+}
+.chart-svg .grid.strong {
+  stroke: var(--line-strong);
+}
+.chart-svg .tick {
+  font-size: 11.5px;
+  fill: var(--text-3);
+  font-variant-numeric: tabular-nums;
+}
+.chart-svg .tick.strong {
+  fill: var(--text);
+  font-weight: 650;
+}
+.chart-svg .tick.value {
+  fill: var(--text-2);
+  font-weight: 600;
+}
+.chart-svg .tick.faint {
+  opacity: 0.8;
+}
+.chart-svg .axis-label {
+  font-size: 11.5px;
+  fill: var(--text-3);
+}
+.chart-svg .line {
+  fill: none;
+  stroke-width: 2.4;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+.chart-svg .area {
+  opacity: 0.18;
+}
+.chart-svg .marker {
+  stroke: var(--text-3);
+  stroke-dasharray: 3 4;
+}
+.chart-svg .marker-label {
+  font-size: 11px;
+  font-weight: 600;
+  fill: var(--text-2);
+}
+.chart-svg .bar {
+  transition: opacity 0.15s;
+}
+.chart-svg .bar:hover {
+  opacity: 0.8;
+}
+.chart-svg .bar.hl {
+  stroke: var(--text);
+  stroke-width: 1.5;
+}
+.chart-svg .slice {
+  stroke: var(--bg-elev);
+  stroke-width: 2;
+}
+.chart-svg .center-value {
+  font-size: 20px;
+  font-weight: 720;
+  fill: var(--text);
+  letter-spacing: -0.02em;
+}
+.chart-svg .center-label {
+  font-size: 11.5px;
+  fill: var(--text-3);
+}
+.chart-svg .scale-value {
+  font-size: 13px;
+  font-weight: 700;
+  fill: var(--text);
+}
+.chart-svg .scale-pointer {
+  fill: var(--text);
+}
+.chart-svg .scale-needle {
+  stroke: var(--text);
+  stroke-width: 2;
+}
+.chart-svg .dist-shade {
+  fill: var(--c1);
+  opacity: 0.28;
+}
+.chart-svg .dot {
+  fill: var(--c1);
+  stroke: var(--bg-elev);
+  stroke-width: 1.5;
+}
+.chart-svg .fit {
+  stroke: var(--c2);
+  stroke-width: 2;
+  stroke-dasharray: 6 4;
+}
+.chart-svg .hover-line {
+  stroke: var(--text-3);
+  stroke-width: 1;
+}
+.chart-svg .hover-dot {
+  stroke: var(--bg-elev);
+  stroke-width: 2;
+}
+.chart-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 5;
+  min-width: 150px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: var(--bg-elev);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  font-size: 12.5px;
+  font-variant-numeric: tabular-nums;
+}
+.chart-tip b {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 650;
+}
+.chart-tip div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  justify-content: space-between;
+}
+.chart-tip i {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 2px;
+}
+.chart-tip span {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--text-2);
+}
+.donut-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px 28px;
+}
+.donut-wrap .chart-svg {
+  width: min(200px, 100%);
+  flex: none;
+}
+.donut-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex: 1 1 200px;
+  display: grid;
+  gap: 8px;
+  font-size: 14px;
+}
+.donut-list li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.donut-list span {
+  flex: 1;
+  color: var(--text-2);
+  min-width: 0;
+}
+.donut-list b {
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
+}
+.donut-list em {
+  font-style: normal;
+  color: var(--text-3);
+  font-size: 12.5px;
+  width: 48px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ───────────── Info tooltips ───────────── */
+.info-btn {
+  display: inline-grid;
+  place-items: center;
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  margin: -2px 0;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--text-3);
+  cursor: help;
+  vertical-align: middle;
+  flex: none;
+}
+.info-btn:hover,
+.info-btn[aria-expanded='true'] {
+  color: var(--accent-text);
+}
+.info-btn svg {
+  width: 15px;
+  height: 15px;
+}
+.tooltip {
+  position: fixed;
+  z-index: 60;
+  max-width: min(300px, calc(100vw - 24px));
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: var(--text);
+  color: var(--bg);
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 450;
+  box-shadow: var(--shadow-lg);
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 0.12s, transform 0.12s;
+}
+.tooltip.show {
+  opacity: 1;
+  transform: none;
+}

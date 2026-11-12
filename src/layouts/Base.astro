@@ -1,0 +1,408 @@
+---
+import '@fontsource-variable/inter';
+import '../styles/global.css';
+import Icon from '../components/Icon.astro';
+import { CALCULATORS, CATEGORIES_WITH_CALCS, calcUrl } from '../lib/registry';
+import { CATEGORY_BY_ID } from '../lib/categories';
+import { SITE } from '../lib/site';
+
+interface Props {
+  title: string;
+  description: string;
+  hue?: number;
+  jsonLd?: object | object[];
+}
+const { title, description, hue = 262, jsonLd } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const fullTitle = title === SITE.name ? `${SITE.name} — ${SITE.tagline}` : `${title} | ${SITE.name}`;
+
+const searchIndex = CALCULATORS.map((c) => ({
+  t: c.title,
+  d: c.description,
+  u: calcUrl(c),
+  c: CATEGORY_BY_ID[c.category].name,
+  h: CATEGORY_BY_ID[c.category].hue,
+  k: (c.keywords ?? []).join(' '),
+}));
+---
+<!doctype html>
+<html lang="en" style={`--hue:${hue}`}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta name="twitter:card" content="summary" />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#16161d" media="(prefers-color-scheme: dark)" />
+    <script is:inline>
+      try {
+        const t = localStorage.getItem('theme');
+        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+      } catch {}
+    </script>
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+    {SITE.adsenseClient && (
+      <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${SITE.adsenseClient}`} crossorigin="anonymous"></script>
+    )}
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container bar">
+        <a href="/" class="logo" aria-label={`${SITE.name} home`}>
+          <span class="logo-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" width="28" height="28"><rect width="32" height="32" rx="9" fill="currentColor"/><path d="M10 11h12M10 16h5M17 16h5M10 21h5M17 21h5" stroke="var(--logo-ink)" stroke-width="2.4" stroke-linecap="round"/></svg>
+          </span>
+          <span>{SITE.name}</span>
+        </a>
+        <nav class="nav" aria-label="Categories">
+          {CATEGORIES_WITH_CALCS.slice(0, 6).map((c) => <a href={`/${c.id}`}>{c.name}</a>)}
+          <a href="/categories">All</a>
+        </nav>
+        <div class="bar-actions">
+          <button class="search-trigger" type="button" data-open-search aria-label="Search calculators">
+            <Icon name="search" size={17} />
+            <span class="st-label">Search</span>
+            <kbd class="st-kbd">⌘K</kbd>
+          </button>
+          <div class="units-toggle" role="radiogroup" aria-label="Unit system">
+            <button type="button" data-units="us" role="radio" aria-checked="true">US</button>
+            <button type="button" data-units="metric" role="radio" aria-checked="false">Metric</button>
+          </div>
+          <button class="icon-btn" type="button" id="theme-toggle" aria-label="Toggle dark mode">
+            <Icon name="moon" class="i-moon" />
+            <Icon name="sun" class="i-sun" />
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="container foot">
+        <div class="foot-brand">
+          <a href="/" class="logo small">{SITE.name}</a>
+          <p>{SITE.tagline} Every calculation runs in your browser — nothing you type is sent anywhere.</p>
+        </div>
+        <div class="foot-cats">
+          {CATEGORIES_WITH_CALCS.map((c) => <a href={`/${c.id}`}>{c.name}</a>)}
+        </div>
+      </div>
+      <div class="container foot-legal">
+        <span>© {new Date().getFullYear()} {SITE.name}</span>
+        <span>Results are estimates for educational purposes and are not financial, medical, legal or tax advice.</span>
+      </div>
+    </footer>
+
+    <dialog class="palette" id="search-dialog" aria-label="Search calculators">
+      <div class="palette-inner">
+        <div class="palette-input">
+          <Icon name="search" size={18} />
+          <input id="search-input" type="search" placeholder="Search 100+ calculators and tools…" autocomplete="off" spellcheck="false" />
+          <kbd>esc</kbd>
+        </div>
+        <ul class="palette-results" id="search-results" role="listbox"></ul>
+      </div>
+    </dialog>
+    <script type="application/json" id="search-index" set:html={JSON.stringify(searchIndex)} />
+
+    <script>
+      import { initSearch } from '../scripts/search';
+      import { initTooltips } from '../scripts/tooltips';
+      import { getSystem, setSystem } from '../lib/unit-system';
+      initSearch();
+      initTooltips();
+      const unitBtns = document.querySelectorAll<HTMLButtonElement>('[data-units]');
+      const paint = (s: string) => unitBtns.forEach((b) => b.setAttribute('aria-checked', String(b.dataset.units === s)));
+      paint(getSystem() ?? 'us');
+      unitBtns.forEach((b) =>
+        b.addEventListener('click', () => {
+          setSystem(b.dataset.units as 'us' | 'metric');
+          paint(b.dataset.units!);
+        }),
+      );
+      const btn = document.getElementById('theme-toggle');
+      btn?.addEventListener('click', () => {
+        const root = document.documentElement;
+        const dark = root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+        const next = dark ? 'light' : 'dark';
+        root.dataset.theme = next;
+        try {
+          localStorage.setItem('theme', next);
+        } catch {}
+      });
+    </script>
+  </body>
+</html>
+
+<style>
+  .skip {
+    position: absolute;
+    left: -999px;
+    top: 8px;
+    z-index: 100;
+    background: var(--bg-elev);
+    padding: 8px 12px;
+    border-radius: 8px;
+  }
+  .skip:focus {
+    left: 8px;
+  }
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    background: color-mix(in oklch, var(--bg) 82%, transparent);
+    backdrop-filter: saturate(1.6) blur(14px);
+    -webkit-backdrop-filter: saturate(1.6) blur(14px);
+    border-bottom: 1px solid var(--line);
+  }
+  .bar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 60px;
+  }
+  .logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 720;
+    font-size: 18px;
+    letter-spacing: -0.03em;
+    color: var(--text);
+    --logo-ink: var(--bg-elev);
+  }
+  .logo:hover {
+    text-decoration: none;
+  }
+  .logo-mark {
+    color: var(--accent);
+    display: inline-flex;
+  }
+  .logo.small {
+    font-size: 16px;
+  }
+  .nav {
+    display: none;
+    gap: 2px;
+  }
+  .nav a {
+    padding: 6px 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 520;
+    color: var(--text-2);
+  }
+  .nav a:hover {
+    color: var(--text);
+    background: var(--bg-sunk);
+    text-decoration: none;
+  }
+  @media (min-width: 1020px) {
+    .nav {
+      display: flex;
+    }
+  }
+  .bar-actions {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .units-toggle {
+    display: flex;
+    padding: 3px;
+    gap: 2px;
+    border-radius: 10px;
+    border: 1px solid var(--line);
+    background: var(--bg-sunk);
+  }
+  .units-toggle button {
+    border: none;
+    background: transparent;
+    padding: 0 9px;
+    height: 30px;
+    border-radius: 7px;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: var(--text-3);
+    cursor: pointer;
+  }
+  .units-toggle button[aria-checked='true'] {
+    background: var(--bg-elev);
+    color: var(--text);
+    box-shadow: var(--shadow-sm), 0 0 0 1px var(--line);
+  }
+  @media (max-width: 480px) {
+    .st-label {
+      display: none;
+    }
+  }
+  .search-trigger {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    height: 38px;
+    padding: 0 10px 0 12px;
+    border-radius: 10px;
+    border: 1px solid var(--line);
+    background: var(--bg-elev);
+    color: var(--text-3);
+    cursor: pointer;
+    font-size: 14px;
+    min-width: 0;
+  }
+  .search-trigger:hover {
+    border-color: var(--line-strong);
+    color: var(--text-2);
+  }
+  .st-label {
+    min-width: 0;
+  }
+  @media (min-width: 720px) {
+    .search-trigger {
+      width: 220px;
+    }
+  }
+  .st-kbd {
+    margin-left: auto;
+    font: 600 11px var(--font);
+    padding: 2px 6px;
+    border-radius: 5px;
+    border: 1px solid var(--line);
+    color: var(--text-3);
+    display: none;
+  }
+  @media (min-width: 720px) {
+    .st-kbd {
+      display: inline;
+    }
+  }
+  :global(.i-sun) {
+    display: none;
+  }
+  :global([data-theme='dark'] .i-sun) {
+    display: block;
+  }
+  :global([data-theme='dark'] .i-moon) {
+    display: none;
+  }
+  @media (prefers-color-scheme: dark) {
+    :global(:root:not([data-theme='light']) .i-sun) {
+      display: block;
+    }
+    :global(:root:not([data-theme='light']) .i-moon) {
+      display: none;
+    }
+  }
+
+  .site-footer {
+    margin-top: 80px;
+    border-top: 1px solid var(--line);
+    background: var(--bg-sunk);
+  }
+  .foot {
+    display: grid;
+    gap: 28px;
+    padding-block: 40px 24px;
+  }
+  @media (min-width: 820px) {
+    .foot {
+      grid-template-columns: 1fr 2fr;
+    }
+  }
+  .foot-brand p {
+    margin-top: 10px;
+    color: var(--text-2);
+    font-size: 14px;
+    max-width: 34ch;
+  }
+  .foot-cats {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 8px 16px;
+    font-size: 14px;
+  }
+  .foot-cats a {
+    color: var(--text-2);
+  }
+  .foot-legal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 24px;
+    justify-content: space-between;
+    padding-block: 16px 28px;
+    border-top: 1px solid var(--line);
+    font-size: 12.5px;
+    color: var(--text-3);
+  }
+
+  .palette {
+    padding: 0;
+    border: none;
+    background: transparent;
+    width: min(640px, calc(100vw - 24px));
+    max-height: min(560px, 80dvh);
+    margin: 10vh auto auto;
+    overflow: visible;
+  }
+  .palette::backdrop {
+    background: oklch(15% 0.02 260 / 0.45);
+    backdrop-filter: blur(3px);
+  }
+  .palette-inner {
+    background: var(--bg-elev);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    box-shadow: var(--shadow-lg);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    max-height: min(560px, 80dvh);
+  }
+  .palette-input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 16px;
+    border-bottom: 1px solid var(--line);
+    color: var(--text-3);
+  }
+  .palette-input input {
+    flex: 1;
+    height: 56px;
+    border: none;
+    background: transparent;
+    font-size: 17px;
+    outline: none;
+    box-shadow: none;
+    color: var(--text);
+  }
+  .palette-input input::-webkit-search-cancel-button {
+    display: none;
+  }
+  .palette-input kbd {
+    font: 600 11px var(--font);
+    padding: 2px 6px;
+    border: 1px solid var(--line);
+    border-radius: 5px;
+  }
+  .palette-results {
+    list-style: none;
+    margin: 0;
+    padding: 6px;
+    overflow-y: auto;
+  }
+</style>

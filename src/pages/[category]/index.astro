@@ -1,0 +1,106 @@
+---
+import Base from '../../layouts/Base.astro';
+import CalcCard from '../../components/CalcCard.astro';
+import Icon from '../../components/Icon.astro';
+import { CATEGORIES_WITH_CALCS, byCategory } from '../../lib/registry';
+import type { Category } from '../../lib/categories';
+
+export function getStaticPaths() {
+  return CATEGORIES_WITH_CALCS.map((cat) => ({ params: { category: cat.id }, props: { cat } }));
+}
+const { cat } = Astro.props as { cat: Category };
+const calcs = byCategory(cat.id);
+const popular = calcs.filter((c) => c.popular);
+const rest = calcs.filter((c) => !c.popular);
+---
+<Base title={`${cat.name} Calculators`} description={`${calcs.length} free ${cat.name.toLowerCase()} calculators and tools. ${cat.blurb}`} hue={cat.hue}>
+  <section class="cat-hero">
+    <div class="container">
+      <a href="/categories" class="back"><Icon name="chevron" size={14} class="flip" /> All categories</a>
+      <div class="cat-head">
+        <span class="cat-icon"><Icon paths={cat.icon} size={28} /></span>
+        <div>
+          <h1>{cat.name} calculators</h1>
+          <p>{cat.blurb} <span class="count">{calcs.length} tools</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="container lists">
+    {popular.length > 0 && (
+      <section>
+        <div class="section-title"><h2>Most popular</h2></div>
+        <div class="card-grid">{popular.map((c) => <CalcCard calc={c} />)}</div>
+      </section>
+    )}
+    {rest.length > 0 && (
+      <section>
+        <div class="section-title"><h2>{popular.length ? 'More' : 'All'} {cat.name.toLowerCase()} tools</h2></div>
+        <div class="card-grid">{rest.map((c) => <CalcCard calc={c} />)}</div>
+      </section>
+    )}
+  </div>
+</Base>
+
+<style>
+  .cat-hero {
+    background:
+      radial-gradient(80% 120% at 0% 0%, color-mix(in oklch, var(--accent) 14%, transparent), transparent 70%),
+      var(--bg-sunk);
+    border-bottom: 1px solid var(--line);
+    padding: 28px 0 34px;
+  }
+  .back {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 13.5px;
+    font-weight: 550;
+    color: var(--text-2);
+  }
+  :global(.flip) {
+    rotate: 180deg;
+  }
+  .cat-head {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-top: 16px;
+  }
+  .cat-icon {
+    display: grid;
+    place-items: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 16px;
+    background: var(--accent);
+    color: var(--on-accent);
+    flex: none;
+    box-shadow: var(--shadow);
+  }
+  h1 {
+    font-size: clamp(26px, 5vw, 38px);
+    font-weight: 760;
+    letter-spacing: -0.035em;
+  }
+  .cat-head p {
+    margin-top: 4px;
+    color: var(--text-2);
+  }
+  .count {
+    margin-left: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 99px;
+    background: var(--accent-soft);
+    color: var(--accent-text);
+    white-space: nowrap;
+  }
+  .lists {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 32px;
+  }
+</style>

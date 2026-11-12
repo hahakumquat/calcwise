@@ -1,0 +1,249 @@
+---
+import Base from '../../layouts/Base.astro';
+import CalculatorWidget from '../../components/CalculatorWidget.astro';
+import CalcCard from '../../components/CalcCard.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import Icon from '../../components/Icon.astro';
+import { CALCULATORS, calcUrl, related } from '../../lib/registry';
+import { CATEGORY_BY_ID } from '../../lib/categories';
+import { SITE } from '../../lib/site';
+import type { Calculator } from '../../lib/types';
+
+export function getStaticPaths() {
+  return CALCULATORS.map((calc) => ({ params: { category: calc.category, slug: calc.slug }, props: { calc } }));
+}
+
+const { calc } = Astro.props as { calc: Calculator };
+const cat = CATEGORY_BY_ID[calc.category];
+const rel = related(calc);
+const url = new URL(calcUrl(calc), Astro.site).href;
+
+const jsonLd: object[] = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebApplication',
+    name: calc.title,
+    description: calc.description,
+    url,
+    applicationCategory: calc.category === 'developer' ? 'DeveloperApplication' : 'UtilitiesApplication',
+    operatingSystem: 'Any',
+    offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: SITE.name, item: new URL('/', Astro.site).href },
+      { '@type': 'ListItem', position: 2, name: cat.name, item: new URL(`/${cat.id}`, Astro.site).href },
+      { '@type': 'ListItem', position: 3, name: calc.title, item: url },
+    ],
+  },
+];
+if (calc.content?.faq?.length) {
+  jsonLd.push({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: calc.content.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+  });
+}
+const hasContent = !!(calc.content?.formula?.length || calc.content?.body?.length || calc.content?.faq?.length);
+---
+<Base title={calc.title} description={calc.description} hue={cat.hue} jsonLd={jsonLd}>
+  <div class="container page">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a>
+      <Icon name="chevron" size={14} />
+      <a href={`/${cat.id}`}>{cat.name}</a>
+    </nav>
+
+    <header class="head">
+      <h1>{calc.title}</h1>
+      <p class="lede">{calc.description}</p>
+    </header>
+
+    <CalculatorWidget calc={calc} />
+
+    <p class="privacy"><Icon name="lock" size={14} /> Runs entirely in your browser. Nothing you enter is uploaded.</p>
+
+    <AdSlot name="below-calc" />
+
+    <div class:list={['below', { solo: !hasContent }]}>
+      {hasContent && (
+        <article class="prose">
+          {calc.content?.formula?.length && (
+            <section>
+              <h2>Formula</h2>
+              <div class="formula">
+                {calc.content.formula.map((f) => <code>{f}</code>)}
+              </div>
+            </section>
+          )}
+          {calc.content?.body?.length && (
+            <section>
+              <h2>How it works</h2>
+              {calc.content.body.map((p) => <p>{p}</p>)}
+            </section>
+          )}
+          {calc.content?.faq?.length && (
+            <section>
+              <h2>Frequently asked questions</h2>
+              <div class="faq">
+                {calc.content.faq.map((f, i) => (
+                  <details open={i === 0}>
+                    <summary>{f.q}<Icon name="down" size={18} /></summary>
+                    <p>{f.a}</p>
+                  </details>
+                ))}
+              </div>
+            </section>
+          )}
+        </article>
+      )}
+
+      <aside class="side">
+        {rel.length > 0 && (
+          <>
+            <h2 class="side-title">Related</h2>
+            <div class="side-list">
+              {rel.map((r) => <CalcCard calc={r} />)}
+            </div>
+          </>
+        )}
+        <AdSlot name="sidebar" />
+      </aside>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .page {
+    padding-top: 20px;
+  }
+  .crumbs {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13.5px;
+    color: var(--text-3);
+    font-weight: 520;
+  }
+  .crumbs a {
+    color: var(--text-2);
+  }
+  .head {
+    margin: 14px 0 22px;
+    max-width: 760px;
+  }
+  h1 {
+    font-size: clamp(28px, 5vw, 40px);
+    font-weight: 760;
+    letter-spacing: -0.035em;
+  }
+  .lede {
+    margin-top: 8px;
+    font-size: 17px;
+    color: var(--text-2);
+  }
+  .privacy {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 12px;
+    font-size: 12.5px;
+    color: var(--text-3);
+  }
+  .below {
+    display: grid;
+    gap: 40px;
+    margin-top: 40px;
+  }
+  @media (min-width: 980px) {
+    .below:not(.solo) {
+      grid-template-columns: minmax(0, 1fr) 320px;
+      gap: 56px;
+    }
+  }
+  .prose {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    max-width: 720px;
+  }
+  .prose h2,
+  .side-title {
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+  .side-title {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-3);
+  }
+  .prose p {
+    color: var(--text-2);
+    font-size: 16.5px;
+    line-height: 1.7;
+  }
+  .prose p + p {
+    margin-top: 14px;
+  }
+  .formula {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .formula code {
+    display: block;
+    padding: 14px 16px;
+    border-radius: var(--radius);
+    background: var(--bg-sunk);
+    border: 1px solid var(--line);
+    font: 14.5px/1.5 var(--mono);
+    overflow-x: auto;
+    white-space: pre-wrap;
+  }
+  .faq {
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--bg-elev);
+    overflow: hidden;
+  }
+  .faq details + details {
+    border-top: 1px solid var(--line);
+  }
+  .faq summary {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 18px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .faq summary::-webkit-details-marker {
+    display: none;
+  }
+  .faq summary :global(.icon) {
+    color: var(--text-3);
+    transition: rotate 0.2s;
+  }
+  .faq details[open] summary :global(.icon) {
+    rotate: 180deg;
+  }
+  .faq details p {
+    padding: 0 18px 18px;
+    font-size: 15.5px;
+  }
+  .side-list {
+    display: grid;
+    gap: 10px;
+  }
+  @media (min-width: 640px) and (max-width: 979px) {
+    .side-list {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+</style>

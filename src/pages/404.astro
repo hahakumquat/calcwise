@@ -1,0 +1,40 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Page not found" description="This page doesn't exist.">
+  <div class="container nf">
+    <p class="code">404</p>
+    <h1>We couldn’t find that page.</h1>
+    <p>Try searching for the calculator you need.</p>
+    <div class="actions">
+      <button class="btn btn-primary" data-open-search type="button">Search calculators</button>
+      <a class="btn" href="/">Go home</a>
+    </div>
+  </div>
+</Base>
+<style>
+  .nf {
+    text-align: center;
+    padding-top: 80px;
+  }
+  .code {
+    font-size: 64px;
+    font-weight: 800;
+    letter-spacing: -0.05em;
+    color: var(--accent);
+  }
+  h1 {
+    margin-top: 6px;
+    font-size: 28px;
+  }
+  .nf > p:not(.code) {
+    color: var(--text-2);
+    margin-top: 8px;
+  }
+  .actions {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 24px;
+  }
+</style>

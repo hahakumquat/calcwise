@@ -1,0 +1,247 @@
+---
+import Base from '../layouts/Base.astro';
+import CalcCard from '../components/CalcCard.astro';
+import Icon from '../components/Icon.astro';
+import { CALCULATORS, CATEGORIES_WITH_CALCS, byCategory, calcUrl } from '../lib/registry';
+import { SITE } from '../lib/site';
+
+const popular = CALCULATORS.filter((c) => c.popular);
+// Interleave popular tools across categories so the grid doesn't clump.
+const buckets = CATEGORIES_WITH_CALCS.map((cat) => popular.filter((c) => c.category === cat.id));
+const featured = [] as typeof popular;
+for (let i = 0; featured.length < Math.min(18, popular.length); i++) {
+  for (const b of buckets) if (b[i] && featured.length < 18) featured.push(b[i]);
+}
+const quick = ['mortgage', 'bmi', 'percentage', 'json-formatter', 'word-counter', 'tip', 'compound-interest', 'age']
+  .map((s) => CALCULATORS.find((c) => c.slug === s))
+  .filter((c) => !!c);
+---
+<Base title={SITE.name} description={`${CALCULATORS.length}+ free calculators and tools for finance, health, math, text and code. Fast, private, and beautifully simple.`}>
+  <section class="hero">
+    <div class="container hero-inner">
+      <span class="pill"><Icon name="spark" size={14} /> {CALCULATORS.length} free calculators & tools</span>
+      <h1>The answer, <span class="grad">beautifully</span> fast.</h1>
+      <p class="sub">Clean, private calculators for money, health, math, text and code. No sign-ups, no clutter — results update as you type.</p>
+      <label class="hero-search">
+        <Icon name="search" size={20} />
+        <input id="hero-search" type="search" placeholder="Search mortgage, BMI, JSON formatter…" readonly />
+        <kbd>⌘K</kbd>
+      </label>
+      <div class="quick">
+        {quick.map((c) => <a href={calcUrl(c!)}>{c!.title.replace(/ Calculator$/, '')}</a>)}
+      </div>
+    </div>
+  </section>
+
+  <div class="container main-sections">
+    <section>
+      <div class="section-title"><h2>Popular right now</h2></div>
+      <div class="card-grid">{featured.map((c) => <CalcCard calc={c} showCategory />)}</div>
+    </section>
+
+    <section>
+      <div class="section-title"><h2>Browse by category</h2><a href="/categories">See all</a></div>
+      <div class="cats">
+        {CATEGORIES_WITH_CALCS.map((cat) => {
+          const list = byCategory(cat.id);
+          return (
+            <a class="cat" href={`/${cat.id}`} style={`--hue:${cat.hue}`}>
+              <span class="cat-badge"><Icon paths={cat.icon} size={22} /></span>
+              <span class="cat-name">{cat.name}</span>
+              <span class="cat-blurb">{cat.blurb}</span>
+              <span class="cat-count">{list.length} tools <Icon name="arrow" size={14} /></span>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .hero {
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid var(--line);
+    background:
+      radial-gradient(60% 80% at 15% 0%, oklch(75% 0.12 262 / 0.22), transparent 70%),
+      radial-gradient(50% 70% at 90% 10%, oklch(78% 0.12 195 / 0.2), transparent 70%),
+      radial-gradient(60% 60% at 60% 110%, oklch(80% 0.1 330 / 0.14), transparent 70%),
+      var(--bg);
+  }
+  .hero::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(var(--line) 1px, transparent 1px), linear-gradient(90deg, var(--line) 1px, transparent 1px);
+    background-size: 44px 44px;
+    mask-image: radial-gradient(70% 70% at 50% 30%, #000 0%, transparent 75%);
+    opacity: 0.45;
+    pointer-events: none;
+  }
+  .hero-inner {
+    position: relative;
+    z-index: 1;
+    padding-block: 56px 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  @media (min-width: 720px) {
+    .hero-inner {
+      padding-block: 88px 72px;
+    }
+  }
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border-radius: 99px;
+    border: 1px solid var(--line);
+    background: var(--bg-elev);
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-2);
+    box-shadow: var(--shadow-sm);
+  }
+  .hero h1 {
+    margin-top: 18px;
+    font-size: clamp(36px, 8vw, 68px);
+    font-weight: 780;
+    letter-spacing: -0.045em;
+    line-height: 1.02;
+    max-width: 14ch;
+  }
+  .grad {
+    background: linear-gradient(100deg, oklch(58% 0.21 262), oklch(62% 0.16 200) 60%, oklch(64% 0.2 330));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .sub {
+    margin-top: 18px;
+    font-size: clamp(16px, 2.4vw, 19px);
+    color: var(--text-2);
+    max-width: 44ch;
+  }
+  .hero-search {
+    margin-top: 28px;
+    width: min(560px, 100%);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 58px;
+    padding: 0 14px 0 18px;
+    border-radius: 16px;
+    border: 1px solid var(--line-strong);
+    background: var(--bg-elev);
+    box-shadow: var(--shadow-lg);
+    color: var(--text-3);
+    cursor: text;
+  }
+  .hero-search input {
+    flex: 1;
+    min-width: 0;
+    border: none;
+    background: transparent;
+    font-size: 17px;
+    outline: none;
+    cursor: text;
+  }
+  .hero-search kbd {
+    font: 600 12px var(--font);
+    padding: 3px 7px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+  }
+  .quick {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 18px;
+  }
+  .quick a {
+    padding: 6px 12px;
+    border-radius: 99px;
+    font-size: 13.5px;
+    font-weight: 550;
+    color: var(--text-2);
+    background: color-mix(in oklch, var(--bg-elev) 70%, transparent);
+    border: 1px solid var(--line);
+  }
+  .quick a:hover {
+    color: var(--text);
+    border-color: var(--line-strong);
+    text-decoration: none;
+  }
+  .main-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    padding-top: 44px;
+  }
+  .cats {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  }
+  .cat {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 18px;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--line);
+    background:
+      radial-gradient(90% 90% at 100% 0%, color-mix(in oklch, oklch(70% 0.14 var(--hue)) 14%, transparent), transparent 70%),
+      var(--bg-elev);
+    color: var(--text);
+    transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+  }
+  .cat:hover {
+    text-decoration: none;
+    box-shadow: var(--shadow);
+    border-color: var(--line-strong);
+    transform: translateY(-2px);
+  }
+  .cat-badge {
+    display: grid;
+    place-items: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    background: oklch(60% 0.17 var(--hue));
+    color: #fff;
+    margin-bottom: 6px;
+  }
+  .cat-name {
+    font-weight: 680;
+    font-size: 16.5px;
+    letter-spacing: -0.01em;
+  }
+  .cat-blurb {
+    font-size: 13.5px;
+    color: var(--text-2);
+    line-height: 1.45;
+  }
+  .cat-count {
+    margin-top: 6px;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    color: oklch(50% 0.15 var(--hue));
+  }
+  :global([data-theme='dark']) .cat-count {
+    color: oklch(78% 0.12 var(--hue));
+  }
+  @media (prefers-color-scheme: dark) {
+    :global(:root:not([data-theme='light'])) .cat-count {
+      color: oklch(78% 0.12 var(--hue));
+    }
+  }
+</style>

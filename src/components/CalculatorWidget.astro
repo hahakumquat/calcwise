@@ -1,0 +1,730 @@
+---
+import type { Calculator, ComputeResult, Input, Output, ShowWhen } from '../lib/types';
+import { unitsFor, defaultUnitFor } from '../lib/units';
+import { formatOutput } from '../lib/format';
+import { defaultValues } from '../lib/defaults';
+import { renderChart, toChartList } from '../lib/chart';
+import Icon from './Icon.astro';
+import Info from './Info.astro';
+
+interface Props {
+  calc: Calculator;
+}
+const { calc } = Astro.props;
+const wide = calc.layout === 'wide';
+
+// Pre-compute results at build time so the page shows answers before JS loads (and for SEO).
+let initial: ComputeResult = {};
+const dv = calc.random ? null : defaultValues(calc);
+if (dv) {
+  try {
+    initial = calc.compute(dv);
+  } catch {
+    initial = {};
+  }
+}
+
+const primaries = calc.outputs.filter((o) => o.primary).length ? calc.outputs.filter((o) => o.primary) : [calc.outputs[0]];
+const codeOutputs = calc.outputs.filter((o) => o.format === 'code' && !primaries.includes(o));
+const rowOutputs = calc.outputs.filter((o) => !primaries.includes(o) && o.format !== 'code');
+
+// Conditional visibility (showWhen) evaluated against default select/toggle values.
+const ctrl: Record<string, string> = {};
+for (const i of calc.inputs) {
+  if (i.type === 'select') ctrl[i.id] = i.default ?? i.options[0]?.value ?? '';
+  if (i.type === 'toggle') ctrl[i.id] = i.default ? 'on' : 'off';
+}
+const visible = (sw?: ShowWhen) => !sw || (Array.isArray(sw.is) ? sw.is : [sw.is]).includes(ctrl[sw.input]);
+const swAttr = (sw?: ShowWhen) => (sw ? JSON.stringify(sw) : undefined);
+
+const charts = toChartList(initial.chart)
+  .map((c) => renderChart(c).html)
+  .join('');
+
+const isSegmented = (i: Input) =>
+  i.type === 'select' && (i.segmented ?? (i.options.length <= 3 && i.options.every((o) => o.label.length <= 16)));
+
+const fmt = (o: Output) => formatOutput(o, initial[o.id]);
+const outUnit = (o: Output) => (o.unit ? defaultUnitFor(o.unit, o.defaultUnit, o.units) : '');
+const numDefault = (v: number | undefined) => (v === undefined ? '' : String(v));
+---
+<section class:list={['calc', { wide }]} data-calc data-slug={calc.slug} data-category={calc.category}>
+  <form class="calc-inputs" novalidate autocomplete="off" onsubmit="return false">
+    {calc.inputs.map((i) => (
+      <div class:list={['field', `field-${i.type}`]} data-field={i.id} data-type={i.type} data-show-when={swAttr(i.showWhen)} hidden={!visible(i.showWhen)}>
+        {i.type === 'toggle' ? (
+          <div class="switch-row">
+            <label class="switch">
+              <input type="checkbox" id={`in-${i.id}`} name={i.id} checked={i.default} data-default={i.default ? 'on' : 'off'} />
+              <span class="switch-track" aria-hidden="true"><span class="switch-thumb" /></span>
+              <span class="switch-label">{i.label}</span>
+            </label>
+            <Info text={i.info} label={i.label} />
+          </div>
+        ) : (
+          <div class="label-row">
+            <label class="field-label" for={`in-${i.id}`}>
+              {i.label}
+              {'optional' in i && i.optional && i.type !== 'number' && <span class="opt">optional</span>}
+            </label>
+            <Info text={i.info} label={i.label} />
+          </div>
+        )}
+
+        {i.type === 'number' && (
+          <div class:list={['control', { 'has-unit': !!i.unit }]}>
+            {i.prefix && <span class="affix pre">{i.prefix}</span>}
+            <input
+              id={`in-${i.id}`}
+              name={i.id}
+              type="text"
+              inputmode="decimal"
+              enterkeyhint="done"
+              value={numDefault(i.default)}
+              data-default={numDefault(i.default)}
+              placeholder={i.placeholder ?? (i.optional ? 'Optional' : '')}
+            />
+            {i.suffix && <span class="affix suf">{i.suffix}</span>}
+            {i.unit && (
+              <select class="unit" name={`${i.id}_u`} aria-label={`${i.label} unit`} data-unit-for={i.id} data-group={i.unit} data-default={defaultUnitFor(i.unit, i.defaultUnit, i.units)}>
+                {unitsFor(i.unit, i.units).map((u) => (
+                  <option value={u.id} selected={u.id === defaultUnitFor(i.unit!, i.defaultUnit, i.units)}>{u.label}</option>
+                ))}
+              </select>
+            )}
+          </div>
+        )}
+
+        {i.type === 'select' && isSegmented(i) && (
+          <div class="segmented" role="radiogroup" aria-label={i.label} data-default={i.default ?? i.options[0].value}>
+            {i.options.map((o) => (
+              <label>
+                <input type="radio" name={i.id} value={o.value} checked={o.value === (i.default ?? i.options[0].value)} />
+                <span>{o.label}</span>
+              </label>
+            ))}
+          </div>
+        )}
+        {i.type === 'select' && !isSegmented(i) && (
+          <div class="control select-control">
+            <select id={`in-${i.id}`} name={i.id} data-default={i.default ?? i.options[0].value}>
+              {i.options.map((o) => <option value={o.value} selected={o.value === (i.default ?? i.options[0].value)}>{o.label}</option>)}
+            </select>
+            <Icon name="down" size={16} class="select-caret" />
+          </div>
+        )}
+
+        {i.type === 'list' && (
+          <textarea id={`in-${i.id}`} name={i.id} class="mono" rows="3" placeholder={i.placeholder ?? 'e.g. 4, 8, 15, 16, 23, 42'} data-default={i.default ?? ''}>{i.default ?? ''}</textarea>
+        )}
+
+        {i.type === 'textarea' && (
+          <textarea
+            id={`in-${i.id}`}
+            name={i.id}
+            class:list={[{ mono: i.mono }]}
+            rows={i.rows ?? 8}
+            spellcheck={i.mono ? 'false' : 'true'}
+            placeholder={i.placeholder ?? ''}
+            data-default={i.default ?? ''}
+          >{i.default ?? ''}</textarea>
+        )}
+
+        {i.type === 'text' && (
+          <div class="control">
+            <input id={`in-${i.id}`} name={i.id} type="text" value={i.default ?? ''} data-default={i.default ?? ''} placeholder={i.placeholder ?? ''} />
+          </div>
+        )}
+
+        {i.type === 'date' && (
+          <div class="control">
+            <input id={`in-${i.id}`} name={i.id} type="date" value={i.default && i.default !== 'today' ? i.default : ''} data-default={i.default ?? ''} />
+          </div>
+        )}
+
+        {i.help && <p class="help">{i.help}</p>}
+      </div>
+    ))}
+
+    <div class="calc-actions">
+      {calc.random && (
+        <button type="button" class="btn btn-primary" data-action="regenerate"><Icon name="shuffle" /> Regenerate</button>
+      )}
+      <button type="button" class="btn" data-action="reset"><Icon name="reset" /> Reset</button>
+      <button type="button" class="btn" data-action="share"><Icon name="link" /> <span>Copy link</span></button>
+    </div>
+  </form>
+
+  <div class="calc-results" aria-live="polite">
+    <div class="result-error" hidden data-error><Icon name="alert" size={18} /><span></span></div>
+
+    {primaries.map((primary) =>
+      primary.format === 'code' ? (
+        <div class="code-out primary-code" data-output={primary.id} data-show-when={swAttr(primary.showWhen)} hidden={!visible(primary.showWhen)}>
+          <div class="code-head">
+            <span class="label-row">{primary.label}<Info text={primary.info} label={primary.label} /></span>
+            <button type="button" class="btn btn-ghost copy" data-copy={primary.id}><Icon name="copy" /> <span>Copy</span></button>
+          </div>
+          <pre><code data-value>{typeof initial[primary.id] === 'string' ? initial[primary.id] : ''}</code></pre>
+        </div>
+      ) : (
+        <div class="primary" data-output={primary.id} data-show-when={swAttr(primary.showWhen)} hidden={!visible(primary.showWhen)}>
+          <div class="primary-label">{primary.label}<Info text={primary.info} label={primary.label} /></div>
+          <div class="primary-row">
+            <output class="primary-value" data-value>{fmt(primary).value}</output>
+            {primary.unit ? (
+              <select class="unit out-unit" aria-label={`${primary.label} unit`} data-out-unit={primary.id} data-group={primary.unit}>
+                {unitsFor(primary.unit, primary.units).map((u) => <option value={u.id} selected={u.id === outUnit(primary)}>{u.label}</option>)}
+              </select>
+            ) : (
+              <span class="primary-unit" data-unit>{fmt(primary).unit}</span>
+            )}
+            <button type="button" class="icon-btn copy" data-copy={primary.id} aria-label="Copy result"><Icon name="copy" size={18} /></button>
+          </div>
+        </div>
+      ),
+    )}
+
+    <p class="note" data-note hidden={!initial.note}>{initial.note}</p>
+
+    {rowOutputs.length > 0 && (
+      <dl class="rows">
+        {rowOutputs.map((o) => (
+          <div class="row" data-output={o.id} data-show-when={swAttr(o.showWhen)} hidden={!visible(o.showWhen)}>
+            <dt>{o.label}<Info text={o.info} label={o.label} /></dt>
+            <dd>
+              <output data-value>{fmt(o).value}</output>
+              {o.unit ? (
+                <select class="unit out-unit sm" aria-label={`${o.label} unit`} data-out-unit={o.id} data-group={o.unit}>
+                  {unitsFor(o.unit, o.units).map((u) => <option value={u.id} selected={u.id === outUnit(o)}>{u.label}</option>)}
+                </select>
+              ) : (
+                <span class="row-unit" data-unit>{fmt(o).unit}</span>
+              )}
+            </dd>
+          </div>
+        ))}
+      </dl>
+    )}
+
+    {codeOutputs.map((o) => (
+      <div class="code-out" data-output={o.id} data-show-when={swAttr(o.showWhen)} hidden={!visible(o.showWhen)}>
+        <div class="code-head">
+          <span class="label-row">{o.label}<Info text={o.info} label={o.label} /></span>
+          <button type="button" class="btn btn-ghost copy" data-copy={o.id}><Icon name="copy" /> <span>Copy</span></button>
+        </div>
+        <pre><code data-value>{typeof initial[o.id] === 'string' ? initial[o.id] : ''}</code></pre>
+      </div>
+    ))}
+
+    <div class="charts" data-charts hidden={!charts} set:html={charts} />
+
+    <details class="steps" data-steps hidden={!initial.steps?.length}>
+      <summary><Icon name="chevron" size={16} /> Show the working</summary>
+      <ol>{(initial.steps ?? []).map((s) => <li>{s}</li>)}</ol>
+    </details>
+  </div>
+</section>
+
+<script>
+  import { initCalculators } from '../scripts/calc-client';
+  initCalculators();
+</script>
+
+<style>
+  .calc {
+    display: grid;
+    gap: 16px;
+    background: var(--bg-elev);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow);
+    padding: 16px;
+  }
+  @media (min-width: 900px) {
+    .calc:not(.wide) {
+      grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+      gap: 24px;
+      padding: 24px;
+    }
+    .calc.wide {
+      padding: 24px;
+    }
+  }
+
+  .calc-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-width: 0;
+  }
+  .wide .calc-inputs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-items: start;
+  }
+  .wide .field-textarea,
+  .wide .field-list,
+  .wide .calc-actions {
+    grid-column: 1 / -1;
+  }
+
+  .field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-width: 0;
+  }
+  [hidden] {
+    display: none !important;
+  }
+  .label-row,
+  .switch-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .primary-label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .row dt {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .charts {
+    padding: 16px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--bg-elev);
+    min-width: 0;
+  }
+  .field-label {
+    font-size: 13.5px;
+    font-weight: 600;
+    color: var(--text-2);
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+  }
+  .opt {
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--text-3);
+  }
+  .help {
+    font-size: 12.5px;
+    color: var(--text-3);
+  }
+
+  .control {
+    display: flex;
+    align-items: stretch;
+    height: 46px;
+    border: 1px solid var(--line-strong);
+    border-radius: var(--radius-sm);
+    background: var(--bg-elev);
+    transition: border-color 0.15s, box-shadow 0.15s;
+    position: relative;
+    min-width: 0;
+  }
+  .control:hover {
+    border-color: color-mix(in oklch, var(--line-strong) 60%, var(--text-3));
+  }
+  .control:focus-within {
+    border-color: var(--accent);
+    box-shadow: var(--ring);
+  }
+  .control.invalid {
+    border-color: var(--danger);
+  }
+  .control input,
+  .control select {
+    flex: 1;
+    min-width: 0;
+    border: none;
+    background: transparent;
+    padding: 0 12px;
+    font-size: 16px;
+    font-variant-numeric: tabular-nums;
+    outline: none;
+  }
+  .control input[type='date'] {
+    font-variant-numeric: tabular-nums;
+  }
+  .affix {
+    display: grid;
+    place-items: center;
+    padding: 0 0 0 12px;
+    color: var(--text-3);
+    font-weight: 500;
+  }
+  .affix.suf {
+    padding: 0 12px 0 0;
+  }
+  .affix.pre + input {
+    padding-left: 6px;
+  }
+  .select-control select {
+    appearance: none;
+    padding-right: 36px;
+    cursor: pointer;
+  }
+  :global(.select-caret) {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    translate: 0 -50%;
+    pointer-events: none;
+    color: var(--text-3);
+  }
+  .unit {
+    appearance: none;
+    border: none;
+    border-left: 1px solid var(--line);
+    background-color: var(--bg-sunk);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23889' stroke-width='2.4' stroke-linecap='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding: 0 28px 0 12px;
+    font-size: 14px;
+    font-weight: 550;
+    color: var(--text-2);
+    cursor: pointer;
+    border-radius: 0 calc(var(--radius-sm) - 1px) calc(var(--radius-sm) - 1px) 0;
+    flex: none !important;
+    max-width: 46%;
+    outline: none;
+  }
+  .unit:focus-visible {
+    box-shadow: inset var(--ring);
+  }
+
+  textarea {
+    width: 100%;
+    border: 1px solid var(--line-strong);
+    border-radius: var(--radius-sm);
+    background: var(--bg-elev);
+    padding: 12px;
+    font-size: 15px;
+    line-height: 1.55;
+    resize: vertical;
+    min-height: 80px;
+    outline: none;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  textarea:focus {
+    border-color: var(--accent);
+    box-shadow: var(--ring);
+  }
+  textarea.mono {
+    font-family: var(--mono);
+    font-size: 13.5px;
+  }
+
+  .segmented {
+    display: flex;
+    gap: 4px;
+    padding: 4px;
+    border-radius: 10px;
+    background: var(--bg-sunk);
+    border: 1px solid var(--line);
+  }
+  .segmented label {
+    flex: 1;
+    min-width: 0;
+  }
+  .segmented input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .segmented span {
+    display: block;
+    text-align: center;
+    padding: 8px 10px;
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: 560;
+    color: var(--text-2);
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s, box-shadow 0.15s;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .segmented span:hover {
+    color: var(--text);
+  }
+  .segmented input:checked + span {
+    background: var(--bg-elev);
+    color: var(--text);
+    box-shadow: var(--shadow-sm), 0 0 0 1px var(--line);
+  }
+  .segmented input:focus-visible + span {
+    box-shadow: var(--ring);
+  }
+
+  .switch {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-size: 14.5px;
+    font-weight: 540;
+    color: var(--text-2);
+    min-height: 46px;
+  }
+  .switch input {
+    position: absolute;
+    opacity: 0;
+  }
+  .switch-track {
+    width: 40px;
+    height: 24px;
+    border-radius: 99px;
+    background: var(--line-strong);
+    position: relative;
+    transition: background 0.2s;
+    flex: none;
+  }
+  .switch-thumb {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 1px 3px #0003;
+    transition: translate 0.2s;
+  }
+  .switch input:checked + .switch-track {
+    background: var(--accent);
+  }
+  .switch input:checked + .switch-track .switch-thumb {
+    translate: 16px 0;
+  }
+  .switch input:focus-visible + .switch-track {
+    box-shadow: var(--ring);
+  }
+
+  .calc-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding-top: 4px;
+  }
+
+  /* Results */
+  .calc-results {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-width: 0;
+  }
+  @media (min-width: 900px) {
+    .calc:not(.wide) .calc-results {
+      position: sticky;
+      top: 84px;
+      align-self: start;
+    }
+  }
+  .primary {
+    border-radius: var(--radius);
+    padding: 18px 18px 16px;
+    background:
+      radial-gradient(120% 140% at 100% 0%, color-mix(in oklch, var(--accent) 16%, transparent) 0%, transparent 60%),
+      var(--accent-soft);
+    border: 1px solid color-mix(in oklch, var(--accent) 22%, transparent);
+  }
+  .primary-label {
+    font-size: 13px;
+    font-weight: 620;
+    color: var(--accent-text);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .primary-row {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-top: 4px;
+    flex-wrap: wrap;
+  }
+  .primary-value {
+    font-size: clamp(30px, 6vw, 42px);
+    font-weight: 720;
+    letter-spacing: -0.035em;
+    line-height: 1.1;
+    font-variant-numeric: tabular-nums;
+    overflow-wrap: anywhere;
+    min-width: 0;
+  }
+  .primary-unit {
+    font-size: 17px;
+    font-weight: 560;
+    color: var(--text-2);
+  }
+  .primary .out-unit {
+    border: 1px solid color-mix(in oklch, var(--accent) 25%, transparent);
+    border-radius: 8px;
+    height: 32px;
+    background-color: var(--bg-elev);
+    align-self: center;
+  }
+  .primary .copy {
+    margin-left: auto;
+    align-self: center;
+  }
+  .note {
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--text-2);
+  }
+  .result-error {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    padding: 12px 14px;
+    border-radius: var(--radius);
+    background: var(--danger-soft);
+    color: var(--danger);
+    font-size: 14px;
+    font-weight: 520;
+  }
+  .result-error[hidden] {
+    display: none;
+  }
+
+  .rows {
+    margin: 0;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 11px 14px;
+    min-height: 48px;
+  }
+  .row + .row {
+    border-top: 1px solid var(--line);
+  }
+  .row dt {
+    font-size: 14px;
+    color: var(--text-2);
+    min-width: 0;
+  }
+  .row {
+    flex-wrap: wrap;
+  }
+  .row dt {
+    flex: 1 1 0;
+    min-width: 9ch;
+  }
+  .row dd {
+    flex: 0 0 auto;
+    max-width: 100%;
+  }
+  .row dd {
+    margin: 0 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+    font-weight: 620;
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+    min-width: 0;
+  }
+  .row dd output {
+    white-space: nowrap;
+  }
+  .row-unit {
+    color: var(--text-3);
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .out-unit.sm {
+    height: 30px;
+    font-size: 13px;
+    border: 1px solid var(--line);
+    border-radius: 7px;
+    max-width: none;
+  }
+
+  .code-out {
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: var(--bg-sunk);
+    min-width: 0;
+  }
+  .code-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 4px 4px 14px;
+    border-bottom: 1px solid var(--line);
+    font-size: 13px;
+    font-weight: 620;
+    color: var(--text-2);
+    background: var(--bg-elev);
+  }
+  .code-head .btn {
+    height: 32px;
+  }
+  .code-out pre {
+    margin: 0;
+    padding: 14px;
+    max-height: 520px;
+    overflow: auto;
+    font: 13px/1.6 var(--mono);
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+  }
+  .primary-code pre {
+    min-height: 120px;
+  }
+
+  .steps {
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 0 14px;
+  }
+  .steps[hidden] {
+    display: none;
+  }
+  .steps summary {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    min-height: 44px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 580;
+    color: var(--text-2);
+  }
+  .steps summary::-webkit-details-marker {
+    display: none;
+  }
+  .steps summary :global(.icon) {
+    transition: rotate 0.2s;
+  }
+  .steps[open] summary :global(.icon) {
+    rotate: 90deg;
+  }
+  .steps ol {
+    margin: 0 0 14px;
+    padding-left: 22px;
+    font: 13.5px/1.7 var(--mono);
+    color: var(--text-2);
+  }
+</style>

@@ -1,0 +1,20 @@
+---
+import type { Calculator } from '../lib/types';
+import { CATEGORY_BY_ID } from '../lib/categories';
+import { calcUrl } from '../lib/registry';
+import Icon from './Icon.astro';
+
+interface Props {
+  calc: Calculator;
+  showCategory?: boolean;
+}
+const { calc, showCategory = false } = Astro.props;
+const cat = CATEGORY_BY_ID[calc.category];
+---
+<a class="calc-card" href={calcUrl(calc)} style={`--card-hue:${cat.hue}`}>
+  <span class="badge"><Icon paths={cat.icon} size={18} /></span>
+  <span>
+    <h3>{calc.title.replace(/ Calculator$/, '')}</h3>
+    <p>{showCategory ? `${cat.name} · ` : ''}{calc.description}</p>
+  </span>
+</a>
