@@ -1,10 +1,23 @@
 ---
-import { path } from '../lib/paths';
+import { path, absUrl } from '../lib/paths';
 import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
 import { CATEGORIES_WITH_CALCS, byCategory, calcUrl, CALCULATORS } from '../lib/registry';
 ---
-<Base title="All calculators" description={`Browse all ${CALCULATORS.length} free calculators and tools by category.`}>
+<Base
+  title="All Calculators"
+  description={`Browse all ${CALCULATORS.length} free calculators by category: finance, FIRE, health, math, statistics, construction, unit conversion, text and developer tools.`}
+  jsonLd={{
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'All calculators',
+    url: absUrl('/categories', Astro.site),
+    mainEntity: {
+      '@type': 'ItemList',
+      itemListElement: CATEGORIES_WITH_CALCS.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: `${c.name} calculators`, url: absUrl(`/${c.id}`, Astro.site) })),
+    },
+  }}
+>
   <div class="container page">
     <h1>All calculators</h1>
     <p class="lede">{CALCULATORS.length} tools across {CATEGORIES_WITH_CALCS.length} categories.</p>

@@ -5,17 +5,22 @@ import Icon from '../components/Icon.astro';
 import { CALCULATORS, CATEGORIES_WITH_CALCS, calcUrl } from '../lib/registry';
 import { CATEGORY_BY_ID } from '../lib/categories';
 import { SITE } from '../lib/site';
-import { path } from '../lib/paths';
+import { path, absUrl } from '../lib/paths';
 
 interface Props {
   title: string;
   description: string;
   hue?: number;
   jsonLd?: object | object[];
+  /** Keep this page out of search results (404). */
+  noindex?: boolean;
+  /** Full <title> as-is, without the " | Site" suffix. */
+  fullTitle?: string;
 }
-const { title, description, hue = 262, jsonLd } = Astro.props;
+const { title, description, hue = 262, jsonLd, noindex = false, fullTitle: titleOverride } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
-const fullTitle = title === SITE.name ? `${SITE.name} — ${SITE.tagline}` : `${title} | ${SITE.name}`;
+const ogImage = absUrl('/og.png', Astro.site);
+const fullTitle = titleOverride ?? (title === SITE.name ? `${SITE.name} — ${SITE.tagline}` : `${title} | ${SITE.name}`);
 
 const searchIndex = CALCULATORS.map((c) => ({
   t: c.title,
@@ -33,14 +38,22 @@ const searchIndex = CALCULATORS.map((c) => ({
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
-    <link rel="canonical" href={canonical} />
+    {noindex ? <meta name="robots" content="noindex" /> : <link rel="canonical" href={canonical} />}
     <link rel="icon" href={path('/favicon.svg')} type="image/svg+xml" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
     <meta property="og:site_name" content={SITE.name} />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={`${SITE.name}: the answer, beautifully fast`} />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
     <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#16161d" media="(prefers-color-scheme: dark)" />
     <script is:inline>

@@ -1,4 +1,5 @@
 import type { CategoryId } from './types';
+import { CATEGORY_SEO } from './category-seo';
 
 export interface Category {
   id: CategoryId;
@@ -86,5 +87,7 @@ export const CATEGORIES: Category[] = [
   { id: 'developer', name: 'Developer', blurb: 'JSON, Base64, hashes, JWT, timestamps.', hue: 205, icon: '<path d="M8 8l-4 4 4 4M16 8l4 4-4 4M14 5l-4 14"/>' },
   { id: 'other', name: 'Other', blurb: 'Grades, random numbers and more.', hue: 300, icon: '<circle cx="6" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="18" cy="12" r="1.5"/>' },
 ];
+
+for (const c of CATEGORIES) Object.assign(c, CATEGORY_SEO[c.id] ?? {});
 
 export const CATEGORY_BY_ID = Object.fromEntries(CATEGORIES.map((c) => [c.id, c])) as Record<CategoryId, Category>;

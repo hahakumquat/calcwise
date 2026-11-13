@@ -47,7 +47,7 @@ function simulate(o: { spend: number; start: number; startCompany: number; salar
 export default defineCalculator({
   slug: 'rsu-fire',
   title: 'RSU FIRE Calculator',
-  seoTitle: 'RSU FIRE Calculator: Retire Early With Stock Comp',
+  seoTitle: 'RSU FIRE Calculator: Retire Early on Stock Comp',
   metaDescription: 'For tech workers paid in RSUs: see how vesting stock, taxes at vest and how much company stock you hold change the age you reach financial independence.',
   updated: FIRE_UPDATED,
   category: 'fire',

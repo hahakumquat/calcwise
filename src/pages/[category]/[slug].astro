@@ -15,6 +15,8 @@ export function getStaticPaths() {
 }
 
 const { calc } = Astro.props as { calc: Calculator };
+// Short descriptions leave room in the search snippet; add what sets the page apart.
+const metaDesc = calc.metaDescription ?? (calc.description.length <= 105 ? `${calc.description} Free, instant and private, with charts. No sign-up.` : calc.description);
 const cat = CATEGORY_BY_ID[calc.category];
 const rel = related(calc);
 const url = new URL(calcUrl(calc), Astro.site).href;
@@ -33,7 +35,7 @@ const jsonLd: object[] = [
     '@context': 'https://schema.org',
     '@type': 'WebApplication',
     name: calc.title,
-    description: calc.metaDescription ?? calc.description,
+    description: metaDesc,
     url,
     ...(calc.keywords?.length ? { keywords: calc.keywords.join(', ') } : {}),
     ...(calc.updated ? { dateModified: calc.updated } : {}),
@@ -61,7 +63,7 @@ if (calc.content?.faq?.length) {
 }
 const hasContent = !!(calc.content?.formula?.length || calc.content?.body?.length || calc.content?.faq?.length || calc.content?.sections?.length);
 ---
-<Base title={calc.seoTitle ?? calc.title} description={calc.metaDescription ?? calc.description} hue={cat.hue} jsonLd={jsonLd}>
+<Base title={calc.seoTitle ?? calc.title} description={metaDesc} hue={cat.hue} jsonLd={jsonLd}>
   <div class="container page">
     <nav class="crumbs" aria-label="Breadcrumb">
       <a href={path('/')}>Home</a>

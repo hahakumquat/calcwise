@@ -1,5 +1,5 @@
 ---
-import { path } from '../lib/paths';
+import { path, absUrl } from '../lib/paths';
 import Base from '../layouts/Base.astro';
 import CalcCard from '../components/CalcCard.astro';
 import Icon from '../components/Icon.astro';
@@ -13,11 +13,33 @@ const featured = [] as typeof popular;
 for (let i = 0; featured.length < Math.min(18, popular.length); i++) {
   for (const b of buckets) if (b[i] && featured.length < 18) featured.push(b[i]);
 }
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: SITE.name,
+    url: absUrl('/', Astro.site),
+    description: SITE.tagline,
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: SITE.name,
+    url: absUrl('/', Astro.site),
+    logo: absUrl('/favicon.svg', Astro.site),
+    sameAs: ['https://github.com/hahakumquat/calcwise'],
+  },
+];
 const quick = ['mortgage', 'bmi', 'percentage', 'json-formatter', 'word-counter', 'tip', 'compound-interest', 'age']
   .map((s) => CALCULATORS.find((c) => c.slug === s))
   .filter((c) => !!c);
 ---
-<Base title={SITE.name} description={`${CALCULATORS.length}+ free calculators and tools for finance, health, math, text and code. Fast, private, and beautifully simple.`}>
+<Base
+  title={SITE.name}
+  fullTitle={`${SITE.name}: Free Online Calculators With Charts`}
+  description={`${CALCULATORS.length} free online calculators with charts: mortgage, FIRE and retirement, BMI, percentage, GPA, unit converters and developer tools. Instant, private.`}
+  jsonLd={jsonLd}
+>
   <section class="hero">
     <div class="container hero-inner">
       <span class="pill"><Icon name="spark" size={14} /> {CALCULATORS.length} free calculators & tools</span>

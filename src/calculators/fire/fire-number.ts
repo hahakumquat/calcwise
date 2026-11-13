@@ -8,7 +8,7 @@ const RATES = [3, 3.25, 3.5, 3.75, 4, 4.5, 5];
 export default defineCalculator({
   slug: 'fire-number',
   title: 'FIRE Number Calculator',
-  seoTitle: 'FIRE Number Calculator: How Much to Retire Early?',
+  seoTitle: 'FIRE Number Calculator: How Much to Retire?',
   metaDescription: 'Work out your FIRE number — the portfolio you need to retire early — from your spending and withdrawal rate, with guaranteed income and progress tracking.',
   updated: FIRE_UPDATED,
   category: 'fire',
