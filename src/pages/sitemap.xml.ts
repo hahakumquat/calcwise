@@ -6,6 +6,7 @@ export const GET: APIRoute = ({ site }) => {
   const urls: { loc: string; lastmod?: string }[] = [
     { loc: '/' },
     { loc: '/categories' },
+    { loc: '/privacy' },
     ...CATEGORIES_WITH_CALCS.map((c) => ({ loc: `/${c.id}` })),
     ...CALCULATORS.map((c) => ({ loc: `/${c.category}/${c.slug}`, lastmod: c.updated })),
   ];

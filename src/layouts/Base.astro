@@ -50,6 +50,7 @@ const searchIndex = CALCULATORS.map((c) => ({
       } catch {}
     </script>
     {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+    {SITE.adsenseClient && <meta name="google-adsense-account" content={SITE.adsenseClient} />}
     {SITE.adsenseClient && (
       <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${SITE.adsenseClient}`} crossorigin="anonymous"></script>
     )}
@@ -97,7 +98,7 @@ const searchIndex = CALCULATORS.map((c) => ({
         </div>
       </div>
       <div class="container foot-legal">
-        <span>© {new Date().getFullYear()} {SITE.name}</span>
+        <span>© {new Date().getFullYear()} {SITE.name} · <a href={path('/privacy')}>Privacy</a></span>
         <span>Results are estimates for educational purposes and are not financial, medical, legal or tax advice.</span>
       </div>
     </footer>
