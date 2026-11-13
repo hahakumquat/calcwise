@@ -4,6 +4,7 @@ export type CategoryId =
   | 'math'
   | 'statistics'
   | 'finance'
+  | 'fire'
   | 'health'
   | 'physics'
   | 'chemistry'
@@ -241,6 +242,12 @@ export interface Calculator {
   category: CategoryId;
   /** One sentence for cards and <meta description>. */
   description: string;
+  /** <title> override for search results (keep under ~55 characters; the site name is appended). */
+  seoTitle?: string;
+  /** <meta description> override (≈150–160 characters). Falls back to `description`. */
+  metaDescription?: string;
+  /** ISO date the content/assumptions were last reviewed. Shown on the page, in JSON-LD and in the sitemap. */
+  updated?: string;
   /** Search keywords / synonyms. */
   keywords?: string[];
   inputs: Input[];
@@ -253,6 +260,10 @@ export interface Calculator {
     /** Explanatory paragraphs (original writing). */
     body?: string[];
     faq?: { q: string; a: string }[];
+    /** Extra keyword-focused sections, each with its own H2. */
+    sections?: { heading: string; paragraphs: string[] }[];
+    /** Research and official sources cited by the page. */
+    sources?: { label: string; url?: string }[];
   };
   /** Slugs of related calculators (any category). */
   related?: string[];

@@ -126,7 +126,8 @@ function renderLine(c: LineChart, W: number, o: RenderOpts) {
     const xi = typeof mk.x === 'number' && numericX ? mk.x : c.x.indexOf(mk.x);
     if (xi < 0 || !Number.isFinite(xi)) continue;
     const xx = X(xi as number);
-    g += `<line x1="${xx}" x2="${xx}" y1="${m.t}" y2="${m.t + ih}" class="marker"/><text x="${xx + 4}" y="${m.t + 10}" class="marker-label">${esc(mk.label)}</text>`;
+    const flip = xx > m.l + iw * 0.7;
+    g += `<line x1="${xx}" x2="${xx}" y1="${m.t}" y2="${m.t + ih}" class="marker"/><text x="${flip ? xx - 4 : xx + 4}" y="${m.t + 10}" class="marker-label"${flip ? ' text-anchor="end"' : ''}>${esc(mk.label)}</text>`;
   }
   // series (draw stacked from top layer down so fills overlap correctly)
   const order = plotted.map((_, i) => i);

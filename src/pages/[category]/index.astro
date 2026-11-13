@@ -2,7 +2,8 @@
 import Base from '../../layouts/Base.astro';
 import CalcCard from '../../components/CalcCard.astro';
 import Icon from '../../components/Icon.astro';
-import { CATEGORIES_WITH_CALCS, byCategory } from '../../lib/registry';
+import { CATEGORIES_WITH_CALCS, byCategory, calcUrl } from '../../lib/registry';
+import { SITE } from '../../lib/site';
 import type { Category } from '../../lib/categories';
 
 export function getStaticPaths() {
@@ -12,8 +13,37 @@ const { cat } = Astro.props as { cat: Category };
 const calcs = byCategory(cat.id);
 const popular = calcs.filter((c) => c.popular);
 const rest = calcs.filter((c) => !c.popular);
+const pageUrl = new URL(`/${cat.id}`, Astro.site).href;
+const jsonLd: object[] = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: cat.seoTitle ?? `${cat.name} calculators`,
+    description: cat.metaDescription ?? cat.blurb,
+    url: pageUrl,
+    mainEntity: {
+      '@type': 'ItemList',
+      itemListElement: calcs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.title, url: new URL(calcUrl(c), Astro.site).href })),
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: SITE.name, item: new URL('/', Astro.site).href },
+      { '@type': 'ListItem', position: 2, name: cat.name, item: pageUrl },
+    ],
+  },
+];
+if (cat.faq?.length) {
+  jsonLd.push({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: cat.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+  });
+}
 ---
-<Base title={`${cat.name} Calculators`} description={`${calcs.length} free ${cat.name.toLowerCase()} calculators and tools. ${cat.blurb}`} hue={cat.hue}>
+<Base title={cat.seoTitle ?? `${cat.name} Calculators`} description={cat.metaDescription ?? `${calcs.length} free ${cat.name.toLowerCase()} calculators and tools. ${cat.blurb}`} hue={cat.hue} jsonLd={jsonLd}>
   <section class="cat-hero">
     <div class="container">
       <a href="/categories" class="back"><Icon name="chevron" size={14} class="flip" /> All categories</a>
@@ -39,10 +69,64 @@ const rest = calcs.filter((c) => !c.popular);
         <div class="card-grid">{rest.map((c) => <CalcCard calc={c} />)}</div>
       </section>
     )}
+    {(cat.guide?.length || cat.faq?.length) && (
+      <article class="guide">
+        {cat.guide?.map((g) => (
+          <section>
+            <h2>{g.heading}</h2>
+            {g.paragraphs.map((p) => <p>{p}</p>)}
+          </section>
+        ))}
+        {cat.faq?.length && (
+          <section>
+            <h2>Frequently asked questions</h2>
+            <dl class="faq">
+              {cat.faq.map((f) => (
+                <div>
+                  <dt>{f.q}</dt>
+                  <dd>{f.a}</dd>
+                </div>
+              ))}
+            </dl>
+          </section>
+        )}
+      </article>
+    )}
   </div>
 </Base>
 
 <style>
+  .guide {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 760px;
+  }
+  .guide h2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .guide p {
+    color: var(--text-2);
+    font-size: 16.5px;
+    line-height: 1.7;
+  }
+  .guide p + p {
+    margin-top: 12px;
+  }
+  .faq {
+    display: grid;
+    gap: 18px;
+  }
+  .faq dt {
+    font-weight: 650;
+    margin-bottom: 4px;
+  }
+  .faq dd {
+    color: var(--text-2);
+    line-height: 1.65;
+  }
   .cat-hero {
     background:
       radial-gradient(80% 120% at 0% 0%, color-mix(in oklch, var(--accent) 14%, transparent), transparent 70%),

@@ -4,7 +4,7 @@ import CalculatorWidget from '../../components/CalculatorWidget.astro';
 import CalcCard from '../../components/CalcCard.astro';
 import AdSlot from '../../components/AdSlot.astro';
 import Icon from '../../components/Icon.astro';
-import { CALCULATORS, calcUrl, related } from '../../lib/registry';
+import { CALCULATORS, byCategory, calcUrl, related } from '../../lib/registry';
 import { CATEGORY_BY_ID } from '../../lib/categories';
 import { SITE } from '../../lib/site';
 import type { Calculator } from '../../lib/types';
@@ -17,14 +17,26 @@ const { calc } = Astro.props as { calc: Calculator };
 const cat = CATEGORY_BY_ID[calc.category];
 const rel = related(calc);
 const url = new URL(calcUrl(calc), Astro.site).href;
+const order = cat.clusterOrder ?? [];
+const rank = (slug: string) => (order.includes(slug) ? order.indexOf(slug) : order.length);
+const cluster = cat.cluster ? [...byCategory(cat.id)].sort((a, b) => rank(a.slug) - rank(b.slug)) : [];
+const pillName = (t: string) => {
+  const short = t.replace(/ Calculator$/, '');
+  return short.includes(' ') ? short : t;
+};
+const updated = calc.updated ? new Date(`${calc.updated}T12:00:00Z`) : null;
+const updatedLabel = updated?.toLocaleDateString('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' });
 
 const jsonLd: object[] = [
   {
     '@context': 'https://schema.org',
     '@type': 'WebApplication',
     name: calc.title,
-    description: calc.description,
+    description: calc.metaDescription ?? calc.description,
     url,
+    ...(calc.keywords?.length ? { keywords: calc.keywords.join(', ') } : {}),
+    ...(calc.updated ? { dateModified: calc.updated } : {}),
+    isPartOf: { '@type': 'WebSite', name: SITE.name, url: new URL('/', Astro.site).href },
     applicationCategory: calc.category === 'developer' ? 'DeveloperApplication' : 'UtilitiesApplication',
     operatingSystem: 'Any',
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
@@ -46,9 +58,9 @@ if (calc.content?.faq?.length) {
     mainEntity: calc.content.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
   });
 }
-const hasContent = !!(calc.content?.formula?.length || calc.content?.body?.length || calc.content?.faq?.length);
+const hasContent = !!(calc.content?.formula?.length || calc.content?.body?.length || calc.content?.faq?.length || calc.content?.sections?.length);
 ---
-<Base title={calc.title} description={calc.description} hue={cat.hue} jsonLd={jsonLd}>
+<Base title={calc.seoTitle ?? calc.title} description={calc.metaDescription ?? calc.description} hue={cat.hue} jsonLd={jsonLd}>
   <div class="container page">
     <nav class="crumbs" aria-label="Breadcrumb">
       <a href="/">Home</a>
@@ -59,7 +71,17 @@ const hasContent = !!(calc.content?.formula?.length || calc.content?.body?.lengt
     <header class="head">
       <h1>{calc.title}</h1>
       <p class="lede">{calc.description}</p>
+      {updatedLabel && <p class="updated">Assumptions reviewed <time datetime={calc.updated}>{updatedLabel}</time></p>}
     </header>
+
+    {cluster.length > 1 && (
+      <nav class="cluster" aria-label={cat.clusterLabel ?? cat.name}>
+        <a href={`/${cat.id}`} class="cluster-hub">{cat.clusterLabel ?? cat.name}</a>
+        {cluster.map((c) => (
+          <a href={calcUrl(c)} aria-current={c.slug === calc.slug ? 'page' : undefined}>{pillName(c.title)}</a>
+        ))}
+      </nav>
+    )}
 
     <CalculatorWidget calc={calc} />
 
@@ -84,6 +106,12 @@ const hasContent = !!(calc.content?.formula?.length || calc.content?.body?.lengt
               {calc.content.body.map((p) => <p>{p}</p>)}
             </section>
           )}
+          {calc.content?.sections?.map((sec) => (
+            <section>
+              <h2>{sec.heading}</h2>
+              {sec.paragraphs.map((p) => <p>{p}</p>)}
+            </section>
+          ))}
           {calc.content?.faq?.length && (
             <section>
               <h2>Frequently asked questions</h2>
@@ -95,6 +123,16 @@ const hasContent = !!(calc.content?.formula?.length || calc.content?.body?.lengt
                   </details>
                 ))}
               </div>
+            </section>
+          )}
+          {calc.content?.sources?.length && (
+            <section>
+              <h2>Sources</h2>
+              <ul class="sources">
+                {calc.content.sources.map((src) => (
+                  <li>{src.url ? <a href={src.url} rel="noopener" target="_blank">{src.label}</a> : src.label}</li>
+                ))}
+              </ul>
             </section>
           )}
         </article>
@@ -143,6 +181,58 @@ const hasContent = !!(calc.content?.formula?.length || calc.content?.body?.lengt
     margin-top: 8px;
     font-size: 17px;
     color: var(--text-2);
+  }
+  .updated {
+    margin-top: 8px;
+    font-size: 13px;
+    color: var(--text-3);
+  }
+  .cluster {
+    display: flex;
+    gap: 6px;
+    margin: -6px 0 20px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    scrollbar-width: thin;
+  }
+  .cluster a {
+    flex: none;
+    padding: 6px 12px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: var(--bg-elev);
+    color: var(--text-2);
+    font-size: 13.5px;
+    font-weight: 560;
+    white-space: nowrap;
+  }
+  .cluster a:hover {
+    border-color: var(--accent);
+    color: var(--text);
+  }
+  .cluster a[aria-current='page'] {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--on-accent);
+  }
+  .cluster .cluster-hub {
+    background: transparent;
+    border-style: dashed;
+    color: var(--text-3);
+  }
+  .sources {
+    padding-left: 18px;
+    color: var(--text-2);
+    font-size: 14.5px;
+    line-height: 1.6;
+  }
+  .sources li + li {
+    margin-top: 6px;
+  }
+  .sources a {
+    color: var(--text-2);
+    text-decoration: underline;
+    text-underline-offset: 2px;
   }
   .privacy {
     display: flex;
