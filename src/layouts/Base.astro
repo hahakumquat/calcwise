@@ -5,7 +5,7 @@ import Icon from '../components/Icon.astro';
 import { CALCULATORS, CATEGORIES_WITH_CALCS, calcUrl } from '../lib/registry';
 import { CATEGORY_BY_ID } from '../lib/categories';
 import { SITE } from '../lib/site';
-import { absUrl, path } from '../lib/paths';
+import { path } from '../lib/paths';
 
 interface Props {
   title: string;
@@ -34,10 +34,7 @@ const searchIndex = CALCULATORS.map((c) => ({
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
-    <link rel="icon" href={path('/favicon-32.png')} type="image/png" sizes="32x32" />
-    <link rel="apple-touch-icon" href={path('/apple-touch-icon.png')} />
-    <meta property="og:image" content={absUrl('/cappy-512.png', Astro.site)} />
-    <meta property="og:image:alt" content={`${SITE.name} mascot: a capybara in round glasses and a beanie, holding a stylus`} />
+    <link rel="icon" href={path('/favicon.svg')} type="image/svg+xml" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
@@ -64,7 +61,7 @@ const searchIndex = CALCULATORS.map((c) => ({
       <div class="container bar">
         <a href={path('/')} class="logo" aria-label={`${SITE.name} home`}>
           <span class="logo-mark" aria-hidden="true">
-            <img src={path('/cappy-64.png')} width="34" height="34" alt="" />
+            <svg viewBox="0 0 32 32" width="28" height="28"><rect width="32" height="32" rx="9" fill="currentColor"/><path d="M10 11h12M10 16h5M17 16h5M10 21h5M17 21h5" stroke="var(--logo-ink)" stroke-width="2.4" stroke-linecap="round"/></svg>
           </span>
           <span>{SITE.name}</span>
         </a>
@@ -179,12 +176,8 @@ const searchIndex = CALCULATORS.map((c) => ({
     text-decoration: none;
   }
   .logo-mark {
+    color: var(--accent);
     display: inline-flex;
-  }
-  .logo-mark img {
-    display: block;
-    width: 34px;
-    height: 34px;
   }
   .logo.small {
     font-size: 16px;
