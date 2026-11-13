@@ -1,5 +1,5 @@
 export const SITE = {
-  name: 'Calcwise',
+  name: 'CappyCalc',
   tagline: 'Fast, beautiful calculators and tools.',
   /**
    * Google AdSense publisher id (e.g. "ca-pub-1234567890"). Leave empty to disable ads entirely.

@@ -1,4 +1,4 @@
-# Calcwise
+# CappyCalc
 
 Fast, beautiful, private calculators and tools for finance, health, math, statistics, text and code, built as a static [Astro](https://astro.build) site.
 

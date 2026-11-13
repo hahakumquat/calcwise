@@ -382,7 +382,7 @@ export async function makeResultImage(opts: Opts): Promise<Blob> {
 /** Make the image and share it (or download it). Returns what happened. */
 export async function shareResultImage(opts: Opts): Promise<'shared' | 'downloaded' | 'cancelled'> {
   const blob = await makeResultImage(opts);
-  const file = new File([blob], `calcwise-${opts.calc.slug}.png`, { type: 'image/png' });
+  const file = new File([blob], `cappycalc-${opts.calc.slug}.png`, { type: 'image/png' });
   const nav = navigator as Navigator & { canShare?: (d: ShareData) => boolean };
   const coarse = window.matchMedia?.('(pointer: coarse)').matches;
   if (coarse && nav.canShare?.({ files: [file] })) {

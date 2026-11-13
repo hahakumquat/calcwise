@@ -42,7 +42,7 @@ export default defineCalculator({
       mono: true,
       rows: 12,
       placeholder: 'Paste JSON here…',
-      default: '{"name":"CalcWise","version":2,"tags":["tools","json"],"owner":{"team":"web","active":true},"stars":null}',
+      default: '{"name":"CappyCalc","version":2,"tags":["tools","json"],"owner":{"team":"web","active":true},"stars":null}',
     },
     {
       id: 'indent', info: 'How to lay out the result: indented with 2 or 4 spaces or tabs, or minified onto a single line.',

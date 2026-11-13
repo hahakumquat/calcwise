@@ -13,4 +13,4 @@ export function path(p: string): string {
 }
 
 /** Absolute URL for canonical links, JSON-LD and the sitemap. */
-export const absUrl = (p: string, site: URL | undefined) => new URL(path(p), site ?? 'https://calcwise.example').href;
+export const absUrl = (p: string, site: URL | undefined) => new URL(path(p), site ?? 'https://cappycalc.com').href;
