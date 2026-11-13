@@ -1,4 +1,5 @@
 ---
+import { path } from '../lib/paths';
 import Base from '../layouts/Base.astro';
 ---
 <Base title="Page not found" description="This page doesn't exist.">
@@ -8,7 +9,7 @@ import Base from '../layouts/Base.astro';
     <p>Try searching for the calculator you need.</p>
     <div class="actions">
       <button class="btn btn-primary" data-open-search type="button">Search calculators</button>
-      <a class="btn" href="/">Go home</a>
+      <a class="btn" href={path('/')}>Go home</a>
     </div>
   </div>
 </Base>

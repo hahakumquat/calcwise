@@ -4,6 +4,7 @@ import CalcCard from '../../components/CalcCard.astro';
 import Icon from '../../components/Icon.astro';
 import { CATEGORIES_WITH_CALCS, byCategory, calcUrl } from '../../lib/registry';
 import { SITE } from '../../lib/site';
+import { absUrl, path } from '../../lib/paths';
 import type { Category } from '../../lib/categories';
 
 export function getStaticPaths() {
@@ -13,7 +14,7 @@ const { cat } = Astro.props as { cat: Category };
 const calcs = byCategory(cat.id);
 const popular = calcs.filter((c) => c.popular);
 const rest = calcs.filter((c) => !c.popular);
-const pageUrl = new URL(`/${cat.id}`, Astro.site).href;
+const pageUrl = absUrl(`/${cat.id}`, Astro.site);
 const jsonLd: object[] = [
   {
     '@context': 'https://schema.org',
@@ -30,7 +31,7 @@ const jsonLd: object[] = [
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: SITE.name, item: new URL('/', Astro.site).href },
+      { '@type': 'ListItem', position: 1, name: SITE.name, item: absUrl('/', Astro.site) },
       { '@type': 'ListItem', position: 2, name: cat.name, item: pageUrl },
     ],
   },
@@ -46,7 +47,7 @@ if (cat.faq?.length) {
 <Base title={cat.seoTitle ?? `${cat.name} Calculators`} description={cat.metaDescription ?? `${calcs.length} free ${cat.name.toLowerCase()} calculators and tools. ${cat.blurb}`} hue={cat.hue} jsonLd={jsonLd}>
   <section class="cat-hero">
     <div class="container">
-      <a href="/categories" class="back"><Icon name="chevron" size={14} class="flip" /> All categories</a>
+      <a href={path('/categories')} class="back"><Icon name="chevron" size={14} class="flip" /> All categories</a>
       <div class="cat-head">
         <span class="cat-icon"><Icon paths={cat.icon} size={28} /></span>
         <div>

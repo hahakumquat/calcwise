@@ -5,6 +5,7 @@ import Icon from '../components/Icon.astro';
 import { CALCULATORS, CATEGORIES_WITH_CALCS, calcUrl } from '../lib/registry';
 import { CATEGORY_BY_ID } from '../lib/categories';
 import { SITE } from '../lib/site';
+import { path } from '../lib/paths';
 
 interface Props {
   title: string;
@@ -33,7 +34,7 @@ const searchIndex = CALCULATORS.map((c) => ({
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href={path('/favicon.svg')} type="image/svg+xml" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
@@ -57,15 +58,15 @@ const searchIndex = CALCULATORS.map((c) => ({
     <a class="skip" href="#main">Skip to content</a>
     <header class="site-header">
       <div class="container bar">
-        <a href="/" class="logo" aria-label={`${SITE.name} home`}>
+        <a href={path('/')} class="logo" aria-label={`${SITE.name} home`}>
           <span class="logo-mark" aria-hidden="true">
             <svg viewBox="0 0 32 32" width="28" height="28"><rect width="32" height="32" rx="9" fill="currentColor"/><path d="M10 11h12M10 16h5M17 16h5M10 21h5M17 21h5" stroke="var(--logo-ink)" stroke-width="2.4" stroke-linecap="round"/></svg>
           </span>
           <span>{SITE.name}</span>
         </a>
         <nav class="nav" aria-label="Categories">
-          {CATEGORIES_WITH_CALCS.slice(0, 6).map((c) => <a href={`/${c.id}`}>{c.name}</a>)}
-          <a href="/categories">All</a>
+          {CATEGORIES_WITH_CALCS.slice(0, 6).map((c) => <a href={path(`/${c.id}`)}>{c.name}</a>)}
+          <a href={path('/categories')}>All</a>
         </nav>
         <div class="bar-actions">
           <button class="search-trigger" type="button" data-open-search aria-label="Search calculators">
@@ -92,11 +93,11 @@ const searchIndex = CALCULATORS.map((c) => ({
     <footer class="site-footer">
       <div class="container foot">
         <div class="foot-brand">
-          <a href="/" class="logo small">{SITE.name}</a>
+          <a href={path('/')} class="logo small">{SITE.name}</a>
           <p>{SITE.tagline} Every calculation runs in your browser — nothing you type is sent anywhere.</p>
         </div>
         <div class="foot-cats">
-          {CATEGORIES_WITH_CALCS.map((c) => <a href={`/${c.id}`}>{c.name}</a>)}
+          {CATEGORIES_WITH_CALCS.map((c) => <a href={path(`/${c.id}`)}>{c.name}</a>)}
         </div>
       </div>
       <div class="container foot-legal">

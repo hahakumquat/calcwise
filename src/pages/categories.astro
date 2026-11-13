@@ -1,4 +1,5 @@
 ---
+import { path } from '../lib/paths';
 import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
 import { CATEGORIES_WITH_CALCS, byCategory, calcUrl, CALCULATORS } from '../lib/registry';
@@ -10,7 +11,7 @@ import { CATEGORIES_WITH_CALCS, byCategory, calcUrl, CALCULATORS } from '../lib/
     <div class="index">
       {CATEGORIES_WITH_CALCS.map((cat) => (
         <section style={`--hue:${cat.hue}`}>
-          <a href={`/${cat.id}`} class="head">
+          <a href={path(`/${cat.id}`)} class="head">
             <span class="b"><Icon paths={cat.icon} size={18} /></span>
             <h2>{cat.name}</h2>
           </a>

@@ -1,4 +1,5 @@
 ---
+import { path } from '../lib/paths';
 import Base from '../layouts/Base.astro';
 import CalcCard from '../components/CalcCard.astro';
 import Icon from '../components/Icon.astro';
@@ -40,12 +41,12 @@ const quick = ['mortgage', 'bmi', 'percentage', 'json-formatter', 'word-counter'
     </section>
 
     <section>
-      <div class="section-title"><h2>Browse by category</h2><a href="/categories">See all</a></div>
+      <div class="section-title"><h2>Browse by category</h2><a href={path('/categories')}>See all</a></div>
       <div class="cats">
         {CATEGORIES_WITH_CALCS.map((cat) => {
           const list = byCategory(cat.id);
           return (
-            <a class="cat" href={`/${cat.id}`} style={`--hue:${cat.hue}`}>
+            <a class="cat" href={path(`/${cat.id}`)} style={`--hue:${cat.hue}`}>
               <span class="cat-badge"><Icon paths={cat.icon} size={22} /></span>
               <span class="cat-name">{cat.name}</span>
               <span class="cat-blurb">{cat.blurb}</span>

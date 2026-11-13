@@ -1,5 +1,6 @@
 import type { Calculator, CategoryId } from './types';
 import { CATEGORIES } from './categories';
+import { path } from './paths';
 
 // Every file in src/calculators/<category>/<slug>.ts is picked up automatically.
 const modules = import.meta.glob<{ default: Calculator }>('../calculators/*/*.ts', { eager: true });
@@ -23,7 +24,7 @@ export function byCategory(id: CategoryId): Calculator[] {
 export const CATEGORIES_WITH_CALCS = CATEGORIES.filter((c) => byCategory(c.id).length > 0);
 
 export function calcUrl(c: Pick<Calculator, 'category' | 'slug'>): string {
-  return `/${c.category}/${c.slug}`;
+  return path(`/${c.category}/${c.slug}`);
 }
 
 export function related(c: Calculator, n = 6): Calculator[] {
