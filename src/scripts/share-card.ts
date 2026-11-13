@@ -7,6 +7,7 @@ import type { Calculator, ComputeResult } from '../lib/types';
 import { renderChart, toChartList, type UnitResolver } from '../lib/chart';
 import { CATEGORY_BY_ID } from '../lib/categories';
 import { SITE } from '../lib/site';
+import { path } from '../lib/paths';
 
 const W = 1080;
 const H = 1920;
@@ -150,7 +151,6 @@ export async function makeResultImage(opts: Opts): Promise<Blob> {
   const text3 = C('--text-3');
   const line = C('--line');
   const accent = C('--accent');
-  const onAccent = C('--on-accent');
   const panel = C('--bg-elev');
 
   const canvas = document.createElement('canvas');
@@ -168,20 +168,16 @@ export async function makeResultImage(opts: Opts): Promise<Blob> {
   ctx.fillStyle = glow;
   ctx.fillRect(0, 0, W, H);
 
-  // Brand row.
+  // Brand row: Cappy + name.
   let y = 120;
-  roundRect(ctx, PAD, y - 46, 60, 60, 16);
-  ctx.fillStyle = accent;
-  ctx.fill();
-  ctx.strokeStyle = onAccent;
-  ctx.lineWidth = 5;
-  ctx.lineCap = 'round';
-  ctx.beginPath();
-  for (const [x1, y1, x2] of [[PAD + 18, y - 25, PAD + 42], [PAD + 18, y - 15, PAD + 27], [PAD + 33, y - 15, PAD + 42], [PAD + 18, y - 5, PAD + 27], [PAD + 33, y - 5, PAD + 42]] as const) {
-    ctx.moveTo(x1, y1);
-    ctx.lineTo(x2, y1);
+  try {
+    const head = new Image();
+    head.src = path('/cappy-head.svg');
+    await head.decode();
+    ctx.drawImage(head, PAD - 4, y - 58, 66, 70);
+  } catch {
+    /* mascot is decorative */
   }
-  ctx.stroke();
   ctx.fillStyle = text;
   ctx.font = `700 40px ${FONT}`;
   ctx.fillText(SITE.name, PAD + 80, y);

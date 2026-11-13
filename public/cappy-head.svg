@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="34 4 132 140" role="img" aria-label="CappyCalc">
+  <!-- ears (small, high, set back) -->
+  <ellipse cx="58" cy="26" rx="10" ry="8" fill="#9C6A43" transform="rotate(-18 58 26)"/>
+  <ellipse cx="142" cy="26" rx="10" ry="8" fill="#9C6A43" transform="rotate(18 142 26)"/>
+  <ellipse cx="59" cy="27" rx="5" ry="3.8" fill="#6E4A2E" transform="rotate(-18 59 27)"/>
+  <ellipse cx="141" cy="27" rx="5" ry="3.8" fill="#6E4A2E" transform="rotate(18 141 27)"/>
+  <!-- head: boxy, tall -->
+  <rect x="42" y="18" width="116" height="122" rx="44" fill="#B07A4F"/>
+  <!-- little tuft -->
+  <path d="M92 20c2-7 7-10 9-10s1 5 3.5 6 6-3 7-1.5-3 6.5-6 8z" fill="#9C6A43"/>
+  <!-- big blunt snout -->
+  <rect x="52" y="72" width="96" height="68" rx="34" fill="#9C6A43"/>
+  <!-- cheeks -->
+  <ellipse cx="56" cy="80" rx="8" ry="5" fill="#F2A08A" opacity=".5"/>
+  <ellipse cx="144" cy="80" rx="8" ry="5" fill="#F2A08A" opacity=".5"/>
+  <!-- nose pad + nostrils -->
+  <rect x="78" y="82" width="44" height="18" rx="9" fill="#3A2A20"/>
+  <path d="M88 89c3-2 6-2 8 1M104 90c2-3 5-3 8-1" stroke="#1E1611" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+  <!-- mouth -->
+  <path d="M100 100v9M88 112c4 5 20 5 24 0" stroke="#3A2A20" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <!-- eyes, high and wide -->
+  <circle cx="72" cy="52" r="5.5" fill="#1E1611"/>
+  <circle cx="128" cy="52" r="5.5" fill="#1E1611"/>
+  <circle cx="74" cy="50" r="1.9" fill="#fff"/>
+  <circle cx="130" cy="50" r="1.9" fill="#fff"/>
+  <!-- round glasses -->
+  <circle cx="72" cy="52" r="15" fill="#fff" fill-opacity=".16" stroke="#2E2A27" stroke-width="4.2"/>
+  <circle cx="128" cy="52" r="15" fill="#fff" fill-opacity=".16" stroke="#2E2A27" stroke-width="4.2"/>
+  <path d="M87 50c8-5 18-5 26 0" stroke="#2E2A27" stroke-width="4.2" fill="none" stroke-linecap="round"/>
+  <path d="M57 48l-13-3M143 48l13-3" stroke="#2E2A27" stroke-width="4" stroke-linecap="round"/>
+  <path d="M63 43l5-3.5M119 43l5-3.5" stroke="#fff" stroke-width="2.6" stroke-linecap="round" opacity=".75"/>
+</svg>

@@ -20,6 +20,7 @@ const quick = ['mortgage', 'bmi', 'percentage', 'json-formatter', 'word-counter'
 <Base title={SITE.name} description={`${CALCULATORS.length}+ free calculators and tools for finance, health, math, text and code. Fast, private, and beautifully simple.`}>
   <section class="hero">
     <div class="container hero-inner">
+      <img class="cappy" src={path('/cappy.svg')} width="200" height="220" alt="Cappy, a capybara in a lab coat and round glasses, holding a flask" />
       <span class="pill"><Icon name="spark" size={14} /> {CALCULATORS.length} free calculators & tools</span>
       <h1>The answer, <span class="grad">beautifully</span> fast.</h1>
       <p class="sub">Clean, private calculators for money, health, math, text and code. No sign-ups, no clutter — results update as you type.</p>
@@ -92,6 +93,28 @@ const quick = ['mortgage', 'bmi', 'percentage', 'json-formatter', 'word-counter'
   @media (min-width: 720px) {
     .hero-inner {
       padding-block: 88px 72px;
+    }
+  }
+  .cappy {
+    width: 118px;
+    height: auto;
+    margin-bottom: 10px;
+    filter: drop-shadow(0 10px 18px rgb(0 0 0 / 0.15));
+    animation: bob 4s ease-in-out infinite;
+  }
+  @media (min-width: 720px) {
+    .cappy {
+      width: 150px;
+    }
+  }
+  @keyframes bob {
+    50% {
+      transform: translateY(-6px) rotate(-1.5deg);
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .cappy {
+      animation: none;
     }
   }
   .pill {

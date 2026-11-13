@@ -4,8 +4,9 @@ import Base from '../layouts/Base.astro';
 ---
 <Base title="Page not found" description="This page doesn't exist.">
   <div class="container nf">
+    <img class="cappy" src={path('/cappy.svg')} width="160" height="176" alt="Cappy the capybara scientist" />
     <p class="code">404</p>
-    <h1>We couldn’t find that page.</h1>
+    <h1>Cappy couldn’t find that page.</h1>
     <p>Try searching for the calculator you need.</p>
     <div class="actions">
       <button class="btn btn-primary" data-open-search type="button">Search calculators</button>
@@ -17,6 +18,13 @@ import Base from '../layouts/Base.astro';
   .nf {
     text-align: center;
     padding-top: 80px;
+  }
+  .cappy {
+    width: 140px;
+    height: auto;
+    margin: 0 auto 4px;
+    display: block;
+    transform: rotate(-6deg);
   }
   .code {
     font-size: 64px;
