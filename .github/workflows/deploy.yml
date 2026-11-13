@@ -32,6 +32,10 @@ jobs:
           # Override with repository variables when moving to a custom domain (SITE_URL=https://yourdomain.com, BASE_PATH=/).
           SITE_URL: ${{ vars.SITE_URL || format('https://{0}.github.io', github.repository_owner) }}
           BASE_PATH: ${{ vars.BASE_PATH || format('/{0}', github.event.repository.name) }}
+          # Ads stay off until these repository variables are set (Settings → Secrets and variables → Actions → Variables).
+          PUBLIC_ADSENSE_CLIENT: ${{ vars.PUBLIC_ADSENSE_CLIENT }}
+          PUBLIC_AD_SLOT_BELOW_CALC: ${{ vars.PUBLIC_AD_SLOT_BELOW_CALC }}
+          PUBLIC_AD_SLOT_SIDEBAR: ${{ vars.PUBLIC_AD_SLOT_SIDEBAR }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
