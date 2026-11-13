@@ -4,7 +4,7 @@ import { formatOutput } from '../lib/format';
 import { parseList } from '../lib/defaults';
 import { renderChart, toChartList } from '../lib/chart';
 import { easeOutCubic, tweenable, tweenSpec } from '../lib/chart-tween';
-import { counterpart, getSystem, systemOf, type UnitSystem } from '../lib/unit-system';
+import { systemOf } from '../lib/unit-system';
 import { initTooltips } from './tooltips';
 
 const reducedMotion = () => window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false;
@@ -108,13 +108,6 @@ export function parseNumber(raw: string): number | null {
 }
 
 const tidy = (x: number) => String(Number(x.toPrecision(5)));
-/** Round a converted *example default* to a clean number (8.749 → 8.7, 74.84 → 75). Never used on user input. */
-const nice = (x: number) => {
-  const a = Math.abs(x);
-  if (a >= 10) return Math.round(x);
-  if (a >= 1) return Math.round(x * 10) / 10;
-  return Number(x.toPrecision(2));
-};
 const today = () => {
   const d = new Date();
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
@@ -138,15 +131,9 @@ class CalcController {
     if (!load) return;
     this.calc = (await load()).default;
     this.applyDefaultsForToday();
-    const fromUrl = this.applyUrl();
-    const sys = getSystem();
-    if (sys) this.applySystem(sys, fromUrl, true);
+    this.applyUrl();
     this.bind();
     this.run();
-    window.addEventListener('unitsystem', (e) => {
-      this.applySystem((e as CustomEvent<UnitSystem>).detail, new Set(), false);
-      this.run();
-    });
     let w = this.results.clientWidth;
     new ResizeObserver(() => {
       if (Math.abs(this.results.clientWidth - w) > 8) {
@@ -219,7 +206,7 @@ class CalcController {
     return !!this.el<HTMLElement>(`[data-field="${id}"]`)?.hidden;
   }
 
-  /* ───── units: keep related selects in step, honour the US/Metric preference ───── */
+  /* ───── units: keep related selects in step,  ───── */
   private unitSelects(group: string) {
     return [...this.root.querySelectorAll<HTMLSelectElement>(`select[data-group="${group}"]`)];
   }
@@ -244,44 +231,14 @@ class CalcController {
       else s.value = unit;
     }
   }
-  /**
-   * Switch every unit select to the US or metric counterpart. The converted defaults become the new
-   * defaults, so they don't leak into the shareable URL and Reset returns to the user's own system.
-   */
-  private applySystem(sys: UnitSystem, skip: Set<string>, roundDefault: boolean) {
-    for (const s of this.root.querySelectorAll<HTMLSelectElement>('select[data-group]')) {
-      if (skip.has(s.name) || skip.has(`out_${s.dataset.outUnit}`)) continue;
-      const allowed = [...s.options].map((o) => o.value);
-      const group = s.dataset.group as UnitGroup;
-      const defUnit = s.dataset.default ?? s.value;
-      const target = counterpart(group, s.value, allowed, sys);
-      const defTarget = counterpart(group, defUnit, allowed, sys) ?? defUnit;
-      if (s.dataset.unitFor) {
-        const input = this.el<HTMLInputElement>(`#in-${s.dataset.unitFor}`)!;
-        const untouched = input.value === input.dataset.default && s.value === defUnit;
-        // Always convert from the authored default so repeated toggling never drifts.
-        input.dataset.origDefault ??= input.dataset.default ?? '';
-        s.dataset.origUnit ??= defUnit;
-        const d = parseNumber(input.dataset.origDefault);
-        if (d !== null && !Number.isNaN(d)) {
-          const o = s.dataset.origUnit;
-          input.dataset.default = defTarget === o ? input.dataset.origDefault : String(nice(fromBase(group, defTarget, toBase(group, o, d))));
-        }
-        if (target) this.setInputUnit(s, target, roundDefault || untouched);
-        if (untouched) input.value = input.dataset.default ?? input.value;
-      } else if (target) s.value = target;
-      s.dataset.default = defTarget;
-    }
-  }
   /** Unit currently chosen for a group anywhere in this calculator (outputs first). */
   private unitFor = (group: UnitGroup): string | undefined => {
     const sels = this.unitSelects(group);
     const out = sels.find((s) => s.dataset.outUnit && !s.closest('[hidden]'));
     const any = out ?? sels.find((s) => !s.closest('[hidden]')) ?? sels[0];
     if (any) return any.value;
-    const sys = getSystem() ?? 'us';
     const units = ['kg', 'lb', 'm', 'ft', 'km', 'mi', 'l', 'gal', 'c', 'f', 'm2', 'ft2', 'kph', 'mph'];
-    return units.find((u) => systemOf(u) === sys && this.groupHas(group, u));
+    return units.find((u) => systemOf(u) === 'us' && this.groupHas(group, u));
   };
   private groupHas(group: UnitGroup, id: string) {
     try {

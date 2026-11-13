@@ -74,10 +74,6 @@ const searchIndex = CALCULATORS.map((c) => ({
             <span class="st-label">Search</span>
             <kbd class="st-kbd">⌘K</kbd>
           </button>
-          <div class="units-toggle" role="radiogroup" aria-label="Unit system">
-            <button type="button" data-units="us" role="radio" aria-checked="true">US</button>
-            <button type="button" data-units="metric" role="radio" aria-checked="false">Metric</button>
-          </div>
           <button class="icon-btn" type="button" id="theme-toggle" aria-label="Toggle dark mode">
             <Icon name="moon" class="i-moon" />
             <Icon name="sun" class="i-sun" />
@@ -121,18 +117,8 @@ const searchIndex = CALCULATORS.map((c) => ({
     <script>
       import { initSearch } from '../scripts/search';
       import { initTooltips } from '../scripts/tooltips';
-      import { getSystem, setSystem } from '../lib/unit-system';
       initSearch();
       initTooltips();
-      const unitBtns = document.querySelectorAll<HTMLButtonElement>('[data-units]');
-      const paint = (s: string) => unitBtns.forEach((b) => b.setAttribute('aria-checked', String(b.dataset.units === s)));
-      paint(getSystem() ?? 'us');
-      unitBtns.forEach((b) =>
-        b.addEventListener('click', () => {
-          setSystem(b.dataset.units as 'us' | 'metric');
-          paint(b.dataset.units!);
-        }),
-      );
       const btn = document.getElementById('theme-toggle');
       btn?.addEventListener('click', () => {
         const root = document.documentElement;
@@ -221,30 +207,6 @@ const searchIndex = CALCULATORS.map((c) => ({
     display: flex;
     align-items: center;
     gap: 6px;
-  }
-  .units-toggle {
-    display: flex;
-    padding: 3px;
-    gap: 2px;
-    border-radius: 10px;
-    border: 1px solid var(--line);
-    background: var(--bg-sunk);
-  }
-  .units-toggle button {
-    border: none;
-    background: transparent;
-    padding: 0 9px;
-    height: 30px;
-    border-radius: 7px;
-    font-size: 12.5px;
-    font-weight: 600;
-    color: var(--text-3);
-    cursor: pointer;
-  }
-  .units-toggle button[aria-checked='true'] {
-    background: var(--bg-elev);
-    color: var(--text);
-    box-shadow: var(--shadow-sm), 0 0 0 1px var(--line);
   }
   @media (max-width: 480px) {
     .st-label {
