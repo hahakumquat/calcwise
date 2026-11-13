@@ -1,7 +1,7 @@
 import { defineCalculator } from '../../lib/types';
 import { num } from '../../lib/math';
 import { money, moneyDonut } from '../../lib/helpers/finance';
-import { fiPathChart, FIRE_UPDATED, fireNumber, IN, realReturn, SOURCES, yearsMonths } from '../../lib/helpers/fire';
+import { fiAgeVerdict, fiPathChart, FIRE_UPDATED, fireNumber, IN, realReturn, SOURCES, yearsMonths } from '../../lib/helpers/fire';
 
 interface Sim {
   months: number | null;
@@ -107,6 +107,7 @@ export default defineCalculator({
     const growth = Math.max(0, a.total - start - startCompany - a.fromSalary - a.fromRsu);
     return {
       fiAge: age + a.months / 12,
+      ...fiAgeVerdict(age + a.months / 12, a.months === 0),
       fiAgeNoRsu: b.months === null ? null : age + b.months / 12,
       saved: b.months === null ? 'You would not reach FI without them' : yearsMonths(b.months - a.months),
       rsuNet,

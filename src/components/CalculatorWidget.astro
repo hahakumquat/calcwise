@@ -37,9 +37,12 @@ for (const i of calc.inputs) {
 const visible = (sw?: ShowWhen) => !sw || (Array.isArray(sw.is) ? sw.is : [sw.is]).includes(ctrl[sw.input]);
 const swAttr = (sw?: ShowWhen) => (sw ? JSON.stringify(sw) : undefined);
 
-const charts = toChartList(initial.chart)
-  .map((c) => renderChart(c).html)
-  .join('');
+const chartList = toChartList(initial.chart);
+// Code-only tools (JSON, Base64…) keep a plain layout; everything else gets the visual "stage".
+const staged = !primaries.every((p) => p.format === 'code');
+const heroChart = staged && chartList.length ? renderChart(chartList[0]).html : '';
+const charts = (staged ? chartList.slice(1) : chartList).map((c) => renderChart(c).html).join('');
+const shareable = staged && calc.category !== 'developer';
 
 const isSegmented = (i: Input) =>
   i.type === 'select' && (i.segmented ?? (i.options.length <= 3 && i.options.every((o) => o.label.length <= 16)));
@@ -158,6 +161,22 @@ const numDefault = (v: number | undefined) => (v === undefined ? '' : String(v))
   <div class="calc-results" aria-live="polite">
     <div class="result-error" hidden data-error><Icon name="alert" size={18} /><span></span></div>
 
+    {!staged && primaries.map((primary) => (
+        <div class="code-out primary-code" data-output={primary.id} data-show-when={swAttr(primary.showWhen)} hidden={!visible(primary.showWhen)}>
+          <div class="code-head">
+            <span class="label-row">{primary.label}<Info text={primary.info} label={primary.label} /></span>
+            <button type="button" class="btn btn-ghost copy" data-copy={primary.id}><Icon name="copy" /> <span>Copy</span></button>
+          </div>
+          <pre><code data-value>{typeof initial[primary.id] === 'string' ? initial[primary.id] : ''}</code></pre>
+        </div>
+    ))}
+
+    {staged && (
+    <div class="stage" data-stage data-tone={initial.tone}>
+    <div class="stage-top">
+      <span class="badge" data-badge hidden={!initial.badge}>{initial.badge}</span>
+      {shareable && <button type="button" class="btn btn-ghost share-btn" data-action="share-image" aria-label="Share result as an image"><Icon name="share" size={16} /> <span>Share</span></button>}
+    </div>
     {primaries.map((primary) =>
       primary.format === 'code' ? (
         <div class="code-out primary-code" data-output={primary.id} data-show-when={swAttr(primary.showWhen)} hidden={!visible(primary.showWhen)}>
@@ -186,6 +205,10 @@ const numDefault = (v: number | undefined) => (v === undefined ? '' : String(v))
     )}
 
     <p class="note" data-note hidden={!initial.note}>{initial.note}</p>
+    <div class="hero-chart" data-hero-chart hidden={!heroChart} set:html={heroChart} />
+    </div>
+    )}
+    {!staged && <p class="note" data-note hidden={!initial.note}>{initial.note}</p>}
 
     {rowOutputs.length > 0 && (
       <dl class="rows">
@@ -224,6 +247,14 @@ const numDefault = (v: number | undefined) => (v === undefined ? '' : String(v))
       <ol>{(initial.steps ?? []).map((s) => <li>{s}</li>)}</ol>
     </details>
   </div>
+
+  {staged && (
+    <button type="button" class="peek" data-peek hidden aria-label="Jump to result">
+      <span class="peek-dot" aria-hidden="true"></span>
+      <span class="peek-label" data-peek-label></span>
+      <strong class="peek-value" data-peek-value></strong>
+    </button>
+  )}
 </section>
 
 <script>
@@ -532,6 +563,155 @@ const numDefault = (v: number | undefined) => (v === undefined ? '' : String(v))
       align-self: start;
     }
   }
+  /* ───── Result stage: the headline card (big number, verdict, main chart) ───── */
+  .stage {
+    --tone: var(--accent);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 18px;
+    border-radius: var(--radius-lg, 18px);
+    background:
+      radial-gradient(120% 90% at 100% 0%, color-mix(in oklch, var(--tone) 22%, transparent) 0%, transparent 62%),
+      color-mix(in oklch, var(--tone) 7%, var(--bg-elev));
+    border: 1px solid color-mix(in oklch, var(--tone) 30%, transparent);
+    transition: background 0.35s, border-color 0.35s;
+    min-width: 0;
+  }
+  .stage[data-tone='good'] {
+    --tone: var(--tone-good);
+  }
+  .stage[data-tone='ok'] {
+    --tone: var(--tone-ok);
+  }
+  .stage[data-tone='warn'] {
+    --tone: var(--tone-warn);
+  }
+  .stage[data-tone='bad'] {
+    --tone: var(--tone-bad);
+  }
+  .stage-top {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 0;
+  }
+  .stage-top:has(.badge[hidden]):not(:has(.share-btn)) {
+    display: none;
+  }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 11px 4px 9px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 650;
+    letter-spacing: 0.01em;
+    color: color-mix(in oklch, var(--tone) 55%, var(--text));
+    background: color-mix(in oklch, var(--tone) 22%, transparent);
+    border: 1px solid color-mix(in oklch, var(--tone) 35%, transparent);
+  }
+  .badge::before {
+    content: '';
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--tone);
+  }
+  .share-btn {
+    margin-left: auto;
+    height: 32px;
+    padding: 0 12px;
+    font-size: 13.5px;
+    border-radius: 999px;
+    background: color-mix(in oklch, var(--bg-elev) 70%, transparent);
+    border: 1px solid color-mix(in oklch, var(--tone) 30%, var(--line));
+  }
+  .stage .primary {
+    padding: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+  }
+  .stage .primary-label {
+    color: var(--text-2);
+  }
+  .stage .primary-value {
+    font-size: clamp(40px, 9vw, 60px);
+    font-weight: 760;
+    letter-spacing: -0.045em;
+  }
+  .stage .note {
+    margin-top: 0;
+    font-size: 14.5px;
+    line-height: 1.5;
+  }
+  .hero-chart {
+    margin-top: 6px;
+    min-width: 0;
+  }
+  .hero-chart :global(.chart-title) {
+    font-size: 13px;
+  }
+
+  /* Floating result pill on phones, so the number stays visible while you type */
+  .peek {
+    position: fixed;
+    z-index: 40;
+    left: 12px;
+    right: 12px;
+    bottom: calc(12px + env(safe-area-inset-bottom));
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 16px;
+    border-radius: 999px;
+    border: 1px solid var(--line-strong);
+    background: color-mix(in oklch, var(--bg-elev) 92%, transparent);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 10px 30px rgb(0 0 0 / 0.18);
+    font: inherit;
+    color: var(--text);
+    text-align: left;
+    cursor: pointer;
+    animation: peek-in 0.22s ease-out;
+  }
+  @keyframes peek-in {
+    from {
+      transform: translateY(16px);
+      opacity: 0;
+    }
+  }
+  .peek-dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    flex: none;
+    background: var(--peek-tone, var(--accent));
+  }
+  .peek-label {
+    flex: 1;
+    min-width: 0;
+    font-size: 13px;
+    color: var(--text-2);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .peek-value {
+    font-size: 18px;
+    font-weight: 750;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  @media (min-width: 900px) {
+    .peek {
+      display: none !important;
+    }
+  }
+
   .primary {
     border-radius: var(--radius);
     padding: 18px 18px 16px;

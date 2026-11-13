@@ -27,6 +27,8 @@ export default defineCalculator({
     return {
       bmi,
       category,
+      tone: category === 'Healthy weight' ? 'good' : category === 'Obesity' ? 'bad' : 'warn',
+      badge: category,
       healthyMin: 18.5 * h * h,
       healthyMax: 24.9 * h * h,
       chart: {

@@ -237,4 +237,23 @@ export const SOURCES = {
   aca: { label: 'HealthCare.gov — coverage options if you retire before 65', url: 'https://www.healthcare.gov/' },
 };
 
+/** Verdict for an age at which you reach financial independence. */
+export function fiAgeVerdict(fiAge: number, alreadyThere = false): { tone: 'good' | 'ok' | 'warn' | 'bad'; badge: string } {
+  if (alreadyThere) return { tone: 'good', badge: 'Financially independent' };
+  if (fiAge <= 45) return { tone: 'good', badge: 'Early retirement' };
+  if (fiAge <= 55) return { tone: 'ok', badge: 'On track to retire early' };
+  if (fiAge <= 65) return { tone: 'warn', badge: 'Traditional timeline' };
+  return { tone: 'bad', badge: 'Long road ahead' };
+}
+
+/** Verdict for how many years away a goal is (null = never). */
+export function timelineVerdict(years: number | null): { tone: 'good' | 'ok' | 'warn' | 'bad'; badge: string } {
+  if (years === null) return { tone: 'bad', badge: 'Not reachable yet' };
+  if (years <= 0) return { tone: 'good', badge: 'Already there' };
+  if (years <= 10) return { tone: 'good', badge: 'Under 10 years away' };
+  if (years <= 20) return { tone: 'ok', badge: '10–20 years away' };
+  if (years <= 30) return { tone: 'warn', badge: '20–30 years away' };
+  return { tone: 'bad', badge: '30+ years away' };
+}
+
 export const FIRE_UPDATED = '2026-11-12';

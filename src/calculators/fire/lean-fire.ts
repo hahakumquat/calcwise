@@ -1,7 +1,7 @@
 import { defineCalculator, type NumberInput } from '../../lib/types';
 import { num } from '../../lib/math';
 import { money, moneyDonut } from '../../lib/helpers/finance';
-import { fiPathChart, FIRE_UPDATED, fireNumber, growPath, IN, monthsToTarget, realReturn, SOURCES, yearsMonths } from '../../lib/helpers/fire';
+import { timelineVerdict, fiPathChart, FIRE_UPDATED, fireNumber, growPath, IN, monthsToTarget, realReturn, SOURCES, yearsMonths } from '../../lib/helpers/fire';
 
 const budget = (id: string, label: string, d: number, info: string): NumberInput => ({ id, label, type: 'number', prefix: '$', suffix: '/ yr', default: d, min: 0, step: 500, info });
 
@@ -59,6 +59,7 @@ export default defineCalculator({
     const years = Math.min(70, Math.ceil((m ?? 240) / 12) + 3);
     return {
       leanNumber: target,
+      ...timelineVerdict(m === null ? null : m / 12),
       spending,
       monthly: spending / 12,
       tier: spending < 40000 ? 'Lean FIRE' : spending <= 100000 ? 'Regular FIRE (above a typical lean budget)' : 'Fat FIRE',

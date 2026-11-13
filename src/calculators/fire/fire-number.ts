@@ -50,6 +50,11 @@ export default defineCalculator({
     ];
     return {
       fireNumber: target,
+      ...(have !== null && target > 0
+        ? have >= target
+          ? { tone: 'good' as const, badge: 'Fully funded' }
+          : { tone: have / target >= 0.5 ? ('ok' as const) : ('warn' as const), badge: `${Math.floor((have / target) * 100)}% funded` }
+        : {}),
       multiple: 100 / swr,
       gap,
       monthly: gap / 12,

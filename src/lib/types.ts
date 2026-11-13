@@ -232,6 +232,10 @@ export interface ComputeResult {
   steps?: string[];
   /** Optional one-line interpretation, e.g. "Healthy weight". */
   note?: string;
+  /** Colours the headline result card: how good is this result for the user? Omit for neutral results. */
+  tone?: 'good' | 'ok' | 'warn' | 'bad';
+  /** Short verdict shown as a pill on the result card and the share image, e.g. "On track". */
+  badge?: string;
   /** Optional error message shown instead of results (e.g. "Invalid JSON at line 3"). */
   error?: string;
 }

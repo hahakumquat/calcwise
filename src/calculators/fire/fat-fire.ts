@@ -1,7 +1,7 @@
 import { defineCalculator } from '../../lib/types';
 import { num } from '../../lib/math';
 import { CURRENCY, money } from '../../lib/helpers/finance';
-import { fiPathChart, FIRE_UPDATED, fireNumber, growPath, IN, monthsToTarget, realReturn, SOURCES, yearsMonths } from '../../lib/helpers/fire';
+import { timelineVerdict, fiPathChart, FIRE_UPDATED, fireNumber, growPath, IN, monthsToTarget, realReturn, SOURCES, yearsMonths } from '../../lib/helpers/fire';
 
 const RATES = [3, 3.25, 3.5, 3.75, 4];
 
@@ -49,6 +49,7 @@ export default defineCalculator({
     const years = Math.min(70, Math.ceil((m ?? 240) / 12) + 3);
     return {
       fatNumber: target,
+      ...timelineVerdict(m === null ? null : m / 12),
       gross,
       taxes: gross - spending,
       timeTo: m === null ? 'Not within 80 years' : m === 0 ? 'You are already there' : yearsMonths(m),

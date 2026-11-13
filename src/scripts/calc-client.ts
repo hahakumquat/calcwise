@@ -1,10 +1,15 @@
-import type { Calculator, ComputeResult, Values, ShowWhen } from '../lib/types';
+import type { Calculator, ChartSpec, ComputeResult, Output, Values, ShowWhen } from '../lib/types';
 import { toBase, fromBase, defaultUnitFor, type UnitGroup } from '../lib/units';
 import { formatOutput } from '../lib/format';
 import { parseList } from '../lib/defaults';
 import { renderChart, toChartList } from '../lib/chart';
+import { easeOutCubic, tweenable, tweenSpec } from '../lib/chart-tween';
 import { counterpart, getSystem, systemOf, type UnitSystem } from '../lib/unit-system';
 import { initTooltips } from './tooltips';
+
+const reducedMotion = () => window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false;
+/** Animate only when someone can see it: rAF is paused in background tabs. */
+const canAnimate = () => !document.hidden && !reducedMotion();
 
 const loaders = import.meta.glob<{ default: Calculator }>('../calculators/*/*.ts');
 
@@ -142,13 +147,53 @@ class CalcController {
       this.applySystem((e as CustomEvent<UnitSystem>).detail, new Set(), false);
       this.run();
     });
-    let w = this.chartsEl.clientWidth;
+    let w = this.results.clientWidth;
     new ResizeObserver(() => {
-      if (Math.abs(this.chartsEl.clientWidth - w) > 8) {
-        w = this.chartsEl.clientWidth;
-        this.renderCharts(this.last);
+      if (Math.abs(this.results.clientWidth - w) > 8) {
+        w = this.results.clientWidth;
+        this.renderCharts(this.last, false);
       }
-    }).observe(this.chartsEl);
+    }).observe(this.results);
+    this.initPeek();
+  }
+
+  /* ───── floating result pill (phones): visible while the result card is below the screen ───── */
+  private initPeek() {
+    const peek = this.root.querySelector<HTMLButtonElement>('[data-peek]');
+    const stage = this.stageEl;
+    if (!peek || !stage) return;
+    // Only while the card's top is below the fold (you're still filling in inputs), not after you've scrolled past it.
+    const check = () => {
+      const visible = stage.getBoundingClientRect().top < window.innerHeight - 96;
+      if (visible !== this.stageVisible) {
+        this.stageVisible = visible;
+        this.updatePeek();
+      }
+    };
+    window.addEventListener('scroll', check, { passive: true });
+    window.addEventListener('resize', check, { passive: true });
+    check();
+    peek.addEventListener('click', () => stage.scrollIntoView({ behavior: reducedMotion() ? 'auto' : 'smooth', block: 'center' }));
+  }
+  private stageVisible = true;
+  private updatePeek() {
+    const peek = this.root.querySelector<HTMLElement>('[data-peek]');
+    if (!peek) return;
+    const box = [...this.results.querySelectorAll<HTMLElement>('.stage .primary[data-output]')].find((b) => !b.hidden);
+    const value = box?.querySelector('[data-value]')?.textContent ?? '';
+    const unit = box?.querySelector<HTMLSelectElement>('select[data-out-unit]')?.selectedOptions[0]?.text ?? box?.querySelector('[data-unit]')?.textContent ?? '';
+    peek.querySelector('[data-peek-label]')!.textContent = box?.querySelector('.primary-label')?.textContent?.trim() ?? '';
+    peek.querySelector('[data-peek-value]')!.textContent = `${value}${unit && value !== '—' ? ` ${unit}` : ''}`;
+    const tone = this.stageEl?.dataset.tone;
+    peek.style.setProperty('--peek-tone', tone ? `var(--tone-${tone})` : 'var(--accent)');
+    peek.hidden = this.stageVisible || !box || !!this.last.error;
+  }
+
+  private get stageEl() {
+    return this.results.querySelector<HTMLElement>('[data-stage]');
+  }
+  private get heroEl() {
+    return this.results.querySelector<HTMLElement>('[data-hero-chart]');
   }
 
   private get chartsEl() {
@@ -249,18 +294,55 @@ class CalcController {
 
   /* ───── charts ───── */
   private chartMetas: unknown[] = [];
-  private renderCharts(r: ComputeResult) {
-    const box = this.chartsEl;
+  /** The specs currently on screen (possibly mid-animation), so a new animation starts from what you see. */
+  private shown: ChartSpec[] = [];
+  private chartAnim = 0;
+  private chartSafety = 0;
+  private renderCharts(r: ComputeResult, animate = true) {
     const list = r.error ? [] : toChartList(r.chart);
-    const width = box.clientWidth ? box.clientWidth - 32 : 600;
-    const rendered = list.map((c) => renderChart(c, { width, unitFor: this.unitFor }));
+    const from = this.shown;
+    cancelAnimationFrame(this.chartAnim);
+    clearTimeout(this.chartSafety);
+    const pairs = list.map((c, i) => (from[i] && tweenable(from[i], c) ? from[i] : null));
+    if (!animate || !canAnimate() || !pairs.some(Boolean)) {
+      this.paintCharts(list);
+      return;
+    }
+    const t0 = performance.now();
+    const D = 450;
+    const step = (now: number) => {
+      const t = Math.min(1, (now - t0) / D);
+      const e = easeOutCubic(t);
+      this.paintCharts(t >= 1 ? list : list.map((c, i) => (pairs[i] ? tweenSpec(pairs[i]!, c, e) : c)));
+      if (t < 1) this.chartAnim = requestAnimationFrame(step);
+      else clearTimeout(this.chartSafety);
+    };
+    this.chartAnim = requestAnimationFrame(step);
+    // If the browser throttles animation frames, still land on the final chart.
+    this.chartSafety = window.setTimeout(() => {
+      cancelAnimationFrame(this.chartAnim);
+      this.paintCharts(list);
+    }, D + 250);
+  }
+  private paintCharts(list: ChartSpec[]) {
+    this.shown = list;
+    const hero = this.heroEl;
+    const rest = this.chartsEl;
+    const heroW = hero ? hero.clientWidth || (this.stageEl?.clientWidth ?? 640) - 36 : 0;
+    const restW = (rest.clientWidth || this.results.clientWidth || 632) - 32;
+    const rendered = list.map((c, i) => renderChart(c, { width: hero && i === 0 ? heroW : restW, unitFor: this.unitFor }));
     this.chartMetas = rendered.map((x) => x.meta);
-    const html = rendered.map((x) => x.html).join('');
-    box.hidden = !html;
-    box.innerHTML = html;
+    const parts = rendered.map((x) => x.html);
+    if (hero) {
+      hero.hidden = !parts[0];
+      hero.innerHTML = parts[0] ?? '';
+    }
+    const restHtml = (hero ? parts.slice(1) : parts).join('');
+    rest.hidden = !restHtml;
+    rest.innerHTML = restHtml;
   }
   private bindChartHover() {
-    const box = this.chartsEl;
+    const box = this.results;
     const move = (e: PointerEvent) => {
       const hit = (e.target as Element).closest?.('.hit');
       const fig = (e.target as Element).closest?.('figure.chart');
@@ -384,6 +466,55 @@ class CalcController {
     this.scheduleUrl();
   }
 
+  /* ───── headline numbers count up/down to their new value ───── */
+  private numShown = new Map<string, number>();
+  private numAnim = new Map<string, number>();
+  private numSafety = new Map<string, number>();
+  private countTo(o: Output, el: HTMLElement, to: number, unit?: string) {
+    const from = this.numShown.get(o.id);
+    cancelAnimationFrame(this.numAnim.get(o.id) ?? 0);
+    clearTimeout(this.numSafety.get(o.id));
+    const paint = (v: number) => {
+      el.textContent = formatOutput(o, v, unit).value;
+      this.numShown.set(o.id, v);
+    };
+    const finalText = formatOutput(o, to, unit).value;
+    if (from === undefined || !Number.isFinite(from) || !Number.isFinite(to) || from === to || !canAnimate() || Math.sign(from) !== Math.sign(to)) {
+      if (el.textContent !== finalText) {
+        paint(to);
+        el.classList.remove('flash');
+        void el.offsetWidth;
+        el.classList.add('flash');
+      }
+      this.numShown.set(o.id, to);
+      return;
+    }
+    const t0 = performance.now();
+    const D = 500;
+    const step = (now: number) => {
+      const t = Math.min(1, (now - t0) / D);
+      if (t >= 1) {
+        el.textContent = finalText;
+        this.numShown.set(o.id, to);
+        this.updatePeek();
+        return;
+      }
+      paint(from + (to - from) * easeOutCubic(t));
+      this.updatePeek();
+      this.numAnim.set(o.id, requestAnimationFrame(step));
+    };
+    this.numAnim.set(o.id, requestAnimationFrame(step));
+    this.numSafety.set(
+      o.id,
+      window.setTimeout(() => {
+        cancelAnimationFrame(this.numAnim.get(o.id) ?? 0);
+        el.textContent = finalText;
+        this.numShown.set(o.id, to);
+        this.updatePeek();
+      }, D + 250),
+    );
+  }
+
   private render(r: ComputeResult) {
     const err = this.results.querySelector<HTMLElement>('[data-error]')!;
     err.hidden = !r.error;
@@ -400,7 +531,8 @@ class CalcController {
       }
       const unitSel = box.querySelector<HTMLSelectElement>(`select[data-out-unit="${o.id}"]`);
       const { value, unit } = formatOutput(o, raw, unitSel?.value);
-      if (valueEl.textContent !== value) {
+      if (o.primary && typeof raw === 'number') this.countTo(o, valueEl, raw, unitSel?.value);
+      else if (valueEl.textContent !== value) {
         valueEl.textContent = value;
         if (o.primary) {
           valueEl.classList.remove('flash');
@@ -408,6 +540,7 @@ class CalcController {
           valueEl.classList.add('flash');
         }
       }
+      if (o.primary && typeof raw !== 'number') this.numShown.delete(o.id);
       const unitEl = box.querySelector<HTMLElement>('[data-unit]');
       if (unitEl) unitEl.textContent = value === '—' && !o.unit ? '' : unit;
     }
@@ -416,7 +549,16 @@ class CalcController {
       n.hidden = !r.note;
       n.textContent = r.note ?? '';
     });
+    const stage = this.stageEl;
+    if (stage) {
+      if (r.tone && !r.error) stage.dataset.tone = r.tone;
+      else delete stage.dataset.tone;
+      const badge = stage.querySelector<HTMLElement>('[data-badge]')!;
+      badge.hidden = !r.badge || !!r.error;
+      badge.textContent = r.badge ?? '';
+    }
     this.renderCharts(r);
+    this.updatePeek();
     const steps = this.results.querySelector<HTMLDetailsElement>('[data-steps]')!;
     steps.hidden = !r.steps?.length;
     const ol = steps.querySelector('ol')!;
@@ -483,6 +625,23 @@ class CalcController {
       } else if (btn.dataset.action === 'share') {
         this.writeUrl();
         await this.copy(location.href, btn, 'Link copied');
+      } else if (btn.dataset.action === 'share-image') {
+        this.writeUrl();
+        const label = btn.querySelector('span');
+        const old = label?.textContent;
+        btn.disabled = true;
+        if (label) label.textContent = 'Making image…';
+        try {
+          const { shareResultImage } = await import('./share-card');
+          const how = await shareResultImage({ root: this.root, calc: this.calc, result: this.last, unitFor: this.unitFor });
+          if (label) label.textContent = how === 'downloaded' ? 'Image saved' : how === 'shared' ? 'Shared' : old ?? 'Share';
+        } catch (err) {
+          console.error(err);
+          if (label) label.textContent = 'Could not share';
+        } finally {
+          btn.disabled = false;
+          setTimeout(() => label && (label.textContent = old ?? 'Share'), 1800);
+        }
       } else if (btn.dataset.action === 'reset') {
         this.reset();
       } else if (btn.dataset.action === 'regenerate') {

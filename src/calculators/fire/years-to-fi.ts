@@ -1,7 +1,7 @@
 import { defineCalculator } from '../../lib/types';
 import { num } from '../../lib/math';
 import { money, moneyDonut } from '../../lib/helpers/finance';
-import { FIRE_UPDATED, fireNumber, IN, monthsToTarget, realReturn, SOURCES, yearsMonths } from '../../lib/helpers/fire';
+import { timelineVerdict, FIRE_UPDATED, fireNumber, IN, monthsToTarget, realReturn, SOURCES, yearsMonths } from '../../lib/helpers/fire';
 
 export default defineCalculator({
   slug: 'years-to-fi',
@@ -51,6 +51,7 @@ export default defineCalculator({
     });
     return {
       years: y,
+      ...timelineVerdict(y),
       readable: y === null ? 'More than 100 years' : y === 0 ? 'You are already there' : yearsMonths(y * 12),
       saved,
       spending: income - saved,

@@ -60,6 +60,8 @@ export default defineCalculator({
     const forever = real > 0 ? (B0 * real) / (1 + real) : 0;
     const x = path.map((_, i) => i);
     return {
+      tone: years === null ? 'good' : years >= 30 ? 'ok' : years >= 20 ? 'warn' : 'bad',
+      badge: years === null ? 'Lasts indefinitely' : years >= 30 ? 'Lasts 30+ years' : years >= 20 ? 'Lasts 20–30 years' : 'Runs out within 20 years',
       lasts: years === null ? 'Indefinitely' : yearsMonths(years * 12),
       years: years ?? null,
       rate: B0 > 0 ? W0 / B0 : null,

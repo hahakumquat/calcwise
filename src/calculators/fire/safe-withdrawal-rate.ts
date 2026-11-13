@@ -54,6 +54,8 @@ export default defineCalculator({
     const yrs = Array.from({ length: years + 1 }, (_, i) => i);
     return {
       success,
+      tone: success >= 0.95 ? 'good' : success >= 0.85 ? 'ok' : success >= 0.7 ? 'warn' : 'bad',
+      badge: success >= 0.95 ? 'Very likely to last' : success >= 0.85 ? 'Likely to last' : success >= 0.7 ? 'Risky' : 'Likely to run out',
       rate: rate / 100,
       safe95: safe / 100,
       safeAmount: (start * safe) / 100,

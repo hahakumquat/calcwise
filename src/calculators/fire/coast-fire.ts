@@ -67,6 +67,8 @@ export default defineCalculator({
     const reached = have >= coast;
     return {
       coastNumber: coast,
+      tone: reached ? 'good' : have / coast >= 0.75 ? 'ok' : 'warn',
+      badge: reached ? 'Coast FIRE reached' : `${Math.round((have / coast) * 100)}% of the way to Coast FIRE`,
       status: reached ? 'You have reached Coast FIRE' : `${Math.round((have / coast) * 100)}% of the way there`,
       gap: Math.max(0, coast - have),
       coastAge,

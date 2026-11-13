@@ -49,7 +49,7 @@ for (const file of files) {
   for (const io of [...c.inputs, ...c.outputs]) {
     if (ids.has(io.id)) fail(file, `duplicate input/output id ${io.id}`);
     ids.add(io.id);
-    if (['error', 'note', 'steps', 'chart'].includes(io.id)) fail(file, `"${io.id}" is reserved and can't be an input/output id`);
+    if (['error', 'note', 'steps', 'chart', 'tone', 'badge'].includes(io.id)) fail(file, `"${io.id}" is reserved and can't be an input/output id`);
     if (!io.info || io.info.trim().length < 12) fail(file, `${io.id}: add an \`info\` tooltip (one or two plain sentences)`);
     if (io.showWhen) {
       const ctl = controls.get(io.showWhen.input);

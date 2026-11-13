@@ -1,7 +1,7 @@
 import { defineCalculator } from '../../lib/types';
 import { num } from '../../lib/math';
 import { money, moneyDonut } from '../../lib/helpers/finance';
-import { drawPath, fiPathChart, FIRE_UPDATED, fireNumber, fireStep, growPath, IN, monthsToTarget, realReturn, realStep, SOURCES, yearsMonths } from '../../lib/helpers/fire';
+import { fiAgeVerdict, drawPath, fiPathChart, FIRE_UPDATED, fireNumber, fireStep, growPath, IN, monthsToTarget, realReturn, realStep, SOURCES, yearsMonths } from '../../lib/helpers/fire';
 
 export default defineCalculator({
   slug: 'fire-calculator',
@@ -68,6 +68,7 @@ export default defineCalculator({
     return {
       ...base,
       fiAge: age + years,
+      ...fiAgeVerdict(age + years, years === 0),
       timeToFi: years === 0 ? 'You are already there' : yearsMonths(months),
       nominalFi: target * (1 + I / 100) ** years,
       chart: [

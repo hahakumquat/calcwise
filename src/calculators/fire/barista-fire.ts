@@ -1,7 +1,7 @@
 import { defineCalculator } from '../../lib/types';
 import { num } from '../../lib/math';
 import { CURRENCY, money } from '../../lib/helpers/finance';
-import { fiPathChart, FIRE_UPDATED, fireNumber, growPath, IN, monthsToTarget, realReturn, SOURCES, yearsMonths } from '../../lib/helpers/fire';
+import { timelineVerdict, fiPathChart, FIRE_UPDATED, fireNumber, growPath, IN, monthsToTarget, realReturn, SOURCES, yearsMonths } from '../../lib/helpers/fire';
 
 export default defineCalculator({
   slug: 'barista-fire',
@@ -55,6 +55,7 @@ export default defineCalculator({
     const [fNow, jNow] = coverage(fromPortfolioNow);
     return {
       baristaNumber: barista,
+      ...timelineVerdict(mB === null ? null : mB / 12),
       timeTo: mB === null ? 'Not within 80 years' : mB === 0 ? 'You are already there' : yearsMonths(mB),
       baristaAge: mB === null ? null : age + mB / 12,
       fullNumber: full,
