@@ -5,7 +5,7 @@ import Icon from '../components/Icon.astro';
 import { CALCULATORS, CATEGORIES_WITH_CALCS, calcUrl } from '../lib/registry';
 import { CATEGORY_BY_ID } from '../lib/categories';
 import { SITE } from '../lib/site';
-import { path } from '../lib/paths';
+import { absUrl, path } from '../lib/paths';
 
 interface Props {
   title: string;
@@ -34,7 +34,10 @@ const searchIndex = CALCULATORS.map((c) => ({
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
-    <link rel="icon" href={path('/favicon.svg')} type="image/svg+xml" />
+    <link rel="icon" href={path('/favicon-32.png')} type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href={path('/apple-touch-icon.png')} />
+    <meta property="og:image" content={absUrl('/cappy-512.png', Astro.site)} />
+    <meta property="og:image:alt" content={`${SITE.name} mascot: a capybara in round glasses and a beanie, holding a stylus`} />
     <meta property="og:type" content="website" />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
@@ -61,7 +64,7 @@ const searchIndex = CALCULATORS.map((c) => ({
       <div class="container bar">
         <a href={path('/')} class="logo" aria-label={`${SITE.name} home`}>
           <span class="logo-mark" aria-hidden="true">
-            <img src={path('/cappy-head.svg')} width="32" height="34" alt="" />
+            <img src={path('/cappy-64.png')} width="34" height="34" alt="" />
           </span>
           <span>{SITE.name}</span>
         </a>
@@ -180,7 +183,7 @@ const searchIndex = CALCULATORS.map((c) => ({
   }
   .logo-mark img {
     display: block;
-    width: 32px;
+    width: 34px;
     height: 34px;
   }
   .logo.small {

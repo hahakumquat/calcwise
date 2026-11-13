@@ -172,9 +172,9 @@ export async function makeResultImage(opts: Opts): Promise<Blob> {
   let y = 120;
   try {
     const head = new Image();
-    head.src = path('/cappy-head.svg');
+    head.src = path('/cappy-256.png');
     await head.decode();
-    ctx.drawImage(head, PAD - 4, y - 58, 66, 70);
+    ctx.drawImage(head, PAD - 4, y - 56, 68, 68);
   } catch {
     /* mascot is decorative */
   }
