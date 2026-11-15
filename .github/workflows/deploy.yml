@@ -36,6 +36,10 @@ jobs:
           PUBLIC_ADSENSE_CLIENT: ${{ vars.PUBLIC_ADSENSE_CLIENT }}
           PUBLIC_AD_SLOT_BELOW_CALC: ${{ vars.PUBLIC_AD_SLOT_BELOW_CALC }}
           PUBLIC_AD_SLOT_SIDEBAR: ${{ vars.PUBLIC_AD_SLOT_SIDEBAR }}
+      - name: Smoke check
+        run: npm run smoke
+        env:
+          PUBLIC_ADSENSE_CLIENT: ${{ vars.PUBLIC_ADSENSE_CLIENT }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
