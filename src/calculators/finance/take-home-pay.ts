@@ -114,10 +114,13 @@ export default defineCalculator({
     faq: [
       { q: 'Why is my real paycheck different?', a: 'Employers withhold using IRS tables and your W-4 choices, which spread tax evenly across paychecks and may not match your final liability exactly. Benefits deductions, local taxes, and state-specific rules also change the number.' },
       { q: 'What is my marginal tax rate?', a: 'It is the federal rate on your next dollar of taxable income. Only income inside each bracket is taxed at that bracket\'s rate, so a raise never lowers your take-home pay.' },
-      { q: 'Does contributing to a 401(k) reduce my paycheck by the full amount?', a: 'No. Because traditional contributions are made before income tax, each $100 contributed reduces take-home pay by only about $100 minus your combined federal and state marginal rate — around $70 for many people.' },
+      { q: 'Does contributing to a 401(k) reduce my paycheck by the full amount?', a: 'No. Traditional contributions are made before income tax, so the drop in take-home pay is smaller than the amount contributed. With the default inputs ($85,000, single, biweekly, 5% state tax), raising the 401(k) from 0% to 5% moves $163.46 into the plan each paycheck, but take-home pay falls only from $2,476.06 to $2,356.73, a drop of $119.33 (about 73%). The difference is federal and state tax you do not pay on that money.' },
+      { q: 'How much of an $85,000 salary do I actually keep?', a: 'With a 5% 401(k), single filing, 5% flat state tax and no other deductions, the estimate is $61,275 a year, or $2,356.73 every two weeks. Federal tax is $8,935, Social Security $5,270, Medicare $1,232.50 and state tax $4,037.50. Change the state rate and filing status to see your own numbers.' },
+      { q: 'Why do Social Security and Medicare ignore my 401(k)?', a: 'Traditional 401(k) deferrals are still wages for FICA, so the calculator charges Social Security and Medicare on your salary minus only the other pre-tax deductions you enter (premiums, HSA, FSA). Those cafeteria-plan items do reduce FICA wages. Social Security stops once wages reach the annual wage base, so higher earners see a bigger share of each paycheck come back late in the year.' },
+      { q: 'Does a higher salary always mean a higher total tax rate?', a: 'Generally yes, because brackets are progressive. At a $50,000 salary with no 401(k) and 5% state tax, the calculator gives a total tax rate of 20.29% and take-home of $39,855 a year; at $120,000 it gives 27.29% and $87,250. A raise never lowers take-home pay, because only the extra income is taxed at the higher rate.' },
     ],
   },
-  related: ['income-tax', 'salary-to-hourly', 'retirement', 'rsu-tax', 'home-affordability'],
+  related: ['income-tax', 'salary-to-hourly', 'retirement', 'rsu-tax', 'home-affordability', 'fire-number'],
   examples: [
     {
       values: { salary: 85000, frequency: 'biweekly', status: 'single', k401: 5, otherPretax: null, stateRate: 5, localRate: null },
