@@ -22,7 +22,7 @@ Priority = demand x fit x (social + adsense) / (6 - effort). Scores: demand, fit
 | 5 | Social-ready "verdict" copy pass on FIRE results (badges that make funny screenshots) | improvement | n/a | social strategy (carried over) | ux-designer | open |
 | 6 | Self-employment tax calculator (SE tax 15.3% x 92.35%, half deductible, QBI optional) for tax season prep | new calculator | 48 | d4 f3 s2 a5 e3. Seasonal Jan-Apr; no evidence reached. | ux-designer | shipped 2026-11-15 (/finance/self-employment-tax/) |
 | 7 | Capital gains tax calculator (short vs long term, 0/15/20%, NIIT 3.8%) incl. RSU sale at vest | new calculator | 48 | d4 f4 s2 a5 e3. Pairs with existing `rsu-tax`. No evidence reached. | ux-designer | shipped 2026-11-15 (/finance/capital-gains-tax/; 2026 thresholds from Rev. Proc. 2025-32, single sale only) |
-| 8 | Roth vs traditional 401(k)/IRA calculator | new calculator | 45 | d3 f5 s2 a5 e3. Evergreen FIRE topic; 2026 Roth catch-up rule for high earners adds a hook. | ux-designer | open |
+| 8 | Roth vs traditional 401(k)/IRA calculator | new calculator | 45 | d3 f5 s2 a5 e3. Evergreen FIRE topic; 2026 Roth catch-up rule for high earners adds a hook. | ux-designer | in progress 2026-11-16 00:00 UTC |
 | 9 | W-4 / refund estimator ("will I owe in April?") | new calculator | 40 | d4 f3 s3 a5 e2. Peaks Jan-Apr; larger effort (withholding tables). | ux-designer | open |
 | 10 | Rent affordability / 50-30-20 budget calculator (Gen-Z money first) | new calculator | 36 | d4 f4 s4 a3 e4. Shareable ("rent is 61% of my take-home, i'm cooked"). No evidence reached. | ux-designer | open |
 | 11 | Wire real ad slots once the owner supplies AdSense unit ids (until then Auto ads) | ads | n/a | owner action | seo-ads | blocked on owner |
