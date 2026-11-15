@@ -6,3 +6,12 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 
 - Created the role agents (.claude/agents/), playbook, backlog and smoke checks. Deploy workflow now runs `npm run smoke`.
 - Owner decisions: fully automatic shipping (with tests/build/smoke gates and auto-revert), daily cloud run, platforms: Instagram (Reels + posts), TikTok, X, Reddit. Social posting stays manual.
+
+## 2026-11-15 — daily run
+- Shipped: 401(k) max-out calculator, https://cappycalc.com/finance/401k-max-out/ (deploy run #19 green; tests 145/0 problems, check, build 162 pages, smoke 0 problems).
+- SEO: take-home-pay page got worked-example FAQs (figures from compute()) + link to fire-number.
+- Research: full backlog refresh (next: bonus tax, HSA/FSA before open enrollment ends, tax-year 2027 refresh when IRS publishes).
+- Health: deploys #13-#19 green. Live-site fetches blocked by sandbox proxy (403) — live pages NOT verified.
+- Marketing: brief on `marketing` branch, 2026-11-15/brief.md. No media (no ffmpeg/Playwright). Nothing posted.
+- Blockers: cappycalc.com unreachable from this sandbox; share image not checked; on mobile the stage card sits below inputs (default layout).
+- Owner: eyeball the live 401k page (expects $1,583.33 / 48.4%); check r/personalfinance self-promo rules before posting. Note: smoke needs PUBLIC_ADSENSE_CLIENT=ca-pub-7888535375567084 (not "x" as the playbook says).

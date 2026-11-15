@@ -14,7 +14,7 @@ Priority = demand x fit x (social + adsense) / (6 - effort). Scores: demand, fit
 
 | Rank | Item | Type | Score | Evidence | Owner | Status |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | **401(k) max-out planner** (`finance/401k-max-out`): "what % or $ per paycheck do I need to hit the limit by Dec 31?" See spec A below. d3 f5 s2 a5 e5 | new calculator | 105 | Seasonal: year-end deadline ~6 weeks out; evergreen again every January. Existing `take-home-pay` already holds `LIMIT_401K`, so no new tax data needed. No Reddit evidence reached (search returned none). | ux-designer then frontend-engineer | open, buildable in 1 day |
+| 1 | **401(k) max-out planner** (`finance/401k-max-out`): "what % or $ per paycheck do I need to hit the limit by Dec 31?" See spec A below. d3 f5 s2 a5 e5 | new calculator | 105 | Seasonal: year-end deadline ~6 weeks out; evergreen again every January. Existing `take-home-pay` already holds `LIMIT_401K`, so no new tax data needed. No Reddit evidence reached (search returned none). | ux-designer then frontend-engineer | shipped 2026-11-15 |
 | 2 | **Bonus tax calculator** (supplemental 22% flat vs aggregate method, take-home of a bonus): reuse `federalIncomeTax` / `ficaTax`. d4 f4 s4 a5 e4 | new calculator | 72 | Seasonal: year-end bonus and Q1 bonus season. Funny screenshot ("my $10k bonus is $6.9k"). No linked evidence reached. | ux-designer | open |
 | 3 | **HSA and FSA tax savings calculator** (`finance/hsa-fsa-savings`): spec B below. d4 f4 s2 a5 e4 | new calculator | 56 | Open enrollment now. Search for HSA/FSA calculators returned many competitors (e.g. https://www.optum.com/en/financial-services/planning-tools/fsa-calculator.html, https://ehm-tech.pages.dev/paycheck-calculator/tools/hsa-contribution-calculator), so demand exists. 2027 limits: https://www.withflex.com/blog/irs-raises-2027-hsa-contribution-limits | ux-designer then frontend-engineer | open, buildable in 1 day (ship before Dec if possible) |
 | 4 | Tax-year 2027 refresh: brackets, standard deduction, SS wage base, 401(k)/IRA limits in `helpers/finance.ts`, and copy that says 2026 | improvement | 45 | d3 f5 s1 a5 e4. Blocked until the IRS publishes 2027 401(k) figures (projected $25,500 only: https://401kspecialistmag.com/2027-401k-contribution-limits-all-but-official-25500-expected/). Retest examples with hand-checked numbers. | backend-engineer | blocked, re-check weekly |
@@ -59,5 +59,7 @@ Priority = demand x fit x (social + adsense) / (6 - effort). Scores: demand, fit
 
 ## Done
 
+- 2026-11-15 — 401(k) max-out calculator (/finance/401k-max-out/). Follow-up: add it to `related` on take-home-pay and retirement; v2 = employer match + tax saved, 60-63 catch-up once verified.
+- 2026-11-15 — Take-home pay page: worked-example FAQs.
 - 2026-11-13 — Link-preview image, category guides and SEO titles/descriptions site-wide.
 - 2026-11-15 — Full research pass completed (this refresh).
