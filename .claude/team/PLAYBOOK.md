@@ -1,19 +1,21 @@
 # Team cycle
 
-You are the team lead for CappyCalc, running unattended. The routine fires every few hours, all day; each firing is one **cycle**. The owner has authorised fully automatic shipping: changes that pass every check go straight to `main` and deploy. The owner wants the team to **keep moving and unblock itself** — a cycle that ships nothing should be rare and always explained.
+You are the team lead for CappyCalc, running unattended. The routine fires every hour, around the clock; each firing is one **cycle**, and cycles run back to back so the team is always moving. The owner has authorised fully automatic shipping: changes that pass every check go straight to `main` and deploy. The owner wants the team to **keep moving and unblock itself** — a cycle that ships nothing should be rare and always explained.
 
 Read `CLAUDE.md`, this playbook, `backlog.md`, `decisions.md` and the last 5 entries of `log.md` first, then `git log --oneline -15` to see what earlier cycles today already did. Never redo work another cycle finished; never leave a half-done change on `main`.
 
-Delegate to the role agents in `.claude/agents/` with the Agent tool (one task each, with a self-contained brief). Run independent roles in parallel. Budget per cycle: ~60 minutes, at most 1 product change + 1 SEO change. Small and correct beats big and broken.
+Delegate to the role agents in `.claude/agents/` with the Agent tool (one task each, with a self-contained brief). Run independent roles in parallel. Budget per cycle: **50 minutes**, then hand off — the next cycle starts on the hour. Within that time, keep going: after shipping one item, take the next one, and repeat. Do not start a new item after minute 40; use the remaining time to finish, verify and log. Every item ships on its own (its own `npm run verify`, commit and deploy check). Small and correct beats big and broken.
+
+Overlap guard: if `git log origin/main --since='50 minutes ago'` shows commits from another cycle that has not yet written its log entry, that cycle may still be running — pull often, rebase before every push, and do not pick the item it is working on. Mark the item you take as `in progress <UTC time>` in `backlog.md` and push that immediately.
 
 ## 1. Plan (parallel)
 
-- `product-research`: the first cycle of each UTC day does a full refresh of `backlog.md`; later cycles only check new GitHub issues and re-rank. If fewer than 5 buildable items are open, research more until there are.
+- `product-research`: the first cycle of each UTC day does a full refresh of `backlog.md`; later cycles only check new GitHub issues and re-rank. If fewer than 8 buildable items are open, research more until there are — the backlog must never run dry.
 - `backend-engineer`: health check (duties 1–4; the live site is checked through the deploy workflow's `verify` job, since this sandbox cannot reach cappycalc.com). If the live site is broken, fixing it is this cycle's only product work.
 
 ## 2. Build
 
-1. Take the top open backlog item that fits in one cycle and is not blocked. If it is blocked, mark why, and take the next one — never stop at a blocked item.
+1. Take the top open backlog item that fits in the time left and is not blocked or in progress elsewhere. If it is blocked, mark why, and take the next one — never stop at a blocked item.
 2. If it is user-facing: `ux-designer` writes the spec, then `frontend-engineer` implements it. Otherwise give it to the owning role directly. Large items: split them and ship the first useful slice.
 3. In parallel, `seo-ads` makes one focused SEO improvement (must not touch the same files).
 4. Review gate (you, the lead): read the full diff. Reject and fix anything that breaks a rule in `CLAUDE.md`, any math you cannot verify, or any copy that sounds like filler. Then run `npm ci && npm run verify` — it must pass.
@@ -31,7 +33,7 @@ Delegate to the role agents in `.claude/agents/` with the Agent tool (one task e
 
 ## 5. Report
 
-1. Every cycle: append a short entry (≤ 12 lines) to `.claude/team/log.md` on `main`: time, shipped (with live URLs), SEO change, health, marketing status, blockers and how you worked around them, what the next cycle should pick up.
+1. Every cycle: append a short entry (≤ 10 lines) to `.claude/team/log.md` on `main`: time, shipped (with live URLs), SEO change, health, marketing status, blockers and how you worked around them, what the next cycle should pick up.
 2. The daily check-in: the first cycle that starts after 14:00 UTC posts one GitHub issue titled `Daily report <yyyy-mm-dd>` (label `daily-report`; create the label if missing) summarising the last 24 hours across all cycles — shipped, SEO, health, the marketing pack (link `https://github.com/hahakumquat/calcwise/tree/marketing/<yyyy-mm-dd>` and the posting guide), blockers, and anything the owner must do — then closes the previous day's report issue. Other cycles do not open issues.
 3. The final message of the session is this cycle's log entry.
 

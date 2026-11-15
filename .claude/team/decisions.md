@@ -5,3 +5,4 @@
 - 2026-11-15 — Marketing media lives on the `marketing` branch, never on `main`. Nothing is posted automatically. (Owner)
 - 2026-11-15 — The team runs in cycles every few hours, not once a day, and unblocks itself instead of stopping; one daily report issue. (Owner: "dont stop running. always try to unblock yourself")
 - 2026-11-15 — Media renders in GitHub Actions on the `marketing` branch (`scripts/media/lib.mjs`), because the cloud sandbox has no browser/ffmpeg and cannot reach the live site.
+- 2026-11-15 — Run constantly: the routine fires hourly (the minimum) and each cycle keeps shipping items for up to 50 minutes. (Owner: "run constantly and keep moving forward")
