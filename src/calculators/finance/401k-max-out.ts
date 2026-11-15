@@ -212,7 +212,7 @@ export default defineCalculator({
       { label: 'KPMG summary of IRS Notice 2025-67 (increased retirement plan contribution limits for 2026)', url: 'https://kpmg.com/us/en/taxnewsflash/news/2025/11/notice-2025-67-increased-retirement-plan-contribution-limits-2026.html' },
     ],
   },
-  related: ['take-home-pay', 'retirement', 'income-tax', 'savings-goal', 'fire-number'],
+  related: ['roth-vs-traditional', 'take-home-pay', 'retirement', 'income-tax', 'savings-goal', 'fire-number'],
   examples: [
     // limit 24500, room 24500-15000 = 9500, 9500/6 = 1583.3333; gross/paycheck 85000/26 = 3269.2308; 1583.3333/3269.2308 = 0.484314
     {

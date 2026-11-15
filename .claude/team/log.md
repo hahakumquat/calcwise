@@ -41,3 +41,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: 2026 LTCG thresholds typed from memory of Rev. Proc. 2025-32 — owner/next cycle should spot-check against the IRS page; no 375px browser check; single sale only.
 - Marketing: not run (pack exists). Daily report already posted today.
 - Next: Roth vs traditional, W-4/refund estimator, rent affordability; confirm the capital-gains deploy.
+
+## 2026-11-16 00:00 UTC — cycle
+- Shipped: Roth vs traditional calculator https://cappycalc.com/finance/roth-vs-traditional/ (verify: 167 pages, 0 problems; examples hand-checked, default case traditional wins by $20,215). Linked from 401k-max-out.
+- Health: deploy #32 (capital gains) green. Live site not reachable from sandbox; confirm the new deploy next cycle.
+- Caveats: no 375px browser check; no IRA dollar limits stated (no sourced constant).
+- Marketing: not run (pack exists for 2026-11-15; the next UTC-day cycle should write 2026-11-16 brief). Daily report for 11-15 already posted.
+- Next: W-4/refund estimator, rent affordability, debt payoff; spot-check 2026 LTCG thresholds.
