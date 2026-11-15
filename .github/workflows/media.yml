@@ -1,0 +1,71 @@
+name: Render marketing media
+
+# Renders every <yyyy-mm-dd>/render.mjs whose content changed since it was last rendered,
+# using scripts/media/lib.mjs from main (Playwright + ffmpeg), then commits the files back.
+on:
+  push:
+    branches: [marketing]
+    paths: ['**/render.mjs']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: media
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: mk
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install Playwright and ffmpeg
+        working-directory: main
+        run: |
+          npm i --no-save --no-audit --no-fund playwright@1.49.1
+          npx playwright install --with-deps chromium
+          command -v ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+      - name: Render changed packs
+        working-directory: mk
+        env:
+          MEDIA_LIB: ${{ github.workspace }}/main/scripts/media/lib.mjs
+        run: |
+          status=0
+          for script in */render.mjs; do
+            [ -f "$script" ] || continue
+            dir=$(dirname "$script")
+            hash=$(sha256sum "$script" | cut -d' ' -f1)
+            if [ -f "$dir/.rendered" ] && [ "$(cat "$dir/.rendered")" = "$hash" ]; then continue; fi
+            echo "::group::Render $dir"
+            if node "$script" > "$dir/render.log" 2>&1; then
+              echo "$hash" > "$dir/.rendered"
+              rm -f "$dir/render-error.log"
+              echo "rendered $dir"
+            else
+              mv "$dir/render.log" "$dir/render-error.log"
+              cat "$dir/render-error.log"
+              echo "::error::Render failed for $dir (see $dir/render-error.log)"
+              status=1
+            fi
+            echo "::endgroup::"
+          done
+          echo "status=$status" >> "$GITHUB_ENV"
+      - name: Commit rendered files
+        working-directory: mk
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Render marketing media" && git push
+          exit ${status:-0}
