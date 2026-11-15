@@ -24,6 +24,7 @@ Tagline: "The answer, beautifully fast." Brand voice on the site: clear, calm, p
 - `src/layouts/Base.astro` — `<head>` (SEO, og:image, AdSense), header, footer.
 - `src/components/CalculatorWidget.astro` + `src/scripts/calc-client.ts` — the live calculator UI, result "stage" card, charts, share image (`src/scripts/share-card.ts`).
 - `public/` — favicon, `og.png`, `ads.txt`.
+- `scripts/media/lib.mjs` — marketing media renderer (Playwright + ffmpeg), run by GitHub Actions on the `marketing` branch.
 
 ## Rules for every change
 
@@ -38,4 +39,4 @@ Tagline: "The answer, beautifully fast." Brand voice on the site: clear, calm, p
 
 ## The team
 
-Role agents live in `.claude/agents/`. The daily process is in `.claude/team/PLAYBOOK.md`; shared state is in `.claude/team/` (backlog, decisions, log).
+Role agents live in `.claude/agents/`. The cycle process (runs every few hours) is in `.claude/team/PLAYBOOK.md`; shared state is in `.claude/team/` (backlog, decisions, log).
