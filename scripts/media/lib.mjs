@@ -1,11 +1,13 @@
 /**
- * Media helpers for marketing: capture the real calculators and turn them into
- * vertical videos (Reels/TikTok), carousel slides and post images.
+ * Media helpers for marketing: capture the real calculators and turn them into PNG assets —
+ * 9:16 video frames (`frames`), carousel slides (`slide`, `cover`), X images and Story cards
+ * (`shareCard`). The owner edits videos themselves, so the team does NOT make MP4s;
+ * `reel()` is kept only for an explicit owner request.
  *
- * Runs in GitHub Actions (.github/workflows/media.yml), which installs Playwright's
- * Chromium and ffmpeg. A day's `render.mjs` on the `marketing` branch imports this file:
+ * Runs in GitHub Actions (.github/workflows/media.yml on the `marketing` branch), which installs
+ * Playwright's Chromium. A day's `render.mjs` imports this file:
  *
- *   import { reel, slide, cover, shareCard, done } from '../main/scripts/media/lib.mjs';
+ *   const { frames, slide, cover, shareCard, done } = await import(process.env.MEDIA_LIB);
  *
  * Every capture loads https://cappycalc.com (or MEDIA_BASE) with inputs set via the URL,
  * exactly like the site's "Copy link" button, so every number shown is real.
@@ -131,6 +133,32 @@ function frame({ W, H, caption, sub, shot, dark, safe = [72, 72], cardW = 0.72, 
 
 /** One vertical (1080×1920) scene. Top 150px and bottom 330px stay clear of Reels/TikTok UI. */
 const sceneFrame = ({ caption, sub, shot, dark }) => frame({ W: 1080, H: 1920, caption, sub, shot, dark, safe: [150, 330] });
+
+/**
+ * PNG assets for a video the owner edits themselves (no MP4 is made). For each scene, in order:
+ *   `<prefix>-01.png`      1080×1920 frame with caption (same layout a reel scene would use)
+ *   `<prefix>-01-raw.png`  the bare phone capture of the calculator (1170 px wide, no caption)
+ * Scenes are the same objects `reel()` takes: { path, set, focus, caption, sub, dark, height }.
+ * @param {string} dir     output folder, e.g. new URL('.', import.meta.url).pathname
+ * @returns {Promise<string[]>} the files written
+ */
+export async function frames(dir, scenes, { dark = false, prefix = 'scene' } = {}) {
+  mkdirSync(resolve(dir), { recursive: true });
+  const files = [];
+  for (const [i, s] of scenes.entries()) {
+    const n = String(i + 1).padStart(2, '0');
+    const shot = s.path ? await capture({ ...s, dark: s.dark ?? dark, height: s.height ?? 700 }) : null;
+    const framed = join(resolve(dir), `${prefix}-${n}.png`);
+    writeFileSync(framed, await sceneFrame({ caption: s.caption, sub: s.sub, shot, dark: s.dark ?? dark }));
+    files.push(framed);
+    if (shot) {
+      const raw = join(resolve(dir), `${prefix}-${n}-raw.png`);
+      writeFileSync(raw, shot);
+      files.push(raw);
+    }
+  }
+  return files;
+}
 
 /**
  * Build a vertical video from scenes. Each scene shows a real calculator state with a caption,

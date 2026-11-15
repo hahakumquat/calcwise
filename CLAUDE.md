@@ -24,7 +24,7 @@ Tagline: "The answer, beautifully fast." Brand voice on the site: clear, calm, p
 - `src/layouts/Base.astro` — `<head>` (SEO, og:image, AdSense), header, footer.
 - `src/components/CalculatorWidget.astro` + `src/scripts/calc-client.ts` — the live calculator UI, result "stage" card, charts, share image (`src/scripts/share-card.ts`).
 - `public/` — favicon, `og.png`, `ads.txt`.
-- `scripts/media/lib.mjs` — marketing media renderer (Playwright + ffmpeg), run by GitHub Actions on the `marketing` branch.
+- `scripts/media/lib.mjs` — marketing media renderer (Playwright), run by GitHub Actions on the `marketing` branch. PNG assets only; the owner edits videos.
 
 ## Rules for every change
 
