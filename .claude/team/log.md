@@ -15,3 +15,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Marketing: brief on `marketing` branch, 2026-11-15/brief.md. No media (no ffmpeg/Playwright). Nothing posted.
 - Blockers: cappycalc.com unreachable from this sandbox; share image not checked; on mobile the stage card sits below inputs (default layout).
 - Owner: eyeball the live 401k page (expects $1,583.33 / 48.4%); check r/personalfinance self-promo rules before posting. Note: smoke needs PUBLIC_ADSENSE_CLIENT=ca-pub-7888535375567084 (not "x" as the playbook says).
+
+## 2026-11-15 20:00 UTC — cycle
+- Shipped: chart marker labels now sit above the plot (fixes "Dec 31" overlap on 401k-max-out); bonus tax calculator https://cappycalc.com/finance/bonus-tax/ (verify: 163 pages, 0 problems).
+- Deploys: #26 (charts) green; #27 (bonus tax) queued at time of writing — next cycle confirm it and its live verify job.
+- SEO: bonus-tax linked from take-home-pay related; no separate SEO item this cycle.
+- Marketing: not run this cycle (pack exists for 2026-11-15). Live site not reachable from sandbox.
+- Next: HSA/FSA savings (open enrollment ending; verify 2027 FSA limit against IRS Rev. Proc.), then self-employment tax / capital gains.
