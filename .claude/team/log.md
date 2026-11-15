@@ -22,3 +22,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - SEO: bonus-tax linked from take-home-pay related; no separate SEO item this cycle.
 - Marketing: not run this cycle (pack exists for 2026-11-15). Live site not reachable from sandbox.
 - Next: HSA/FSA savings (open enrollment ending; verify 2027 FSA limit against IRS Rev. Proc.), then self-employment tax / capital gains.
+
+## 2026-11-15 21:00 UTC — cycle
+- Shipped: HSA and FSA tax savings calculator https://cappycalc.com/finance/hsa-fsa-savings/ (verify: 164 pages, 0 problems); linked from take-home-pay.
+- Caveats: 2027 health FSA limit ($3,500) is from secondary reports, labelled "reported"; both plan years use 2026 tax tables. No visual check at 375px (no browser run).
+- Health: deploys #26-#28 green before this push; confirm the new deploy next cycle. Daily report already posted today.
+- Next: self-employment tax, capital gains, Roth vs traditional.
