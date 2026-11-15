@@ -28,3 +28,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: 2027 health FSA limit ($3,500) is from secondary reports, labelled "reported"; both plan years use 2026 tax tables. No visual check at 375px (no browser run).
 - Health: deploys #26-#28 green before this push; confirm the new deploy next cycle. Daily report already posted today.
 - Next: self-employment tax, capital gains, Roth vs traditional.
+
+## 2026-11-15 22:00 UTC — cycle
+- Shipped: self-employment tax calculator https://cappycalc.com/finance/self-employment-tax/ (verify: 165 pages, 0 problems; hand-checked $80k example = SE tax $11,303.64).
+- Health: deploy #30 (HSA/FSA) green. Live site not reachable from sandbox; confirm the new deploy next cycle.
+- Caveat: no QBI deduction modelled (stated in copy); no 375px browser check.
+- Next: capital gains tax, Roth vs traditional.

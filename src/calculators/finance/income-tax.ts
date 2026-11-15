@@ -89,7 +89,7 @@ export default defineCalculator({
       { q: 'What is the difference between a deduction and a credit?', a: 'A deduction lowers taxable income, so it saves you your marginal rate times the amount. A credit lowers the tax itself dollar for dollar — a $1,000 credit saves $1,000.' },
     ],
   },
-  related: ['take-home-pay', 'rsu-tax', 'salary-to-hourly', 'retirement'],
+  related: ['take-home-pay', 'rsu-tax', 'salary-to-hourly', 'retirement', 'self-employment-tax'],
   examples: [
     { values: { income: 75000, status: 'single', adjustments: null, deductionType: 'standard', itemized: null, credits: null }, expect: { taxable: 58900, tax: 7670, marginal: 0.22, effective: 0.10226666667 } },
     { values: { income: 150000, status: 'mfj', adjustments: 10000, deductionType: 'standard', itemized: null, credits: 2000 }, expect: { taxable: 107800, tax: 11140 } },
