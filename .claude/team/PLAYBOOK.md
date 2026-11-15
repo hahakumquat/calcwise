@@ -7,14 +7,14 @@ Delegate to the role agents in `.claude/agents/` with the Agent tool (one task e
 ## 1. Plan (parallel)
 
 - `product-research`: refresh `backlog.md` (full refresh on Mondays; otherwise only check GitHub issues and add anything urgent).
-- `backend-engineer`: live-site health check (duties 1–4). If the live site is broken, fixing it is today's only product work.
+- `backend-engineer`: health check (duties 1–4; the live site is checked through the deploy workflow's `verify` job, since this sandbox cannot reach cappycalc.com). If the live site is broken, fixing it is today's only product work.
 
 ## 2. Build
 
 1. Take the top open backlog item that is buildable in one day.
 2. If it is user-facing: `ux-designer` writes the spec, then `frontend-engineer` implements it. Otherwise give it to the owning role directly.
 3. In parallel with step 2, `seo-ads` makes its one focused SEO improvement (must not touch the same files).
-4. Review gate (you, the lead): read the full diff. Reject and fix anything that breaks a rule in `CLAUDE.md`, any math you cannot verify, or any copy that sounds like filler. Then run `npm ci && npm test && npm run check && npm run build && PUBLIC_ADSENSE_CLIENT=x npm run smoke` — all must pass.
+4. Review gate (you, the lead): read the full diff. Reject and fix anything that breaks a rule in `CLAUDE.md`, any math you cannot verify, or any copy that sounds like filler. Then run `npm ci && npm run verify` (tests, type check, production build with the AdSense id, smoke) — it must pass.
 
 ## 3. Ship
 

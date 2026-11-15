@@ -11,6 +11,8 @@ Tagline: "The answer, beautifully fast." Brand voice on the site: clear, calm, p
 - `npm run check` — TypeScript type check
 - `npm run build` — static build into `dist/`
 - `npm run smoke` — checks the built `dist/` for SEO and safety basics (run after build)
+- `npm run verify` — everything above in one go, with the production AdSense id: the gate before any push to `main`
+- `scripts/live-check.sh` — checks the live site; runs automatically as the deploy workflow's `verify` job
 - `npm run dev` — dev server on http://localhost:4321
 
 ## Layout
@@ -25,7 +27,7 @@ Tagline: "The answer, beautifully fast." Brand voice on the site: clear, calm, p
 
 ## Rules for every change
 
-- Tests, type check, build and smoke must all pass before pushing to `main`.
+- `npm run verify` must pass before pushing to `main`.
 - Never change: `public/ads.txt`, the AdSense publisher id, the `PUBLIC_*`/`SITE_URL`/`BASE_PATH` repo variables, the custom domain, `src/pages/privacy.astro` (except to keep it accurate), or the deploy workflow's trigger/permissions.
 - Never add tracking, sign-ups, popups, or anything that collects user data. Calculators run in the browser only.
 - No placement that encourages accidental ad clicks; no more than 3 ad slots per page; never label content "ads" misleadingly. (AdSense policy violations can ban the account.)

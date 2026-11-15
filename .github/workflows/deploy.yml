@@ -53,3 +53,15 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  verify:
+    # Checks the live site after each deploy. The cloud team reads this job's result
+    # (gh run view) because its sandbox cannot reach cappycalc.com directly.
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Wait for the CDN to pick up the new build
+        run: sleep 45
+      - name: Live site check
+        run: bash scripts/live-check.sh "${{ vars.SITE_URL || 'https://cappycalc.com' }}"
