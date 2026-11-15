@@ -112,7 +112,7 @@ export default defineCalculator({
       { q: 'Will I get a penalty for under-withholding?', a: 'You generally avoid the federal underpayment penalty if withholding and estimated payments cover at least 90% of this year\'s tax or 100% of last year\'s (110% if your prior-year AGI was over $150,000). Large vests can break that, so plan ahead.' },
     ],
   },
-  related: ['income-tax', 'take-home-pay', 'net-worth', 'investment'],
+  related: ['income-tax', 'take-home-pay', 'capital-gains-tax', 'net-worth', 'investment'],
   examples: [
     {
       values: { shares: 500, price: 150, wages: 150000, status: 'single', ytdSupplemental: null, stateRate: 5, stateWithholding: null },

@@ -34,3 +34,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Health: deploy #30 (HSA/FSA) green. Live site not reachable from sandbox; confirm the new deploy next cycle.
 - Caveat: no QBI deduction modelled (stated in copy); no 375px browser check.
 - Next: capital gains tax, Roth vs traditional.
+
+## 2026-11-15 23:00 UTC — cycle
+- Shipped: capital gains tax calculator https://cappycalc.com/finance/capital-gains-tax/ (verify: 166 pages, 0 problems; 4 hand-checked examples: 0/15% split, short-term, NIIT, loss). Linked from rsu-tax.
+- Health: deploys #28-#31 green (self-employment tax deploy #31 green). Live site not reachable from sandbox.
+- Caveats: 2026 LTCG thresholds typed from memory of Rev. Proc. 2025-32 — owner/next cycle should spot-check against the IRS page; no 375px browser check; single sale only.
+- Marketing: not run (pack exists). Daily report already posted today.
+- Next: Roth vs traditional, W-4/refund estimator, rent affordability; confirm the capital-gains deploy.
