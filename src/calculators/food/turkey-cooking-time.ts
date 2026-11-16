@@ -150,7 +150,7 @@ export default defineCalculator({
       { label: 'USDA FSIS: Turkey from farm to table', url: 'https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/turkey-farm-table' },
     ],
   },
-  related: ['cooking-converter', 'recipe-scaler', 'weight-converter', 'time-duration'],
+  related: ['party-food-quantity', 'cooking-converter', 'recipe-scaler', 'weight-converter', 'time-duration'],
   examples: [
     {
       // 16 lb is in the 14-18 lb row: 3.75 to 4.25 h. Serve 17:00, rest 0.5 h -> out 16:30; in 12:15 (4.25 h) to 12:45 (3.75 h).

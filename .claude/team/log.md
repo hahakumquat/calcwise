@@ -155,3 +155,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: no browser/375px check; DOE/EIA source links unopened.
 - Marketing: not run (pack exists). Daily report after 14:00 UTC (not yet due).
 - Next: party food (needs USDA/Butterball sources), secret santa (ship by 12-05); FSIS turkey spot-check before 11-26.
+
+## 2026-11-16 13:00 UTC — cycle
+- Shipped: Thanksgiving & party food (turkey quantity) calculator https://cappycalc.com/food/party-food-quantity/ (verify: 185 pages, 0 problems; 10 adults = 10 lb, 15 lb with leftovers). Linked from turkey-cooking-time.
+- Health: live site not reachable from sandbox; deploy results to confirm next cycle.
+- Caveats: turkey only, sides dropped (no verifiable sources); kid 0.5 portion is a labelled assumption; USDA/Illinois Extension URLs confirmed from search snippets only; no browser/375px check.
+- Marketing: not run (pack exists). Daily report after 14:00 UTC (not yet due).
+- Next: secret santa (ship by 12-05; needs text-list input support check), fuel economy converter; spot-check the two sources and FSIS turkey table before 11-26.
