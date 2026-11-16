@@ -222,3 +222,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: no browser/375px check; built directly by lead; local main was stale and was reset to origin/main first.
 - Marketing: not run (pack exists). Report already posted today.
 - Next: year progress (24), party drinks (25), holiday lights (26).
+
+## 2026-11-16 20:55 UTC — cycle
+- Shipped: year progress calculator https://cappycalc.com/everyday/year-progress/ (verify: 195 pages, 0 problems; 2026-12-16 = day 350/365, 15 days left, 11 weekdays left; 2028-03-01 = day 61/366). Linked from date-difference.
+- Caveats: no browser/375px check; built directly by lead; no ux/seo delegation.
+- Marketing: not run (pack exists). Daily report already posted today.
+- Next: party drinks (25, ship by 12-20), holiday lights (26), turkey source spot-check before 11-26.

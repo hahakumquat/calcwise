@@ -80,7 +80,7 @@ export default defineCalculator({
       { q: 'Why is my business-day count one off?', a: 'Check the “include end date” switch. With it off, the end date itself is not counted, even if it is a weekday.' },
     ],
   },
-  related: ['date-add', 'age', 'time-duration', 'hours-worked'],
+  related: ['date-add', 'age', 'time-duration', 'hours-worked', 'year-progress'],
   examples: [
     { values: { start: '2026-03-02', end: '2026-03-16', includeEnd: 'off' }, expect: { days: 14, businessDays: 10, weeksDays: '2 weeks, 0 days', ymd: '0 years, 0 months, 14 days' } },
     { values: { start: '2026-03-02', end: '2026-03-16', includeEnd: 'on' }, expect: { days: 15, businessDays: 11 } },
