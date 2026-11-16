@@ -134,7 +134,7 @@ export default defineCalculator({
       { label: 'CFPB: Budgeting and saving tools', url: 'https://www.consumerfinance.gov/consumer-tools/' },
     ],
   },
-  related: ['savings-goal', 'emergency-fund', 'discount', 'sales-tax'],
+  related: ['savings-goal', 'savings-challenge', 'emergency-fund', 'discount', 'sales-tax'],
   examples: [
     {
       // Gift pool 1,000 − 200 = 800; shares 2 + 4 × 1.5 = 8; adult 800 ÷ 8 = 100; kid 100 × 1.5 = 150; remaining 1,000; weekly 1,000 ÷ 8 = 125.
