@@ -57,7 +57,7 @@ export default defineCalculator({
       { q: 'What does standby power cost?', a: 'A device idling at 5 W around the clock uses 43.8 kWh a year — about $7.50 at 17¢/kWh. Several of them add up.' },
     ],
   },
-  related: ['energy-converter', 'gas-cost', 'heating-cost', 'unit-price'],
+  related: ['energy-converter', 'gas-cost', 'heating-cost', 'holiday-lights', 'unit-price'],
   examples: [
     { values: { power: 1000, hours: 3, rate: 0.15, qty: 1 }, expect: { kwhDay: 3, daily: 0.45, monthly: 13.6875, yearly: 164.25, kwhYear: 1095 } },
     { values: { power: 10, hours: 24, rate: 0.2, qty: 5 }, expect: { kwhDay: 1.2, daily: 0.24 } },

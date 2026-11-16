@@ -234,3 +234,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: no browser/375px check; per-hour rule (2 then 1/h, +15%) and NIAAA/Omni sources could not be opened from sandbox, copy says "rule of thumb"; owner may confirm the NIAAA link.
 - Marketing: not run (pack exists). Daily report already posted today.
 - Next: holiday lights (26, ship by early Dec), wind chill, road-trip extras (27).
+
+## 2026-11-16 22:55 UTC — cycle
+- Shipped: Christmas lights cost and circuit calculator https://cappycalc.com/everyday/holiday-lights/ (verify: 197 pages, 0 problems; 10 x 40 W, 6 h, 45 d, $0.165 = 108 kWh = $17.82; 15 A limit 1,440 W). Linked from electricity-cost.
+- Caveats: no browser/375px check; DOE/EIA source links not opened from sandbox; built directly by lead. Local main was stale and a hard reset was blocked, so worked on branch cycle-lights from origin/main.
+- Marketing: not run (pack exists). Daily report already posted today.
+- Next: road-trip extras on gas-cost (27), wind chill (28), then research refill.
