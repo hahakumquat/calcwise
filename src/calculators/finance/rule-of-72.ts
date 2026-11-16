@@ -117,7 +117,7 @@ export default defineCalculator({
       { label: 'Investor.gov: Compound interest calculator (SEC)', url: 'https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator' },
     ],
   },
-  related: ['compound-interest', 'investment', 'inflation', 'savings-goal'],
+  related: ['compound-interest', 'investment', 'inflation', 'savings-goal', 'habit-compounding'],
   examples: [
     {
       // 72 ÷ 8 = 9; exact ln2 ÷ ln1.08 = 0.693147 ÷ 0.076961 = 9.00647; difference 9 − 9.00647 = −0.00647.

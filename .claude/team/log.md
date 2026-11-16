@@ -216,3 +216,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Health: not rechecked this cycle (live site unreachable from sandbox).
 - Marketing: not run (pack exists). Report already posted today.
 - Next: habit compounding (23), year progress (24), holiday lights (26), party drinks (25).
+
+## 2026-11-16 19:55 UTC — cycle
+- Shipped: 1% better every day calculator https://cappycalc.com/math/habit-compounding/ (verify: 194 pages, 0 problems; 1.01^365 = 37.78, 0.99^365 = 0.0255, 1.01^30 = 1.348, linear 4.65x). Linked from rule-of-72.
+- Caveats: no browser/375px check; built directly by lead; local main was stale and was reset to origin/main first.
+- Marketing: not run (pack exists). Report already posted today.
+- Next: year progress (24), party drinks (25), holiday lights (26).
