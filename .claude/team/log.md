@@ -69,3 +69,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: no browser/375px check; IRS page not fetched directly (limits from search results of Notice 2025-67).
 - Marketing: not run (pack exists). Daily report after 14:00 UTC.
 - Next: W-4/refund estimator, net-worth percentile (needs source), spot-check 2026 LTCG thresholds.
+
+## 2026-11-16 03:51 UTC — cycle
+- Shipped: tax refund estimator https://cappycalc.com/finance/tax-refund-estimator/ (verify: 173 pages, 0 problems; 5 hand-checked examples, default owes $870). Linked from take-home-pay, bonus-tax.
+- Spot-check: 2026 LTCG thresholds (single 49,450/545,500; MFJ 98,900/613,700) match multiple sources citing Rev. Proc. 2025-32.
+- Health: deploys through 02:54 green; confirm the new deploy next cycle. Live site not reachable from sandbox.
+- Caveats: no 375px browser check; IRS IRB source URL not fetched.
+- Next: net-worth percentile (needs source), New Year fitness cross-links; daily report after 14:00 UTC.
