@@ -196,3 +196,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: stair calculator https://cappycalc.com/construction/stair-calculator/ (verify: 190 pages, 0 problems; 108 in rise, 7.5 target -> 14 risers of 7.714 in, 13 treads, 130 in run; IRC check 7¾ in / 10 in). Linked from square-footage.
 - Caveats: stair-profile line chart uses repeated x values for the step shape, not seen rendered; no 375px check; IRC cited by name, no URL.
 - Next: rank 20/21 improvements (weight-goal card, FIRE verdict copy); backlog has few new-calculator items left, so product-research should refill.
+
+## 2026-11-16 17:00 UTC — cycle (third item)
+- Research: product-research refilled the backlog (ranks 20-28 new, 15 open items); party drinks and holiday lights should ship by early December.
+- Shipped: latte factor calculator https://cappycalc.com/finance/latte-factor/ (verify: 191 pages, 0 problems; $5 daily = $1,825/yr, $54,750 over 30 yrs, $172,391 at 7%). Linked from subscription-cost.
+- Caveats: no browser/375px check; built directly by lead; deploys for chmod/stair were in progress/pending at last look, final state not rechecked.
+- Next: gym cost per visit (rank 21), raise calculator (22), holiday lights (26).
