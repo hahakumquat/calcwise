@@ -120,7 +120,7 @@ export default defineCalculator({
       { q: 'Does a higher salary always mean a higher total tax rate?', a: 'Generally yes, because brackets are progressive. At a $50,000 salary with no 401(k) and 5% state tax, the calculator gives a total tax rate of 20.29% and take-home of $39,855 a year; at $120,000 it gives 27.29% and $87,250. A raise never lowers take-home pay, because only the extra income is taxed at the higher rate.' },
     ],
   },
-  related: ['income-tax', 'bonus-tax', 'hsa-fsa-savings', 'salary-to-hourly', 'retirement', 'rsu-tax', 'home-affordability', 'fire-number'],
+  related: ['income-tax', 'bonus-tax', 'hsa-fsa-savings', 'salary-to-hourly', 'retirement', 'rsu-tax', 'home-affordability', 'rent-affordability', 'fire-number'],
   examples: [
     {
       values: { salary: 85000, frequency: 'biweekly', status: 'single', k401: 5, otherPretax: null, stateRate: 5, localRate: null },

@@ -87,7 +87,7 @@ export default defineCalculator({
       { q: 'What counts as "other monthly debts"?', a: 'Minimum payments that show up on your credit report: car loans, student loans, credit cards, personal loans, child support. Utilities, phone bills and groceries are not included.' },
     ],
   },
-  related: ['mortgage', 'take-home-pay', 'refinance', 'net-worth'],
+  related: ['mortgage', 'take-home-pay', 'rent-affordability', 'refinance', 'net-worth'],
   examples: [
     {
       values: { income: 100000, debts: 500, down: 60000, rate: 6.5, term: 30 * YEAR_S, taxRate: 1.1, insurance: 1800, hoa: null, front: 28, back: 36 },
