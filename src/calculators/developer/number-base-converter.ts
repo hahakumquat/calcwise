@@ -103,7 +103,7 @@ export default defineCalculator({
       { q: 'Does it handle fractions?', a: 'No — only whole numbers. Fractional parts often have no exact representation in another base (0.1 in decimal repeats forever in binary).' },
     ],
   },
-  related: ['color-converter', 'hash-generator', 'scientific-notation'],
+  related: ['chmod-calculator', 'color-converter', 'hash-generator', 'scientific-notation'],
   examples: [
     { values: { value: '255', from: 'auto', base: 36 }, expect: { decimal: '255', hex: 'FF', binary: '11111111', octal: '377', custom: '73 (base 36)', bits: 8 } },
     { values: { value: '0xFF_EE', from: 'auto', base: 36 }, expect: { decimal: '65518', binary: '1111111111101110' } },

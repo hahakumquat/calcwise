@@ -184,3 +184,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: no browser/375px check; DST note compares to min(Jan, Jul) offset so Dublin summer shows no note.
 - Marketing: not run (pack exists). Report already posted today.
 - Next: chmod calculator, stair calculator; spot-check turkey sources before 11-26.
+
+## 2026-11-16 16:51 UTC — cycle
+- Shipped: chmod permission calculator https://cappycalc.com/developer/chmod-calculator/ (verify: 189 pages, 0 problems; 755 = rwxr-xr-x, 644, 600, 1777 = rwxrwxrwt, 4755 = rwsr-xr-x, 2745 = rwxr-Sr-x). Linked from number-base-converter.
+- Health: no failed deploys seen; live site not reachable from sandbox.
+- Caveats: no browser/375px check of the 12-toggle layout; built directly by lead (small item), no ux/seo delegation.
+- Marketing: not run (pack exists). Report already posted today.
+- Next: stair calculator (rank 19, low), then rank 20/21 improvements; spot-check turkey sources before 11-26.
