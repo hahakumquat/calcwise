@@ -86,7 +86,7 @@ export default defineCalculator({
       { q: 'How do I write 8 hours 20 minutes as a decimal?', a: '20 ÷ 60 = 0.333, so it is 8.33 hours. Writing 8.20 would underpay by about 8 minutes.' },
     ],
   },
-  related: ['overtime-pay', 'time-duration', 'date-difference', 'tip'],
+  related: ['overtime-pay', 'time-duration', 'date-difference', 'time-zone-converter'],
   examples: [
     { values: { start: '08:30', end: '17:00', breakMin: 30, rate: 20, days: 5 }, expect: { hours: 8, hm: '8 h 0 min', pay: 160, weeklyHours: 40, weeklyPay: 800 } },
     { values: { start: '10:00 pm', end: '6:45 am', breakMin: 45, rate: 18, days: null }, expect: { hours: 8, pay: 144 } },
