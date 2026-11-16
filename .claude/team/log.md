@@ -177,3 +177,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: no browser/375px check of the scale chart.
 - Marketing: not run (pack exists).
 - Next: time zone converter; spot-check turkey sources before 11-26.
+
+## 2026-11-16 15:51 UTC — cycle
+- Shipped: time zone converter https://cappycalc.com/everyday/time-zone-converter/ (verify: 188 pages, 0 problems; 12:00 New York = 17:00 London in Dec, 20:00 NY = 10:00 next day Tokyo). Linked from hours-worked.
+- Health: deploys through 14:53 green. Live site not reachable from sandbox.
+- Caveats: no browser/375px check; DST note compares to min(Jan, Jul) offset so Dublin summer shows no note.
+- Marketing: not run (pack exists). Report already posted today.
+- Next: chmod calculator, stair calculator; spot-check turkey sources before 11-26.
