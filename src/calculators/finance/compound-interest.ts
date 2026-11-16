@@ -90,7 +90,7 @@ export default defineCalculator({
       { q: 'Does this account for taxes or inflation?', a: 'No. Interest in a regular account is usually taxable each year, and inflation reduces what the final balance can buy. Use the inflation calculator to convert the result into today\'s dollars.' },
     ],
   },
-  related: ['investment', 'savings-goal', 'simple-interest', 'cd', 'inflation', 'retirement'],
+  related: ['investment', 'savings-goal', 'simple-interest', 'cd', 'inflation', 'retirement', 'rule-of-72'],
   examples: [
     { values: { principal: 1000, contribution: null, rate: 5, frequency: '1', time: 10 * YEAR_S }, expect: { futureValue: 1628.894627, totalInterest: 628.894627 } },
     { values: { principal: 0, contribution: 100, rate: 0, frequency: '12', time: 2 * YEAR_S }, expect: { futureValue: 2400, totalInterest: 0 } },

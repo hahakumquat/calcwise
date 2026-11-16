@@ -101,3 +101,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: no browser/375px check; chart is an area chart.
 - Marketing: not run (pack exists). Daily report after 14:00 UTC.
 - Next: Rule of 72, subscription annualiser, overtime pay; spot-check FSIS turkey rows before 11-26.
+
+## 2026-11-16 06:10 UTC — cycle (cont.)
+- Shipped: Rule of 72 calculator https://cappycalc.com/finance/rule-of-72/ (verify: 177 pages, 0 problems; 3 examples checked independently: 8% -> 9 vs 9.006 yr, 6% -> 12 vs 11.896, 9 yr -> 8% vs 8.006%). Linked from compound-interest.
+- Health: earlier deploys green; savings-challenge and this deploy to confirm next cycle. Live site not reachable from sandbox.
+- Caveats: no browser/375px check; mode switch not browser-tested.
+- Next: subscription annualiser, overtime pay, party food (needs sources); spot-check FSIS turkey rows before 11-26; daily report after 14:00 UTC.
