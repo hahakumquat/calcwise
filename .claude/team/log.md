@@ -83,3 +83,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Health: deploys through 04:02 green; confirm new deploy next cycle. Live site not reachable from sandbox.
 - Caveats: fsis.usda.gov blocked in sandbox, so unstuffed 18-24 lb, stuffed 14+ lb rows and the 24h-per-4-5-lb thaw rule are unverified against the page — owner/next cycle should spot-check before Thanksgiving (11-26). 375px light checked by agent via system Chrome.
 - Next: stacked discount / Black Friday (ship by 11-25), gift budget; daily report after 14:00 UTC.
+
+## 2026-11-16 05:15 UTC — cycle (cont.)
+- Shipped: stacked discount / Black Friday upgrade to https://cappycalc.com/finance/discount/ (extra discount, coupon, tax; 30%+20% = 44% off; verify 174 pages, 0 problems; 4 hand-checked examples).
+- Caveats: no browser check; coupon always applied after percentages.
+- Next: gift budget split, 52-week challenge, Rule of 72; daily report after 14:00 UTC.
