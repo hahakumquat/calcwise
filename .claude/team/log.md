@@ -209,3 +209,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: no browser/375px check; null primary result (0 visits) rendering unseen; schema has no share-text line, so the "i'm cooked" share caption is not added (needs share-card.ts change).
 - Marketing: not run (pack exists). SEO: related links only.
 - Next: raise calculator (22), habit compounding (23), holiday lights (26).
+
+## 2026-11-16 18:55 UTC — cycle
+- Shipped: raise calculator https://cappycalc.com/finance/raise-calculator/ (verify: 193 pages, 0 problems; $60k at 5% = $63,000, +$250/mo, $28.85 -> $30.29/h, real raise 1.65% at 3.3% inflation, $2,110.50 after 29.65% tax). Linked from take-home-pay-adjacent related list.
+- Caveats: no browser/375px check; built directly by lead; "new salary" input form from spec not added (percent only).
+- Health: not rechecked this cycle (live site unreachable from sandbox).
+- Marketing: not run (pack exists). Report already posted today.
+- Next: habit compounding (23), year progress (24), holiday lights (26), party drinks (25).
