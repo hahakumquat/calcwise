@@ -228,3 +228,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: no browser/375px check; built directly by lead; no ux/seo delegation.
 - Marketing: not run (pack exists). Daily report already posted today.
 - Next: party drinks (25, ship by 12-20), holiday lights (26), turkey source spot-check before 11-26.
+
+## 2026-11-16 21:55 UTC — cycle
+- Shipped: NYE party drinks calculator https://cappycalc.com/food/party-drinks/ (verify: 196 pages, 0 problems; 20 guests, 5 h -> 138 drinks, 12 wine bottles). Linked from party-food-quantity.
+- Caveats: no browser/375px check; per-hour rule (2 then 1/h, +15%) and NIAAA/Omni sources could not be opened from sandbox, copy says "rule of thumb"; owner may confirm the NIAAA link.
+- Marketing: not run (pack exists). Daily report already posted today.
+- Next: holiday lights (26, ship by early Dec), wind chill, road-trip extras (27).

@@ -74,7 +74,7 @@ export default defineCalculator({
       { label: 'University of Illinois Extension: Choosing Your Turkey (about 1.5 lb per person for hearty eaters or leftovers)', url: 'https://extension.illinois.edu/turkey/choosing-your-turkey' },
     ],
   },
-  related: ['turkey-cooking-time', 'recipe-scaler', 'cooking-converter', 'weight-converter'],
+  related: ['turkey-cooking-time', 'party-drinks', 'recipe-scaler', 'cooking-converter', 'weight-converter'],
   examples: [
     // 10 adults x 1 lb = 10 lb.
     { values: { adults: 10, kids: 0, leftovers: 'off' }, expect: { turkeyLb: 10, portions: 10, perPerson: 1 } },
