@@ -48,3 +48,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: no 375px browser check; no IRA dollar limits stated (no sourced constant).
 - Marketing: not run (pack exists for 2026-11-15; the next UTC-day cycle should write 2026-11-16 brief). Daily report for 11-15 already posted.
 - Next: W-4/refund estimator, rent affordability, debt payoff; spot-check 2026 LTCG thresholds.
+
+## 2026-11-16 01:00 UTC — cycle
+- Shipped: rent affordability https://cappycalc.com/finance/rent-affordability/, emergency fund https://cappycalc.com/finance/emergency-fund/, debt payoff planner https://cappycalc.com/finance/debt-payoff-planner/ (each passed verify; final: 153 calculators, 170 pages, 0 problems). Cross-linked from take-home-pay, home-affordability, savings-goal, credit-card-payoff.
+- Marketing: 2026-11-16 pack rendered (brief, reel frames, carousel, X, story, posting guide): https://github.com/hahakumquat/calcwise/tree/marketing/2026-11-16. Calendar copied to .claude/team/marketing-calendar.md.
+- Health: deploys green through rent affordability; later deploys to be confirmed next cycle. Live site not reachable from sandbox.
+- Caveats: no 375px browser check (Chromium unavailable to agents); emergency-fund sources are generic CFPB/FDIC pages, unchecked; 2026 LTCG thresholds still need a spot-check.
+- Next: W-4/refund estimator, Roth IRA limits, student loan payoff; confirm deploys; daily report after 14:00 UTC.

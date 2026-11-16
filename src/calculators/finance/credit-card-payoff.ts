@@ -135,7 +135,7 @@ export default defineCalculator({
       { q: 'Does paying twice a month help?', a: 'Slightly. Because interest is based on the average daily balance, paying earlier in the cycle lowers the interest charged. The bigger effect still comes from the total amount you pay.' },
     ],
   },
-  related: ['loan', 'apr', 'compound-interest', 'net-worth'],
+  related: ['debt-payoff-planner', 'loan', 'apr', 'compound-interest', 'net-worth'],
   examples: [
     { values: { mode: 'payment', balance: 1200, apr: 0, payment: null, target: 12 }, expect: { monthlyPayment: 100, totalInterest: 0 } },
     { values: { mode: 'months', balance: 1000, apr: 0, payment: 300, target: null }, expect: { months: 4, totalPaid: 1000, duration: '4 mo' } },
