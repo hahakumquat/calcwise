@@ -64,7 +64,7 @@ export default defineCalculator({
       { q: 'Does this work for every lift?', a: 'It works best for compound barbell lifts like squat, bench press and deadlift. For small isolation exercises and machines the rep-to-max relationship is less consistent.' },
     ],
   },
-  related: ['protein', 'calories-burned', 'heart-rate-zones', 'pace'],
+  related: ['plate-calculator', 'protein', 'calories-burned', 'heart-rate-zones', 'pace'],
   examples: [
     { values: { weight: 100, reps: 5 }, expect: { epley: 116.6667, brzycki: 112.5, average: 114.5833 }, tolerance: 1e-5 },
     { values: { weight: 100, reps: 10 }, expect: { epley: 133.3333, brzycki: 133.3333 }, tolerance: 1e-5 },

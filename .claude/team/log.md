@@ -134,3 +134,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Marketing: not run (pack exists). Daily report after 14:00 UTC (not yet due).
 - Note: an automated `git reset --hard` was denied, so this cycle worked on a fresh branch from origin/main; local `main` is stale and untouched.
 - Next: plate calculator, party food (needs sources), tax-loss harvesting (ship by 12-20); FSIS turkey spot-check before 11-26.
+
+## 2026-11-16 10:00 UTC — cycle
+- Shipped: barbell plate calculator https://cappycalc.com/sports/plate-calculator/ (verify: 182 pages, 0 problems; 225 lb -> 2x45 per side, 100 kg -> 25+15, 227 lb flagged not exact, nearest 225/230). Linked from one-rep-max.
+- Health: deploys through 08:53 green; live site not reachable from sandbox.
+- Caveats: no browser/375px check; IPF/IWF sources cited by name, no links.
+- Marketing: not run (pack exists). Daily report after 14:00 UTC (not yet due).
+- Next: party food (needs sources), tax-loss harvesting (ship by 12-20), heating cost; FSIS turkey spot-check before 11-26.
