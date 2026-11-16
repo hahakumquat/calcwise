@@ -62,3 +62,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: only 375px light screenshot viewed; live input updates not browser-verified; sources generic.
 - Marketing: not run (pack exists for 2026-11-16). Daily report after 14:00 UTC.
 - Next: W-4/refund estimator, Roth IRA limits; spot-check 2026 LTCG thresholds.
+
+## 2026-11-16 02:50 UTC — cycle
+- Shipped: Roth IRA calculator https://cappycalc.com/finance/roth-ira/ (verify: 172 pages, 0 problems; 6 hand-checked examples). Linked from roth-vs-traditional.
+- Health: deploys through 01:57 green; confirm the new deploy next cycle. Live site not reachable from sandbox.
+- Caveats: no browser/375px check; IRS page not fetched directly (limits from search results of Notice 2025-67).
+- Marketing: not run (pack exists). Daily report after 14:00 UTC.
+- Next: W-4/refund estimator, net-worth percentile (needs source), spot-check 2026 LTCG thresholds.

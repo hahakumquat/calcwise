@@ -136,7 +136,7 @@ export default defineCalculator({
       { label: 'IRS: 401(k) limit increases to $24,500 for 2026, IRA limit increases to $7,500', url: 'https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500' },
     ],
   },
-  related: ['401k-max-out', 'take-home-pay', 'retirement', 'compound-interest'],
+  related: ['401k-max-out', 'roth-ira', 'take-home-pay', 'retirement', 'compound-interest'],
   examples: [
     // factor = (1.07^30 - 1)/0.07 x 1.07 = 101.07304; Roth = 7600 x 101.07304 = 768155.11; Trad = 10000 x 101.07304 x 0.76 = 768155.11
     {
