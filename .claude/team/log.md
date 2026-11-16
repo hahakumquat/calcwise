@@ -240,3 +240,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: no browser/375px check; DOE/EIA source links not opened from sandbox; built directly by lead. Local main was stale and a hard reset was blocked, so worked on branch cycle-lights from origin/main.
 - Marketing: not run (pack exists). Daily report already posted today.
 - Next: road-trip extras on gas-cost (27), wind chill (28), then research refill.
+
+## 2026-11-16 23:55 UTC — cycle
+- Shipped: wind chill calculator https://cappycalc.com/everyday/wind-chill/ (verify: 198 pages, 0 problems; 0 F/15 mph = -19.4 F, 20 F/10 mph = 8.85 F; undefined above 50 F or wind <= 3 mph). NWS source.
+- Caveats: no browser/375px check; built directly by lead; "not defined" case has no example (schema forbids null expects).
+- Marketing: not run (pack exists). Daily report already posted today.
+- Next: road-trip extras on gas-cost (27), turkey source spot-check before 11-26, research refill (backlog nearly exhausted).
