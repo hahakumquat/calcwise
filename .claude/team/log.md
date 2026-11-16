@@ -141,3 +141,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: no browser/375px check; IPF/IWF sources cited by name, no links.
 - Marketing: not run (pack exists). Daily report after 14:00 UTC (not yet due).
 - Next: party food (needs sources), tax-loss harvesting (ship by 12-20), heating cost; FSIS turkey spot-check before 11-26.
+
+## 2026-11-16 11:00 UTC — cycle
+- Shipped: tax-loss harvesting calculator https://cappycalc.com/finance/tax-loss-harvesting/ (verify: 183 pages, 0 problems; $4,000 gains/$10,000 loss -> $1,320 saved, $3,000 carried; MFS cap $1,500). Linked from capital-gains-tax.
+- Health: deploys through 09:53 green; backlog-commit deploy 10:51 in progress at start. Live site not reachable from sandbox.
+- Caveats: no browser/375px check; long-term gains only, no NIIT/state tax.
+- Marketing: not run (pack exists). Daily report after 14:00 UTC (not yet due).
+- Next: party food (needs sources), heating cost, secret santa (ship by 12-05); FSIS turkey spot-check before 11-26.
