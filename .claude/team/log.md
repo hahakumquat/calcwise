@@ -162,3 +162,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: turkey only, sides dropped (no verifiable sources); kid 0.5 portion is a labelled assumption; USDA/Illinois Extension URLs confirmed from search snippets only; no browser/375px check.
 - Marketing: not run (pack exists). Daily report after 14:00 UTC (not yet due).
 - Next: secret santa (ship by 12-05; needs text-list input support check), fuel economy converter; spot-check the two sources and FSIS turkey table before 11-26.
+
+## 2026-11-16 13:53 UTC — cycle
+- Shipped: Secret Santa generator https://cappycalc.com/other/secret-santa/ (verify: 186 pages, 0 problems; derangement with one-way "cannot draw" rules, crypto random, matching fallback). Linked to gift-budget.
+- Health: deploys through 12:56 green. Live site not reachable from sandbox.
+- Caveats: no one-at-a-time reveal (UI recomputes on input change); no browser/375px check; local `main` branch is unrelated to origin/main, so worked from a branch off origin/main.
+- Marketing: not run (pack exists). Daily report due next cycle (after 14:00 UTC).
+- Next: daily report; fuel economy converter, time zone converter; spot-check turkey sources before 11-26.
