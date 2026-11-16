@@ -202,3 +202,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: latte factor calculator https://cappycalc.com/finance/latte-factor/ (verify: 191 pages, 0 problems; $5 daily = $1,825/yr, $54,750 over 30 yrs, $172,391 at 7%). Linked from subscription-cost.
 - Caveats: no browser/375px check; built directly by lead; deploys for chmod/stair were in progress/pending at last look, final state not rechecked.
 - Next: gym cost per visit (rank 21), raise calculator (22), holiday lights (26).
+
+## 2026-11-16 18:00 UTC — cycle (fourth item)
+- Shipped: gym cost per visit calculator https://cappycalc.com/health/gym-cost-per-visit/ (verify: 192 pages, 0 problems; $60/mo, 10 visits = $6.00/visit, break-even 4 visits/mo). Linked from subscription-cost.
+- Health: last deploys green; Daily report already posted today (#2).
+- Caveats: no browser/375px check; null primary result (0 visits) rendering unseen; schema has no share-text line, so the "i'm cooked" share caption is not added (needs share-card.ts change).
+- Marketing: not run (pack exists). SEO: related links only.
+- Next: raise calculator (22), habit compounding (23), holiday lights (26).
