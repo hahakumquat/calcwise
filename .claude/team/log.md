@@ -148,3 +148,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: no browser/375px check; long-term gains only, no NIIT/state tax.
 - Marketing: not run (pack exists). Daily report after 14:00 UTC (not yet due).
 - Next: party food (needs sources), heating cost, secret santa (ship by 12-05); FSIS turkey spot-check before 11-26.
+
+## 2026-11-16 12:00 UTC — cycle
+- Shipped: space heater vs furnace cost calculator https://cappycalc.com/everyday/heating-cost/ (verify: 184 pages, 0 problems; 1500 W x 8 h = 40,944 BTU, $2.04 electric vs $0.65 gas, ratio 3.16x). Linked from electricity-cost.
+- Health: deploys through 10:52 (tax-loss) green; 11:54 backlog deploy in progress at start. Live site not reachable from sandbox.
+- Caveats: no browser/375px check; DOE/EIA source links unopened.
+- Marketing: not run (pack exists). Daily report after 14:00 UTC (not yet due).
+- Next: party food (needs USDA/Butterball sources), secret santa (ship by 12-05); FSIS turkey spot-check before 11-26.
