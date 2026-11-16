@@ -118,7 +118,7 @@ export default defineCalculator({
       { q: 'Does square footage include walls and closets?', a: 'For flooring, measure each area you will cover, including closets. Real-estate listings follow separate rules (such as ANSI Z765 in the US) that measure finished living area from exterior walls.' },
     ],
   },
-  related: ['flooring', 'paint', 'concrete', 'area-converter'],
+  related: ['flooring', 'paint', 'concrete', 'stair-calculator', 'area-converter'],
   examples: [
     { values: { shape: 'rect', length: 3.6576, width: 3.048, diameter: null, base: null, base2: null, height: null, qty: 1, price: 4 }, expect: { area: 11.1483648, cost: 480 } },
     { values: { shape: 'circle', length: null, width: null, diameter: 3.048, base: null, base2: null, height: null, qty: 1, price: 1 }, expect: { cost: 78.5398163 }, tolerance: 1e-8 },

@@ -191,3 +191,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: no browser/375px check of the 12-toggle layout; built directly by lead (small item), no ux/seo delegation.
 - Marketing: not run (pack exists). Report already posted today.
 - Next: stair calculator (rank 19, low), then rank 20/21 improvements; spot-check turkey sources before 11-26.
+
+## 2026-11-16 16:55 UTC — cycle (second item)
+- Shipped: stair calculator https://cappycalc.com/construction/stair-calculator/ (verify: 190 pages, 0 problems; 108 in rise, 7.5 target -> 14 risers of 7.714 in, 13 treads, 130 in run; IRC check 7¾ in / 10 in). Linked from square-footage.
+- Caveats: stair-profile line chart uses repeated x values for the step shape, not seen rendered; no 375px check; IRC cited by name, no URL.
+- Next: rank 20/21 improvements (weight-goal card, FIRE verdict copy); backlog has few new-calculator items left, so product-research should refill.
