@@ -34,7 +34,7 @@ Hashtags: #bonus #taxes #personalfinance #moneytok #adulting #fintok
 1. Cover: "year-end tax math, *5 real numbers*" / "same calculator, exact inputs on each slide"
 2. Cap gains long-term (result card): "*$2,167.50* tax on a $20k gain held over a year" / sub "$50k sale, $30k basis, $60k other income, single"
 3. Cap gains short-term: "same sale held under a year: *$3,750*"
-4. Self-employment: "*$22,547.65* total tax on an $80k side hustle" / "28.2%: set aside $5,636.91 a quarter (5% state)"
+4. Self-employment: "*$11,303.64* self-employment tax on $80k of freelance profit" / "all-in tax $22,547.65 (28.2%), $5,636.91 a quarter, 5% state"
 5. HSA: "an HSA contribution of $4,400 saves about *$1,524.60*" / "$85k salary, payroll, 5% state"
 6. Roth vs traditional: "24% now, 22% later, 30 yrs at 7%: traditional wins by *$20,215*"
 Caption: five tax numbers from our calculators, with the inputs on each slide. all estimates using 2026 tables, not tax advice. links: cappycalc.com/finance/capital-gains-tax/ , /self-employment-tax/ , /hsa-fsa-savings/ , /roth-vs-traditional/

@@ -20,7 +20,7 @@ await frames(dir, [
 await cover(here('carousel-01.png'), { title: 'year-end tax math: *5 real numbers*', sub: 'same calculators, exact inputs on every slide' });
 await slide(here('carousel-02.png'), { path: '/finance/capital-gains-tax/', set: cg, caption: '*$2,167.50* tax on a $20k gain held over a year', sub: '$50k sale · $30k basis · $60k other income · single' });
 await slide(here('carousel-03.png'), { path: '/finance/capital-gains-tax/', set: { ...cg, term: 'short' }, caption: 'same sale held under a year: *$3,750*', sub: 'short-term is taxed like regular income' });
-await slide(here('carousel-04.png'), { path: '/finance/self-employment-tax/', set: se, caption: '*$22,547.65* total tax on $80k of freelance profit', sub: '28.2% · $5,636.91 per quarter · 5% state' });
+await slide(here('carousel-04.png'), { path: '/finance/self-employment-tax/', set: se, caption: '*$11,303.64* self-employment tax on $80k of freelance profit', sub: 'all-in tax $22,547.65 (28.2%) · $5,636.91 a quarter · 5% state' });
 await slide(here('carousel-05.png'), { path: '/finance/hsa-fsa-savings/', set: hsa, caption: 'a $4,400 HSA contribution saves about *$1,524.60*', sub: '$85k salary · through payroll · 5% state · 2026' });
 await slide(here('carousel-06.png'), { path: '/finance/roth-vs-traditional/', set: roth, caption: '24% now, 22% later: traditional wins by *$20,215*', sub: '$10k a year · 30 years · 7% return' });
 
