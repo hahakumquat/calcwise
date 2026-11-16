@@ -26,7 +26,7 @@ Priority = demand x fit x (social + adsense) / (6 - effort). Scores: demand, fit
 | 9 | W-4 / refund estimator ("will I owe in April?") | new calculator | 40 | d4 f3 s3 a5 e2. Peaks Jan-Apr; larger effort (withholding tables). | ux-designer | open |
 | 10 | Rent affordability / 50-30-20 budget calculator (Gen-Z money first) | new calculator | 36 | d4 f4 s4 a3 e4. Shareable ("rent is 61% of my take-home, i'm cooked"). No evidence reached. | ux-designer | shipped 2026-11-16 (/finance/rent-affordability/; simplified take-home, no pre-tax inputs) |
 | 11 | Wire real ad slots once the owner supplies AdSense unit ids (until then Auto ads) | ads | n/a | owner action | seo-ads | blocked on owner |
-| 12 | Debt payoff planner: snowball vs avalanche (extends `credit-card-payoff`) | new calculator | 30 | d3 f4 s3 a5 e2 | ux-designer | open |
+| 12 | Debt payoff planner: snowball vs avalanche (extends `credit-card-payoff`) | new calculator | 30 | d3 f4 s3 a5 e2 | ux-designer | in progress 01:10 UTC |
 | 13 | Emergency fund calculator (months of expenses) | new calculator | 30 | d3 f4 s3 a3 e5 | ux-designer | shipped 2026-11-16 (/finance/emergency-fund/; source links generic, unchecked) |
 | 14 | Student loan payoff / extra payment calculator | new calculator | 27 | d3 f3 s2 a5 e3 | ux-designer | open |
 | 15 | Roth IRA growth / IRA limits calculator | new calculator | 27 | d3 f4 s2 a5 e3 | ux-designer | open |
