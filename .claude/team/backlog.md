@@ -29,7 +29,7 @@ Priority = demand x fit x (social + adsense) / (6 - effort). Scores: demand, fit
 | 12 | Debt payoff planner: snowball vs avalanche (extends `credit-card-payoff`) | new calculator | 30 | d3 f4 s3 a5 e2 | ux-designer | shipped 2026-11-16 (/finance/debt-payoff-planner/; up to 4 debts) |
 | 13 | Emergency fund calculator (months of expenses) | new calculator | 30 | d3 f4 s3 a3 e5 | ux-designer | shipped 2026-11-16 (/finance/emergency-fund/; source links generic, unchecked) |
 | 14 | Student loan payoff / extra payment calculator | new calculator | 27 | d3 f3 s2 a5 e3 | ux-designer | shipped 2026-11-16 (/finance/student-loan-payoff/; payment optional, defaults to standard payment) |
-| 15 | Roth IRA growth / IRA limits calculator | new calculator | 27 | d3 f4 s2 a5 e3 | ux-designer | open |
+| 15 | Roth IRA growth / IRA limits calculator | new calculator | 27 | d3 f4 s2 a5 e3 | ux-designer | in progress 02:55 UTC |
 | 16 | Net-worth percentile by age (shareable) using public Fed SCF data; needs a cited, current source | new calculator | 24 | d3 f4 s5 a3 e2 | ux-designer | open, needs source check |
 | 17 | New Year fitness: steps-to-calories and "weeks to goal weight" shareable card, cross-link `weight-loss-goal`, `tdee`, `macro` | improvement | 20 | Seasonal: New Year fitness (Jan). No evidence reached. | seo-ads | open |
 | 18 | Back-to-school extras: college cost/529 savings calculator (Aug 2027 timing) | new calculator | 18 | Seasonal only; revisit June 2027. | ux-designer | parked |
