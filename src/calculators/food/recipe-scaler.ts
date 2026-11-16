@@ -125,7 +125,7 @@ export default defineCalculator({
       { q: 'Can I convert the units too?', a: 'This tool keeps your original units. To switch between cups and grams, use the cups-to-grams converter after scaling.' },
     ],
   },
-  related: ['cooking-converter', 'percentage', 'macro'],
+  related: ['cooking-converter', 'turkey-cooking-time', 'percentage', 'macro'],
   examples: [
     {
       values: { original: 4, desired: 6, recipe: '2 cups flour\n1 1/2 tsp salt\n1/2 cup sugar\n3 eggs\nPinch of nutmeg' },

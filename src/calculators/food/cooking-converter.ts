@@ -110,7 +110,7 @@ export default defineCalculator({
       { q: 'How much does a stick of butter weigh?', a: 'One US stick is ½ cup, 8 tablespoons or about 113 g.' },
     ],
   },
-  related: ['recipe-scaler', 'macro', 'percentage'],
+  related: ['recipe-scaler', 'turkey-cooking-time', 'macro', 'percentage'],
   examples: [
     { values: { ingredient: 'flour', amount: 1, from: 'cup', to: 'g' }, expect: { value: 125, result: '125 g' }, tolerance: 1e-9 },
     { values: { ingredient: 'sugar', amount: 100, from: 'g', to: 'tbsp' }, expect: { value: 8, result: '8 tbsp', cups: 0.5 }, tolerance: 1e-9 },

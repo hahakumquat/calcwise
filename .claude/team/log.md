@@ -76,3 +76,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Health: deploys through 02:54 green; confirm the new deploy next cycle. Live site not reachable from sandbox.
 - Caveats: no 375px browser check; IRS IRB source URL not fetched.
 - Next: net-worth percentile (needs source), New Year fitness cross-links; daily report after 14:00 UTC.
+
+## 2026-11-16 05:00 UTC — cycle
+- Shipped: turkey cooking time and thaw planner https://cappycalc.com/food/turkey-cooking-time/ (verify: 174 pages, 0 problems; 3 hand-checked examples). Linked from cooking-converter, recipe-scaler.
+- Backlog: full 2026-11-16 refresh by product-research (24 open items across all categories; Black Friday stacked-discount, gift budget, 52-week challenge next).
+- Health: deploys through 04:02 green; confirm new deploy next cycle. Live site not reachable from sandbox.
+- Caveats: fsis.usda.gov blocked in sandbox, so unstuffed 18-24 lb, stuffed 14+ lb rows and the 24h-per-4-5-lb thaw rule are unverified against the page — owner/next cycle should spot-check before Thanksgiving (11-26). 375px light checked by agent via system Chrome.
+- Next: stacked discount / Black Friday (ship by 11-25), gift budget; daily report after 14:00 UTC.
