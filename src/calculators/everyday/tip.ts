@@ -66,7 +66,7 @@ export default defineCalculator({
       { q: 'Should I tip on tax?', a: 'Etiquette guides generally say tipping on the pre-tax subtotal is fine. The difference is small — on a $100 meal with 8% tax it is about $1.50 at 18%.' },
     ],
   },
-  related: ['unit-price', 'percentage', 'hours-worked'],
+  related: ['bill-splitter', 'unit-price', 'percentage', 'hours-worked'],
   examples: [
     { values: { bill: 85, pct: 18, people: 2, roundUp: 'off' }, expect: { tip: 15.3, total: 100.3, perPerson: 50.15, tipPerPerson: 7.65 } },
     { values: { bill: 85, pct: 18, people: 2, roundUp: 'on' }, expect: { perPerson: 51, total: 102, tip: 17 } },

@@ -120,3 +120,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Health: subscription-cost deploy to confirm next cycle. Live site not reachable from sandbox.
 - Caveats: no browser/375px check; donut chart appearance untested.
 - Next: party food (needs sources), bill splitter, steps to distance; FSIS turkey spot-check before 11-26; daily report after 14:00 UTC.
+
+## 2026-11-16 08:00 UTC — cycle
+- Shipped: bill splitter https://cappycalc.com/everyday/bill-splitter/ (verify: 180 pages, 0 problems; $30/$20/$50 + $8 tax + 20% tip = $128, shares 38.40/25.60/64.00). Linked from tip.
+- Health: deploys through 06:58 (overtime pay) green. Live site not reachable from sandbox.
+- Caveats: no browser/375px check; only generic CFPB source link.
+- Next: party food (needs sources), steps to distance, plate calculator; FSIS turkey spot-check before 11-26; daily report after 14:00 UTC.
