@@ -169,3 +169,11 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: no one-at-a-time reveal (UI recomputes on input change); no browser/375px check; local `main` branch is unrelated to origin/main, so worked from a branch off origin/main.
 - Marketing: not run (pack exists). Daily report due next cycle (after 14:00 UTC).
 - Next: daily report; fuel economy converter, time zone converter; spot-check turkey sources before 11-26.
+
+## 2026-11-16 14:51 UTC — cycle
+- Shipped: fuel economy converter https://cappycalc.com/conversion/fuel-economy-converter/ (verify: 187 pages, 0 problems; 30 US mpg = 7.84 L/100 km = 12.75 km/L = 36.0 UK mpg). Linked from gas-cost.
+- Report: posted Daily report 2026-11-16 (#2), closed #1.
+- Health: deploys through 13:56 green. Live site not reachable from sandbox.
+- Caveats: no browser/375px check of the scale chart.
+- Marketing: not run (pack exists).
+- Next: time zone converter; spot-check turkey sources before 11-26.
