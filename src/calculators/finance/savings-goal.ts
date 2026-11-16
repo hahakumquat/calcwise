@@ -64,7 +64,7 @@ export default defineCalculator({
       { q: 'What if I can only save weekly or every two weeks?', a: 'Multiply the monthly figure by 12 and divide by 52 for weekly or by 26 for every two weeks. The result is close enough for planning.' },
     ],
   },
-  related: ['compound-interest', 'cd', 'investment', 'net-worth', 'emergency-fund', 'home-affordability', 'gift-budget', 'savings-challenge'],
+  related: ['compound-interest', 'cd', 'investment', 'net-worth', 'emergency-fund', 'home-affordability', 'gift-budget', 'savings-challenge', 'subscription-cost'],
   examples: [
     { values: { goal: 12000, current: null, rate: 0, time: 2 * YEAR_S }, expect: { monthly: 500, interest: 0 } },
     { values: { goal: 50000, current: 5000, rate: 4, time: 5 * YEAR_S }, expect: { monthly: 662.0768 }, tolerance: 0.00001 },

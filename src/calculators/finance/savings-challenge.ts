@@ -108,7 +108,7 @@ export default defineCalculator({
       { label: 'Arithmetic progression (sum formula)', url: 'https://en.wikipedia.org/wiki/Arithmetic_progression' },
     ],
   },
-  related: ['savings-goal', 'gift-budget', 'compound-interest', 'emergency-fund'],
+  related: ['savings-goal', 'gift-budget', 'compound-interest', 'emergency-fund', 'subscription-cost'],
   examples: [
     {
       // n/2 × (2a + (n−1)d) = 26 × (2 + 51) = 26 × 53 = 1,378; final 1 + 51 = 52; average 1,378 ÷ 52 = 26.5.

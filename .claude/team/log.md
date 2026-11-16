@@ -107,3 +107,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Health: earlier deploys green; savings-challenge and this deploy to confirm next cycle. Live site not reachable from sandbox.
 - Caveats: no browser/375px check; mode switch not browser-tested.
 - Next: subscription annualiser, overtime pay, party food (needs sources); spot-check FSIS turkey rows before 11-26; daily report after 14:00 UTC.
+
+## 2026-11-16 07:00 UTC — cycle
+- Shipped: subscription cost calculator https://cappycalc.com/finance/subscription-cost/ (verify: 178 pages, 0 problems; examples $360/yr -> $4,973.92 at 7%/10y, $480/yr with a $120 plan, $2/week -> $104). Linked from savings-goal, savings-challenge.
+- Health: deploys through 05:54 (rule of 72) green; the cancelled savings-challenge run was superseded by a later green run. Live site not reachable from sandbox.
+- Caveats: no browser/375px check; chart labels are "Sub N" (no name field); Investor.gov link unchecked.
+- Marketing: not run (pack exists). Daily report after 14:00 UTC.
+- Next: overtime pay, party food (needs sources), bill splitter; spot-check FSIS turkey rows before 11-26.
