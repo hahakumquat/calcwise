@@ -126,3 +126,11 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Health: deploys through 06:58 (overtime pay) green. Live site not reachable from sandbox.
 - Caveats: no browser/375px check; only generic CFPB source link.
 - Next: party food (needs sources), steps to distance, plate calculator; FSIS turkey spot-check before 11-26; daily report after 14:00 UTC.
+
+## 2026-11-16 09:00 UTC — cycle
+- Shipped: steps to miles/km calculator https://cappycalc.com/health/steps-to-distance/ (verify: 181 pages, 0 problems; 10,000 steps at 175 cm male = 7.26 km / 4.51 mi). Linked from calories-burned.
+- Health: live site not reachable from sandbox; deploy workflow results to confirm next cycle.
+- Caveats: no browser/375px check; stride factors are a labelled rule of thumb, no external source.
+- Marketing: not run (pack exists). Daily report after 14:00 UTC (not yet due).
+- Note: an automated `git reset --hard` was denied, so this cycle worked on a fresh branch from origin/main; local `main` is stale and untouched.
+- Next: plate calculator, party food (needs sources), tax-loss harvesting (ship by 12-20); FSIS turkey spot-check before 11-26.

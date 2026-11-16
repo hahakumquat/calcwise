@@ -94,7 +94,7 @@ export default defineCalculator({
       { q: 'Does walking a mile burn the same as running a mile?', a: 'Running burns more per mile — roughly 1.5 to 2 times as much at typical speeds — because the bouncing motion takes more energy, though the gap is smaller than the per-minute difference suggests.' },
     ],
   },
-  related: ['tdee', 'pace', 'heart-rate-zones', 'weight-loss-goal', 'bmr'],
+  related: ['steps-to-distance', 'tdee', 'pace', 'heart-rate-zones', 'weight-loss-goal', 'bmr'],
   examples: [
     { values: { activity: 'run-5', weight: 70, duration: 1800, met: null }, expect: { calories: 290.5, perHour: 581, netCalories: 255.5 }, tolerance: 1e-6 },
     { values: { activity: 'custom', weight: 80, duration: 3600, met: 5 }, expect: { calories: 400 }, tolerance: 1e-6 },
