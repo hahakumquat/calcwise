@@ -67,7 +67,7 @@ export default defineCalculator({
       { q: 'How do I find the original price from a sale price?', a: 'Divide the sale price by the fraction you paid. A $60 item that was 25% off originally cost $60 ÷ 0.75 = $80.' },
     ],
   },
-  related: ['sales-tax', 'percentage', 'markup', 'profit-margin'],
+  related: ['sales-tax', 'percentage', 'markup', 'profit-margin', 'gift-budget'],
   examples: [
     { values: { price: 80, discount: 25, extra: null, taxRate: null }, expect: { salePrice: 60, savings: 20, totalDiscount: 0.25 } },
     { values: { price: 100, discount: 30, extra: 20, taxRate: 10 }, expect: { salePrice: 56, totalDiscount: 0.44, withTax: 61.6 } },

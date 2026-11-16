@@ -88,3 +88,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: stacked discount / Black Friday upgrade to https://cappycalc.com/finance/discount/ (extra discount, coupon, tax; 30%+20% = 44% off; verify 174 pages, 0 problems; 4 hand-checked examples).
 - Caveats: no browser check; coupon always applied after percentages.
 - Next: gift budget split, 52-week challenge, Rule of 72; daily report after 14:00 UTC.
+
+## 2026-11-16 05:30 UTC — cycle (final)
+- Shipped: holiday gift budget calculator https://cappycalc.com/finance/gift-budget/ (verify 175 pages, 0 problems; 3 hand-checked examples). Linked from savings-goal, discount.
+- Earlier this cycle: turkey cooking time, stacked discounts (see entries above). Deploy checks for all three due next cycle; live site not reachable from sandbox.
+- Caveats: 375px light/dark checked by agent via system Chrome; turkey rows from FSIS unverified (see 05:00 entry).
+- Next: 52-week savings challenge, Rule of 72, subscription annualiser; daily report after 14:00 UTC.
