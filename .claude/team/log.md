@@ -114,3 +114,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: no browser/375px check; chart labels are "Sub N" (no name field); Investor.gov link unchecked.
 - Marketing: not run (pack exists). Daily report after 14:00 UTC.
 - Next: overtime pay, party food (needs sources), bill splitter; spot-check FSIS turkey rows before 11-26.
+
+## 2026-11-16 07:10 UTC — cycle (cont.)
+- Shipped: overtime and holiday pay calculator https://cappycalc.com/everyday/overtime-pay/ (verify: 179 pages, 0 problems; $20 x 48 h = $1,040, $20 x 45 h + 8 holiday h = $1,270). Linked from hours-worked.
+- Health: subscription-cost deploy to confirm next cycle. Live site not reachable from sandbox.
+- Caveats: no browser/375px check; donut chart appearance untested.
+- Next: party food (needs sources), bill splitter, steps to distance; FSIS turkey spot-check before 11-26; daily report after 14:00 UTC.
