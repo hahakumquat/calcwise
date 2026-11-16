@@ -218,7 +218,7 @@ export default defineCalculator({
       { label: 'CFPB: Debt collection and managing debt tools', url: 'https://www.consumerfinance.gov/consumer-tools/debt-collection/' },
     ],
   },
-  related: ['credit-card-payoff', 'emergency-fund', 'loan', 'rent-affordability'],
+  related: ['credit-card-payoff', 'emergency-fund', 'loan', 'rent-affordability', 'student-loan-payoff'],
   examples: [
     // Two debts: $1,000 at 24% (min $50) and $500 at 12% (min $25), $100 extra. Budget = $175/month.
     // Avalanche targets debt 1 (24%); snowball targets debt 2 ($500). Checked with an independent script.
