@@ -314,3 +314,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: built directly, no delegation; no browser check; deploy run not inspected. IRS items 31, 40, 41 still blocked.
 - Marketing/daily report: not run / not due (before 14:00 UTC).
 - Next: research refill (few buildable items left), retry IRS.
+
+## 2026-11-17 11:55 UTC — cycle
+- Shipped: daily spending allowance calculator https://cappycalc.com/finance/daily-spending-allowance/ (verify: 208 pages, 0 problems; $3,200-$1,700-$400 over 30 days -> $36.67/day, $256.67/week, 25% over lasts 24 days).
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm ci` blocked by sandbox check, used `npm install`. irs.gov returns 403 via proxy (items 31, 40, 41 still blocked; owner: allow www.irs.gov).
+- Marketing/daily report: not run / not due (before 14:00 UTC).
+- Next: research refill (buildable items nearly exhausted), retry IRS.

@@ -109,3 +109,4 @@ Every spec: copy a neighbour calculator, add `examples` with the hand-checked va
 - 2026-11-15 — Full research pass completed.
 
 Added 2026-11-17 (lead): `finance/cost-per-use` — shipped 2026-11-17 (/finance/cost-per-use/; no browser/375px check). Not in table; source-free evergreen filler while IRS items are blocked.
+| 44 | **Daily spending allowance** (`finance/daily-spending-allowance`). Added by lead; source-free budgeting, links 50/30/20. | new calculator | n/a | seasonal inference | lead | shipped 2026-11-17 (/finance/daily-spending-allowance/; no browser/375px check) |
