@@ -302,3 +302,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: built directly, no delegation; no browser/375px check; deploy workflow not inspected from sandbox. `npm ci` blocked by sandbox safety check, used `npm install`. irs.gov still unreachable (items 31, 40 blocked).
 - Marketing/daily report: not run / not due (before 14:00 UTC).
 - Next: IRS items if reachable; else ranks 29/30, research refill.
+
+## 2026-11-17 09:55 UTC — cycle
+- Shipped: verdict badge/tone (Steady pace / Slow and steady / Too fast) + steps-to-distance cross-link on https://cappycalc.com/health/weight-loss-goal/ (verify: 206 pages, 0 problems).
+- Caveats: built directly, no delegation; no browser check; deploy run not inspected. irs.gov still unreachable (items 31, 40, 41 blocked).
+- Marketing/daily report: not run / not due (before 14:00 UTC).
+- Next: rank 30 (FIRE verdict copy), research refill; retry IRS.

@@ -61,6 +61,8 @@ export default defineCalculator({
         `Energy to burn = ${toLose.toFixed(2)} kg × 7,700 kcal/kg = ${Math.round(toLose * KCAL_PER_KG).toLocaleString('en-US')} kcal`,
         `Days = ${Math.round(toLose * KCAL_PER_KG).toLocaleString('en-US')} ÷ ${def} kcal/day ≈ ${days} days`,
       ],
+      tone: def > 1000 || pctPerWeek > 1 ? 'warn' : 'good',
+      badge: def > 1000 || pctPerWeek > 1 ? 'Too fast' : pctPerWeek < 0.25 ? 'Slow and steady' : 'Steady pace',
       note:
         def > 1000 || pctPerWeek > 1
           ? 'That pace is faster than the usual safe guideline of 0.5–1% of body weight per week. Consider a smaller deficit or medical supervision.'
@@ -79,7 +81,7 @@ export default defineCalculator({
       { q: 'Can exercise count toward the deficit?', a: 'Yes — the deficit is the gap between calories burned and eaten. Just be careful not to overestimate exercise calories, which fitness trackers often do.' },
     ],
   },
-  related: ['tdee', 'macro', 'calories-burned', 'bmi', 'ideal-weight', 'bmr'],
+  related: ['tdee', 'macro', 'calories-burned', 'steps-to-distance', 'bmi', 'ideal-weight'],
   examples: [
     { values: { current: 90, goal: 80, deficit: 500, start: '2026-01-01' }, expect: { days: 154, goalDate: 'Thu, June 4, 2026', weeks: 22, weekly: 0.454545 }, tolerance: 1e-5 },
   ],
