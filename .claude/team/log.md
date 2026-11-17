@@ -260,3 +260,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Marketing: not run (pack exists). Daily report not due (before 14:00 UTC).
 - Also shipped 02:xx: SS COLA calculator https://cappycalc.com/finance/social-security-cola/ (200 pages, 0 problems; $2,000 at 3.6% = $2,072).
 - Next: DTI (34, cite cfpb), RMD (40, verify IRS factors first), tax-year 2027 refresh (31, IRS figures now published).
+
+## 2026-11-17 02:55 UTC — cycle
+- Shipped: DTI calculator https://cappycalc.com/finance/debt-to-income/ (verify: 201 pages, 0 problems; $6,000 income, $1,500 housing, $600 debts -> 35.0%, housing 25.0%; $5,000/$3,000 -> 60%, $1,200 to clear to reach 36%).
+- Caveats: no browser/375px check; built directly by lead; 36%/43% framed as benchmarks (CFPB link not opened from sandbox).
+- Marketing: not run (pack exists). Daily report not due (before 14:00 UTC).
+- Next: RMD (40, verify IRS table), tax-year 2027 refresh (31), commute cost (37).
