@@ -65,7 +65,7 @@ Priority = demand x fit x (social + adsense) / (6 - effort). Scores: demand (d),
 | 47 | **Coffee brew ratio** (`food/coffee-ratio`), spec 39. d4 f2 s3 a2 e5 | new calculator | 40 | Evergreen; pairs with `finance/latte-factor`. No evidence searched. | ux-designer | shipped 2026-11-17 (/food/coffee-ratio/; no browser/375px check; 5 g/tbsp is approximate) |
 | 48 | **Pizza size comparison** (`everyday/pizza-size-comparison`), spec 40. d3 f2 s5 a1 e5 | new calculator | 36 | Shareable "a 16 is not 4 bigger than a 12"; party season. No evidence searched. | ux-designer | done 2026-11-17 |
 | 49 | **Wrapping paper needed** (`everyday/wrapping-paper`), spec 41. d4 f1 s3 a2 e5 | new calculator | 20 | Christmas; loses value after 2026-12-25, ship by 2026-12-15. No evidence searched. | ux-designer | shipped 2026-11-17 (/everyday/wrapping-paper/; no browser/375px check; rule-of-thumb piece size) |
-| 50 | **Recipe cost per serving** (`food/recipe-cost`), spec 42. d3 f3 s2 a2 e4 | new calculator | 18 | Evergreen, groceries-budget angle; links `recipe-scaler`. No evidence searched. | ux-designer | open |
+| 50 | **Recipe cost per serving** (`food/recipe-cost`), spec 42. d3 f3 s2 a2 e4 | new calculator | 18 | Evergreen, groceries-budget angle; links `recipe-scaler`. No evidence searched. | ux-designer | shipped 2026-11-17 (/food/recipe-cost/; no browser/375px check; 8 ingredient rows, same unit per row) |
 | 51 | **Arithmetic and geometric sequence** (`math/sequence-calculator`), spec 43. d4 f1 s1 a3 e5 | new calculator | 16 | Evergreen homework tool, fills math. No evidence searched. | ux-designer | shipped 2026-11-17 (/math/sequence-calculator/; no browser/375px check) |
 
 ## Specs for new items
