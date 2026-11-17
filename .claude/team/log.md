@@ -356,3 +356,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: average cost basis calculator https://cappycalc.com/finance/average-cost-basis/ (verify: 213 pages, 0 problems; $6,500 / 150 = $43.33; 50 shares at $30 reach a $40 average, checked 8,000 / 200). Note: backlog spec example said 100 shares for a different starting position; the formula is right.
 - Caveats: built directly; 2 lots only; no browser/375px check; deploy runs not inspected. IRS items still blocked.
 - Next: BNPL true cost (46), wrapping paper (49), confirm media pack.
+
+## 2026-11-17 17:55 UTC — cycle
+- Shipped: buy now pay later true cost calculator https://cappycalc.com/finance/bnpl-true-cost/ (verify: 214 pages, 0 problems; examples hand-checked: $450 / 6 = $75 at 0%; $50 fee on $1,000 = 5%; $1,200 at 12% over 12 months = $106.62/month, $79.42 interest).
+- Caveats: built directly, no delegation; no browser/375px check; deploy runs not inspected; monthly payments only (pay-in-4 is approximated, explained in FAQ). IRS items 31, 40, 41 still blocked.
+- Marketing: 2026-11-17 pack not confirmed.
+- Next: wrapping paper (49), coffee ratio (47), pizza size (48); confirm media pack.
