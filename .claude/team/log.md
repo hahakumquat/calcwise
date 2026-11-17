@@ -284,3 +284,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: built directly by lead, no delegation; no browser/375px check; DOL link not opened from sandbox; deploy workflow not inspected. Cycle ended early after one item (sandbox/time), not the full 40 minutes.
 - Marketing: not run. Daily report not due (before 14:00 UTC).
 - Next: RMD (40, verify IRS table), tax-year 2027 refresh (31).
+
+## 2026-11-17 07:00 UTC — cycle
+- Shipped: nothing. Top items need IRS primary sources: RMD (40, Pub. 590-B table) and tax-year 2027 refresh (31, Rev. Proc. 2026-35). www.irs.gov fails DNS from this sandbox, and the backlog requires verifying against IRS, so no numbers shipped from memory.
+- Tried: WebFetch on irs.gov (host unresolvable); stopped rather than trust secondary sites for a tax table.
+- Health/SEO/marketing: not run. Daily report not due.
+- Owner: allow www.irs.gov in session network settings. Next cycle: if reachable build RMD then 2027 refresh; else ranks 29/30.
