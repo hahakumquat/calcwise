@@ -290,3 +290,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Tried: WebFetch on irs.gov (host unresolvable); stopped rather than trust secondary sites for a tax table.
 - Health/SEO/marketing: not run. Daily report not due.
 - Owner: allow www.irs.gov in session network settings. Next cycle: if reachable build RMD then 2027 refresh; else ranks 29/30.
+
+## 2026-11-17 07:55 UTC — cycle
+- Shipped: cost per use calculator https://cappycalc.com/finance/cost-per-use/ (verify: 205 pages, 0 problems; $200+$20-$20 resale, 100 uses -> $2.00/use, break-even 40 vs $5 alt, saving $300). Added by lead as a source-free item since IRS items stay blocked.
+- Caveats: built directly, no delegation; no browser/375px check; deploy workflow not inspected from sandbox. irs.gov still unreachable (RMD 40, tax-year refresh 31 still blocked).
+- Marketing/daily report: not run / not due (before 14:00 UTC).
+- Next: IRS items if reachable; else ranks 29/30, research refill (source-free evergreen finance/everyday ideas).

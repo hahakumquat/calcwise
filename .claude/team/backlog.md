@@ -105,3 +105,5 @@ Every spec: copy a neighbour calculator, add `examples` with the hand-checked va
 - 2026-11-15 — Take-home pay page: worked-example FAQs.
 - 2026-11-13 — Link-preview image, category guides and SEO titles/descriptions site-wide.
 - 2026-11-15 — Full research pass completed.
+
+Added 2026-11-17 (lead): `finance/cost-per-use` — shipped 2026-11-17 (/finance/cost-per-use/; no browser/375px check). Not in table; source-free evergreen filler while IRS items are blocked.
