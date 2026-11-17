@@ -67,6 +67,10 @@ Priority = demand x fit x (social + adsense) / (6 - effort). Scores: demand (d),
 | 49 | **Wrapping paper needed** (`everyday/wrapping-paper`), spec 41. d4 f1 s3 a2 e5 | new calculator | 20 | Christmas; loses value after 2026-12-25, ship by 2026-12-15. No evidence searched. | ux-designer | shipped 2026-11-17 (/everyday/wrapping-paper/; no browser/375px check; rule-of-thumb piece size) |
 | 50 | **Recipe cost per serving** (`food/recipe-cost`), spec 42. d3 f3 s2 a2 e4 | new calculator | 18 | Evergreen, groceries-budget angle; links `recipe-scaler`. No evidence searched. | ux-designer | shipped 2026-11-17 (/food/recipe-cost/; no browser/375px check; 8 ingredient rows, same unit per row) |
 | 51 | **Arithmetic and geometric sequence** (`math/sequence-calculator`), spec 43. d4 f1 s1 a3 e5 | new calculator | 16 | Evergreen homework tool, fills math. No evidence searched. | ux-designer | shipped 2026-11-17 (/math/sequence-calculator/; no browser/375px check) |
+| 52 | **Pay off house early (extra mortgage payment)** (`finance/extra-mortgage-payment`). Inputs: balance, rate, years left, extra per month; output interest saved and months saved. Pure amortisation; links `mortgage`, `refinance`. | new calculator | 100 | Evergreen; Jan 'new year, less debt'. Lead-added, no evidence searched. | ux-designer | open |
+| 54 | **Weighted mean** (`statistics/weighted-mean`). Pure math, homework. | new calculator | 24 | Evergreen. Lead-added. | ux-designer | open |
+| 55 | **Loan comparison: two offers side by side** (`finance/loan-comparison`). Inputs: amount, two APR/term/fee sets; output monthly payment, total interest, cheaper offer. Links `loan`, `apr`. | new calculator | 90 | Evergreen. Lead-added, no evidence searched. | ux-designer | open |
+| 56 | **Ohm's law / power (V, I, R, P)** (`construction/ohms-law`). Pure physics identities. | new calculator | 20 | Evergreen. Lead-added. | ux-designer | open |
 
 ## Specs for new items
 
