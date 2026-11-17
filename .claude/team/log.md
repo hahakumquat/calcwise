@@ -326,3 +326,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected yet. Local `main` branch is stale/unrelated; worked from origin/main on branch `cycle`. A `git reset --hard` was denied by the sandbox classifier, so used checkout instead.
 - Marketing/daily report: not run / not due (before 14:00 UTC).
 - Next: research refill (few buildable items left); IRS-blocked items 31, 40, 41 still need www.irs.gov.
+
+## 2026-11-17 13:55 UTC — cycle
+- Shipped: lump sum vs monthly payments calculator https://cappycalc.com/finance/lump-sum-vs-payments/ (verify: 210 pages, 0 problems; 0%-return examples hand-checked: $1,000 x 120 = $120,000 vs $100,000 lump -> +$20,000).
+- Caveats: built directly, no delegation; no browser/375px check. Previous deploy (13:55 push) green. `npm ci` blocked by sandbox, used `npm install`. IRS items 31, 40, 41 still blocked (owner: allow www.irs.gov).
+- Marketing/daily report: not run; daily report due next cycle (first after 14:00 UTC).
+- Next: daily report issue + marketing brief for 2026-11-17, research refill (backlog nearly dry).
