@@ -278,3 +278,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: built directly by lead, no delegation; no browser/375px check; constant yield (dividend-growth input dropped, stated in copy); SEC link not opened; deploy workflow not inspected. A `git reset --hard` was blocked by the sandbox, used `checkout -B main origin/main` instead.
 - Marketing: not run. Daily report not due (before 14:00 UTC).
 - Next: PTO (39), RMD (40, verify IRS table), tax-year 2027 refresh (31).
+
+## 2026-11-17 05:55 UTC — cycle
+- Shipped: PTO calculator https://cappycalc.com/everyday/pto-calculator/ (verify: 204 pages, 0 problems; 15 d x 8 h, 26 periods = 4.615 h/paycheck; 10 d used = 5 d / 40 h left; $52k = $25/h -> $1,000; cap 3 d -> 2 d / $400 at risk).
+- Caveats: built directly by lead, no delegation; no browser/375px check; DOL link not opened from sandbox; deploy workflow not inspected. Cycle ended early after one item (sandbox/time), not the full 40 minutes.
+- Marketing: not run. Daily report not due (before 14:00 UTC).
+- Next: RMD (40, verify IRS table), tax-year 2027 refresh (31).
