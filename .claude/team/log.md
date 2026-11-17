@@ -383,3 +383,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: Ohm's law calculator https://cappycalc.com/construction/ohms-law/ (verify: 223 pages, 0 problems; 12 V and 2 A -> 6 ohm, 24 W; 6 ohm and 24 W -> 12 V, 2 A; 120 V on 240 ohm -> 0.5 A, 60 W).
 - Caveats: built directly, no delegation; no browser/375px check; deploy runs not inspected. Daily report already posted today (#3). IRS items 31, 40, 41 still blocked.
 - Next: backlog has no buildable open items left except 15 (needs source); refill with pure-math items.
+
+## 2026-11-17 21:55 UTC — cycle
+- Shipped: CAGR calculator https://cappycalc.com/finance/cagr-calculator/ (verify: 224 pages, 0 problems; 10k->25k over 8y = 12.13%, 1k->2k over 10y = 7.18%, 100->50 over 5y = -12.94%).
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. Daily report already posted today. Backlog still has no buildable open items (15, 31, 40, 41 need sources/IRS); next cycle should refill with pure-math/evergreen items.
+- Note: `npm ci` is blocked in compound shell commands by a safety check; run it alone.
