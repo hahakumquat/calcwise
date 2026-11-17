@@ -56,6 +56,7 @@ Priority = demand x fit x (social + adsense) / (6 - effort). Scores: demand (d),
 | 39 | **PTO balance and year-end leave value** (`everyday/pto-calculator`), spec 33. d3 f3 s3 a3 e5 | new calculator | 54 | Use-it-or-lose-it year-end. Seasonal inference only. Ship by 2026-12-15. | ux-designer | done 2026-11-17 |
 | 40 | **RMD calculator (age 73+)** (`finance/rmd-calculator`), spec 34. d4 f3 s2 a5 e4 | new calculator | 42 | Deadline 2026-12-31 (first RMD for 2026 may wait to 2027-04-01). Competitor: https://www.nerdwallet.com/retirement/calculators/required-minimum-distributions . Only secondary sources seen; verify table factors in IRS Pub. 590-B. Ship by 2026-12-10. | ux-designer | blocked 2026-11-17: IRS Pub. 590-B table unreachable; do not ship factors from memory |
 | 41 | **Charitable giving: standard vs itemize** (`finance/charitable-deduction`), spec 35. d3 f3 s1 a5 e3 | new calculator | 18 | Year-end giving deadline 2026-12-31; new 2026 rules (non-itemizer deduction, 0.5% AGI floor) per CPA blogs only: https://wiss.com/charitable-donation-tax-deductions-2026/ , https://www.fidelitycharitable.org/articles/tax-smart-moves-year-end.html . Needs IRS source check; park if unverified. | ux-designer | open, needs source check |
+| 42 | **50/30/20 budget** (`finance/budget-50-30-20`). Evergreen, New Year budgeting. Added by lead, source-free rule of thumb (Warren & Tyagi 2005). | new calculator | n/a | seasonal inference | lead | shipped 2026-11-17 (/finance/budget-50-30-20/; no browser/375px check) |
 
 ## Specs for new items
 
