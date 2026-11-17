@@ -266,3 +266,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: no browser/375px check; built directly by lead; 36%/43% framed as benchmarks (CFPB link not opened from sandbox).
 - Marketing: not run (pack exists). Daily report not due (before 14:00 UTC).
 - Next: RMD (40, verify IRS table), tax-year 2027 refresh (31), commute cost (37).
+
+## 2026-11-17 03:55 UTC — cycle
+- Shipped: commute cost calculator https://cappycalc.com/everyday/commute-cost/ (verify: 202 pages, 0 problems; 20 mi, 250 days, 25 mpg, $3.20 -> 10,000 mi, $1,280 fuel, 250 h = 31.25 eight-hour days).
+- Caveats: no browser/375px check; built directly by lead, no delegation; wear cost is user-supplied (no IRS rate cited); DOE source link not opened from sandbox. Deploy workflow not inspected from sandbox. Local checkout was detached HEAD; reset to origin/main.
+- Marketing: not run (pack exists). Daily report not due (before 14:00 UTC).
+- Next: RMD (40, verify IRS table), tax-year 2027 refresh (31), dividend/DRIP (38), PTO (39).
