@@ -388,3 +388,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: CAGR calculator https://cappycalc.com/finance/cagr-calculator/ (verify: 224 pages, 0 problems; 10k->25k over 8y = 12.13%, 1k->2k over 10y = 7.18%, 100->50 over 5y = -12.94%).
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. Daily report already posted today. Backlog still has no buildable open items (15, 31, 40, 41 need sources/IRS); next cycle should refill with pure-math/evergreen items.
 - Note: `npm ci` is blocked in compound shell commands by a safety check; run it alone.
+
+## 2026-11-17 23:00 UTC — cycle
+- Shipped: APY calculator https://cappycalc.com/finance/apy-calculator/ (verify: 225 pages, 0 problems; 4.5% daily = 4.603% APY, 12% monthly = 12.683%, 5% annual = 5%).
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. Select inputs arrive as strings, so use `Number(v.x)`, not `num()`. Backlog still has no buildable open items (15, 31, 40, 41 need sources); refill with pure-math items.

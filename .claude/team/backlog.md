@@ -71,6 +71,7 @@ Priority = demand x fit x (social + adsense) / (6 - effort). Scores: demand (d),
 | 54 | **Weighted mean** (`statistics/weighted-mean`). Pure math, homework. | new calculator | 24 | Evergreen. Lead-added. | ux-designer | shipped 2026-11-17 (/statistics/weighted-mean/; no browser/375px check) |
 | 55 | **Loan comparison: two offers side by side** (`finance/loan-comparison`). Inputs: amount, two APR/term/fee sets; output monthly payment, total interest, cheaper offer. Links `loan`, `apr`. | new calculator | 90 | Evergreen. Lead-added, no evidence searched. | ux-designer | shipped 2026-11-17 (/finance/loan-comparison/; no browser/375px check) |
 | 56 | **Ohm's law / power (V, I, R, P)** (`construction/ohms-law`). Pure physics identities. | new calculator | 20 | Evergreen. Lead-added. | ux-designer | shipped 2026-11-17 (/construction/ohms-law/; no browser/375px check) |
+| 58 | **APY calculator (APR to APY)** (`finance/apy-calculator`). Lead-added, pure math, links `cd`. | new calculator | n/a | evergreen | lead | shipped 2026-11-17 (/finance/apy-calculator/; no browser/375px check) |
 | 57 | **CAGR calculator** (`finance/cagr-calculator`). Start, end, years; compares CAGR with simple average. Lead-added, links `roi`. | new calculator | n/a | evergreen | lead | shipped 2026-11-17 (/finance/cagr-calculator/; no browser/375px check) |
 
 ## Specs for new items
