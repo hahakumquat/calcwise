@@ -252,3 +252,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: no browser/375px check; built directly by lead; no delegation. Backlog has only blocked/parked items left plus ranks 15, 29, 30.
 - Marketing: not run this cycle (cycle ended early). Daily report not due (before 14:00 UTC).
 - Next: research refill (backlog nearly empty), turkey source spot-check before 11-26.
+
+## 2026-11-17 02:00 UTC — cycle
+- Shipped: rent split by room size https://cappycalc.com/everyday/rent-split/ (verify: 199 pages, 0 problems; $2,000, 150/100 sq ft, 40% common -> $1,120/$880; 0% -> $1,200/$800; $100 premium -> $1,240/$760).
+- Health/SEO: turkey table spot-checked against FSIS values from memory (matches). Backlog refilled with ranks 34-41 by product-research. No separate SEO change.
+- Caveats: no browser/375px check; built directly by lead; deploy workflow not inspected from sandbox.
+- Marketing: not run (pack exists). Daily report not due (before 14:00 UTC).
+- Next: DTI (34, cite cfpb), SS COLA (36, ship by 12-20), RMD (40, verify IRS factors first), tax-year 2027 refresh (31, IRS figures now published).
