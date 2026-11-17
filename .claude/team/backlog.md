@@ -70,7 +70,7 @@ Priority = demand x fit x (social + adsense) / (6 - effort). Scores: demand (d),
 | 52 | **Pay off house early (extra mortgage payment)** (`finance/extra-mortgage-payment`). Inputs: balance, rate, years left, extra per month; output interest saved and months saved. Pure amortisation; links `mortgage`, `refinance`. | new calculator | 100 | Evergreen; Jan 'new year, less debt'. Lead-added, no evidence searched. | ux-designer | shipped 2026-11-17 (/finance/extra-mortgage-payment/; no browser/375px check; $250k 6% 30y +$200 saves $86,233, 93 months) |
 | 54 | **Weighted mean** (`statistics/weighted-mean`). Pure math, homework. | new calculator | 24 | Evergreen. Lead-added. | ux-designer | shipped 2026-11-17 (/statistics/weighted-mean/; no browser/375px check) |
 | 55 | **Loan comparison: two offers side by side** (`finance/loan-comparison`). Inputs: amount, two APR/term/fee sets; output monthly payment, total interest, cheaper offer. Links `loan`, `apr`. | new calculator | 90 | Evergreen. Lead-added, no evidence searched. | ux-designer | shipped 2026-11-17 (/finance/loan-comparison/; no browser/375px check) |
-| 56 | **Ohm's law / power (V, I, R, P)** (`construction/ohms-law`). Pure physics identities. | new calculator | 20 | Evergreen. Lead-added. | ux-designer | open |
+| 56 | **Ohm's law / power (V, I, R, P)** (`construction/ohms-law`). Pure physics identities. | new calculator | 20 | Evergreen. Lead-added. | ux-designer | shipped 2026-11-17 (/construction/ohms-law/; no browser/375px check) |
 
 ## Specs for new items
 

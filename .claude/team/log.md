@@ -378,3 +378,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Also shipped: loan comparison https://cappycalc.com/finance/loan-comparison/ ($20k: A 7%/60 mo $3,761 vs B 5.5%/48 mo + $400 fee $2,726).
 - Also shipped: weighted mean https://cappycalc.com/statistics/weighted-mean/ (90,80,70 / 50,30,20 -> 83).
 - Backlog refilled with ranks 52, 54-56 (extra mortgage payment, loan comparison, weighted mean, Ohm's law). Next: rank 56 (Ohm's law); refill again; ranks 15, 41 need source checks; 31, 40 blocked on IRS access.
+
+## 2026-11-17 20:51 UTC — cycle
+- Shipped: Ohm's law calculator https://cappycalc.com/construction/ohms-law/ (verify: 223 pages, 0 problems; 12 V and 2 A -> 6 ohm, 24 W; 6 ohm and 24 W -> 12 V, 2 A; 120 V on 240 ohm -> 0.5 A, 60 W).
+- Caveats: built directly, no delegation; no browser/375px check; deploy runs not inspected. Daily report already posted today (#3). IRS items 31, 40, 41 still blocked.
+- Next: backlog has no buildable open items left except 15 (needs source); refill with pure-math items.
