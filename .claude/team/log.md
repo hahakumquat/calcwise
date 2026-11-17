@@ -367,3 +367,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: pizza size comparison calculator https://cappycalc.com/everyday/pizza-size-comparison/ (verify: 215 pages, 0 problems; 12 in = 113.10 sq in, 16 in = 201.06 sq in, +77.8%; two $10 12 in pizzas beat a $22 16 in).
 - Caveats: built directly, no delegation; no browser/375px check; deploy runs not inspected. Daily report already posted today (#3). IRS items 31, 40, 41 still blocked.
 - Next: wrapping paper (49, ship by 12-15), coffee ratio (47); confirm 2026-11-17 media pack.
+
+## 2026-11-17 19:55 UTC — cycle
+- Shipped: coffee to water ratio calculator https://cappycalc.com/food/coffee-ratio/ (verify: 216 pages, 0 problems; 500 ml at 1:16 = 31.25 g; 12 fl oz = 22.18 g).
+- Caveats: built directly, no delegation; no browser/375px check; deploy runs not inspected. Daily report already posted today (#3). IRS items 31, 40, 41 still blocked.
+- Next: wrapping paper (49, ship by 12-15), recipe cost (50), sequences (51); confirm 2026-11-17 media pack.
