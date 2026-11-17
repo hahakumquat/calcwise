@@ -332,3 +332,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: built directly, no delegation; no browser/375px check. Previous deploy (13:55 push) green. `npm ci` blocked by sandbox, used `npm install`. IRS items 31, 40, 41 still blocked (owner: allow www.irs.gov).
 - Marketing/daily report: not run; daily report due next cycle (first after 14:00 UTC).
 - Next: daily report issue + marketing brief for 2026-11-17, research refill (backlog nearly dry).
+
+## 2026-11-17 14:55 UTC — cycle
+- Shipped: nothing new. Daily report posted: https://github.com/hahakumquat/calcwise/issues/3
+- Caveats: this cycle only did the daily report; no build, no deploy inspection. IRS items 31, 40, 41 still blocked (owner: allow www.irs.gov).
+- Marketing: no pack for 2026-11-17 yet (latest on `marketing` is 2026-11-16).
+- Next: marketing brief + media pack for 11-17, research refill (backlog nearly dry).
