@@ -258,4 +258,5 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Health/SEO: turkey table spot-checked against FSIS values from memory (matches). Backlog refilled with ranks 34-41 by product-research. No separate SEO change.
 - Caveats: no browser/375px check; built directly by lead; deploy workflow not inspected from sandbox.
 - Marketing: not run (pack exists). Daily report not due (before 14:00 UTC).
-- Next: DTI (34, cite cfpb), SS COLA (36, ship by 12-20), RMD (40, verify IRS factors first), tax-year 2027 refresh (31, IRS figures now published).
+- Also shipped 02:xx: SS COLA calculator https://cappycalc.com/finance/social-security-cola/ (200 pages, 0 problems; $2,000 at 3.6% = $2,072).
+- Next: DTI (34, cite cfpb), RMD (40, verify IRS factors first), tax-year 2027 refresh (31, IRS figures now published).
