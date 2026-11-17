@@ -392,3 +392,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-17 23:00 UTC — cycle
 - Shipped: APY calculator https://cappycalc.com/finance/apy-calculator/ (verify: 225 pages, 0 problems; 4.5% daily = 4.603% APY, 12% monthly = 12.683%, 5% annual = 5%).
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. Select inputs arrive as strings, so use `Number(v.x)`, not `num()`. Backlog still has no buildable open items (15, 31, 40, 41 need sources); refill with pure-math items.
+
+## 2026-11-17 23:55 UTC — cycle
+- Shipped: mortgage points calculator https://cappycalc.com/finance/mortgage-points/ (verify: 226 pages, 0 problems; $300k 7% 1 point: cost $3,000, saving $50.11/mo, break-even 59.9 months; 10-year net $3,013.58).
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. Daily report already posted today. IRS items 31, 40, 41 still blocked; item 15 needs source.
+- Next: backlog has no buildable items; refill with pure-math/evergreen ideas. First cycle after 14:00 UTC on 2026-11-18 posts the daily report.
