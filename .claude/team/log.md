@@ -374,4 +374,5 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Also shipped: wrapping paper calculator https://cappycalc.com/everyday/wrapping-paper/ (12x8x4 in -> 25x16 in, 400 sq in, 11 boxes per 30 in x 15 ft roll; rule of thumb).
 - Also shipped: sequence calculator https://cappycalc.com/math/sequence-calculator/ (a1 3, d 4, n 10 -> a10 39, S10 210; geometric 2, 3, 5 -> 162, 242).
 - Also shipped: recipe cost per serving https://cappycalc.com/food/recipe-cost/ (flour/eggs/butter -> $3.75, 6 servings $0.625).
-- Backlog refilled with ranks 52, 54-56 (extra mortgage payment, loan comparison, weighted mean, Ohm's law). Next: rank 52, 55; ranks 15, 41 need source checks; 31, 40 blocked on IRS access.
+- Also shipped: extra mortgage payment https://cappycalc.com/finance/extra-mortgage-payment/ (verify 220 pages, 0 problems).
+- Backlog refilled with ranks 52, 54-56 (extra mortgage payment, loan comparison, weighted mean, Ohm's law). Next: rank 55; ranks 15, 41 need source checks; 31, 40 blocked on IRS access.
