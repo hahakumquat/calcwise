@@ -371,4 +371,5 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-17 19:55 UTC — cycle
 - Shipped: coffee to water ratio calculator https://cappycalc.com/food/coffee-ratio/ (verify: 216 pages, 0 problems; 500 ml at 1:16 = 31.25 g; 12 fl oz = 22.18 g).
 - Caveats: built directly, no delegation; no browser/375px check; deploy runs not inspected. Daily report already posted today (#3). IRS items 31, 40, 41 still blocked.
-- Next: wrapping paper (49, ship by 12-15), recipe cost (50), sequences (51); confirm 2026-11-17 media pack.
+- Also shipped: wrapping paper calculator https://cappycalc.com/everyday/wrapping-paper/ (12x8x4 in -> 25x16 in, 400 sq in, 11 boxes per 30 in x 15 ft roll; rule of thumb).
+- Next: recipe cost (50), sequences (51); confirm 2026-11-17 media pack.
