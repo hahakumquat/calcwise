@@ -345,3 +345,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Marketing: brief for 2026-11-17 pushed to `marketing` (lead: real-hourly-wage); media agent rendering the pack, check next cycle.
 - Caveats: no browser/375px check; IRS items 31, 40, 41 still blocked (owner: allow www.irs.gov).
 - Next: build credit utilization / BNPL cost / wrapping paper (seasonal); confirm media pack and the deploy for c00c88a.
+
+## 2026-11-17 16:55 UTC — cycle
+- Shipped: credit utilization calculator https://cappycalc.com/finance/credit-utilization/ (verify: 212 pages, 0 problems; examples hand-checked: $2,000 / $8,000 = 25%, 10% target -> pay down $1,200).
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. IRS items 31, 40, 41 still blocked (owner: allow www.irs.gov).
+- Marketing: 2026-11-17 pack not confirmed this cycle.
+- Next: average cost basis (45), BNPL true cost (46), wrapping paper (49); confirm media pack.
