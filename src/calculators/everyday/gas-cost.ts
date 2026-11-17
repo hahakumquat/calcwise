@@ -27,6 +27,10 @@ export default defineCalculator({
     },
     { id: 'roundTrip', label: 'Round trip (double the distance)', type: 'toggle', default: false, info: 'Turn on to include the drive back, doubling the distance and the cost.' },
     { id: 'people', label: 'Split between', type: 'number', suffix: 'people', default: 1, min: 1, step: 1, optional: true, info: 'How many people are sharing the fuel cost evenly.' },
+    { id: 'tolls', label: 'Tolls and parking', type: 'number', prefix: '$', default: 0, min: 0, step: 0.01, optional: true, info: 'Total tolls and parking for the whole trip. Optional; leave at 0 for fuel only.' },
+    { id: 'nights', label: 'Nights away', type: 'number', suffix: 'nights', default: 0, min: 0, step: 1, optional: true, info: 'Nights you will pay for lodging. Optional.' },
+    { id: 'lodging', label: 'Lodging per night', type: 'number', prefix: '$', default: 0, min: 0, step: 1, optional: true, info: 'Cost of one room per night, split with everyone sharing it. Optional.' },
+    { id: 'food', label: 'Food per person per day', type: 'number', prefix: '$', default: 0, min: 0, step: 1, optional: true, info: 'Meals and snacks for one person for one day. Counted for nights away plus one day. Optional.' },
   ],
   outputs: [
     { id: 'cost', label: 'Fuel cost', format: 'currency', primary: true, info: 'Total cost of the fuel burned on the trip.' },
@@ -34,6 +38,8 @@ export default defineCalculator({
     { id: 'perPerson', label: 'Cost per person', format: 'currency', info: 'Fuel cost divided by the number of people sharing.' },
     { id: 'perMile', label: 'Cost per mile', format: 'currency', precision: 3, info: 'Fuel cost for each mile driven — handy for comparing cars or charging mileage.' },
     { id: 'perKm', label: 'Cost per km', format: 'currency', precision: 3, info: 'Fuel cost for each kilometre driven.' },
+    { id: 'tripTotal', label: 'Total trip cost', format: 'currency', info: 'Fuel plus tolls, lodging and food. Equals the fuel cost if you leave the extras at 0.' },
+    { id: 'tripPerPerson', label: 'Trip cost per person', format: 'currency', info: 'Fuel, tolls and lodging split evenly, plus each person’s own food.' },
   ],
   compute: (v) => {
     const dM = num(v.distance);
@@ -44,6 +50,10 @@ export default defineCalculator({
     const litres = km / eff;
     const cost = v.priceUnit === 'l' ? litres * price : (litres / GAL_L) * price;
     const people = num(v.people) ?? 1;
+    const nPeople = people >= 1 ? people : 1;
+    const nights = Math.max(0, num(v.nights) ?? 0);
+    const shared = cost + Math.max(0, num(v.tolls) ?? 0) + nights * Math.max(0, num(v.lodging) ?? 0);
+    const foodEach = (nights + 1) * Math.max(0, num(v.food) ?? 0);
     const perMile = km > 0 ? cost / (km / 1.609344) : null;
     return {
       cost,
@@ -51,6 +61,8 @@ export default defineCalculator({
       perPerson: people >= 1 ? cost / people : null,
       perMile,
       perKm: km > 0 ? cost / km : null,
+      tripTotal: shared + foodEach * nPeople,
+      tripPerPerson: shared / nPeople + foodEach,
       chart: {
         type: 'bar',
         title: 'Trip fuel cost',
@@ -76,7 +88,8 @@ export default defineCalculator({
     faq: [
       { q: 'What is the difference between US and UK mpg?', a: 'A UK (imperial) gallon is 4.546 L, about 20% larger than a US gallon of 3.785 L, so the same car shows a higher mpg figure in the UK. Pick the matching unit to avoid underestimating the cost.' },
       { q: 'How do I convert mpg to L/100 km?', a: 'Divide 235.21 by the US mpg figure. 25 mpg is about 9.4 L/100 km.' },
-      { q: 'Does this include tolls or wear and tear?', a: 'No, only fuel. The IRS mileage rate is a common benchmark for the full per-mile cost of running a car.' },
+      { q: 'Does this include tolls or wear and tear?', a: 'The fuel cost does not, but the optional tolls, lodging and food fields feed the total trip cost. Wear and tear is not included; the IRS mileage rate is a common benchmark for the full per-mile cost of running a car.' },
+      { q: 'How is food counted?', a: 'Food per person per day is multiplied by the nights away plus one day, then by the number of people. Lodging is one room per night, split evenly.' },
     ],
   },
   related: ['electricity-cost', 'unit-price', 'fuel-economy-converter', 'speed-converter', 'volume-converter'],
@@ -85,5 +98,9 @@ export default defineCalculator({
     { values: { distance: 482803.2, efficiency: 25 * 0.425143707, price: 3.5, priceUnit: 'gal', roundTrip: 'off', people: 2 }, expect: { cost: 42, perPerson: 21, perMile: 0.14 }, tolerance: 1e-6 },
     // 100 km at 8 L/100 km (12.5 km/L), round trip = 16 L × 1.80 = 28.80
     { values: { distance: 100000, efficiency: 12.5, price: 1.8, priceUnit: 'l', roundTrip: 'on', people: 1 }, expect: { cost: 28.8, fuel: 0.016 } },
+    // 500 mi round trip at 28 mpg, $3.50: 17.857 gal = $62.50 fuel; + $10 tolls = $72.50; 2 people = $36.25 each
+    { values: { distance: 250 * 1609.344, efficiency: 28 * 0.425143707, price: 3.5, priceUnit: 'gal', roundTrip: 'on', people: 2, tolls: 10, nights: 0, lodging: 0, food: 0 }, expect: { cost: 62.5, tripTotal: 72.5, tripPerPerson: 36.25 }, tolerance: 1e-3 },
+    // 300 mi at 25 mpg = $42 fuel; 2 nights x $100 + 3 days x $30 food = 42 + 200 + 90 = 332 for one person
+    { values: { distance: 482803.2, efficiency: 25 * 0.425143707, price: 3.5, priceUnit: 'gal', roundTrip: 'off', people: 1, tolls: 0, nights: 2, lodging: 100, food: 30 }, expect: { tripTotal: 332, tripPerPerson: 332 }, tolerance: 1e-6 },
   ],
 });

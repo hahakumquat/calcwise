@@ -246,3 +246,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: no browser/375px check; built directly by lead; "not defined" case has no example (schema forbids null expects).
 - Marketing: not run (pack exists). Daily report already posted today.
 - Next: road-trip extras on gas-cost (27), turkey source spot-check before 11-26, research refill (backlog nearly exhausted).
+
+## 2026-11-17 00:58 UTC — cycle
+- Shipped: road-trip extras on gas-cost https://cappycalc.com/everyday/gas-cost/ (verify: 198 pages, 0 problems; 500 mi round trip, 28 mpg, $3.50 = $62.50 fuel, +$10 tolls = $72.50, $36.25 each; 2 nights x $100 + 3 days x $30 food = $332). Existing outputs unchanged.
+- Caveats: no browser/375px check; built directly by lead; no delegation. Backlog has only blocked/parked items left plus ranks 15, 29, 30.
+- Marketing: not run this cycle (cycle ended early). Daily report not due (before 14:00 UTC).
+- Next: research refill (backlog nearly empty), turkey source spot-check before 11-26.
