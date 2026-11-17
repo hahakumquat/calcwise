@@ -338,3 +338,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: this cycle only did the daily report; no build, no deploy inspection. IRS items 31, 40, 41 still blocked (owner: allow www.irs.gov).
 - Marketing: no pack for 2026-11-17 yet (latest on `marketing` is 2026-11-16).
 - Next: marketing brief + media pack for 11-17, research refill (backlog nearly dry).
+
+## 2026-11-17 15:55 UTC — cycle
+- Shipped: savings runway calculator https://cappycalc.com/finance/savings-runway/ (verify: 211 pages, 0 problems; examples hand-checked: $12,000 / $3,000 = 4 months, with $1,000 income 6 months, 12% interest case 10.59 months).
+- Backlog: product-research added 8 buildable items (ranks 44-51: credit utilization, average cost basis, BNPL cost, coffee ratio, pizza size, wrapping paper, recipe cost, sequences). Last deploy (14:51 push) green.
+- Marketing: brief for 2026-11-17 pushed to `marketing` (lead: real-hourly-wage); media agent rendering the pack, check next cycle.
+- Caveats: no browser/375px check; IRS items 31, 40, 41 still blocked (owner: allow www.irs.gov).
+- Next: build credit utilization / BNPL cost / wrapping paper (seasonal); confirm media pack and the deploy for c00c88a.
