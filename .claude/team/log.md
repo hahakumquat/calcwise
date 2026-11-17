@@ -320,3 +320,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm ci` blocked by sandbox check, used `npm install`. irs.gov returns 403 via proxy (items 31, 40, 41 still blocked; owner: allow www.irs.gov).
 - Marketing/daily report: not run / not due (before 14:00 UTC).
 - Next: research refill (buildable items nearly exhausted), retry IRS.
+
+## 2026-11-17 13:00 UTC — cycle
+- Shipped: rent vs buy calculator https://cappycalc.com/finance/rent-vs-buy/ (verify: 209 pages, 0 problems; zero-rate examples hand-checked: buy net $0 vs rent $60,000 over 5 years).
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected yet. Local `main` branch is stale/unrelated; worked from origin/main on branch `cycle`. A `git reset --hard` was denied by the sandbox classifier, so used checkout instead.
+- Marketing/daily report: not run / not due (before 14:00 UTC).
+- Next: research refill (few buildable items left); IRS-blocked items 31, 40, 41 still need www.irs.gov.
