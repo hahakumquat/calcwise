@@ -376,4 +376,5 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Also shipped: recipe cost per serving https://cappycalc.com/food/recipe-cost/ (flour/eggs/butter -> $3.75, 6 servings $0.625).
 - Also shipped: extra mortgage payment https://cappycalc.com/finance/extra-mortgage-payment/ (verify 220 pages, 0 problems).
 - Also shipped: loan comparison https://cappycalc.com/finance/loan-comparison/ ($20k: A 7%/60 mo $3,761 vs B 5.5%/48 mo + $400 fee $2,726).
-- Backlog refilled with ranks 52, 54-56 (extra mortgage payment, loan comparison, weighted mean, Ohm's law). Next: ranks 54, 56; ranks 15, 41 need source checks; 31, 40 blocked on IRS access.
+- Also shipped: weighted mean https://cappycalc.com/statistics/weighted-mean/ (90,80,70 / 50,30,20 -> 83).
+- Backlog refilled with ranks 52, 54-56 (extra mortgage payment, loan comparison, weighted mean, Ohm's law). Next: rank 56 (Ohm's law); refill again; ranks 15, 41 need source checks; 31, 40 blocked on IRS access.
