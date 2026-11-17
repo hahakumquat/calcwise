@@ -351,3 +351,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. IRS items 31, 40, 41 still blocked (owner: allow www.irs.gov).
 - Marketing: 2026-11-17 pack not confirmed this cycle.
 - Next: average cost basis (45), BNPL true cost (46), wrapping paper (49); confirm media pack.
+
+## 2026-11-17 17:00 UTC — cycle (second item)
+- Shipped: average cost basis calculator https://cappycalc.com/finance/average-cost-basis/ (verify: 213 pages, 0 problems; $6,500 / 150 = $43.33; 50 shares at $30 reach a $40 average, checked 8,000 / 200). Note: backlog spec example said 100 shares for a different starting position; the formula is right.
+- Caveats: built directly; 2 lots only; no browser/375px check; deploy runs not inspected. IRS items still blocked.
+- Next: BNPL true cost (46), wrapping paper (49), confirm media pack.
