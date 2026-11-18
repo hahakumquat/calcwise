@@ -488,3 +488,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-18 21:55 UTC — cycle
 - Shipped: stock split calculator https://cappycalc.com/finance/stock-split-calculator/ (verify: 248 pages, 0 problems; 100 sh at $200, 4-for-1 -> 400 sh, $50, cost $120 -> $30, value $20,000; 1-for-10 reverse on 25 sh at $2 -> 2 whole sh + $10 cash).
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm install` used. IRS items 31, 40, 41 and 15 still blocked on sources; backlog needs refill with evergreen items.
+
+## 2026-11-18 22:55 UTC — cycle
+- Shipped: gross rent multiplier calculator https://cappycalc.com/finance/gross-rent-multiplier/ (verify: 249 pages, 0 problems; $300k, $2,400/mo -> GRM 10.42, gross yield 9.6%, 0.8% of price vs 1% rule needing $3,000; $120k at $1,200 -> GRM 8.33, 12%, 1%).
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm install` used. Savings-rate idea skipped (years-to-fi already covers it). IRS items 31, 40, 41 and 15 still blocked on sources; backlog needs refill with evergreen items.
