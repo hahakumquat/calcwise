@@ -451,3 +451,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-18 12:58 UTC — cycle
 - Shipped: dollar-cost averaging calculator https://cappycalc.com/finance/dollar-cost-averaging/ (verify: 239 pages, 0 problems; $100/mo at 10,8,5,8,10,12 -> 73.333 sh, avg cost $8.18, value $880, gain $280, lump sum gain $120).
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. IRS items 31, 40, 41 and item 15 still blocked on sources; backlog needs refill with evergreen items. First cycle after 14:00 UTC today posts the daily report.
+
+## 2026-11-18 13:52 UTC — cycle
+- Shipped: cost of waiting to invest https://cappycalc.com/finance/cost-of-waiting/ (verify: 240 pages, 0 problems; $500/mo, 7%, 30y -> $609,985; 10y delay -> $260,463; cost $349,522; catch-up $1,171/mo).
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. IRS items 31, 40, 41 and 15 still blocked on sources. Daily report not yet posted (cycle started before 14:00 UTC); next cycle should post it.
