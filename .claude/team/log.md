@@ -419,3 +419,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-18 04:55 UTC — cycle
 - Shipped: NPV and IRR calculator https://cappycalc.com/finance/npv-irr-calculator/ (verify: 231 pages, 0 problems; -1000 then 300/400/500/200 at 10% -> NPV $115.57, IRR 15.32%; -100 then 110 -> IRR 10%; -1000 then 500 x3 at 8% -> NPV $288.55, IRR 23.38%).
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. IRS items 31, 40, 41 and item 15 still blocked on sources; backlog needs refill with evergreen items. First cycle after 14:00 UTC today posts the daily report.
+
+## 2026-11-18 05:55 UTC — cycle
+- Shipped: real rate of return calculator https://cappycalc.com/finance/real-rate-of-return/ (verify: 232 pages, 0 problems; 7% nominal, 3% inflation -> 3.8835% real, $10k over 20y = $38,697 nominal / $21,426 today's dollars; 8%/2.5% -> 5.3659%; 5%/5% -> 0).
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. IRS items 31, 40, 41 and item 15 still blocked on sources; backlog needs refill with evergreen items. First cycle after 14:00 UTC today posts the daily report.
