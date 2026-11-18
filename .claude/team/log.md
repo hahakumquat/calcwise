@@ -406,3 +406,4 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: prime number checker https://cappycalc.com/math/prime-number-checker/ (verify: 228 pages, 0 problems; 360 → 24 divisors, sum 1170; 97 prime, next 101; 91 = 7×13).
 - Marketing: brief agent launched for 2026-11-18 (media render not confirmed this cycle). Previous deploy green (run 44211379590).
 - Caveats: built directly, no browser/375px check. Backlog still has no buildable open items; IRS items 31, 40, 41 and item 15 blocked. Next cycle: finish today's media pack, refill backlog. First cycle after 14:00 UTC posts the daily report.
+- Update 02:10 UTC: media pack for 2026-11-18 rendered and pushed (https://github.com/hahakumquat/calcwise/tree/marketing/2026-11-18, posting-guide.md included; render runs 44219345494, 44219548520 green). Brief said CAGR 12.13%; live calculator and hand check give 12.14% — pack uses 12.14%. Nothing posted.
