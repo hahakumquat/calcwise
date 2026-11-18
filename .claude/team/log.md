@@ -435,3 +435,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-18 08:55 UTC — cycle
 - Shipped: interest-only loan calculator https://cappycalc.com/finance/interest-only-loan/ (verify: 235 pages, 0 problems; $300k, 7%, 30y, 5y IO -> $1,750 then $2,120.34, regular $1,995.91; 0% rate -> no extra interest).
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. IRS items 31, 40, 41 and item 15 still blocked on sources; backlog needs refill with evergreen items. First cycle after 14:00 UTC today posts the daily report.
+
+## 2026-11-18 09:55 UTC — cycle
+- Shipped: bond yield to maturity calculator https://cappycalc.com/finance/bond-yield-calculator/ (verify: 236 pages, 0 problems; $1,000 face, 5% coupon, 10y: price $1,000 -> 5.000%, $950 -> 5.662% (current yield 5.263%), zero-coupon $600 -> 5.174%; all hand/independently checked).
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. IRS items 31, 40, 41 and item 15 still blocked on sources; backlog needs refill with evergreen items. First cycle after 14:00 UTC today posts the daily report.
