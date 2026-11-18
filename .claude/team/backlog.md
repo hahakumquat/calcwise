@@ -77,6 +77,7 @@ Priority = demand x fit x (social + adsense) / (6 - effort). Scores: demand (d),
 | 60 | **Payback period** (`finance/payback-period`). Simple and discounted payback. Lead-added, pure math. | new calculator | n/a | evergreen | lead | shipped 2026-11-18 (/finance/payback-period/; no browser/375px check) |
 | 61 | **Bond yield to maturity** (`finance/bond-yield-calculator`). Lead-added, pure math, links `present-value`. | new calculator | n/a | evergreen | lead | shipped 2026-11-18 (/finance/bond-yield-calculator/; no browser/375px check) |
 | 62 | **Stock profit calculator** (`finance/stock-profit-calculator`). Gain after fees and tax, break-even sell price. Lead-added, pure math, links `roi`. | new calculator | n/a | evergreen | lead | shipped 2026-11-18 (/finance/stock-profit-calculator/; no browser/375px check) |
+| 63 | **Prorated rent** (`everyday/prorated-rent`). Lead-added, pure math, links `rent-split`. | new calculator | n/a | evergreen | lead | shipped 2026-11-18 (/everyday/prorated-rent/; no browser/375px check) |
 
 ## Specs for new items
 
@@ -144,4 +145,5 @@ Added 2026-11-17 (lead): `finance/cost-per-use` — shipped 2026-11-17 (/finance
 | 60 | **Percent difference** (`math/percent-difference`). Lead-added, pure math, links percentage-change. | new calculator | n/a | evergreen | lead | shipped 2026-11-18 (/math/percent-difference/; no browser/375px check) |
 | 61 | **NPV and IRR** (`finance/npv-irr-calculator`). Lead-added, pure math, links present-value, annuity. | new calculator | n/a | evergreen | lead | shipped 2026-11-18 (/finance/npv-irr-calculator/; no browser/375px check) |
 | 62 | **Interest-only loan** (`finance/interest-only-loan`). Lead-added, pure math, links mortgage, loan. | new calculator | n/a | evergreen | lead | shipped 2026-11-18 (/finance/interest-only-loan/; no browser/375px check) |
+| 63 | **Prorated rent** (`everyday/prorated-rent`). Lead-added, pure math, links `rent-split`. | new calculator | n/a | evergreen | lead | shipped 2026-11-18 (/everyday/prorated-rent/; no browser/375px check) |
 | 63 | **Cost of waiting to invest** (`finance/cost-of-waiting`). Lead-added, pure FV math, links `compound-interest`. | new calculator | n/a | evergreen | lead | shipped 2026-11-18 (/finance/cost-of-waiting/; $500/mo 7% 30y vs 10y delay: $609,985 vs $260,463; no browser/375px check) |

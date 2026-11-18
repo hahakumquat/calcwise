@@ -460,3 +460,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: freelance hourly rate https://cappycalc.com/finance/freelance-rate/ (verify: 241 pages, 0 problems; $60k take-home, $5k costs, 25% tax, 25 h/wk, 6 wk off -> $73.91/h, revenue $85,000, 1,150 billable h).
 - Daily report 2026-11-18 posted as issue #4; #2 and #3 closed.
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. IRS items 31, 40, 41 and 15 still blocked on sources.
+
+## 2026-11-18 15:55 UTC — cycle
+- Shipped: prorated rent calculator https://cappycalc.com/everyday/prorated-rent/ (verify: 242 pages, 0 problems; $1,500, 30-day month, move in day 12 -> 19 days, $950.00 ($50/day); 365-day method $936.99).
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. IRS items 31, 40, 41 and 15 still blocked on sources.
