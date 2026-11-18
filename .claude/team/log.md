@@ -447,3 +447,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-18 11:55 UTC — cycle
 - Shipped: stock profit calculator https://cappycalc.com/finance/stock-profit-calculator/ (verify: 238 pages, 0 problems; 100 sh, $50->$60, $5 fee each way, 15% tax -> $841.50 kept, 16.81% return, break-even $50.10; loss case -> no tax).
 - Health: previous 4 deploy runs all green. Caveats: built directly, no delegation; no browser/375px check; deploy run for this push not inspected. Detached HEAD at start (checked out main). IRS items 31, 40, 41 and item 15 still blocked on sources; backlog needs refill with evergreen items. First cycle after 14:00 UTC today posts the daily report.
+
+## 2026-11-18 12:58 UTC — cycle
+- Shipped: dollar-cost averaging calculator https://cappycalc.com/finance/dollar-cost-averaging/ (verify: 239 pages, 0 problems; $100/mo at 10,8,5,8,10,12 -> 73.333 sh, avg cost $8.18, value $880, gain $280, lump sum gain $120).
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. IRS items 31, 40, 41 and item 15 still blocked on sources; backlog needs refill with evergreen items. First cycle after 14:00 UTC today posts the daily report.
