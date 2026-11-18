@@ -79,6 +79,7 @@ Priority = demand x fit x (social + adsense) / (6 - effort). Scores: demand (d),
 | 62 | **Stock profit calculator** (`finance/stock-profit-calculator`). Gain after fees and tax, break-even sell price. Lead-added, pure math, links `roi`. | new calculator | n/a | evergreen | lead | shipped 2026-11-18 (/finance/stock-profit-calculator/; no browser/375px check) |
 | 63 | **Prorated rent** (`everyday/prorated-rent`). Lead-added, pure math, links `rent-split`. | new calculator | n/a | evergreen | lead | shipped 2026-11-18 (/everyday/prorated-rent/; no browser/375px check) |
 | 64 | **Loan-to-value (LTV) ratio** (`finance/ltv-ratio`). LTV, CLTV, equity, pay-down to 80%. Lead-added, pure math, links `mortgage`. | new calculator | n/a | evergreen | lead | shipped 2026-11-18 (/finance/ltv-ratio/; no browser/375px check) |
+| 65 | **Sales commission** (`finance/commission-calculator`). Flat or quota-tiered, base pay, effective rate. Lead-added, pure math, links `bonus-tax`. | new calculator | n/a | evergreen | lead | shipped 2026-11-18 (/finance/commission-calculator/; no browser/375px check) |
 
 ## Specs for new items
 

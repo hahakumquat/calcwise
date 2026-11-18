@@ -472,3 +472,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-18 17:55 UTC — cycle
 - Shipped: cap rate / rental property calculator https://cappycalc.com/finance/cap-rate-calculator/ (verify: 244 pages, 0 problems; $300k, $2,400/mo, 5% vacancy, $8k expenses, $14.4k loan, $75k cash -> NOI $19,360, cap 6.45%, cash flow $4,960, cash-on-cash 6.61%; all-cash case 9%).
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm ci` blocked by sandbox safety check, used `npm install` (lockfile unchanged). IRS items 31, 40, 41 and 15 still blocked on sources.
+
+## 2026-11-18 18:55 UTC — cycle
+- Shipped: sales commission calculator https://cappycalc.com/finance/commission-calculator/ (verify: 245 pages, 0 problems; $80k sales, 5% to $50k quota, 8% above, $3k base -> commission $4,900, total $7,900, effective 6.125%; flat $20k at 10% -> $2,000).
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm install` used (npm ci blocked by sandbox safety check; lockfile unchanged). IRS items 31, 40, 41 and 15 still blocked on sources.
