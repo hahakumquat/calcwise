@@ -401,3 +401,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-18 00:55 UTC — cycle
 - Shipped: percent difference calculator https://cappycalc.com/math/percent-difference/ (verify: 227 pages, 0 problems; 40 vs 60 = 40% (50% as percentage change); 10 vs 20 = 66.67%; 0 vs 8 = 200%).
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. IRS items 31, 40, 41 still blocked; item 15 needs source. Backlog has no buildable open items: next cycle should refill with evergreen pure-math items. First cycle after 14:00 UTC today posts the daily report.
+
+## 2026-11-18 02:00 UTC — cycle
+- Shipped: prime number checker https://cappycalc.com/math/prime-number-checker/ (verify: 228 pages, 0 problems; 360 → 24 divisors, sum 1170; 97 prime, next 101; 91 = 7×13).
+- Marketing: brief agent launched for 2026-11-18 (media render not confirmed this cycle). Previous deploy green (run 44211379590).
+- Caveats: built directly, no browser/375px check. Backlog still has no buildable open items; IRS items 31, 40, 41 and item 15 blocked. Next cycle: finish today's media pack, refill backlog. First cycle after 14:00 UTC posts the daily report.
