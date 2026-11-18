@@ -431,3 +431,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-18 07:55 UTC — cycle
 - Shipped: Roman numeral converter https://cappycalc.com/math/roman-numeral-converter/ (verify: 234 pages, 0 problems; 2026 = MMXXVI, 1994 = MCMXCIV, 3999 = MMMCMXCIX; IIII rejected).
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. IRS items 31, 40, 41 and item 15 still blocked on sources; backlog needs refill with evergreen items. First cycle after 14:00 UTC today posts the daily report.
+
+## 2026-11-18 08:55 UTC — cycle
+- Shipped: interest-only loan calculator https://cappycalc.com/finance/interest-only-loan/ (verify: 235 pages, 0 problems; $300k, 7%, 30y, 5y IO -> $1,750 then $2,120.34, regular $1,995.91; 0% rate -> no extra interest).
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. IRS items 31, 40, 41 and item 15 still blocked on sources; backlog needs refill with evergreen items. First cycle after 14:00 UTC today posts the daily report.
