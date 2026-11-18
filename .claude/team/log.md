@@ -443,3 +443,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-18 10:55 UTC — cycle
 - Shipped: position size calculator https://cappycalc.com/finance/position-size-calculator/ (verify: 237 pages, 0 problems; $10k, 1% risk, $50 entry, $48 stop -> 50 shares, $100 risk, $2,500 position, 3:1 to $56; $25k, 2%, $120/$114 -> 83 shares).
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. IRS items 31, 40, 41 and item 15 still blocked on sources; backlog needs refill with evergreen items. First cycle after 14:00 UTC today posts the daily report.
+
+## 2026-11-18 11:55 UTC — cycle
+- Shipped: stock profit calculator https://cappycalc.com/finance/stock-profit-calculator/ (verify: 238 pages, 0 problems; 100 sh, $50->$60, $5 fee each way, 15% tax -> $841.50 kept, 16.81% return, break-even $50.10; loss case -> no tax).
+- Health: previous 4 deploy runs all green. Caveats: built directly, no delegation; no browser/375px check; deploy run for this push not inspected. Detached HEAD at start (checked out main). IRS items 31, 40, 41 and item 15 still blocked on sources; backlog needs refill with evergreen items. First cycle after 14:00 UTC today posts the daily report.

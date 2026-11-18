@@ -76,6 +76,7 @@ Priority = demand x fit x (social + adsense) / (6 - effort). Scores: demand (d),
 | 59 | **Prime number checker** (`math/prime-number-checker`). Lead-added, pure math. | new calculator | n/a | evergreen | lead | shipped 2026-11-18 (/math/prime-number-checker/; no browser/375px check) |
 | 60 | **Payback period** (`finance/payback-period`). Simple and discounted payback. Lead-added, pure math. | new calculator | n/a | evergreen | lead | shipped 2026-11-18 (/finance/payback-period/; no browser/375px check) |
 | 61 | **Bond yield to maturity** (`finance/bond-yield-calculator`). Lead-added, pure math, links `present-value`. | new calculator | n/a | evergreen | lead | shipped 2026-11-18 (/finance/bond-yield-calculator/; no browser/375px check) |
+| 62 | **Stock profit calculator** (`finance/stock-profit-calculator`). Gain after fees and tax, break-even sell price. Lead-added, pure math, links `roi`. | new calculator | n/a | evergreen | lead | shipped 2026-11-18 (/finance/stock-profit-calculator/; no browser/375px check) |
 
 ## Specs for new items
 
