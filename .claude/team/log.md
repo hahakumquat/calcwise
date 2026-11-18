@@ -476,3 +476,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-18 18:55 UTC — cycle
 - Shipped: sales commission calculator https://cappycalc.com/finance/commission-calculator/ (verify: 245 pages, 0 problems; $80k sales, 5% to $50k quota, 8% above, $3k base -> commission $4,900, total $7,900, effective 6.125%; flat $20k at 10% -> $2,000).
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm install` used (npm ci blocked by sandbox safety check; lockfile unchanged). IRS items 31, 40, 41 and 15 still blocked on sources.
+
+## 2026-11-18 19:55 UTC — cycle
+- Shipped: down payment savings calculator https://cappycalc.com/finance/down-payment-savings/ (verify: 246 pages, 0 problems; $400k, 10% + 3% closing, 0% APY, $4k saved, 4 yrs -> target $52,000, $1,000/month).
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. Backlog has no unblocked buildable items (15, 41 need sources; 31, 40 blocked on IRS); next cycle should run product-research to refill. Daily report #4 already posted today.
