@@ -480,3 +480,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-18 19:55 UTC — cycle
 - Shipped: down payment savings calculator https://cappycalc.com/finance/down-payment-savings/ (verify: 246 pages, 0 problems; $400k, 10% + 3% closing, 0% APY, $4k saved, 4 yrs -> target $52,000, $1,000/month).
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. Backlog has no unblocked buildable items (15, 41 need sources; 31, 40 blocked on IRS); next cycle should run product-research to refill. Daily report #4 already posted today.
+
+## 2026-11-18 20:55 UTC — cycle
+- Shipped: biweekly mortgage payment calculator https://cappycalc.com/finance/biweekly-mortgage/ (verify: 247 pages, 0 problems; $260k 0% 30y -> $722.22 monthly, $361.11 biweekly, 720 payments = 27.7 yrs; default $300k 6.5% 30y -> ~$88k interest saved, ~5.9 yrs sooner by closed form).
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm install` used. IRS items 31, 40, 41 and 15 still blocked on sources; backlog needs refill with evergreen items.
