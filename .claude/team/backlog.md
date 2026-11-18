@@ -74,6 +74,7 @@ Priority = demand x fit x (social + adsense) / (6 - effort). Scores: demand (d),
 | 58 | **APY calculator (APR to APY)** (`finance/apy-calculator`). Lead-added, pure math, links `cd`. | new calculator | n/a | evergreen | lead | shipped 2026-11-17 (/finance/apy-calculator/; no browser/375px check) |
 | 57 | **CAGR calculator** (`finance/cagr-calculator`). Start, end, years; compares CAGR with simple average. Lead-added, links `roi`. | new calculator | n/a | evergreen | lead | shipped 2026-11-17 (/finance/cagr-calculator/; no browser/375px check) |
 | 59 | **Prime number checker** (`math/prime-number-checker`). Lead-added, pure math. | new calculator | n/a | evergreen | lead | shipped 2026-11-18 (/math/prime-number-checker/; no browser/375px check) |
+| 60 | **Payback period** (`finance/payback-period`). Simple and discounted payback. Lead-added, pure math. | new calculator | n/a | evergreen | lead | shipped 2026-11-18 (/finance/payback-period/; no browser/375px check) |
 
 ## Specs for new items
 

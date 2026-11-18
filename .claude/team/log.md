@@ -423,3 +423,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-18 05:55 UTC — cycle
 - Shipped: real rate of return calculator https://cappycalc.com/finance/real-rate-of-return/ (verify: 232 pages, 0 problems; 7% nominal, 3% inflation -> 3.8835% real, $10k over 20y = $38,697 nominal / $21,426 today's dollars; 8%/2.5% -> 5.3659%; 5%/5% -> 0).
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. IRS items 31, 40, 41 and item 15 still blocked on sources; backlog needs refill with evergreen items. First cycle after 14:00 UTC today posts the daily report.
+
+## 2026-11-18 06:55 UTC — cycle
+- Shipped: payback period calculator https://cappycalc.com/finance/payback-period/ (verify: 233 pages, 0 problems; $10k cost, $2,500/yr -> simple 4.00 y, discounted at 8% 5.01 y; 0% rate -> equal).
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. Detached HEAD at start (checked out main). IRS items 31, 40, 41 and item 15 still blocked on sources; backlog needs refill with evergreen items. First cycle after 14:00 UTC today posts the daily report.
