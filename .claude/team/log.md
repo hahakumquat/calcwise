@@ -427,3 +427,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-18 06:55 UTC — cycle
 - Shipped: payback period calculator https://cappycalc.com/finance/payback-period/ (verify: 233 pages, 0 problems; $10k cost, $2,500/yr -> simple 4.00 y, discounted at 8% 5.01 y; 0% rate -> equal).
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. Detached HEAD at start (checked out main). IRS items 31, 40, 41 and item 15 still blocked on sources; backlog needs refill with evergreen items. First cycle after 14:00 UTC today posts the daily report.
+
+## 2026-11-18 07:55 UTC — cycle
+- Shipped: Roman numeral converter https://cappycalc.com/math/roman-numeral-converter/ (verify: 234 pages, 0 problems; 2026 = MMXXVI, 1994 = MCMXCIV, 3999 = MMMCMXCIX; IIII rejected).
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. IRS items 31, 40, 41 and item 15 still blocked on sources; backlog needs refill with evergreen items. First cycle after 14:00 UTC today posts the daily report.
