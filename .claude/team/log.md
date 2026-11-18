@@ -439,3 +439,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-18 09:55 UTC — cycle
 - Shipped: bond yield to maturity calculator https://cappycalc.com/finance/bond-yield-calculator/ (verify: 236 pages, 0 problems; $1,000 face, 5% coupon, 10y: price $1,000 -> 5.000%, $950 -> 5.662% (current yield 5.263%), zero-coupon $600 -> 5.174%; all hand/independently checked).
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. IRS items 31, 40, 41 and item 15 still blocked on sources; backlog needs refill with evergreen items. First cycle after 14:00 UTC today posts the daily report.
+
+## 2026-11-18 10:55 UTC — cycle
+- Shipped: position size calculator https://cappycalc.com/finance/position-size-calculator/ (verify: 237 pages, 0 problems; $10k, 1% risk, $50 entry, $48 stop -> 50 shares, $100 risk, $2,500 position, 3:1 to $56; $25k, 2%, $120/$114 -> 83 shares).
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. IRS items 31, 40, 41 and item 15 still blocked on sources; backlog needs refill with evergreen items. First cycle after 14:00 UTC today posts the daily report.
