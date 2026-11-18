@@ -484,3 +484,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-18 20:55 UTC — cycle
 - Shipped: biweekly mortgage payment calculator https://cappycalc.com/finance/biweekly-mortgage/ (verify: 247 pages, 0 problems; $260k 0% 30y -> $722.22 monthly, $361.11 biweekly, 720 payments = 27.7 yrs; default $300k 6.5% 30y -> ~$88k interest saved, ~5.9 yrs sooner by closed form).
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm install` used. IRS items 31, 40, 41 and 15 still blocked on sources; backlog needs refill with evergreen items.
+
+## 2026-11-18 21:55 UTC — cycle
+- Shipped: stock split calculator https://cappycalc.com/finance/stock-split-calculator/ (verify: 248 pages, 0 problems; 100 sh at $200, 4-for-1 -> 400 sh, $50, cost $120 -> $30, value $20,000; 1-for-10 reverse on 25 sh at $2 -> 2 whole sh + $10 cash).
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm install` used. IRS items 31, 40, 41 and 15 still blocked on sources; backlog needs refill with evergreen items.
