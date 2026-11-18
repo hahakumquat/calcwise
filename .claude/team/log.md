@@ -464,3 +464,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-18 15:55 UTC — cycle
 - Shipped: prorated rent calculator https://cappycalc.com/everyday/prorated-rent/ (verify: 242 pages, 0 problems; $1,500, 30-day month, move in day 12 -> 19 days, $950.00 ($50/day); 365-day method $936.99).
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. IRS items 31, 40, 41 and 15 still blocked on sources.
+
+## 2026-11-18 16:55 UTC — cycle
+- Shipped: loan-to-value ratio https://cappycalc.com/finance/ltv-ratio/ (verify: 243 pages, 0 problems; $400k home, $340k mortgage, $20k HELOC -> LTV 85%, CLTV 90%, equity $40,000, pay down $20,000 to reach 80%).
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm ci` is blocked by the sandbox safety check (it deletes node_modules), so `npm install` from the lockfile was used; lockfile unchanged. IRS items 31, 40, 41 and 15 still blocked on sources.
