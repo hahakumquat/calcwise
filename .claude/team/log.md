@@ -411,3 +411,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-18 02:55 UTC — cycle
 - Shipped: present value calculator https://cappycalc.com/finance/present-value/ (verify: 229 pages, 0 problems; $10,000 at 5% over 10y = $6,139.13; $1,000 at 8% over 5y = $680.58; 0% rate = unchanged).
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. IRS items 31, 40, 41 and item 15 still blocked on sources. Backlog still needs a refill with evergreen items. First cycle after 14:00 UTC today posts the daily report.
+
+## 2026-11-18 03:55 UTC — cycle
+- Shipped: annuity calculator https://cappycalc.com/finance/annuity-calculator/ (verify: 230 pages, 0 problems; $500/mo, 6%, 10y -> FV $81,939.67, PV $45,036.73; $1,000/yr 5% 3y -> $3,152.50, due $3,310.13).
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. Detached HEAD at start (checked out main). IRS items 31, 40, 41 and item 15 still blocked on sources; backlog needs refill with evergreen items. First cycle after 14:00 UTC today posts the daily report.
