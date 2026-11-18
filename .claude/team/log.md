@@ -468,3 +468,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-18 16:55 UTC — cycle
 - Shipped: loan-to-value ratio https://cappycalc.com/finance/ltv-ratio/ (verify: 243 pages, 0 problems; $400k home, $340k mortgage, $20k HELOC -> LTV 85%, CLTV 90%, equity $40,000, pay down $20,000 to reach 80%).
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm ci` is blocked by the sandbox safety check (it deletes node_modules), so `npm install` from the lockfile was used; lockfile unchanged. IRS items 31, 40, 41 and 15 still blocked on sources.
+
+## 2026-11-18 17:55 UTC — cycle
+- Shipped: cap rate / rental property calculator https://cappycalc.com/finance/cap-rate-calculator/ (verify: 244 pages, 0 problems; $300k, $2,400/mo, 5% vacancy, $8k expenses, $14.4k loan, $75k cash -> NOI $19,360, cap 6.45%, cash flow $4,960, cash-on-cash 6.61%; all-cash case 9%).
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm ci` blocked by sandbox safety check, used `npm install` (lockfile unchanged). IRS items 31, 40, 41 and 15 still blocked on sources.
