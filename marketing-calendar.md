@@ -7,7 +7,7 @@ Lives on the `marketing` branch because `main` is off limits to the marketing cy
 | Sun 11-15 | 401(k) max-out | /finance/401k-max-out/ | year-end paycheck panic (done) |
 | Mon 11-16 | Tax roundup + bonus tax (recently shipped) | /finance/bonus-tax/ plus capital gains, self-employment, HSA, Roth vs traditional | bonus season, year-end tax moves |
 | Tue 11-17 | Real hourly wage + pre-Black-Friday money math (just shipped) | /everyday/real-hourly-wage/ plus commute-cost, cost-per-use, 50/30/20, daily-spending-allowance | commute and spending reality check (brief done) |
-| Wed 11-18 | Self-employment tax | /finance/self-employment-tax/ | freelancers, Q4 estimated payment due Jan 15 |
+| Wed 11-18 | Thanksgiving week + Black Friday math (brief written) | /finance/discount/, /food/turkey-cooking-time/, percent-difference, mortgage-points, cagr | stacked discounts, turkey timing; self-employment tax stays on 12-09 |
 | Thu 11-19 | Roth vs traditional | /finance/roth-vs-traditional/ | evergreen debate |
 | Fri 11-20 | Capital gains | /finance/capital-gains-tax/ | year-end selling decisions |
 | Mon 11-23 | 401(k) catch-up / 50+ | /finance/401k-max-out/ | follow-up |
