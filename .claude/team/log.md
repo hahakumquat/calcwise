@@ -415,3 +415,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-18 03:55 UTC — cycle
 - Shipped: annuity calculator https://cappycalc.com/finance/annuity-calculator/ (verify: 230 pages, 0 problems; $500/mo, 6%, 10y -> FV $81,939.67, PV $45,036.73; $1,000/yr 5% 3y -> $3,152.50, due $3,310.13).
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. Detached HEAD at start (checked out main). IRS items 31, 40, 41 and item 15 still blocked on sources; backlog needs refill with evergreen items. First cycle after 14:00 UTC today posts the daily report.
+
+## 2026-11-18 04:55 UTC — cycle
+- Shipped: NPV and IRR calculator https://cappycalc.com/finance/npv-irr-calculator/ (verify: 231 pages, 0 problems; -1000 then 300/400/500/200 at 10% -> NPV $115.57, IRR 15.32%; -100 then 110 -> IRR 10%; -1000 then 500 x3 at 8% -> NPV $288.55, IRR 23.38%).
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. IRS items 31, 40, 41 and item 15 still blocked on sources; backlog needs refill with evergreen items. First cycle after 14:00 UTC today posts the daily report.
