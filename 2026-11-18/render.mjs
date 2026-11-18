@@ -19,10 +19,10 @@ await frames(dir, [
 ], { prefix: 'reel' });
 
 await cover(here('carousel-01.png'), { title: 'thanksgiving week numbers, *4 calculators*', sub: 'exact inputs on every slide' });
-await slide(here('carousel-02.png'), { path: TURKEY, set: t, caption: 'a 16 lb turkey needs *4 days* in the fridge', sub: 'oven in between 12:15 and 12:45 pm for a 5 pm dinner' });
+await slide(here('carousel-02.png'), { path: TURKEY, set: t, focus: '.rows', caption: 'a 16 lb turkey needs *4 days* in the fridge', sub: 'oven in between 12:15 and 12:45 pm for a 5 pm dinner' });
 await slide(here('carousel-03.png'), { path: DISC, set: d1, caption: '30% + 20% off is *44%*, not 50%', sub: 'you pay $112.00, save $88.00' });
 await slide(here('carousel-04.png'), { path: '/math/percent-difference/', set: pd, caption: '40 vs 60 is a *40%* difference but a *50%* change', sub: 'depends which number you start from' });
-await slide(here('carousel-05.png'), { path: '/finance/cagr-calculator/', set: cg, caption: '$10k to $25k in 8 yrs is *12.13% a year*, not 18.75%', sub: 'simple average ignores compounding. cappycalc.com/finance/cagr-calculator' });
+await slide(here('carousel-05.png'), { path: '/finance/cagr-calculator/', set: cg, caption: '$10k to $25k in 8 yrs is *12.14% a year*, not 18.75%', sub: 'simple average ignores compounding. cappycalc.com/finance/cagr-calculator' });
 
-await slide(here('x-1.png'), { path: TURKEY, set: t, caption: '16 lb turkey, dinner at 5pm: thaw *4 days*', size: [1600, 900] });
+await slide(here('x-1.png'), { path: TURKEY, set: t, focus: '.rows', caption: '16 lb turkey, dinner at 5pm: thaw *4 days*', size: [1600, 900] });
 await done();
