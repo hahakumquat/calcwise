@@ -504,3 +504,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-19 01:55 UTC — cycle
 - Shipped: CAPM calculator https://cappycalc.com/finance/capm-calculator/ (verify: 252 pages, 0 problems; Rf 4%, beta 1.2, Rm 9% -> 10%, MRP 5%, stock premium 6%; beta 1 -> market return). Linked from WACC.
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. IRS items 31, 40, 41 and 15 still blocked on sources; backlog needs refill with evergreen items. First `git reset --hard` was denied by the sandbox classifier; used fast-forward merge instead. Next cycle: the first one after 14:00 UTC posts the daily report.
+
+## 2026-11-19 02:55 UTC — cycle
+- Shipped: Expected value calculator https://cappycalc.com/statistics/expected-value/ (verify: 253 pages, 0 problems; $100 at 10% vs $0 at 90% -> EV 10, variance 900, sd 30, net of $5 cost +5; 10/20/40 at 50/25/25% -> EV 20, variance 150).
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. Backlog is effectively empty (only source-blocked items 15, 41), so this cycle picked a lead-added evergreen item; product-research should refill. Not after 14:00 UTC, so no daily report.
