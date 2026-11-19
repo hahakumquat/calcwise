@@ -68,7 +68,7 @@ export default defineCalculator({
       { label: 'Investor.gov: Financial ratios glossary', url: 'https://www.investor.gov/introduction-investing/investing-basics/glossary' },
     ],
   },
-  related: ['debt-to-equity-ratio', 'current-ratio-calculator', 'wacc-calculator', 'profit-margin', 'break-even'],
+  related: ['dscr-calculator', 'debt-to-equity-ratio', 'current-ratio-calculator', 'wacc-calculator', 'profit-margin', 'break-even'],
   examples: [
     // 500/100 = 5; left 400,000; share 20%
     { values: { ebit: 500000, interest: 100000 }, expect: { coverage: 5, afterInterest: 400000, interestShare: 0.2 }, tolerance: 1e-9 },
