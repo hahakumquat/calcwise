@@ -76,7 +76,7 @@ export default defineCalculator({
       { label: 'Investopedia: Return on equity', url: 'https://www.investopedia.com/terms/r/returnonequity.asp' },
     ],
   },
-  related: ['debt-to-equity-ratio', 'profit-margin', 'interest-coverage-ratio', 'current-ratio-calculator', 'roi', 'wacc-calculator'],
+  related: ['debt-to-equity-ratio', 'profit-margin', 'interest-coverage-ratio', 'current-ratio-calculator', 'inventory-turnover-calculator', 'roi', 'wacc-calculator'],
   examples: [
     // 50/250 = 0.2; 50/500 = 0.1; 500/400 = 1.25; 400/250 = 1.6
     { values: { netIncome: 50000, revenue: 500000, assets: 400000, equity: 250000 }, expect: { roe: 0.2, margin: 0.1, turnover: 1.25, leverage: 1.6 }, tolerance: 1e-9 },

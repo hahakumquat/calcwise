@@ -533,3 +533,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: ROE calculator with DuPont breakdown https://cappycalc.com/finance/roe-calculator/ (verify: 259 pages, 0 problems; NI $50k, equity $250k -> 20% = 10% margin x 1.25 turnover x 1.6 leverage; loss case -10%). Linked to existing ratio calculators via `related`.
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected (no gh run access checked). `npm ci` blocked by sandbox safety check, used `npm install`. Not after 14:00 UTC, so no daily report. Local `main` was stale; fast-forwarded to origin/main before work.
 - Next: IRS items 31, 40, 41, 15 still blocked on sources; product-research should refill the backlog.
+
+## 2026-11-19 09:55 UTC — cycle
+- Shipped: inventory turnover calculator https://cappycalc.com/finance/inventory-turnover-calculator/ (verify: 260 pages, 0 problems; COGS $600k, avg inventory $100k -> 6x, 60.8 days; quarter case 4x, 22.5 days). Linked from ROE.
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm ci` blocked by sandbox safety check, used `npm install`. Not after 14:00 UTC, so no daily report.
+- Next: IRS items 31, 40, 41, 15 still blocked on sources; product-research should refill the backlog.
