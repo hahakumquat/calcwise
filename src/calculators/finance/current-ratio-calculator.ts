@@ -70,7 +70,7 @@ export default defineCalculator({
       { label: 'Investopedia: Current ratio', url: 'https://www.investopedia.com/terms/c/currentratio.asp' },
     ],
   },
-  related: ['ebitda-calculator', 'debt-to-equity-ratio', 'interest-coverage-ratio', 'wacc-calculator', 'break-even', 'profit-margin', 'net-worth'],
+  related: ['quick-ratio-calculator', 'ebitda-calculator', 'debt-to-equity-ratio', 'interest-coverage-ratio', 'wacc-calculator', 'break-even', 'profit-margin', 'net-worth'],
   examples: [
     // 150/100 = 1.5; (150-40)/100 = 1.1; WC 50,000
     { values: { currentAssets: 150000, inventory: 40000, currentLiabilities: 100000 }, expect: { current: 1.5, quick: 1.1, workingCapital: 50000 }, tolerance: 1e-9 },

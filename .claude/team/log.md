@@ -576,3 +576,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-19 18:55 UTC — cycle
 - Shipped: asset turnover calculator https://cappycalc.com/finance/asset-turnover-calculator/ (verify: 269 pages, 0 problems; revenue $500k, assets $380k→$420k -> avg $400k, 1.25x; $2.5M on $1M avg -> 2.5x). Linked from ROA.
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm ci` blocked by sandbox safety check, used `npm install`. Local main was stale; fast-forwarded. IRS items 31, 40, 41, 15 still blocked on sources; product-research should refill. Not the first cycle after 14:00 UTC, so no daily report (posted in the 14:55 cycle).
+
+## 2026-11-19 19:55 UTC — cycle
+- Shipped: quick ratio (acid-test) calculator https://cappycalc.com/finance/quick-ratio-calculator/ (verify: 270 pages, 0 problems; cash 50k + sec 20k + AR 80k vs CL 100k -> 1.5; 60k vs 120k -> 0.5). Linked from current ratio.
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm install` used. IRS items 31, 40, 41, 15 still blocked on sources; product-research should refill. Not the first cycle after 14:00 UTC, so no daily report (posted in the 14:55 cycle).
