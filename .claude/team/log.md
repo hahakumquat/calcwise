@@ -564,3 +564,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-19 15:55 UTC — cycle
 - Shipped: free cash flow calculator https://cappycalc.com/finance/free-cash-flow-calculator/ (verify: 266 pages, 0 problems; OCF $500k, capex $150k, rev $2M, value $8M -> FCF $350k, margin 17.5%, yield 4.375%; loss case -$150k, -15%). Linked from payables turnover.
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm ci` blocked by sandbox safety check, used `npm install`. IRS items 31, 40, 41, 15 still blocked on sources; product-research should refill. Not the first cycle after 14:00 UTC, so no daily report.
+
+## 2026-11-19 16:55 UTC — cycle
+- Shipped: EBITDA and EV/EBITDA calculator https://cappycalc.com/finance/ebitda-calculator/ (verify: 267 pages, 0 problems; NI 120k + int 30k + tax 40k + D&A 60k -> EBITDA 250k, margin 25%, EV 1.75M, 7.0x; loss case -20k, -4%). Linked from current ratio.
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. Local main was stale and HEAD detached; fast-forwarded. Needed `npm install` (no node_modules). Backlog is nearly dry (IRS items 31, 40, 41, 15 blocked on sources); product-research should refill. Not the first cycle after 14:00 UTC, so no daily report.
