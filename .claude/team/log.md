@@ -580,3 +580,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-19 19:55 UTC — cycle
 - Shipped: quick ratio (acid-test) calculator https://cappycalc.com/finance/quick-ratio-calculator/ (verify: 270 pages, 0 problems; cash 50k + sec 20k + AR 80k vs CL 100k -> 1.5; 60k vs 120k -> 0.5). Linked from current ratio.
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm install` used. IRS items 31, 40, 41, 15 still blocked on sources; product-research should refill. Not the first cycle after 14:00 UTC, so no daily report (posted in the 14:55 cycle).
+
+## 2026-11-19 20:55 UTC — cycle
+- Shipped: working capital calculator https://cappycalc.com/finance/working-capital-calculator/ (verify: 271 pages, 0 problems; assets 250k vs liabilities 150k -> 100k, ratio 1.67; 80k vs 100k -> -20k). Linked from current ratio.
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm install` used (`npm ci` blocked by sandbox safety check). IRS items 31, 40, 41, 15 still blocked on sources; product-research should refill. No daily report (posted in the 14:55 cycle).
