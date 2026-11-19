@@ -520,3 +520,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-19 05:55 UTC — cycle
 - Shipped: debt-to-equity ratio calculator https://cappycalc.com/finance/debt-to-equity-ratio/ (verify: 256 pages, 0 problems; $600k liabilities, $400k equity -> D/E 1.5, multiplier 2.5, debt share 60%; zero-debt case -> 0 / 1 / 0%).
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm install` used (npm ci blocked by sandbox safety check). IRS items 31, 40, 41 and 15 still blocked on sources; product-research should refill. Not after 14:00 UTC, so no daily report.
+
+## 2026-11-19 06:55 UTC — cycle
+- Shipped: current ratio / quick ratio calculator https://cappycalc.com/finance/current-ratio-calculator/ (verify: 257 pages, 0 problems; CA $150k, inventory $40k, CL $100k -> current 1.5, quick 1.1, working capital $50k; 80k/0/200k -> 0.4, 0.4, -$120k). Linked from debt-to-equity.
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm install` used (npm ci blocked by sandbox safety check). IRS items 31, 40, 41 and 15 still blocked on sources; product-research should refill. Not after 14:00 UTC, so no daily report.

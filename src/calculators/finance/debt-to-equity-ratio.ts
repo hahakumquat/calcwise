@@ -67,7 +67,7 @@ export default defineCalculator({
       { label: 'Investopedia: Debt-to-equity ratio', url: 'https://www.investopedia.com/terms/d/debtequityratio.asp' },
     ],
   },
-  related: ['wacc-calculator', 'pe-ratio-calculator', 'net-worth', 'debt-to-income', 'roi'],
+  related: ['wacc-calculator', 'pe-ratio-calculator', 'current-ratio-calculator', 'net-worth', 'debt-to-income', 'roi'],
   examples: [
     // 600/400 = 1.5; assets 1,000k; multiplier 2.5; debt share 60%
     { values: { debt: 600000, equity: 400000 }, expect: { de: 1.5, multiplier: 2.5, debtShare: 0.6, assets: 1000000 }, tolerance: 1e-9 },
