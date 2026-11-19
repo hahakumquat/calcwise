@@ -551,3 +551,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-19 12:55 UTC — cycle
 - Shipped: ROA calculator https://cappycalc.com/finance/roa-calculator/ (verify: 263 pages, 0 problems; NI $40k, rev $500k, assets $400k -> 10%, 8% margin, 1.25 turnover; loss case -5%). Linked from ROE.
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm ci` blocked by sandbox safety check, used `npm install`. IRS items 31, 40, 41, 15 still blocked on sources; product-research should refill. Not after 14:00 UTC, so no daily report.
+
+## 2026-11-19 13:55 UTC — cycle
+- Shipped: payables turnover / DPO calculator https://cappycalc.com/finance/payables-turnover-calculator/ (verify: 264 pages, 0 problems; purchases $900k, avg payables $150k -> 6x, 60.8 days; 90-day case 3x, 30 days). Linked from receivables turnover.
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm install` used. IRS items 31, 40, 41, 15 still blocked on sources; product-research should refill. Started before 14:00 UTC, so no daily report; the next cycle should post it.
