@@ -69,7 +69,7 @@ export default defineCalculator({
       { label: 'Investopedia: Return on assets', url: 'https://www.investopedia.com/terms/r/returnonassets.asp' },
     ],
   },
-  related: ['roe-calculator', 'profit-margin', 'debt-to-equity-ratio', 'inventory-turnover-calculator', 'roi', 'interest-coverage-ratio'],
+  related: ['roe-calculator', 'profit-margin', 'debt-to-equity-ratio', 'asset-turnover-calculator', 'inventory-turnover-calculator', 'roi', 'interest-coverage-ratio'],
   examples: [
     // 40/400 = 0.1; 40/500 = 0.08; 500/400 = 1.25
     { values: { netIncome: 40000, revenue: 500000, assets: 400000 }, expect: { roa: 0.1, margin: 0.08, turnover: 1.25 }, tolerance: 1e-9 },

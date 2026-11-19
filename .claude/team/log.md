@@ -572,3 +572,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-19 17:55 UTC — cycle
 - Shipped: EPS calculator https://cappycalc.com/finance/eps-calculator/ (verify: 268 pages, 0 problems; NI $5M, pref $0.5M, 3M shares -> EPS $1.50, P/E 20, yield 5%; loss case -$0.50). Linked from EBITDA.
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm install` used. IRS items 31, 40, 41, 15 still blocked on sources; product-research should refill. Not the first cycle after 14:00 UTC, so no daily report (posted in the 14:55 cycle).
+
+## 2026-11-19 18:55 UTC — cycle
+- Shipped: asset turnover calculator https://cappycalc.com/finance/asset-turnover-calculator/ (verify: 269 pages, 0 problems; revenue $500k, assets $380k→$420k -> avg $400k, 1.25x; $2.5M on $1M avg -> 2.5x). Linked from ROA.
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm ci` blocked by sandbox safety check, used `npm install`. Local main was stale; fast-forwarded. IRS items 31, 40, 41, 15 still blocked on sources; product-research should refill. Not the first cycle after 14:00 UTC, so no daily report (posted in the 14:55 cycle).
