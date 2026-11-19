@@ -560,3 +560,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: sustainable growth rate / payout ratio calculator https://cappycalc.com/finance/sustainable-growth-rate/ (verify: 265 pages, 0 problems; NI $100k, div $30k, equity $500k -> payout 30%, ROE 20%, SGR 14%; full payout -> 0%). Linked from ROE.
 - Daily report posted: issue #5 (Daily report 2026-11-19).
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm install` used. IRS items 31, 40, 41, 15 still blocked on sources; product-research should refill.
+
+## 2026-11-19 15:55 UTC — cycle
+- Shipped: free cash flow calculator https://cappycalc.com/finance/free-cash-flow-calculator/ (verify: 266 pages, 0 problems; OCF $500k, capex $150k, rev $2M, value $8M -> FCF $350k, margin 17.5%, yield 4.375%; loss case -$150k, -15%). Linked from payables turnover.
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm ci` blocked by sandbox safety check, used `npm install`. IRS items 31, 40, 41, 15 still blocked on sources; product-research should refill. Not the first cycle after 14:00 UTC, so no daily report.

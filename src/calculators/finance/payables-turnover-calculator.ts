@@ -73,7 +73,7 @@ export default defineCalculator({
       { label: 'Investopedia: Accounts payable turnover ratio', url: 'https://www.investopedia.com/terms/a/accountspayableturnover.asp' },
     ],
   },
-  related: ['cash-conversion-cycle', 'payables-turnover-calculator', 'inventory-turnover-calculator', 'current-ratio-calculator', 'debt-to-equity-ratio', 'interest-coverage-ratio'],
+  related: ['free-cash-flow-calculator', 'cash-conversion-cycle','payables-turnover-calculator', 'inventory-turnover-calculator', 'current-ratio-calculator', 'debt-to-equity-ratio', 'interest-coverage-ratio'],
   examples: [
     // avg = 150000; 900000/150000 = 6; 365/6 = 60.8333
     { values: { purchases: 900000, begin: 100000, end: 200000, days: 365 }, expect: { turnover: 6, dpo: 60.8333333333, avg: 150000 }, tolerance: 1e-6 },
