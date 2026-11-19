@@ -72,7 +72,7 @@ export default defineCalculator({
       { label: 'Investopedia: Accounts receivable turnover ratio', url: 'https://www.investopedia.com/terms/a/accountsreceivableturnover.asp' },
     ],
   },
-  related: ['cash-conversion-cycle', 'inventory-turnover-calculator', 'current-ratio-calculator', 'roe-calculator', 'profit-margin', 'interest-coverage-ratio'],
+  related: ['cash-conversion-cycle', 'payables-turnover-calculator', 'inventory-turnover-calculator', 'current-ratio-calculator', 'roe-calculator', 'profit-margin', 'interest-coverage-ratio'],
   examples: [
     // avg = 200000; 1200000/200000 = 6; 365/6 = 60.8333
     { values: { sales: 1200000, begin: 150000, end: 250000, days: 365 }, expect: { turnover: 6, dso: 60.8333333333, avg: 200000 }, tolerance: 1e-6 },
