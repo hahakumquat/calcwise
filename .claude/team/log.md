@@ -538,3 +538,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: inventory turnover calculator https://cappycalc.com/finance/inventory-turnover-calculator/ (verify: 260 pages, 0 problems; COGS $600k, avg inventory $100k -> 6x, 60.8 days; quarter case 4x, 22.5 days). Linked from ROE.
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm ci` blocked by sandbox safety check, used `npm install`. Not after 14:00 UTC, so no daily report.
 - Next: IRS items 31, 40, 41, 15 still blocked on sources; product-research should refill the backlog.
+
+## 2026-11-19 10:55 UTC — cycle
+- Shipped: receivables turnover / DSO calculator https://cappycalc.com/finance/receivables-turnover-calculator/ (verify: 261 pages, 0 problems; sales $1.2M, avg AR $200k -> 6x, 60.8 days; 90-day case 3x, 30 days). Linked from inventory turnover.
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm ci` blocked by sandbox safety check, used existing node_modules/`npm install`. Not after 14:00 UTC, so no daily report.
+- Next: IRS items 31, 40, 41, 15 still blocked on sources; product-research should refill the backlog.

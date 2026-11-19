@@ -72,7 +72,7 @@ export default defineCalculator({
       { label: 'Investopedia: Inventory turnover', url: 'https://www.investopedia.com/terms/i/inventoryturnover.asp' },
     ],
   },
-  related: ['roe-calculator', 'profit-margin', 'markup', 'break-even', 'current-ratio-calculator'],
+  related: ['roe-calculator', 'receivables-turnover-calculator', 'profit-margin', 'markup', 'break-even', 'current-ratio-calculator'],
   examples: [
     // avg = 100000; 600000/100000 = 6; 365/6 = 60.8333
     { values: { cogs: 600000, begin: 90000, end: 110000, days: 365 }, expect: { turnover: 6, dsi: 60.8333333333, avg: 100000 }, tolerance: 1e-6 },
