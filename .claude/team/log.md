@@ -512,3 +512,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-19 03:55 UTC — cycle
 - Shipped: P/E ratio calculator https://cappycalc.com/finance/pe-ratio-calculator/ (verify: 254 pages, 0 problems; $150 / EPS $6 -> P/E 25, earnings yield 4%, PEG 2.5 at 10% growth; $40 / $5 / 4% -> 8, 12.5%, 2).
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. Backlog still only has source-blocked items (15, 31, 40, 41); product-research should refill. Not after 14:00 UTC, so no daily report.
+
+## 2026-11-19 04:55 UTC — cycle
+- Shipped: depreciation calculator https://cappycalc.com/finance/depreciation-calculator/ (verify: 255 pages, 0 problems; $50k, $5k salvage, 5y -> $9,000/yr straight-line (18%); double-declining 40% -> $20,000 yr 1, ends at salvage).
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm install` used (npm ci blocked by sandbox safety check). IRS items 31, 40, 41 and 15 still blocked on sources; product-research should refill. Not after 14:00 UTC, so no daily report.
