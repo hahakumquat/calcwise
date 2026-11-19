@@ -71,7 +71,7 @@ export default defineCalculator({
       { label: 'Investopedia: PEG ratio', url: 'https://www.investopedia.com/terms/p/pegratio.asp' },
     ],
   },
-  related: ['dividend-calculator', 'capm-calculator', 'roi', 'stock-profit-calculator', 'rule-of-72'],
+  related: ['dividend-calculator', 'capm-calculator', 'roi', 'stock-profit-calculator', 'price-to-book-ratio-calculator'],
   examples: [
     // 150/6 = 25; 6/150 = 4%; PEG 25/10 = 2.5
     { values: { price: 150, eps: 6, growth: 10 }, expect: { pe: 25, ey: 0.04, peg: 2.5, years: 25 }, tolerance: 1e-9 },

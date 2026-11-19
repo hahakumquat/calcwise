@@ -592,3 +592,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-19 22:55 UTC — cycle
 - Shipped: DSCR calculator https://cappycalc.com/finance/dscr-calculator/ (verify: 273 pages, 0 problems; NOI 120k / debt service 80k -> 1.5, surplus 40k; 60k/80k -> 0.75). Linked from interest coverage.
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm install` used. Backlog has no buildable items left except source-blocked IRS items (31, 40, 41, 15); product-research should refill. No daily report (posted in the 14:55 cycle).
+
+## 2026-11-19 23:55 UTC — cycle
+- Shipped: price-to-book ratio calculator https://cappycalc.com/finance/price-to-book-ratio-calculator/ (verify: 274 pages, 0 problems; $500M assets, $200M liabilities, 20M shares, $30 -> BVPS $15, P/B 2.0; 0.5 case; negative book value shows no ratio). Linked from P/E.
+- Caveats: built directly, no delegation; no browser/375px check; previous deploy (DSCR) green, this deploy not inspected. `npm install` used. IRS items 31, 40, 41, 15 still blocked on sources; product-research should refill. No daily report (posted in the 14:55 cycle).

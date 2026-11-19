@@ -82,6 +82,7 @@ Priority = demand x fit x (social + adsense) / (6 - effort). Scores: demand (d),
 | 65 | **Sales commission** (`finance/commission-calculator`). Flat or quota-tiered, base pay, effective rate. Lead-added, pure math, links `bonus-tax`. | new calculator | n/a | evergreen | lead | shipped 2026-11-18 (/finance/commission-calculator/; no browser/375px check) |
 | 66 | **Stock split calculator** (`finance/stock-split-calculator`). Forward/reverse, cash in lieu. Lead-added, pure math, links `average-cost-basis`. | new calculator | n/a | evergreen | lead | shipped 2026-11-18 (/finance/stock-split-calculator/; no browser/375px check) |
 | 67 | **Dividend payout ratio** (`finance/dividend-payout-ratio-calculator`). Lead-added, pure math, links `dividend-calculator`, `sustainable-growth-rate`. | new calculator | n/a | evergreen | lead | shipped 2026-11-19 (/finance/dividend-payout-ratio-calculator/; no browser/375px check) |
+| 68 | **Price-to-book ratio** (`finance/price-to-book-ratio-calculator`). Lead-added, pure math, links `pe-ratio-calculator`, `roe-calculator`. | new calculator | n/a | evergreen | lead | shipped 2026-11-20 (/finance/price-to-book-ratio-calculator/; no browser/375px check) |
 
 ## Specs for new items
 
