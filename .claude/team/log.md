@@ -528,3 +528,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-19 07:55 UTC — cycle
 - Shipped: interest coverage ratio calculator https://cappycalc.com/finance/interest-coverage-ratio/ (verify: 258 pages, 0 problems; EBIT $500k, interest $100k -> 5x, $400k left, 20% of EBIT; EBIT $60k, interest $80k -> 0.75x, -$20k, 133.3%). Linked from current-ratio.
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm ci` blocked by sandbox safety check, used `npm install`. IRS items 31, 40, 41 and 15 still blocked on sources; product-research should refill. Not after 14:00 UTC, so no daily report.
+
+## 2026-11-19 08:55 UTC — cycle
+- Shipped: ROE calculator with DuPont breakdown https://cappycalc.com/finance/roe-calculator/ (verify: 259 pages, 0 problems; NI $50k, equity $250k -> 20% = 10% margin x 1.25 turnover x 1.6 leverage; loss case -10%). Linked to existing ratio calculators via `related`.
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected (no gh run access checked). `npm ci` blocked by sandbox safety check, used `npm install`. Not after 14:00 UTC, so no daily report. Local `main` was stale; fast-forwarded to origin/main before work.
+- Next: IRS items 31, 40, 41, 15 still blocked on sources; product-research should refill the backlog.
