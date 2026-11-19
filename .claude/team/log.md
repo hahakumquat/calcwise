@@ -496,3 +496,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-18 23:55 UTC — cycle
 - Shipped: HELOC borrowing power calculator https://cappycalc.com/finance/heloc-borrowing-power/ (verify: 250 pages, 0 problems; $400k home, $250k balance, 85% CLTV -> $90,000 max, 8%/10y -> $1,092/mo, interest-only $600; 0% case $30k over 5y -> $500).
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm install` used. IRS items 31, 40, 41 and 15 still blocked on sources; backlog needs refill with evergreen items. Daily report for 2026-11-18 already posted earlier today.
+
+## 2026-11-19 00:55 UTC — cycle
+- Shipped: WACC calculator https://cappycalc.com/finance/wacc-calculator/ (verify: 251 pages, 0 problems; $600k equity 10%, $400k debt 6%, 25% tax -> WACC 7.8%, after-tax debt 4.5%, debt share 40%; all-equity case = cost of equity).
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm install` used. IRS items 31, 40, 41 and 15 still blocked on sources; backlog needs refill with evergreen items.
