@@ -555,3 +555,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-19 13:55 UTC — cycle
 - Shipped: payables turnover / DPO calculator https://cappycalc.com/finance/payables-turnover-calculator/ (verify: 264 pages, 0 problems; purchases $900k, avg payables $150k -> 6x, 60.8 days; 90-day case 3x, 30 days). Linked from receivables turnover.
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm install` used. IRS items 31, 40, 41, 15 still blocked on sources; product-research should refill. Started before 14:00 UTC, so no daily report; the next cycle should post it.
+
+## 2026-11-19 14:55 UTC — cycle
+- Shipped: sustainable growth rate / payout ratio calculator https://cappycalc.com/finance/sustainable-growth-rate/ (verify: 265 pages, 0 problems; NI $100k, div $30k, equity $500k -> payout 30%, ROE 20%, SGR 14%; full payout -> 0%). Linked from ROE.
+- Daily report posted: issue #5 (Daily report 2026-11-19).
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm install` used. IRS items 31, 40, 41, 15 still blocked on sources; product-research should refill.
