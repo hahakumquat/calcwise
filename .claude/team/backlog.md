@@ -81,6 +81,7 @@ Priority = demand x fit x (social + adsense) / (6 - effort). Scores: demand (d),
 | 64 | **Loan-to-value (LTV) ratio** (`finance/ltv-ratio`). LTV, CLTV, equity, pay-down to 80%. Lead-added, pure math, links `mortgage`. | new calculator | n/a | evergreen | lead | shipped 2026-11-18 (/finance/ltv-ratio/; no browser/375px check) |
 | 65 | **Sales commission** (`finance/commission-calculator`). Flat or quota-tiered, base pay, effective rate. Lead-added, pure math, links `bonus-tax`. | new calculator | n/a | evergreen | lead | shipped 2026-11-18 (/finance/commission-calculator/; no browser/375px check) |
 | 66 | **Stock split calculator** (`finance/stock-split-calculator`). Forward/reverse, cash in lieu. Lead-added, pure math, links `average-cost-basis`. | new calculator | n/a | evergreen | lead | shipped 2026-11-18 (/finance/stock-split-calculator/; no browser/375px check) |
+| 67 | **Dividend payout ratio** (`finance/dividend-payout-ratio-calculator`). Lead-added, pure math, links `dividend-calculator`, `sustainable-growth-rate`. | new calculator | n/a | evergreen | lead | shipped 2026-11-19 (/finance/dividend-payout-ratio-calculator/; no browser/375px check) |
 
 ## Specs for new items
 

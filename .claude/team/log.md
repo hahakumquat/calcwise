@@ -584,3 +584,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-19 20:55 UTC — cycle
 - Shipped: working capital calculator https://cappycalc.com/finance/working-capital-calculator/ (verify: 271 pages, 0 problems; assets 250k vs liabilities 150k -> 100k, ratio 1.67; 80k vs 100k -> -20k). Linked from current ratio.
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm install` used (`npm ci` blocked by sandbox safety check). IRS items 31, 40, 41, 15 still blocked on sources; product-research should refill. No daily report (posted in the 14:55 cycle).
+
+## 2026-11-19 21:55 UTC — cycle
+- Shipped: dividend payout ratio calculator https://cappycalc.com/finance/dividend-payout-ratio-calculator/ (verify: 272 pages, 0 problems; 40k/100k -> 40%, retention 60%; 120k/100k -> 120%). Linked from dividend and sustainable-growth-rate.
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm install` used (`npm ci` blocked by sandbox safety check). Backlog has no buildable items left except source-blocked IRS items (31, 40, 41, 15); product-research should refill. No daily report (posted in the 14:55 cycle).

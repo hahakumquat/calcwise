@@ -74,7 +74,7 @@ export default defineCalculator({
       { label: 'Investor.gov: Financial ratios glossary', url: 'https://www.investor.gov/introduction-investing/investing-basics/glossary' },
     ],
   },
-  related: ['roe-calculator', 'dividend-calculator', 'pe-ratio-calculator', 'cagr-calculator', 'roa-calculator', 'wacc-calculator'],
+  related: ['dividend-payout-ratio-calculator', 'roe-calculator', 'dividend-calculator', 'pe-ratio-calculator', 'cagr-calculator', 'roa-calculator', 'wacc-calculator'],
   examples: [
     // payout 0.3, retention 0.7, ROE 0.2, SGR 0.14
     { values: { netIncome: 100000, dividends: 30000, equity: 500000 }, expect: { sgr: 0.14, payout: 0.3, retention: 0.7, roe: 0.2 }, tolerance: 1e-9 },
