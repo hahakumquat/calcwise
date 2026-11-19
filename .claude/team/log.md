@@ -543,3 +543,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: receivables turnover / DSO calculator https://cappycalc.com/finance/receivables-turnover-calculator/ (verify: 261 pages, 0 problems; sales $1.2M, avg AR $200k -> 6x, 60.8 days; 90-day case 3x, 30 days). Linked from inventory turnover.
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm ci` blocked by sandbox safety check, used existing node_modules/`npm install`. Not after 14:00 UTC, so no daily report.
 - Next: IRS items 31, 40, 41, 15 still blocked on sources; product-research should refill the backlog.
+
+## 2026-11-19 11:55 UTC — cycle
+- Shipped: cash conversion cycle calculator https://cappycalc.com/finance/cash-conversion-cycle/ (verify: 262 pages, 0 problems; DIO 60 + DSO 45 − DPO 30 -> 75 days; 20/5/50 -> −25). Linked from receivables turnover.
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. Repo was on detached HEAD; reset local main to origin/main. IRS items 31, 40, 41, 15 still blocked on sources; product-research should refill. Not after 14:00 UTC, so no daily report.
