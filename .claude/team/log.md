@@ -568,3 +568,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-19 16:55 UTC — cycle
 - Shipped: EBITDA and EV/EBITDA calculator https://cappycalc.com/finance/ebitda-calculator/ (verify: 267 pages, 0 problems; NI 120k + int 30k + tax 40k + D&A 60k -> EBITDA 250k, margin 25%, EV 1.75M, 7.0x; loss case -20k, -4%). Linked from current ratio.
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. Local main was stale and HEAD detached; fast-forwarded. Needed `npm install` (no node_modules). Backlog is nearly dry (IRS items 31, 40, 41, 15 blocked on sources); product-research should refill. Not the first cycle after 14:00 UTC, so no daily report.
+
+## 2026-11-19 17:55 UTC — cycle
+- Shipped: EPS calculator https://cappycalc.com/finance/eps-calculator/ (verify: 268 pages, 0 problems; NI $5M, pref $0.5M, 3M shares -> EPS $1.50, P/E 20, yield 5%; loss case -$0.50). Linked from EBITDA.
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm install` used. IRS items 31, 40, 41, 15 still blocked on sources; product-research should refill. Not the first cycle after 14:00 UTC, so no daily report (posted in the 14:55 cycle).

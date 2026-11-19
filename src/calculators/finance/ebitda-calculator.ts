@@ -83,7 +83,7 @@ export default defineCalculator({
       { label: 'Investopedia: EBITDA', url: 'https://www.investopedia.com/terms/e/ebitda.asp' },
     ],
   },
-  related: ['free-cash-flow-calculator', 'interest-coverage-ratio', 'pe-ratio-calculator', 'roa-calculator', 'wacc-calculator', 'profit-margin'],
+  related: ['eps-calculator', 'free-cash-flow-calculator', 'interest-coverage-ratio', 'pe-ratio-calculator', 'roa-calculator', 'wacc-calculator', 'profit-margin'],
   examples: [
     // 120+30+40+60 = 250k; 25%; EV 1500+400-150 = 1750k; 7.0
     { values: { netIncome: 120000, interest: 30000, taxes: 40000, da: 60000, revenue: 1000000, marketCap: 1500000, debt: 400000, cash: 150000 }, expect: { ebitda: 250000, margin: 0.25, ev: 1750000, multiple: 7 }, tolerance: 1e-9 },
