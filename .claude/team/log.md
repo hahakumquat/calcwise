@@ -500,3 +500,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-19 00:55 UTC — cycle
 - Shipped: WACC calculator https://cappycalc.com/finance/wacc-calculator/ (verify: 251 pages, 0 problems; $600k equity 10%, $400k debt 6%, 25% tax -> WACC 7.8%, after-tax debt 4.5%, debt share 40%; all-equity case = cost of equity).
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm install` used. IRS items 31, 40, 41 and 15 still blocked on sources; backlog needs refill with evergreen items.
+
+## 2026-11-19 01:55 UTC — cycle
+- Shipped: CAPM calculator https://cappycalc.com/finance/capm-calculator/ (verify: 252 pages, 0 problems; Rf 4%, beta 1.2, Rm 9% -> 10%, MRP 5%, stock premium 6%; beta 1 -> market return). Linked from WACC.
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. IRS items 31, 40, 41 and 15 still blocked on sources; backlog needs refill with evergreen items. First `git reset --hard` was denied by the sandbox classifier; used fast-forward merge instead. Next cycle: the first one after 14:00 UTC posts the daily report.

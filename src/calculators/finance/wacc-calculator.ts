@@ -76,7 +76,7 @@ export default defineCalculator({
       { label: 'Investopedia: Weighted average cost of capital', url: 'https://www.investopedia.com/terms/w/wacc.asp' },
     ],
   },
-  related: ['npv-irr-calculator', 'present-value', 'payback-period', 'roi', 'cagr-calculator'],
+  related: ['capm-calculator', 'npv-irr-calculator', 'present-value', 'payback-period', 'roi'],
   examples: [
     // 0.6*10% + 0.4*6%*0.75 = 7.8%; after-tax 4.5%; debt share 40%
     { values: { equity: 600000, debt: 400000, re: 10, rd: 6, tax: 25 }, expect: { wacc: 0.078, afterTax: 0.045, debtShare: 0.4 }, tolerance: 1e-9 },
