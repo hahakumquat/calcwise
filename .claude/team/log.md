@@ -524,3 +524,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-19 06:55 UTC — cycle
 - Shipped: current ratio / quick ratio calculator https://cappycalc.com/finance/current-ratio-calculator/ (verify: 257 pages, 0 problems; CA $150k, inventory $40k, CL $100k -> current 1.5, quick 1.1, working capital $50k; 80k/0/200k -> 0.4, 0.4, -$120k). Linked from debt-to-equity.
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm install` used (npm ci blocked by sandbox safety check). IRS items 31, 40, 41 and 15 still blocked on sources; product-research should refill. Not after 14:00 UTC, so no daily report.
+
+## 2026-11-19 07:55 UTC — cycle
+- Shipped: interest coverage ratio calculator https://cappycalc.com/finance/interest-coverage-ratio/ (verify: 258 pages, 0 problems; EBIT $500k, interest $100k -> 5x, $400k left, 20% of EBIT; EBIT $60k, interest $80k -> 0.75x, -$20k, 133.3%). Linked from current-ratio.
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm ci` blocked by sandbox safety check, used `npm install`. IRS items 31, 40, 41 and 15 still blocked on sources; product-research should refill. Not after 14:00 UTC, so no daily report.
