@@ -516,3 +516,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-19 04:55 UTC — cycle
 - Shipped: depreciation calculator https://cappycalc.com/finance/depreciation-calculator/ (verify: 255 pages, 0 problems; $50k, $5k salvage, 5y -> $9,000/yr straight-line (18%); double-declining 40% -> $20,000 yr 1, ends at salvage).
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm install` used (npm ci blocked by sandbox safety check). IRS items 31, 40, 41 and 15 still blocked on sources; product-research should refill. Not after 14:00 UTC, so no daily report.
+
+## 2026-11-19 05:55 UTC — cycle
+- Shipped: debt-to-equity ratio calculator https://cappycalc.com/finance/debt-to-equity-ratio/ (verify: 256 pages, 0 problems; $600k liabilities, $400k equity -> D/E 1.5, multiplier 2.5, debt share 60%; zero-debt case -> 0 / 1 / 0%).
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm install` used (npm ci blocked by sandbox safety check). IRS items 31, 40, 41 and 15 still blocked on sources; product-research should refill. Not after 14:00 UTC, so no daily report.
