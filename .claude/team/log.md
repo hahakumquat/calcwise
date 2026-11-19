@@ -547,3 +547,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-19 11:55 UTC — cycle
 - Shipped: cash conversion cycle calculator https://cappycalc.com/finance/cash-conversion-cycle/ (verify: 262 pages, 0 problems; DIO 60 + DSO 45 − DPO 30 -> 75 days; 20/5/50 -> −25). Linked from receivables turnover.
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. Repo was on detached HEAD; reset local main to origin/main. IRS items 31, 40, 41, 15 still blocked on sources; product-research should refill. Not after 14:00 UTC, so no daily report.
+
+## 2026-11-19 12:55 UTC — cycle
+- Shipped: ROA calculator https://cappycalc.com/finance/roa-calculator/ (verify: 263 pages, 0 problems; NI $40k, rev $500k, assets $400k -> 10%, 8% margin, 1.25 turnover; loss case -5%). Linked from ROE.
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. `npm ci` blocked by sandbox safety check, used `npm install`. IRS items 31, 40, 41, 15 still blocked on sources; product-research should refill. Not after 14:00 UTC, so no daily report.
