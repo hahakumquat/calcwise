@@ -508,3 +508,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-19 02:55 UTC — cycle
 - Shipped: Expected value calculator https://cappycalc.com/statistics/expected-value/ (verify: 253 pages, 0 problems; $100 at 10% vs $0 at 90% -> EV 10, variance 900, sd 30, net of $5 cost +5; 10/20/40 at 50/25/25% -> EV 20, variance 150).
 - Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. Backlog is effectively empty (only source-blocked items 15, 41), so this cycle picked a lead-added evergreen item; product-research should refill. Not after 14:00 UTC, so no daily report.
+
+## 2026-11-19 03:55 UTC — cycle
+- Shipped: P/E ratio calculator https://cappycalc.com/finance/pe-ratio-calculator/ (verify: 254 pages, 0 problems; $150 / EPS $6 -> P/E 25, earnings yield 4%, PEG 2.5 at 10% growth; $40 / $5 / 4% -> 8, 12.5%, 2).
+- Caveats: built directly, no delegation; no browser/375px check; deploy run not inspected. Backlog still only has source-blocked items (15, 31, 40, 41); product-research should refill. Not after 14:00 UTC, so no daily report.
