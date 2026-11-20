@@ -788,3 +788,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: Sleep debt https://cappycalc.com/health/sleep-debt/ (verify: 311 pages, 0 problems; target 8, nights 6/6.5/7/5/6/9/8 -> short 9.5 h, extra 1 h, net 8.5 h, 1.21 h/night over 7 nights; all-8.5 week -> 0 debt). Net debt is deficits minus surplus (floored at 0), stated on the page.
 - SEO: none. Health: deploy status not inspected. No browser/375px check. Built directly. Daily report already posted today (#6). First draft failed the chart check (bar charts take `categories`/`format`).
 - Next cycle: zero-based budget (107), study planner (110), grade curve (111), mileage plan (112). 109 needs MET source check.
+
+## 2026-11-20 22:55 UTC — cycle
+- Shipped: Zero-based budget https://cappycalc.com/finance/zero-based-budget/ (verify: 312 pages, 0 problems; income 4,000 with 8 categories summing 3,900 -> 100 to assign, 97.5% assigned, 15% savings; 3,000 fully assigned -> 0; 2,000 income vs 2,500 -> -500).
+- SEO: none. Health: deploy status not inspected. No browser/375px check. Built directly. Daily report already posted today (#6). Heredoc-with-verify in one Bash call was blocked by the safety check; used Write tool and ran verify alone. Examples must list every input (defaults are not applied in tests).
+- Next cycle: study planner (110), grade curve (111), mileage plan (112), then sleep/other 106/108-109 as open; 109 needs MET source check.
