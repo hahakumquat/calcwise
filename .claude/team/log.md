@@ -760,3 +760,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-20 18:02 UTC — cycle (addendum)
 - Shipped: cost-of-living salary https://cappycalc.com/finance/cost-of-living-salary/ (verify: 305 pages, 0 problems; $80k at 100 -> 120 needs $96k; $90k offer at 120 = $75k buying power, $5k short). BEA source link not opened (sandbox), cited as the generic regional price parities page.
 - Retirement-countdown deploy confirmed success. Open buildable: 103 EV vs gas, 104 time with loved ones, 105 systems of equations, 69-70, 73-74.
+
+## 2026-11-20 18:55 UTC — cycle
+- Shipped: EV vs gas cost https://cappycalc.com/everyday/ev-vs-gas-cost/ (verify: 306 pages, 0 problems; 30 kWh/100 mi at $0.17 -> $0.051/mi, 28 mpg at $3.50 -> $0.125/mi, 12,000 mi -> $612 vs $1,500, saves $888; 30 kWh at $0.50 vs 40 mpg at $4 -> -$500).
+- SEO: none. Health: deploy status not inspected. No browser/375px check. Built directly via `cycle-work` off origin/main. Daily report already posted today (#6). `npm ci` once denied by safety check when node_modules was absent; re-ran alone and it worked.
+- Next cycle: time with loved ones (104), systems of equations (105), Dry January (69, ship by 12-28), lean body mass (73), firewood (74).
