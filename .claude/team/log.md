@@ -667,3 +667,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-20 09:00 UTC — cycle (addendum)
 - Shipped: nothing more. Golf handicap blocked: usga.org not reachable (WebFetch DNS failure) and WebSearch did not return the Rule 5.2a table; not shipping it from memory. Marked blocked in backlog.
 - Next cycle: net-worth percentile and charitable deduction need source checks; run a product-research refresh to add buildable items with no-source-needed math. Owner: allow usga.org and irs.gov in the session network settings to unblock golf, RMD and the 2027 tax refresh.
+
+## 2026-11-20 09:55 UTC — cycle
+- Shipped: quartile calculator https://cappycalc.com/statistics/quartile-calculator/ (verify: 287 pages, 0 problems; 2,4,4,5,6,7,8,30 -> Q1 4, Q2 5.5, Q3 7.5, IQR 3.5, outlier 30; 1..7 -> Q1 2, Q3 6). Median-of-halves method stated; NIST cited.
+- Backlog: product-research added 8 source-free items (ranks 82-89, specs 57-64): body-surface-area, brine, fence, coin-counter, factorial, dice-probability, word-frequency (quartile now shipped).
+- SEO: none. Health: deploy status not inspected. Marketing: pack done earlier.
+- Blockers: IRS (31, 40) and USGA (golf) need irs.gov/usga.org access. No browser/375px check.
+- Next cycle: body-surface-area (Mosteller), brine, fence, factorial.
