@@ -703,3 +703,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: dice probability https://cappycalc.com/other/dice-probability/ (verify: 293 pages, 0 problems; 2d6 =7 -> 16.67%; 2d6 >=10 -> 16.67%; 3d6 =10 -> 12.5% (1 in 8); d20 <=5 -> 25%). Exact DP convolution, bar chart of all totals.
 - SEO: none. Health: deploy status not inspected. Marketing: pack done earlier. No browser/375px check. Daily report not posted (cycle started before 14:00 UTC); next cycle should post it.
 - Next cycle: post Daily report 2026-11-20; word frequency counter; product-research refresh (open buildable list nearly empty). Owner: irs.gov/usga.org access still unblocks tax 2027, RMD, golf.
+
+## 2026-11-20 13:57 UTC — cycle (addendum)
+- Shipped: word frequency https://cappycalc.com/text/word-frequency/ (verify: 294 pages, 0 problems; "the cat and the hat and the bat" -> 8 words, 5 unique, the 3x; min length 4 drops short words; case toggle).
+- Backlog: all ranked buildable items now shipped. Next cycle: post Daily report 2026-11-20 (after 14:00 UTC), then product-research refresh to add source-free items. Owner: irs.gov/usga.org access still unblocks tax 2027, RMD, golf.
