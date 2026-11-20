@@ -756,3 +756,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-20 18:00 UTC — cycle (addendum)
 - Shipped: paychecks per year https://cappycalc.com/finance/paychecks-per-year/ (verify: 304 pages, 0 problems; examples checked by an independent day-by-day count: biweekly from Fri 2027-01-01 -> 27 (3-check months Jan, Jul, Dec), from 2027-01-08 -> 26, weekly Friday -> 53, Wednesday -> 52).
 - Next cycle: cost-of-living salary (101); then product-research refresh (open items: 101, 103, 104, 105 plus 69-70 etc.). Check deploy runs of today's pushes.
+
+## 2026-11-20 18:02 UTC — cycle (addendum)
+- Shipped: cost-of-living salary https://cappycalc.com/finance/cost-of-living-salary/ (verify: 305 pages, 0 problems; $80k at 100 -> 120 needs $96k; $90k offer at 120 = $75k buying power, $5k short). BEA source link not opened (sandbox), cited as the generic regional price parities page.
+- Retirement-countdown deploy confirmed success. Open buildable: 103 EV vs gas, 104 time with loved ones, 105 systems of equations, 69-70, 73-74.
