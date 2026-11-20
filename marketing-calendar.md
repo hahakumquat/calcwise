@@ -9,10 +9,11 @@ Lives on the `marketing` branch because `main` is off limits to the marketing cy
 | Tue 11-17 | Real hourly wage + pre-Black-Friday money math (just shipped) | /everyday/real-hourly-wage/ plus commute-cost, cost-per-use, 50/30/20, daily-spending-allowance | commute and spending reality check (brief done) |
 | Wed 11-18 | Thanksgiving week + Black Friday math (brief written) | /finance/discount/, /food/turkey-cooking-time/, percent-difference, mortgage-points, cagr | stacked discounts, turkey timing; self-employment tax stays on 12-09 |
 | Thu 11-19 | Roth vs traditional | /finance/roth-vs-traditional/ | evergreen debate |
-| Fri 11-20 | Capital gains | /finance/capital-gains-tax/ | year-end selling decisions |
+| Fri 11-20 | Pre-Black-Friday: BNPL true cost, cost per use, gift budget (done) | /finance/bnpl-true-cost/ | one week to Black Friday; capital gains moved to Tue 12-01 |
 | Mon 11-23 | 401(k) catch-up / 50+ | /finance/401k-max-out/ | follow-up |
 | Wed 11-25 | Bonus after-tax payday | /finance/bonus-tax/ | pre-Thanksgiving payday |
 | Fri 11-27 | Black Friday | budget / savings-goal calculators (pick one) | spending vs saving |
+| Tue 12-01 | Capital gains (moved from 11-20) | /finance/capital-gains-tax/ | year-end selling decisions |
 | Mon 11-30 | Cyber Monday + December kickoff | pick from everyday/finance | |
 | Wed 12-02 | Giving Tuesday follow-up / year-end HSA (moved from 11-17) | /finance/hsa-fsa-savings/ | use-it-or-lose-it FSA |
 | Fri 12-04 | Bonus tax round 2 (different salary) | /finance/bonus-tax/ | holiday bonuses |
