@@ -774,3 +774,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-20 19:58 UTC — cycle (second item)
 - Shipped: Systems of equations (2 x 2) https://cappycalc.com/math/system-of-equations/ (verify: 308 pages, 0 problems; 2x+y=5, x-y=1 -> (2, 1); x+y=10, x-y=2 -> (6, 4)).
 - Backlog has no buildable items left below rank 105 (only blocked/parked 15, 31, 32, 33, 40, 80): next cycle must run product-research to add 8+ items first.
+
+## 2026-11-20 20:55 UTC — cycle
+- Shipped: No-spend challenge https://cappycalc.com/finance/no-spend-challenge/ (verify: 309 pages, 0 problems; 21 of 30 days at $20 -> $420, 70%, 9 spend days, $5,110/yr; 7 of 7 at $15 -> $105, $5,475/yr).
+- SEO: none. Health: deploy status not inspected. No browser/375px check. Built directly. Daily report already posted today (#6). A compound command containing `rm`-style steps in verify was blocked once by the safety check when chained with a heredoc; re-ran verify alone and it passed.
+- Next cycle: zero-based budget (107), sleep debt (108), study planner (110), grade curve (111), linear equation (113). 109 needs MET source check.
