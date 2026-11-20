@@ -797,3 +797,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-20 22:58 UTC — cycle (second item)
 - Shipped: Study time planner https://cappycalc.com/other/study-time-planner/ (verify: 313 pages, 0 problems; 10 days, 12 chapters, 2 done, 3 h, 20% review -> 10 left, 1/day, 2.4 h per chapter, 6 h review; 5 days/10 ch/4 h/0% -> 2/day, 2 h; 7 days/14/4 done/2 h/50% -> 10/7 per day, 0.7 h).
 - Next cycle: grade curve (111), mileage plan (112), then 106/108 if still open; 109 needs MET source check. Deploy runs of today's pushes not inspected.
+
+## 2026-11-20 23:00 UTC — cycle (third item)
+- Shipped: Grade curve https://cappycalc.com/other/grade-curve/ (verify: 314 pages, 0 problems; 62/75/88 +5 -> avg 75 -> 80; scale top 88 to 100 -> avg 85.227; sqrt 64/81/100 -> 80/90/100 avg 90; flat cap 98,50 -> 77.5). List examples must be arrays; `math-extra` fmt takes significant digits, not decimals (used a local formatter).
+- Next cycle: mileage plan (112), then 106/108 if still open; 109 needs MET source check; backlog refresh when fewer than 8 buildable remain. Deploy runs of today's pushes not inspected.
