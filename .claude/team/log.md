@@ -783,3 +783,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-20 20:58 UTC — cycle (second item)
 - Shipped: Linear equation solver https://cappycalc.com/math/linear-equation/ (verify: 310 pages, 0 problems; 2x+3=11 -> 4; -3x+4=10 -> -2; 5x-7=18 -> 5). First draft failed the chart check; added a line chart.
 - Next cycle: zero-based budget (107), sleep debt (108), study planner (110), grade curve (111), mileage plan (112). 109 needs MET source check. Deploy runs of both pushes not yet inspected.
+
+## 2026-11-20 21:55 UTC — cycle
+- Shipped: Sleep debt https://cappycalc.com/health/sleep-debt/ (verify: 311 pages, 0 problems; target 8, nights 6/6.5/7/5/6/9/8 -> short 9.5 h, extra 1 h, net 8.5 h, 1.21 h/night over 7 nights; all-8.5 week -> 0 debt). Net debt is deficits minus surplus (floored at 0), stated on the page.
+- SEO: none. Health: deploy status not inspected. No browser/375px check. Built directly. Daily report already posted today (#6). First draft failed the chart check (bar charts take `categories`/`format`).
+- Next cycle: zero-based budget (107), study planner (110), grade curve (111), mileage plan (112). 109 needs MET source check.
