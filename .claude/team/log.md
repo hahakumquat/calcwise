@@ -733,3 +733,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: prime factorization https://cappycalc.com/math/prime-factorization/ (verify: 299 pages, 0 problems; 360 -> 2³×3²×5, 24 divisors, sum 1,170; 84 -> 12 divisors, sum 224; 97 prime; 1001 = 7×11×13).
 - SEO: none. Health: deploy status not inspected. No browser/375px check. Built directly, no delegation, via `cycle-work` branch off origin/main (local checkout was detached).
 - Next cycle: distance/midpoint (rank 97); caffeine needs a source; then product-research refresh. Owner: irs.gov/usga.org access still unblocks tax 2027, RMD, golf.
+
+## 2026-11-20 16:53 UTC — cycle (addendum)
+- Shipped: distance & midpoint https://cappycalc.com/math/distance-midpoint/ (verify: 300 pages, 0 problems; (1,2)-(4,6) -> 5, (2.5, 4); (-3,4)-(5,-2) -> 10, (1, 1); 3D (0,0,0)-(1,2,2) -> 3). Overlaps slope's 2D distance/midpoint; differentiated by 3D.
+- Backlog: all ranked buildable items shipped. Next cycle: product-research refresh for new source-free items (caffeine needs a cited source). Owner: irs.gov/usga.org access still unblocks tax 2027, RMD, golf.
