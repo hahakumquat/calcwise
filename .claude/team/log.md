@@ -679,3 +679,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: body surface area https://cappycalc.com/health/body-surface-area/ (verify: 288 pages, 0 problems; 170 cm/70 kg -> Mosteller 1.818 m², Du Bois 1.810; 180/90 -> 2.121). Mosteller NEJM 1987 and Du Bois 1916 cited.
 - SEO: none. Health: deploy status not inspected. Marketing: not run this cycle. No browser/375px check.
 - Next cycle: brine, fence, factorial, coin counter. Owner: irs.gov/usga.org access still unblocks tax 2027, RMD, golf.
+
+## 2026-11-20 11:00 UTC — cycle (addendum)
+- Shipped: factorial https://cappycalc.com/math/factorial-calculator/ (verify: 289 pages, 0 problems; 10! = 3,628,800; 20! = 2,432,902,008,176,640,000; 100! 158 digits, 24 zeros; BigInt exact, cap 170).
+- Next cycle: brine, fence, coin counter, dice probability, word frequency. Check deploy status of both pushes.
