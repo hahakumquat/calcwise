@@ -602,3 +602,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Backlog: product-research did the full 2026-11-20 refresh (13 new non-finance items, ranks 69-81; next: screen-time-life, decimal-to-fraction, bakers-percentage).
 - Marketing: 2026-11-20 brief pushed to `marketing` (BNPL, cost per use, gift budget; Black Friday week); media agent started render.mjs + posting guide, status not confirmed at log time.
 - Caveats: no browser/375px check; previous deploy (P/B) green, this one not inspected. `npm install` used. IRS items 31, 40, 41, 15 still source-blocked. No daily report (due in the first cycle after 14:00 UTC).
+
+## 2026-11-20 01:05 UTC — cycle (addendum)
+- Shipped: screen time in a lifetime calculator https://cappycalc.com/everyday/screen-time-life/ (verify: 276 pages, 0 problems; 5 h/day, age 25 to 80 -> 11.46 years, 31.25% of waking hours, 1,825 h/yr).
+- Marketing: media step done on `marketing` branch (2026-11-20: reel-01..05, carousel-01..05, x-1.png, posting-guide.md; all PNGs reviewed, numbers match the brief).
+- Next cycle: decimal-to-fraction (rank 71), baker's percentage, lean body mass (needs formula citation). Previous deploy (Dry January) not yet inspected.
