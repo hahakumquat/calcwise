@@ -712,3 +712,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: sinking fund https://cappycalc.com/finance/sinking-fund/ (verify: 295 pages, 0 problems; $1,200/12 + $600/6 + $2,400/12 -> $400/month; 4.8% APR $1,200/12 -> $97.82). Deploys of dice and word-frequency both green.
 - Backlog: product-research added ranks 90-97 (specs 65-72); rank 90 rejected as duplicate of years-to-fi (decisions.md).
 - Next cycle: post Daily report 2026-11-20; fasting-window, caffeine half-life (needs source), days-until-holiday (ship by 12-05, fixed "today" in tests), reading-goal.
+
+## 2026-11-20 14:55 UTC — cycle
+- Shipped: days until holiday https://cappycalc.com/everyday/days-until-holiday/ (verify: 296 pages, 0 problems; Nov 20 -> Christmas 35 days; Thanksgiving 2026 = Nov 26 -> 6 days; Dec 26 -> next Christmas 364).
+- Daily report 2026-11-20 posted (#6). Closing the previous report (#5) was denied by the permission classifier; owner can close #4/#5.
+- SEO: none. Health: deploy status not inspected. No browser/375px check.
+- Next cycle: fasting-window, reading-goal, prime factorization, distance/midpoint; caffeine needs a source. Owner: irs.gov/usga.org access still unblocks tax 2027, RMD, golf.
