@@ -651,3 +651,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - SEO: none (short run). Health: deploy status not inspected. Marketing: today's pack already done.
 - Blockers: IRS items (31, 40) blocked on irs.gov access. No browser/375px check. Built directly, no delegation.
 - Next cycle: lean body mass and firewood (need sources), golf handicap (needs USGA source); backlog needs a refresh with new items (open buildable list is nearly exhausted).
+
+## 2026-11-20 07:55 UTC — cycle
+- Shipped: firewood cord calculator https://cappycalc.com/everyday/firewood-cord/ (verify: 285 pages, 0 problems; 8x4 ft stack of 16 in logs -> 42.67 cu ft = 1/3 cord = $100 at $300/cord; 24 in -> 1/2 cord). Cord = 128 cu ft cited to USDA Forest Service, WA Agriculture and Maine Forest Service pages.
+- SEO: none (short run). Health: last 3 deploys on main green. Marketing: today's pack already done.
+- Blockers: IRS items (31, 40) blocked on irs.gov access. Local `main` ref was stale and `git reset --hard` / `npm ci` were denied by the sandbox, so I worked on a branch from origin/main and used `npm install`. No browser/375px check. Built directly, no delegation.
+- Next cycle: lean body mass (needs Boer/Kouri formula citation), golf handicap (USGA source); backlog needs a research refresh, since few buildable items remain.
