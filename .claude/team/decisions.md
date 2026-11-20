@@ -8,3 +8,4 @@
 - 2026-11-15 — Run constantly: the routine fires hourly (the minimum) and each cycle keeps shipping items for up to 50 minutes. (Owner: "run constantly and keep moving forward")
 - 2026-11-15 — No videos: the team makes PNG assets only (9:16 frames per video beat, raw captures, carousels, X images, Story cards); the owner edits videos. (Owner)
 - 2026-11-20 — Lean body mass uses the FFMI normalization coefficient 6.3 (Kouri 1995 abstract) rather than 6.1 (seen on secondary sites); Boer coefficients confirmed. Full text not opened. (Lead)
+- 2026-11-20 — Rejected backlog rank 90 (fire/savings-rate): fire/years-to-fi already is the savings-rate calculator with the same curve; a second page would cannibalise it. (Lead)

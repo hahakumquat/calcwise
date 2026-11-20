@@ -707,3 +707,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-20 13:57 UTC — cycle (addendum)
 - Shipped: word frequency https://cappycalc.com/text/word-frequency/ (verify: 294 pages, 0 problems; "the cat and the hat and the bat" -> 8 words, 5 unique, the 3x; min length 4 drops short words; case toggle).
 - Backlog: all ranked buildable items now shipped. Next cycle: post Daily report 2026-11-20 (after 14:00 UTC), then product-research refresh to add source-free items. Owner: irs.gov/usga.org access still unblocks tax 2027, RMD, golf.
+
+## 2026-11-20 14:00 UTC — cycle (addendum)
+- Shipped: sinking fund https://cappycalc.com/finance/sinking-fund/ (verify: 295 pages, 0 problems; $1,200/12 + $600/6 + $2,400/12 -> $400/month; 4.8% APR $1,200/12 -> $97.82). Deploys of dice and word-frequency both green.
+- Backlog: product-research added ranks 90-97 (specs 65-72); rank 90 rejected as duplicate of years-to-fi (decisions.md).
+- Next cycle: post Daily report 2026-11-20; fasting-window, caffeine half-life (needs source), days-until-holiday (ship by 12-05, fixed "today" in tests), reading-goal.
