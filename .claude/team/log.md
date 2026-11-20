@@ -657,3 +657,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - SEO: none (short run). Health: last 3 deploys on main green. Marketing: today's pack already done.
 - Blockers: IRS items (31, 40) blocked on irs.gov access. Local `main` ref was stale and `git reset --hard` / `npm ci` were denied by the sandbox, so I worked on a branch from origin/main and used `npm install`. No browser/375px check. Built directly, no delegation.
 - Next cycle: lean body mass (needs Boer/Kouri formula citation), golf handicap (USGA source); backlog needs a research refresh, since few buildable items remain.
+
+## 2026-11-20 08:55 UTC — cycle
+- Shipped: lean body mass and FFMI https://cappycalc.com/health/lean-body-mass/ (verify: 286 pages, 0 problems; 80 kg/180 cm/15% bf -> LBM 68 kg, FFMI 20.99; Boer male 80 kg/180 cm -> 61.42 kg; female 60 kg/165 cm -> 44.87 kg). Boer 1984 and Kouri 1995 cited; 6.3 vs 6.1 normalization noted in decisions.md.
+- SEO: none (short run). Health: deploy status not inspected. Marketing: today's pack already done.
+- Blockers: IRS items (31, 40) blocked on irs.gov access. No browser/375px check. Built directly, no delegation.
+- Next cycle: golf handicap (needs USGA source), net-worth percentile (needs source); backlog needs a research refresh, few buildable items remain.
