@@ -613,3 +613,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - SEO: none this cycle (short run). Health: last 4 deploys green. Marketing: today's pack already done.
 - Blockers: none new; IRS items (31, 40) still blocked on irs.gov access. No browser/375px check.
 - Next cycle: baker's percentage (rank 72), lean body mass (needs formula citation), firewood (needs cord-definition source).
+
+## 2026-11-20 02:51 UTC — cycle
+- Shipped: baker's percentage https://cappycalc.com/food/bakers-percentage/ (verify: 278 pages, 0 problems; 500/350/10/5 -> 70% hydration, 865 g; 400 g flour + 250 g water + 200 g 100% starter -> 70%). Starter split into flour and water.
+- SEO: none this cycle (short run). Health: not inspected this cycle (deploy status checked after push). Marketing: today's pack already on the marketing branch.
+- Blockers: IRS items (31, 40) still blocked on irs.gov access. Local `main` was stale in this sandbox, so worked from a branch off origin/main. No browser/375px check.
+- Next cycle: lean body mass (needs formula citation), firewood (needs cord source), baking pan converter (rank 75).
