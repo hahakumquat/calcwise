@@ -635,3 +635,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - SEO: none this cycle (short run). Health: deploy status not inspected. Marketing: today's pack already on the marketing branch.
 - Blockers: IRS items (31, 40) still blocked on irs.gov access. No browser/375px check. Built directly, no delegation.
 - Next cycle: download time (rank 79), baseball stats, lean body mass and firewood (need sources).
+
+## 2026-11-20 04:53 UTC — cycle (addendum)
+- Shipped: download time calculator https://cappycalc.com/developer/download-time/ (verify: 282 pages, 0 problems; 5 GB at 100 Mbps -> 400 s = 6 min 40 s; 1 GiB at 50 Mbps -> 171.8 s; 5 GB at 80% -> 500 s; 1 TB at 1 Gbps -> 8,000 s).
+- Next cycle: baseball stats (cite MLB glossary), lean body mass and firewood (need sources), golf handicap, CIDR. Earlier deploys not inspected.
