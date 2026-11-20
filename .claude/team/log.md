@@ -748,3 +748,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: retirement countdown https://cappycalc.com/fire/retirement-countdown/ (verify: 302 pages, 0 problems; Fri Nov 20 -> Fri Dec 4 = 14 days, 10 workdays, 2 Mondays; 365 days -> 261 workdays, 52 Mondays; 2026-11-20 -> 2046-01-01 = 6982 days, 4986 workdays, 997 Mondays).
 - SEO: none. Health: deploy status not inspected. No browser/375px check. Built directly, no delegation, via `cycle-work` off origin/main. Daily report already posted today (#6).
 - Next cycle: annual vs monthly plan (100), cost-of-living salary (101), paychecks per year (102; ship before 2027).
+
+## 2026-11-20 17:58 UTC — cycle (addendum)
+- Shipped: annual vs monthly plan https://cappycalc.com/finance/annual-vs-monthly-plan/ (verify: 303 pages, 0 problems; $12.99/mo vs $99/yr -> saves $56.88 (36.5%), $8.25/mo, break-even 7.62 months; $10 vs $120 -> 0 saving, 12 months).
+- Next cycle: cost-of-living salary (101), paychecks per year (102; ship before 2027). Check deploy runs of both pushes.
