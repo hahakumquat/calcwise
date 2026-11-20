@@ -619,3 +619,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - SEO: none this cycle (short run). Health: not inspected this cycle (deploy status checked after push). Marketing: today's pack already on the marketing branch.
 - Blockers: IRS items (31, 40) still blocked on irs.gov access. Local `main` was stale in this sandbox, so worked from a branch off origin/main. No browser/375px check.
 - Next cycle: lean body mass (needs formula citation), firewood (needs cord source), baking pan converter (rank 75).
+
+## 2026-11-20 03:55 UTC — cycle
+- Shipped: baking pan size converter https://cappycalc.com/food/baking-pan-converter/ (verify: 279 pages, 0 problems; 9 in round -> 9x13 = x1.84; 8 in square -> 9 in round = x0.99; identical pans = x1).
+- SEO: none this cycle (short run). Health: deploy status not inspected. Marketing: today's pack already on the marketing branch.
+- Blockers: IRS items (31, 40) still blocked on irs.gov access. No browser/375px check. Built directly, no delegation.
+- Next cycle: lean body mass (needs formula citation), firewood (needs cord source), baseball stats, tile calculator.
