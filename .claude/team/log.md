@@ -683,3 +683,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-20 11:00 UTC — cycle (addendum)
 - Shipped: factorial https://cappycalc.com/math/factorial-calculator/ (verify: 289 pages, 0 problems; 10! = 3,628,800; 20! = 2,432,902,008,176,640,000; 100! 158 digits, 24 zeros; BigInt exact, cap 170).
 - Next cycle: brine, fence, coin counter, dice probability, word frequency. Check deploy status of both pushes.
+
+## 2026-11-20 11:55 UTC — cycle
+- Shipped: brine calculator https://cappycalc.com/food/brine-calculator/ (verify: 290 pages, 0 problems; 4 L at 5% -> 200 g salt, 4,200 g solution, 4.76% by solution; 1 US gal at 6% -> 227 g). Pure arithmetic, both percent definitions explained.
+- SEO: none. Health: deploy status not inspected. Marketing: pack done earlier. No browser/375px check.
+- Next cycle: fence, coin counter, dice probability, word frequency. Owner: irs.gov/usga.org access still unblocks tax 2027, RMD, golf.
