@@ -770,3 +770,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: Time left with loved ones https://cappycalc.com/everyday/time-with-loved-ones/ (verify: 307 pages, 0 problems; parent 65 -> 85, 4 visits x 3 days -> 80 visits, 240 days, 2,080 calls, +60 days per extra yearly visit).
 - SEO: none. Health: deploy status not inspected. No browser/375px check. Built directly (small item, no sub-agents). Daily report already posted today (#6). Local `main` was stale and a hard reset was denied; used `git checkout -B cycle-work origin/main` instead.
 - Next cycle: systems of equations (105), then refresh backlog (fewer than 8 buildable items remain).
+
+## 2026-11-20 19:58 UTC — cycle (second item)
+- Shipped: Systems of equations (2 x 2) https://cappycalc.com/math/system-of-equations/ (verify: 308 pages, 0 problems; 2x+y=5, x-y=1 -> (2, 1); x+y=10, x-y=2 -> (6, 4)).
+- Backlog has no buildable items left below rank 105 (only blocked/parked 15, 31, 32, 33, 40, 80): next cycle must run product-research to add 8+ items first.
