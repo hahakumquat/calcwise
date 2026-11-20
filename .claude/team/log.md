@@ -698,3 +698,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - SEO: none. Health: deploy status checked after push (see below). No browser/375px check. US Mint source URL not opened.
 - Blocker/workaround: local checkout `main` in /home/user/calcwise had diverged from origin/main (50 stale commits) and a hard reset was denied, so this cycle built in a worktree off origin/main. Owner may want to reset that local clone.
 - Next cycle: dice probability, word frequency. Owner: irs.gov/usga.org access still unblocks tax 2027, RMD, golf.
+
+## 2026-11-20 13:55 UTC — cycle
+- Shipped: dice probability https://cappycalc.com/other/dice-probability/ (verify: 293 pages, 0 problems; 2d6 =7 -> 16.67%; 2d6 >=10 -> 16.67%; 3d6 =10 -> 12.5% (1 in 8); d20 <=5 -> 25%). Exact DP convolution, bar chart of all totals.
+- SEO: none. Health: deploy status not inspected. Marketing: pack done earlier. No browser/375px check. Daily report not posted (cycle started before 14:00 UTC); next cycle should post it.
+- Next cycle: post Daily report 2026-11-20; word frequency counter; product-research refresh (open buildable list nearly empty). Owner: irs.gov/usga.org access still unblocks tax 2027, RMD, golf.
