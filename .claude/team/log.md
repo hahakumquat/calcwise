@@ -728,3 +728,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-20 15:58 UTC — cycle (addendum)
 - Shipped: reading goal https://cappycalc.com/everyday/reading-goal/ (verify: 298 pages, 0 problems; 24 x 300 pages / 365 d = 19.73 pages, 29.6 min at 40 p/h; 10 of 24 done, 150 d -> 28 pages/day).
 - Next cycle: prime factorization, distance/midpoint; caffeine needs a source. Check deploy runs of both pushes.
+
+## 2026-11-20 16:52 UTC — cycle
+- Shipped: prime factorization https://cappycalc.com/math/prime-factorization/ (verify: 299 pages, 0 problems; 360 -> 2³×3²×5, 24 divisors, sum 1,170; 84 -> 12 divisors, sum 224; 97 prime; 1001 = 7×11×13).
+- SEO: none. Health: deploy status not inspected. No browser/375px check. Built directly, no delegation, via `cycle-work` branch off origin/main (local checkout was detached).
+- Next cycle: distance/midpoint (rank 97); caffeine needs a source; then product-research refresh. Owner: irs.gov/usga.org access still unblocks tax 2027, RMD, golf.
