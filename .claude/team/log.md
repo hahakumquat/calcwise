@@ -692,3 +692,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-20 11:58 UTC — cycle (addendum)
 - Shipped: fence calculator https://cappycalc.com/construction/fence-calculator/ (verify: 291 pages, 0 problems; 100 ft / 8 ft -> 13 sections, 14 posts, $990; closed loop 13 posts, $975).
 - Next cycle: coin counter, dice probability, word frequency. Check deploy status of both pushes.
+
+## 2026-11-20 12:55 UTC — cycle
+- Shipped: coin counter https://cappycalc.com/everyday/coin-counter/ (verify: 292 pages, 0 problems; 100p/30n/20d/10q -> 700¢ = $7.00, 160 coins). Integer-cent math.
+- SEO: none. Health: deploy status checked after push (see below). No browser/375px check. US Mint source URL not opened.
+- Blocker/workaround: local checkout `main` in /home/user/calcwise had diverged from origin/main (50 stale commits) and a hard reset was denied, so this cycle built in a worktree off origin/main. Owner may want to reset that local clone.
+- Next cycle: dice probability, word frequency. Owner: irs.gov/usga.org access still unblocks tax 2027, RMD, golf.
