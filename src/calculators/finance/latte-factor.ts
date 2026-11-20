@@ -82,7 +82,7 @@ export default defineCalculator({
     ],
     sources: [{ label: 'Investor.gov: Compound interest calculator (SEC)', url: 'https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator' }],
   },
-  related: ['compound-interest', 'subscription-cost', 'investment', 'savings-goal'],
+  related: ['compound-interest', 'subscription-cost', 'dry-january', 'investment', 'savings-goal'],
   examples: [
     // 5 × 7 × 365 ÷ 7 = 1,825; spent 54,750; 1.07^30 = 7.612255 → 1,825 × 6.612255 ÷ 0.07 = 172,391.
     { values: { cost: 5, perWeek: 7, years: 30, rate: 7 }, expect: { annual: 1825, spent: 54750, future: 172391, growth: 117641 }, tolerance: 1e-3 },

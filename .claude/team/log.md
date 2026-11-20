@@ -596,3 +596,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-19 23:55 UTC — cycle
 - Shipped: price-to-book ratio calculator https://cappycalc.com/finance/price-to-book-ratio-calculator/ (verify: 274 pages, 0 problems; $500M assets, $200M liabilities, 20M shares, $30 -> BVPS $15, P/B 2.0; 0.5 case; negative book value shows no ratio). Linked from P/E.
 - Caveats: built directly, no delegation; no browser/375px check; previous deploy (DSCR) green, this deploy not inspected. `npm install` used. IRS items 31, 40, 41, 15 still blocked on sources; product-research should refill. No daily report (posted in the 14:55 cycle).
+
+## 2026-11-20 00:55 UTC — cycle
+- Shipped: Dry January savings calculator https://cappycalc.com/everyday/dry-january/ (verify: 275 pages, 0 problems; 8 drinks/wk, $9, 150 kcal, 31 days -> 35.4 drinks, $318.86, 5,314 kcal, $3,744/yr). Linked from latte factor.
+- Backlog: product-research did the full 2026-11-20 refresh (13 new non-finance items, ranks 69-81; next: screen-time-life, decimal-to-fraction, bakers-percentage).
+- Marketing: 2026-11-20 brief pushed to `marketing` (BNPL, cost per use, gift budget; Black Friday week); media agent started render.mjs + posting guide, status not confirmed at log time.
+- Caveats: no browser/375px check; previous deploy (P/B) green, this one not inspected. `npm install` used. IRS items 31, 40, 41, 15 still source-blocked. No daily report (due in the first cycle after 14:00 UTC).
