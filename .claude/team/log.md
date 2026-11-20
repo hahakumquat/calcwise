@@ -793,3 +793,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: Zero-based budget https://cappycalc.com/finance/zero-based-budget/ (verify: 312 pages, 0 problems; income 4,000 with 8 categories summing 3,900 -> 100 to assign, 97.5% assigned, 15% savings; 3,000 fully assigned -> 0; 2,000 income vs 2,500 -> -500).
 - SEO: none. Health: deploy status not inspected. No browser/375px check. Built directly. Daily report already posted today (#6). Heredoc-with-verify in one Bash call was blocked by the safety check; used Write tool and ran verify alone. Examples must list every input (defaults are not applied in tests).
 - Next cycle: study planner (110), grade curve (111), mileage plan (112), then sleep/other 106/108-109 as open; 109 needs MET source check.
+
+## 2026-11-20 22:58 UTC — cycle (second item)
+- Shipped: Study time planner https://cappycalc.com/other/study-time-planner/ (verify: 313 pages, 0 problems; 10 days, 12 chapters, 2 done, 3 h, 20% review -> 10 left, 1/day, 2.4 h per chapter, 6 h review; 5 days/10 ch/4 h/0% -> 2/day, 2 h; 7 days/14/4 done/2 h/50% -> 10/7 per day, 0.7 h).
+- Next cycle: grade curve (111), mileage plan (112), then 106/108 if still open; 109 needs MET source check. Deploy runs of today's pushes not inspected.
