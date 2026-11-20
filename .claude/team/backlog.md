@@ -67,7 +67,7 @@ Priority = demand x fit x (social + adsense) / (6 - effort). Scores: demand (d),
 | 110 | **Study time planner for finals** (`other/study-time-planner`), spec 85. d3 f2 s3 a1 e5 | new calculator | 24 | December finals season; pure arithmetic over days, topics and hours. Not covered by `final-grade`, `gpa`, `test-grade`. No web sources opened. | ux-designer | open |
 | 111 | **Grade curve calculator** (`other/grade-curve`), spec 86. d3 f2 s2 a1 e5 | new calculator | 18 | Finals season; flat-add, scale-to-top and square-root curves are standard teacher methods (label as methods, not rules). No web sources opened. | ux-designer | open |
 | 112 | **Running mileage build plan (10% rule)** (`sports/mileage-build-plan`), spec 87. d3 f2 s2 a2 e4 | new calculator | 12 | New Year running goals; the 10% rule is a rule of thumb, label it so. `pace` and `race-time-predictor` do not plan weekly volume. No web sources opened. | ux-designer | open |
-| 113 | **Linear equation solver (ax + b = c)** (`math/linear-equation`), spec 88. d4 f1 s1 a2 e5 | new calculator | 12 | Evergreen homework; `system-of-equations` (2 unknowns) and `quadratic` exist, one-variable does not. Standard definition. No web sources opened. | frontend-engineer | open |
+| 113 | **Linear equation solver (ax + b = c)** (`math/linear-equation`), spec 88. d4 f1 s1 a2 e5 | new calculator | 12 | Evergreen homework; `system-of-equations` (2 unknowns) and `quadratic` exist, one-variable does not. Standard definition. No web sources opened. | frontend-engineer | shipped 2026-11-20 |
 ## Specs for new items
 
 Every spec: copy a neighbour calculator, add `examples` with the hand-checked values below, make FAQ answers match `compute()`, and keep the link to `related` calculators.

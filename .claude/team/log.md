@@ -779,3 +779,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: No-spend challenge https://cappycalc.com/finance/no-spend-challenge/ (verify: 309 pages, 0 problems; 21 of 30 days at $20 -> $420, 70%, 9 spend days, $5,110/yr; 7 of 7 at $15 -> $105, $5,475/yr).
 - SEO: none. Health: deploy status not inspected. No browser/375px check. Built directly. Daily report already posted today (#6). A compound command containing `rm`-style steps in verify was blocked once by the safety check when chained with a heredoc; re-ran verify alone and it passed.
 - Next cycle: zero-based budget (107), sleep debt (108), study planner (110), grade curve (111), linear equation (113). 109 needs MET source check.
+
+## 2026-11-20 20:58 UTC — cycle (second item)
+- Shipped: Linear equation solver https://cappycalc.com/math/linear-equation/ (verify: 310 pages, 0 problems; 2x+3=11 -> 4; -3x+4=10 -> -2; 5x-7=18 -> 5). First draft failed the chart check; added a line chart.
+- Next cycle: zero-based budget (107), sleep debt (108), study planner (110), grade curve (111), mileage plan (112). 109 needs MET source check. Deploy runs of both pushes not yet inspected.
