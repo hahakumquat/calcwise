@@ -765,3 +765,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: EV vs gas cost https://cappycalc.com/everyday/ev-vs-gas-cost/ (verify: 306 pages, 0 problems; 30 kWh/100 mi at $0.17 -> $0.051/mi, 28 mpg at $3.50 -> $0.125/mi, 12,000 mi -> $612 vs $1,500, saves $888; 30 kWh at $0.50 vs 40 mpg at $4 -> -$500).
 - SEO: none. Health: deploy status not inspected. No browser/375px check. Built directly via `cycle-work` off origin/main. Daily report already posted today (#6). `npm ci` once denied by safety check when node_modules was absent; re-ran alone and it worked.
 - Next cycle: time with loved ones (104), systems of equations (105), Dry January (69, ship by 12-28), lean body mass (73), firewood (74).
+
+## 2026-11-20 19:55 UTC — cycle
+- Shipped: Time left with loved ones https://cappycalc.com/everyday/time-with-loved-ones/ (verify: 307 pages, 0 problems; parent 65 -> 85, 4 visits x 3 days -> 80 visits, 240 days, 2,080 calls, +60 days per extra yearly visit).
+- SEO: none. Health: deploy status not inspected. No browser/375px check. Built directly (small item, no sub-agents). Daily report already posted today (#6). Local `main` was stale and a hard reset was denied; used `git checkout -B cycle-work origin/main` instead.
+- Next cycle: systems of equations (105), then refresh backlog (fewer than 8 buildable items remain).
