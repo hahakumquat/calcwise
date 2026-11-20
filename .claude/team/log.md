@@ -674,3 +674,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - SEO: none. Health: deploy status not inspected. Marketing: pack done earlier.
 - Blockers: IRS (31, 40) and USGA (golf) need irs.gov/usga.org access. No browser/375px check.
 - Next cycle: body-surface-area (Mosteller), brine, fence, factorial.
+
+## 2026-11-20 11:00 UTC — cycle
+- Shipped: body surface area https://cappycalc.com/health/body-surface-area/ (verify: 288 pages, 0 problems; 170 cm/70 kg -> Mosteller 1.818 m², Du Bois 1.810; 180/90 -> 2.121). Mosteller NEJM 1987 and Du Bois 1916 cited.
+- SEO: none. Health: deploy status not inspected. Marketing: not run this cycle. No browser/375px check.
+- Next cycle: brine, fence, factorial, coin counter. Owner: irs.gov/usga.org access still unblocks tax 2027, RMD, golf.
