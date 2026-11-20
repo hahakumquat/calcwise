@@ -607,3 +607,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: screen time in a lifetime calculator https://cappycalc.com/everyday/screen-time-life/ (verify: 276 pages, 0 problems; 5 h/day, age 25 to 80 -> 11.46 years, 31.25% of waking hours, 1,825 h/yr).
 - Marketing: media step done on `marketing` branch (2026-11-20: reel-01..05, carousel-01..05, x-1.png, posting-guide.md; all PNGs reviewed, numbers match the brief).
 - Next cycle: decimal-to-fraction (rank 71), baker's percentage, lean body mass (needs formula citation). Previous deploy (Dry January) not yet inspected.
+
+## 2026-11-20 01:55 UTC — cycle
+- Shipped: decimal to fraction https://cappycalc.com/math/decimal-to-fraction/ (verify: 277 pages, 0 problems; 0.75 -> 3/4, 0.1 + repeating 6 -> 1/6, 3.14159 max 100 -> 311/99). BigInt exact math; repeating digits entered as a second field.
+- SEO: none this cycle (short run). Health: last 4 deploys green. Marketing: today's pack already done.
+- Blockers: none new; IRS items (31, 40) still blocked on irs.gov access. No browser/375px check.
+- Next cycle: baker's percentage (rank 72), lean body mass (needs formula citation), firewood (needs cord-definition source).
