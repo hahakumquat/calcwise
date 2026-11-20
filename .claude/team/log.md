@@ -688,3 +688,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: brine calculator https://cappycalc.com/food/brine-calculator/ (verify: 290 pages, 0 problems; 4 L at 5% -> 200 g salt, 4,200 g solution, 4.76% by solution; 1 US gal at 6% -> 227 g). Pure arithmetic, both percent definitions explained.
 - SEO: none. Health: deploy status not inspected. Marketing: pack done earlier. No browser/375px check.
 - Next cycle: fence, coin counter, dice probability, word frequency. Owner: irs.gov/usga.org access still unblocks tax 2027, RMD, golf.
+
+## 2026-11-20 11:58 UTC — cycle (addendum)
+- Shipped: fence calculator https://cappycalc.com/construction/fence-calculator/ (verify: 291 pages, 0 problems; 100 ft / 8 ft -> 13 sections, 14 posts, $990; closed loop 13 posts, $975).
+- Next cycle: coin counter, dice probability, word frequency. Check deploy status of both pushes.
