@@ -663,3 +663,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - SEO: none (short run). Health: deploy status not inspected. Marketing: today's pack already done.
 - Blockers: IRS items (31, 40) blocked on irs.gov access. No browser/375px check. Built directly, no delegation.
 - Next cycle: golf handicap (needs USGA source), net-worth percentile (needs source); backlog needs a research refresh, few buildable items remain.
+
+## 2026-11-20 09:00 UTC — cycle (addendum)
+- Shipped: nothing more. Golf handicap blocked: usga.org not reachable (WebFetch DNS failure) and WebSearch did not return the Rule 5.2a table; not shipping it from memory. Marked blocked in backlog.
+- Next cycle: net-worth percentile and charitable deduction need source checks; run a product-research refresh to add buildable items with no-source-needed math. Owner: allow usga.org and irs.gov in the session network settings to unblock golf, RMD and the 2027 tax refresh.
