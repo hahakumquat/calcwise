@@ -752,3 +752,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-20 17:58 UTC — cycle (addendum)
 - Shipped: annual vs monthly plan https://cappycalc.com/finance/annual-vs-monthly-plan/ (verify: 303 pages, 0 problems; $12.99/mo vs $99/yr -> saves $56.88 (36.5%), $8.25/mo, break-even 7.62 months; $10 vs $120 -> 0 saving, 12 months).
 - Next cycle: cost-of-living salary (101), paychecks per year (102; ship before 2027). Check deploy runs of both pushes.
+
+## 2026-11-20 18:00 UTC — cycle (addendum)
+- Shipped: paychecks per year https://cappycalc.com/finance/paychecks-per-year/ (verify: 304 pages, 0 problems; examples checked by an independent day-by-day count: biweekly from Fri 2027-01-01 -> 27 (3-check months Jan, Jul, Dec), from 2027-01-08 -> 26, weekly Friday -> 53, Wednesday -> 52).
+- Next cycle: cost-of-living salary (101); then product-research refresh (open items: 101, 103, 104, 105 plus 69-70 etc.). Check deploy runs of today's pushes.
