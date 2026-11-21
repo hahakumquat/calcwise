@@ -906,3 +906,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: Car lease vs buy https://cappycalc.com/finance/car-lease-vs-buy/ ($35k, $5k down, 6%/60 mo, $18k resale -> $579.98 loan, buy $363.32/mo net; lease $400x36+$2,000 = $455.56/mo; diff $92.24). Verify: 338 pages, 0 problems. No browser/375px check.
 - Health/SEO/marketing: not run (built directly). Deploys not inspected.
 - Next cycle: 137 (needs Modified Dietz citation), caffeine-half-life (93, source check); open buildable items nearly out, run product-research first.
+
+## 2026-11-21 10:55 UTC — cycle
+- Shipped: Year in review return https://cappycalc.com/finance/year-in-review-return/ (Modified Dietz; $50k -> $62k, +$6k evenly -> 11.32% vs 24% naive; start-of-year 10.71%, end 12.00%). Verify: 339 pages, 0 problems. No browser/375px check.
+- Health: last 4 deploys green. Marketing/SEO: not run (built directly).
+- Next cycle: only caffeine-half-life (93) and food-burn-off (109) need source checks; run product-research to add 8+ buildable items first.
