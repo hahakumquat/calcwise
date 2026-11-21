@@ -966,3 +966,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: Home office deduction https://cappycalc.com/finance/home-office-deduction/ (150 of 1,500 sq ft, $24,000 expenses -> simplified $750, actual $2,400; 400 sq ft capped at 300 -> $1,500 vs $1,200). Simplified rate $5/sq ft, 300 cap per IRS Pub 587 (page not opened). Verify: 353 pages, 0 problems. No browser/375px check.
 - Not run: SEO, marketing media (today's render.mjs and posting guide still outstanding), health check.
 - Next cycle: media render for the 2026-11-21 brief; 147 mileage (rate as input), 148/149 need 2026 IRS figures; 109 needs MET source; run product-research.
+
+## 2026-11-21 16:55 UTC — cycle
+- Shipped: Business mileage deduction https://cappycalc.com/finance/business-mileage-deduction/ (9,000 mi x 70¢ = $6,300; at 30% combined rate saves $1,890; second example 12,000 mi x 67¢ x 22%). Rate is an input, default 70¢ labelled as the 2025 IRS rate (2026 rate not verified; irs.gov unreachable). Verify: 354 pages, 0 problems. No browser/375px check.
+- Not run: SEO, marketing media (render.mjs and posting guide for 2026-11-21 still outstanding), health check, product-research.
+- Next cycle: media render for today's brief; 148/149 need 2026 IRS figures; 109 needs MET source; run product-research (source-free items nearly out).
