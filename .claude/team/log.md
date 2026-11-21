@@ -971,3 +971,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: Business mileage deduction https://cappycalc.com/finance/business-mileage-deduction/ (9,000 mi x 70¢ = $6,300; at 30% combined rate saves $1,890; second example 12,000 mi x 67¢ x 22%). Rate is an input, default 70¢ labelled as the 2025 IRS rate (2026 rate not verified; irs.gov unreachable). Verify: 354 pages, 0 problems. No browser/375px check.
 - Not run: SEO, marketing media (render.mjs and posting guide for 2026-11-21 still outstanding), health check, product-research.
 - Next cycle: media render for today's brief; 148/149 need 2026 IRS figures; 109 needs MET source; run product-research (source-free items nearly out).
+
+## 2026-11-21 17:51 UTC — cycle
+- Shipped (6): Food burn-off /health/food-burn-off/ (250 kcal, 70 kg, walk 4.3 MET -> 47.5 min); Rent increase impact /finance/rent-increase-impact/ ($1,500 -> $1,620 = +8%, $1,440 over 12 mo); Eating out cost /finance/eating-out-cost/ (4 x $16 vs $5 -> $3,328 vs $1,040 a year); Car affordability /finance/car-affordability/ ($90k, 10%, $250 running, 20% down, 7.2%/48 mo -> $25,999); Side hustle goal /finance/side-hustle-goal/ ($500 at $14.50 profit -> 35 sales); Cash back rewards /finance/cash-back-rewards/ ($414 a year, net $319 after $95 fee vs $360 flat 2%). Verify: 360 pages, 0 problems. No browser/375px check; last sub-agent runs skipped `npm ci` (sandbox blocked it), used existing node_modules.
+- Backlog: product-research added ranks 154-161 (specs 129-136); 155, 159, 161 still open (stock options, early-withdrawal needs IRS check, yield on cost).
+- Marketing: 2026-11-21 media pack rendered and posting-guide.md written on `marketing` branch (reel 1-5, carousel 1-5, x-1).
+- Health: deploys green; two older runs cancelled by newer pushes (expected). SEO: not run.
+- Next cycle: 155 stock-option-exercise, 161 yield-on-cost; 148/149 need 2026 IRS figures; SEO pass and health check overdue.
