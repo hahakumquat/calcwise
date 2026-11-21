@@ -872,3 +872,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-21 06:03 UTC — cycle (fourth item)
 - Shipped: Drive vs fly cost https://cappycalc.com/everyday/drive-vs-fly-cost/ (verify: 329 pages, 0 problems; 1,000 mi, 28 mpg, $3.20 + $20 tolls = $134.29 vs 4 x ($250+$60) + $80 = $1,320, difference $1,185.71; per person $33.57 vs $330). Related slugs are not validated by tests: check they exist.
 - Next cycle: birthday-paradox (126), season-pass-break-even (127), caffeine-half-life (93, source check); run product-research soon.
+
+## 2026-11-21 06:06 UTC — cycle (fifth item)
+- Shipped: Birthday paradox https://cappycalc.com/statistics/birthday-paradox/ (verify: 330 pages, 0 problems; n=23 -> 50.73%, yours 5.86%, 253 pairs; n=30 70.63%; n=57 99.01%; n=22 47.57%; values cross-checked in Python).
+- Next cycle: season-pass-break-even (127), caffeine-half-life (93, source check); then run product-research: backlog is nearly out of buildable items.
