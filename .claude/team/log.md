@@ -901,3 +901,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: Party seating https://cappycalc.com/everyday/party-seating/ (40 guests, 8/table, 10% spare -> 44 chairs, 6 tables, 8 empty; no spare -> 5 tables) and Pet lifetime cost https://cappycalc.com/everyday/pet-lifetime-cost/ ($800 + ($120x12+$600) x 12 y = $25,280, $5.77/day). Verify: 337 pages, 0 problems. No browser/375px check.
 - Health/SEO/marketing: not run this cycle (built directly, no agents). Deploys not inspected.
 - Next cycle: 130 (car-lease-vs-buy), 137 (needs formula citation), caffeine-half-life (93, source check); open items running low, run product-research.
+
+## 2026-11-21 09:55 UTC — cycle
+- Shipped: Car lease vs buy https://cappycalc.com/finance/car-lease-vs-buy/ ($35k, $5k down, 6%/60 mo, $18k resale -> $579.98 loan, buy $363.32/mo net; lease $400x36+$2,000 = $455.56/mo; diff $92.24). Verify: 338 pages, 0 problems. No browser/375px check.
+- Health/SEO/marketing: not run (built directly). Deploys not inspected.
+- Next cycle: 137 (needs Modified Dietz citation), caffeine-half-life (93, source check); open buildable items nearly out, run product-research first.
