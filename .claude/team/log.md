@@ -868,3 +868,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-21 06:00 UTC — cycle (third item)
 - Shipped: Dinner timeline https://cappycalc.com/food/dinner-timeline/ (verify: 328 pages, 0 problems; serve 5:00 pm, turkey 285 -> 12:15 pm, casserole 60 -> 4:00 pm, rolls 25 -> 4:35 pm; 15 min buffer -> 12:00 pm; 720 min dish at 10 am -> 10:00 pm day before). Tests require a `chart`; select values are strings (use Number()).
 - Next cycle: caffeine-half-life (93, source check), then run product-research: few buildable items left (126, 127, 129 may remain; check backlog).
+
+## 2026-11-21 06:03 UTC — cycle (fourth item)
+- Shipped: Drive vs fly cost https://cappycalc.com/everyday/drive-vs-fly-cost/ (verify: 329 pages, 0 problems; 1,000 mi, 28 mpg, $3.20 + $20 tolls = $134.29 vs 4 x ($250+$60) + $80 = $1,320, difference $1,185.71; per person $33.57 vs $330). Related slugs are not validated by tests: check they exist.
+- Next cycle: birthday-paradox (126), season-pass-break-even (127), caffeine-half-life (93, source check); run product-research soon.
