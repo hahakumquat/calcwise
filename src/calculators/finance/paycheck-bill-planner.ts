@@ -144,7 +144,7 @@ export default defineCalculator({
       { q: 'What does a negative leftover mean?', a: 'The bills assigned to that check add up to more than the check. Try moving a due date to after your other pay day, or cover the gap from savings.' },
     ],
   },
-  related: ['zero-based-budget', 'paychecks-per-year', 'take-home-pay', 'sinking-fund', 'budget-50-30-20'],
+  related: ['zero-based-budget', 'paychecks-per-year', 'take-home-pay', 'sinking-fund', 'budget-50-30-20', 'salary-needed'],
   examples: [
     // Check 1 (day 1): 1200+150+100 = 1450, 1600-1450 = 150. Check 2 (day 15): 80+60 = 140, 1600-140 = 1460. Total 1590.
     { values: { takeHome: 1600, payDay1: 1, payDay2: 15, amt1: 1200, day1: 1, amt2: 150, day2: 5, amt3: 100, day3: 10, amt4: 80, day4: 20, amt5: 60, day5: 28, amt6: null, day6: null }, expect: { tight: 150, bills1: 1450, left1: 150, bills2: 140, left2: 1460, total: 1590 }, tolerance: 1e-9 },

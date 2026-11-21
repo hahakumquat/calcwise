@@ -92,7 +92,7 @@ export default defineCalculator({
     ],
     sources: [{ label: 'FTC: Guides Against Deceptive Pricing (16 CFR Part 233)', url: 'https://www.ecfr.gov/current/title-16/chapter-I/subchapter-B/part-233' }],
   },
-  related: ['discount', 'sales-tax', 'cost-per-use', 'holiday-spending-total'],
+  related: ['discount', 'sales-tax', 'cost-per-use', 'holiday-spending-total', 'unit-price', 'subscription-cost'],
   examples: [
     // claimed (200-140)/200 = 0.3; real (160-140)/160 = 20/160 = 0.125; savings 60 and 20; was above typical 200-160 = 40
     { values: { sale: 140, was: 200, typical: 160 }, expect: { realPct: 0.125, claimedPct: 0.3, realSaving: 20, claimedSaving: 60, inflation: 40 } },

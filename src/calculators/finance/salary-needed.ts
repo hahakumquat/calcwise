@@ -77,7 +77,7 @@ export default defineCalculator({
     ],
     sources: [],
   },
-  related: ['take-home-pay', 'salary-to-hourly', 'budget-50-30-20', 'income-tax', 'cost-of-living-salary'],
+  related: ['take-home-pay', 'salary-to-hourly', 'budget-50-30-20', 'income-tax', 'cost-of-living-salary', 'lifestyle-creep'],
   examples: [
     {
       // 3,200 ÷ 0.8 = 4,000; saved 800; 4,000 × 12 = 48,000 ÷ 0.8 = 60,000; 60,000 ÷ 2,080 = 28.846.

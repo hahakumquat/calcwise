@@ -106,7 +106,7 @@ export default defineCalculator({
     ],
     sources: [],
   },
-  related: ['raise-calculator', 'take-home-pay', 'savings-goal', 'latte-factor', 'compound-interest'],
+  related: ['raise-calculator', 'take-home-pay', 'savings-goal', 'latte-factor', 'compound-interest', 'salary-needed'],
   examples: [
     {
       // 60,000 × 8% = 4,800; × 0.75 = 3,600; spent 3,600 × 0.6 = 2,160; saved 1,440; /12 = 120.
