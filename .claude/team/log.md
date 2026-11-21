@@ -817,3 +817,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: Foreign transaction and ATM fee https://cappycalc.com/finance/foreign-transaction-fee/ (verify: 317 pages, 0 problems; $2,000 at 3% + $400 ATM at 2% + 2x$5 -> $78, 3.25%; $800 at 1.5% + $200 + $5 -> $17, 1.7%; $1,000 at 3% -> $30).
 - SEO: none. Health: deploy status not inspected. No browser/375px check. Built directly (no agents) to stay small.
 - Next cycle: school-break-childcare (120), thermostat-setback (118), tire-pressure-cold (114), road-trip-time (119).
+
+## 2026-11-21 01:58 UTC — cycle (second item)
+- Shipped: School break childcare https://cappycalc.com/everyday/school-break-childcare/ (verify: 318 pages, 0 problems; 2 wk x 5 d, $80, 2 free -> $640, $320/wk; 1 wk, $60, 2 children -> $600; free > needed -> $0). Previous deploy (FSA, run 226) succeeded; this cycle's runs not yet inspected.
+- Next cycle: thermostat-setback (118), tire-pressure-cold (114), road-trip-time (119), dog-age-human (121), pet-food-duration (115). Heredoc file writes get blocked; use Write tool.
