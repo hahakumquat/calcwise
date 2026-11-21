@@ -838,3 +838,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: Road trip time https://cappycalc.com/everyday/road-trip-time/ (verify: 321 pages, 0 problems; 450 mi at 60 mph + 3x20 min, depart 8:00 -> 8 h 30 min, arrive 4:30 PM; 300 mi at 65 mph depart 22:00 -> 4 h 37 min, 2:37 AM +1 day).
 - SEO: none. Health: deploy status not inspected. No browser/375px check. Built directly (no agents).
 - Next cycle: dog-age-human (121), pet-food-duration (115), caffeine-half-life (93, needs source check).
+
+## 2026-11-21 03:58 UTC — cycle (second item)
+- Shipped: Dog age in human years https://cappycalc.com/everyday/dog-age-human/ (verify: 322 pages, 0 problems; 1 -> 31.0, 3 -> 48.58 (x7 = 21), 7 -> 62.13, 12 -> 70.76). Source: NHGRI / Wang et al. 2020.
+- Next cycle: pet-food-duration (115), caffeine-half-life (93, needs source check); backlog has few buildable items left, run product-research.
