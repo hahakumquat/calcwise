@@ -812,3 +812,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Backlog: product-research added ranks 114-121 (specs 89-96); backlog has buildable items again. SEO: none. Health: deploy status not inspected. No browser/375px check.
 - Local checkout was a detached HEAD; worked on branch `work` from origin/main.
 - Next cycle: foreign-transaction-fee (116), school-break-childcare (120), thermostat-setback (118), tire-pressure-cold (114).
+
+## 2026-11-21 01:55 UTC — cycle
+- Shipped: Foreign transaction and ATM fee https://cappycalc.com/finance/foreign-transaction-fee/ (verify: 317 pages, 0 problems; $2,000 at 3% + $400 ATM at 2% + 2x$5 -> $78, 3.25%; $800 at 1.5% + $200 + $5 -> $17, 1.7%; $1,000 at 3% -> $30).
+- SEO: none. Health: deploy status not inspected. No browser/375px check. Built directly (no agents) to stay small.
+- Next cycle: school-break-childcare (120), thermostat-setback (118), tire-pressure-cold (114), road-trip-time (119).
