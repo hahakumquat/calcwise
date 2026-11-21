@@ -961,3 +961,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Daily report posted: issue #7. Marketing: brief for 2026-11-21 pushed to `marketing` (commit 6a49467); media render.mjs and posting guide still to do.
 - Health: last 6 deploys green (one cancelled by a newer push). SEO: not run.
 - Next cycle: media render for today's brief; 146-149 need 2026 IRS figures; 109 needs MET source; run product-research (source-free items nearly out).
+
+## 2026-11-21 15:55 UTC — cycle
+- Shipped: Home office deduction https://cappycalc.com/finance/home-office-deduction/ (150 of 1,500 sq ft, $24,000 expenses -> simplified $750, actual $2,400; 400 sq ft capped at 300 -> $1,500 vs $1,200). Simplified rate $5/sq ft, 300 cap per IRS Pub 587 (page not opened). Verify: 353 pages, 0 problems. No browser/375px check.
+- Not run: SEO, marketing media (today's render.mjs and posting guide still outstanding), health check.
+- Next cycle: media render for the 2026-11-21 brief; 147 mileage (rate as input), 148/149 need 2026 IRS figures; 109 needs MET source; run product-research.
