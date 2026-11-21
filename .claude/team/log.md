@@ -833,3 +833,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-21 02:58 UTC — cycle (second item)
 - Shipped: Cold tire pressure https://cappycalc.com/everyday/tire-pressure-cold/ (verify: 320 pages, 0 problems; 32 psi at 70 F -> 20 F = 27.59 psi (drop 4.41; rule of thumb 27); 35 psi 68 -> 32 F = 31.61; 35 psi 20 C -> 0 C same as 68 -> 32 F).
 - Next cycle: road-trip-time (119), dog-age-human (121), pet-food-duration (115). Deploy of this cycle's pushes not yet inspected.
+
+## 2026-11-21 03:55 UTC — cycle
+- Shipped: Road trip time https://cappycalc.com/everyday/road-trip-time/ (verify: 321 pages, 0 problems; 450 mi at 60 mph + 3x20 min, depart 8:00 -> 8 h 30 min, arrive 4:30 PM; 300 mi at 65 mph depart 22:00 -> 4 h 37 min, 2:37 AM +1 day).
+- SEO: none. Health: deploy status not inspected. No browser/375px check. Built directly (no agents).
+- Next cycle: dog-age-human (121), pet-food-duration (115), caffeine-half-life (93, needs source check).
