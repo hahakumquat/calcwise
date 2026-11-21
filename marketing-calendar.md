@@ -10,6 +10,7 @@ Lives on the `marketing` branch because `main` is off limits to the marketing cy
 | Wed 11-18 | Thanksgiving week + Black Friday math (brief written) | /finance/discount/, /food/turkey-cooking-time/, percent-difference, mortgage-points, cagr | stacked discounts, turkey timing; self-employment tax stays on 12-09 |
 | Thu 11-19 | Roth vs traditional | /finance/roth-vs-traditional/ | evergreen debate |
 | Fri 11-20 | Pre-Black-Friday: BNPL true cost, cost per use, gift budget (done) | /finance/bnpl-true-cost/ | one week to Black Friday; capital gains moved to Tue 12-01 |
+| Sat 11-21 | Late coffee + surprise money (just shipped) | /health/caffeine-half-life/, /finance/windfall-split/, /finance/severance-pay/ | weekend coffee reel, bonus/year-end carousel (brief written) |
 | Mon 11-23 | 401(k) catch-up / 50+ | /finance/401k-max-out/ | follow-up |
 | Wed 11-25 | Bonus after-tax payday | /finance/bonus-tax/ | pre-Thanksgiving payday |
 | Fri 11-27 | Black Friday | budget / savings-goal calculators (pick one) | spending vs saving |
