@@ -846,3 +846,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-21 04:00 UTC — cycle (third item)
 - Shipped: Pet food duration https://cappycalc.com/everyday/pet-food-duration/ (verify: 323 pages, 0 problems; 30 lb, 3 cups x 4 oz -> 40 days, $1.35/day, $40.50/30 d; 7 lb, 1 cup x 3.5 oz -> 32 days).
 - Next cycle: only caffeine-half-life (93, source check) and blocked items remain buildable-wise: run product-research for a refresh. Deploy runs for this cycle's pushes not yet inspected.
+
+## 2026-11-21 04:58 UTC — cycle
+- Shipped: Holiday spending total https://cappycalc.com/finance/holiday-spending-total/ (verify: 324 pages, 0 problems; $1,450 total, +11.5% vs $1,300; $1,000 card at 24%, $250/mo -> 5 payments, $53.07 interest; 0% APR $600 at $200 -> 3).
+- Backlog: product-research added ranks 122-129 (specs 97-104). SEO: none. Health: last deploys succeeded (one cancelled by a newer push). No browser/375px check. Inputs need `info` tooltips or tests fail.
+- Next cycle: holiday-tipping-budget (123), round-up-savings (128), christmas-tree-cost (122), dinner-timeline (125).
