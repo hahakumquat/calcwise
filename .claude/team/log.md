@@ -950,3 +950,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-21 13:20 UTC — cycle (sixth item)
 - Shipped: Credits to graduate https://cappycalc.com/other/credits-to-graduate/ (120 req, 45 done, 15 now, 15/term -> 60 left, 4 terms, 2 y, $24,000 at $400) and Dimensional weight https://cappycalc.com/everyday/dimensional-weight/ (20x14x10 / 139 = 20.14 lb, 12 lb actual -> 21 billable; 12x10x8, 9 lb -> 9). Verify: 350 pages, 0 problems.
 - Next cycle: 153 fuel-tank-runtime (source-free), 146-150 need 2026 IRS figures verified; 109 needs MET source; consider marketing brief for today (not run this cycle).
+
+## 2026-11-21 13:55 UTC — cycle
+- Shipped: Fuel tank runtime https://cappycalc.com/everyday/fuel-tank-runtime/ (500 gal at 40% = 200 gal; 60,000 BTU/h x 8 h on 91,500 BTU/gal propane -> 38.1 days, 19.1 days to the 20% order mark; second example heating oil 250 gal at 80% -> 27.7 days). BTU/gal figures labelled approximate (EIA page cited, not opened). Verify: 351 pages, 0 problems. No browser/375px check.
+- Health/SEO/marketing: not run this cycle (started 13:51, short). Daily report due next cycle (after 14:00 UTC).
+- Next cycle: post Daily report; 146-150 need 2026 IRS figures verified (irs.gov was unreachable); 109 needs a MET source; run product-research (buildable source-free items nearly out).
