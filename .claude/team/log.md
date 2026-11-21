@@ -940,3 +940,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-21 13:05 UTC — cycle (fourth item)
 - Shipped: Job offer comparison https://cappycalc.com/finance/job-offer-comparison/ (A $100k+10%+4% match = $114,000 vs B $108k+3% match = $111,240; diff $2,760; per day $465.31 vs $463.50; second example with equity and commute hand-checked). Verify: 347 pages, 0 problems. balance-transfer deploy not yet confirmed.
 - Next cycle: 145 cookie-exchange; 109 needs a MET source; run product-research first (open buildable items nearly out).
+
+## 2026-11-21 13:10 UTC — cycle (fifth item)
+- Shipped: Cookie exchange https://cappycalc.com/food/cookie-exchange/ (12 people x 2 dozen = 288 cookies, 36/batch = 8 batches, 24 sheets, 8 cups butter, 18 flour; rounding example 180 -> 4 batches, 192 baked). Verify: 348 pages, 0 problems.
+- Backlog: product-research added ranks 146-153 (home office deduction, mileage deduction, charitable giving, estimated tax safe harbor, mortgage interest, credits to graduate, dimensional weight, fuel tank runtime); several need 2026 IRS figures verified first (irs.gov was unreachable earlier), so prefer 152/153/151 or items with user-supplied rates.
+- Health: deploys for severance, points-value, balance-transfer green; job-offer was in progress. Marketing/SEO: not run. Daily report not yet due.
+- Next cycle: 151 credits-to-graduate, 152 dimensional-weight, 153 fuel-tank-runtime (source-free); 109 needs MET source.
