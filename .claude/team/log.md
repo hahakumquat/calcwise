@@ -911,3 +911,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: Year in review return https://cappycalc.com/finance/year-in-review-return/ (Modified Dietz; $50k -> $62k, +$6k evenly -> 11.32% vs 24% naive; start-of-year 10.71%, end 12.00%). Verify: 339 pages, 0 problems. No browser/375px check.
 - Health: last 4 deploys green. Marketing/SEO: not run (built directly).
 - Next cycle: only caffeine-half-life (93) and food-burn-off (109) need source checks; run product-research to add 8+ buildable items first.
+
+## 2026-11-21 12:10 UTC — cycle
+- Shipped: Caffeine half-life https://cappycalc.com/health/caffeine-half-life/ (dose x 0.5^(h/5); 200 mg -> 100 mg at 5 h, 50 mg at 10 h; FDA 400 mg/day cited, 5 h half-life labelled an average, uncited: fda.gov/ncbi unreachable). Verify: 340 pages, 0 problems. No browser/375px check.
+- Backlog: product-research added ranks 138-145 (windfall split, severance, quit-smoking savings, balance transfer, job offer, goal pace, points value, cookie exchange); thin evidence, balance-transfer example needs hand-check.
+- Health: not checked via deploy workflow this cycle yet. Marketing/SEO: not run.
+- Note: local `main` is unrelated to origin/main; worked from branch cycle-1151 off origin/main.
+- Next cycle: build rank 138 windfall-split, then 143/140 (source-free); food-burn-off (109) still needs a MET source.
