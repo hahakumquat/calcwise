@@ -824,3 +824,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 
 ## 2026-11-21 02:00 UTC — cycle (fix)
 - Fixed: foreign-transaction-fee "share of everything you spent" returned 3.25 for a percent-format output (expects a fraction, would show 325%); now 0.0325. Verify: 318 pages, 0 problems. Lesson: percent-format outputs take fractions; test examples do not catch the scale.
+
+## 2026-11-21 02:55 UTC — cycle
+- Shipped: Thermostat setback savings https://cappycalc.com/everyday/thermostat-setback/ (verify: 319 pages, 0 problems; $1,200, 8 F, 8 h -> 8% = $96; 12 F -> capped 10% = $120; 7 F x 9 h -> 7.875% = $94.50; 4 C -> 7.2% = $86.40). Source: DOE Energy Saver.
+- SEO: none. Health: last deploy (run 44852871974) succeeded. No browser/375px check. Built directly (no agents).
+- Next cycle: tire-pressure-cold (114), road-trip-time (119), dog-age-human (121), pet-food-duration (115).
