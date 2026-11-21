@@ -19,9 +19,9 @@ await frames(dir, [
 
 await cover(here('carousel-01.png'), { title: 'a bonus, a refund, a severance check. *same question: now what?*', sub: '(2 calculators, exact inputs on every slide)' });
 await slide(here('carousel-02.png'), { path: WIN, set: w, caption: '$5,000 windfall, 20% withheld: *$4,000 to split*', sub: 'that is the real number you hold' });
-await slide(here('carousel-03.png'), { path: WIN, set: w, caption: '25% each into spend, save, invest, debt = *$1,000 a bucket*', sub: 'the invested $1,000 grows to $1,628.89 in 10 years at an assumed 5%. an assumption, not a promise' });
+await slide(here('carousel-03.png'), { path: WIN, set: w, focus: 'dl.rows', caption: '25% each into spend, save, invest, debt = *$1,000 a bucket*', sub: 'the invested $1,000 grows to $1,628.89 in 10 years at an assumed 5%. an assumption, not a promise' });
 await slide(here('carousel-04.png'), { path: SEV, set: s, caption: '6 years at 2 weeks a year = *12 weeks, $19,500 before tax*', sub: 'example formula, your offer is what counts' });
-await slide(here('carousel-05.png'), { path: SEV, set: s, caption: 'that covers about *6.5 months* of $3,000 expenses, before tax', sub: 'real take-home is lower. cappycalc.com/finance/severance-pay' });
+await slide(here('carousel-05.png'), { path: SEV, set: s, focus: 'dl.rows', caption: 'that covers about *6.5 months* of $3,000 expenses, before tax', sub: 'real take-home is lower. cappycalc.com/finance/severance-pay' });
 
 await slide(here('x-1.png'), { path: CAF, set: c, caption: '1 coffee at 2pm, bed at 10pm: *31.3 mg* left (33%)', size: [1600, 900] });
 await done();
