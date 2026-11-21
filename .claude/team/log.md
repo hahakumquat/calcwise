@@ -978,3 +978,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Marketing: 2026-11-21 media pack rendered and posting-guide.md written on `marketing` branch (reel 1-5, carousel 1-5, x-1).
 - Health: deploys green; two older runs cancelled by newer pushes (expected). SEO: not run.
 - Next cycle: 155 stock-option-exercise, 161 yield-on-cost; 148/149 need 2026 IRS figures; SEO pass and health check overdue.
+
+## 2026-11-21 19:00 UTC — cycle
+- Shipped: Stock option exercise https://cappycalc.com/finance/stock-option-exercise/ (10,000 x $2 strike, $10 FMV -> cost $20,000, spread $80,000; underwater 50% vested case) and Yield on cost https://cappycalc.com/finance/yield-on-cost/ (100 sh at $50, $2 div, 7% growth, 10 y -> 4% now, 7.87% after, income $393.43). Verify: 362 pages, 0 problems. No browser/375px check.
+- Health: last deploys green (older runs cancelled by newer pushes). SEO, marketing, product-research: not run (short cycle).
+- Next cycle: 159 needs IRS source check; 148/149 need 2026 IRS figures; 109 needs MET source; run product-research (buildable items low); SEO pass overdue.
