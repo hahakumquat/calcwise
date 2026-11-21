@@ -67,7 +67,7 @@ export default defineCalculator({
       { q: 'How accurate is the stride estimate?', a: 'It is a rough rule of thumb based on height and sex, not a measured standard. Expect it to be off by 10% or more for some people, especially when walking fast, running or on hills.' },
     ],
   },
-  related: ['calories-burned', 'tdee', 'pace', 'bmi', 'weight-loss-goal'],
+  related: ['calories-burned', 'food-burn-off', 'tdee', 'pace', 'bmi', 'weight-loss-goal'],
   examples: [
     // 175 cm male: stride = 1.75 × 0.415 = 0.72625 m; distance = 10000 × 0.72625 = 7262.5 m (7.2625 km = 4.5127 mi)
     // steps/km = 1000 ÷ 0.72625 = 1376.94; steps/mile = 1609.344 ÷ 0.72625 = 2215.96
