@@ -880,3 +880,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-21 06:09 UTC — cycle (sixth item)
 - Shipped: Season pass break-even https://cappycalc.com/sports/season-pass-break-even/ (verify: 331 pages, 0 problems; $699 pass vs $130/day -> day 6, 8 days saves $341, $87.375/day; $500, $100, extra $20 -> day 7, saves $300).
 - Backlog: all ranks 122-129 now shipped. Only caffeine-half-life (93, needs source check) and blocked items (15, 31, 32, 40, 80) remain open. Next cycle: run product-research to add 8+ buildable items first, then build.
+
+## 2026-11-21 06:12 UTC — cycle (backlog refresh)
+- product-research added ranks 130-137 (specs 105-112): car-lease-vs-buy, credit-card-annual-fee, trip-budget, airport-leave-time, party-seating, daily-interest, pet-lifetime-cost, year-in-review-return (needs formula citation). Evidence is seasonal reasoning only.
+- Cycle total: 6 calculators shipped (round-up-savings, christmas-tree-cost, dinner-timeline, drive-vs-fly-cost, birthday-paradox, season-pass-break-even). Deploys: earlier ones green, some cancelled by newer pushes (concurrency); latest not yet inspected. No browser/375px checks.
+- Next cycle: build from ranks 130-137 (airport-leave-time and trip-budget are most seasonal).
