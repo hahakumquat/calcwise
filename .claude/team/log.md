@@ -936,3 +936,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-21 13:00 UTC — cycle (third item)
 - Shipped: Balance transfer https://cappycalc.com/finance/balance-transfer/ ($5,000 at 24%, 3% fee, 18 mo, $300/mo -> old-card interest $1,117.54, fee $150, saving $967.54; second example 2,000 at 18%, 5% fee, 12 mo, $100/mo -> saving $187.12; both hand-checked). Verify: 346 pages, 0 problems. Deploys for severance and points-value green.
 - Next cycle: 142 job-offer, 145 cookie-exchange; 109 food-burn-off needs a MET source; run product-research (open items low).
+
+## 2026-11-21 13:05 UTC — cycle (fourth item)
+- Shipped: Job offer comparison https://cappycalc.com/finance/job-offer-comparison/ (A $100k+10%+4% match = $114,000 vs B $108k+3% match = $111,240; diff $2,760; per day $465.31 vs $463.50; second example with equity and commute hand-checked). Verify: 347 pages, 0 problems. balance-transfer deploy not yet confirmed.
+- Next cycle: 145 cookie-exchange; 109 needs a MET source; run product-research first (open buildable items nearly out).
