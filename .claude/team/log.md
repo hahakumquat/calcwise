@@ -932,3 +932,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: Severance pay https://cappycalc.com/finance/severance-pay/ ($78k, 6 y x 2 wk = 12 wk = $18,000 + 5 PTO days $1,500 = $19,500, 6.5 months at $3k; cap example 16 wk = $24,000) and Points value https://cappycalc.com/finance/points-value/ ($450, $11 fees, 25,000 pts -> 1.756 c/pt; baseline 1 c gain $189). Verify: 345 pages, 0 problems. No browser/375px check.
 - Health: last 4 deploys green. SEO/marketing: not run (built directly, no agents). Daily report not due until after 14:00 UTC.
 - Next cycle: 141 balance-transfer and 142 job-offer (hand-check examples), 145 cookie-exchange; 109 food-burn-off needs a MET source. Run product-research soon (open items low).
+
+## 2026-11-21 13:00 UTC — cycle (third item)
+- Shipped: Balance transfer https://cappycalc.com/finance/balance-transfer/ ($5,000 at 24%, 3% fee, 18 mo, $300/mo -> old-card interest $1,117.54, fee $150, saving $967.54; second example 2,000 at 18%, 5% fee, 12 mo, $100/mo -> saving $187.12; both hand-checked). Verify: 346 pages, 0 problems. Deploys for severance and points-value green.
+- Next cycle: 142 job-offer, 145 cookie-exchange; 109 food-burn-off needs a MET source; run product-research (open items low).
