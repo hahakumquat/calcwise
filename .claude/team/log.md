@@ -821,3 +821,6 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-21 01:58 UTC — cycle (second item)
 - Shipped: School break childcare https://cappycalc.com/everyday/school-break-childcare/ (verify: 318 pages, 0 problems; 2 wk x 5 d, $80, 2 free -> $640, $320/wk; 1 wk, $60, 2 children -> $600; free > needed -> $0). Previous deploy (FSA, run 226) succeeded; this cycle's runs not yet inspected.
 - Next cycle: thermostat-setback (118), tire-pressure-cold (114), road-trip-time (119), dog-age-human (121), pet-food-duration (115). Heredoc file writes get blocked; use Write tool.
+
+## 2026-11-21 02:00 UTC — cycle (fix)
+- Fixed: foreign-transaction-fee "share of everything you spent" returned 3.25 for a percent-format output (expects a fraction, would show 325%); now 0.0325. Verify: 318 pages, 0 problems. Lesson: percent-format outputs take fractions; test examples do not catch the scale.

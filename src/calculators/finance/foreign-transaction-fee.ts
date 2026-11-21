@@ -33,14 +33,14 @@ export default defineCalculator({
     const atmFees = cash * atmPct / 100 + atmCount * atmFlat;
     const total = cardFees + atmFees;
     const base = spend + cash;
-    const effective = base > 0 ? (total / base) * 100 : 0;
+    const effective = base > 0 ? total / base : 0;
     return {
       total,
       cardFees,
       atmFees,
       effective,
       tone: total > 0 ? 'warn' : 'ok',
-      badge: total > 0 ? `${n2(effective)}% lost to fees` : 'No fees',
+      badge: total > 0 ? `${n2(effective * 100)}% lost to fees` : 'No fees',
       chart: {
         type: 'bar',
         title: 'Where the fees come from',
@@ -74,8 +74,8 @@ export default defineCalculator({
   },
   related: ['credit-card-payoff', 'daily-spending-allowance', 'gift-budget', 'apr'],
   examples: [
-    { values: { spend: 2000, feePct: 3, cash: 400, atmPct: 2, atmCount: 2, atmFlat: 5 }, expect: { total: 78, cardFees: 60, atmFees: 18, effective: 3.25 } },
-    { values: { spend: 800, feePct: 1.5, cash: 200, atmPct: 0, atmCount: 1, atmFlat: 5 }, expect: { total: 17, cardFees: 12, atmFees: 5, effective: 1.7 } },
-    { values: { spend: 1000, feePct: 3, cash: 0, atmPct: 0, atmCount: 0, atmFlat: 0 }, expect: { total: 30, cardFees: 30, atmFees: 0, effective: 3 } },
+    { values: { spend: 2000, feePct: 3, cash: 400, atmPct: 2, atmCount: 2, atmFlat: 5 }, expect: { total: 78, cardFees: 60, atmFees: 18, effective: 0.0325 } },
+    { values: { spend: 800, feePct: 1.5, cash: 200, atmPct: 0, atmCount: 1, atmFlat: 5 }, expect: { total: 17, cardFees: 12, atmFees: 5, effective: 0.017 } },
+    { values: { spend: 1000, feePct: 3, cash: 0, atmPct: 0, atmCount: 0, atmFlat: 0 }, expect: { total: 30, cardFees: 30, atmFees: 0, effective: 0.03 } },
   ],
 });
