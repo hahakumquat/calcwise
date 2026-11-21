@@ -851,3 +851,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: Holiday spending total https://cappycalc.com/finance/holiday-spending-total/ (verify: 324 pages, 0 problems; $1,450 total, +11.5% vs $1,300; $1,000 card at 24%, $250/mo -> 5 payments, $53.07 interest; 0% APR $600 at $200 -> 3).
 - Backlog: product-research added ranks 122-129 (specs 97-104). SEO: none. Health: last deploys succeeded (one cancelled by a newer push). No browser/375px check. Inputs need `info` tooltips or tests fail.
 - Next cycle: holiday-tipping-budget (123), round-up-savings (128), christmas-tree-cost (122), dinner-timeline (125).
+
+## 2026-11-21 05:00 UTC — cycle (second item)
+- Shipped: Holiday tipping budget https://cappycalc.com/everyday/holiday-tipping-budget/ (verify: 325 pages, 0 problems; 1x$100 + 1x$50 + 3x$25 + 1x$60 = $285, 6 people, $47.50/wk over 6 weeks, 9.5% of $3,000; 4x$10 + 2x$40 = $120).
+- Next cycle: round-up-savings (128), christmas-tree-cost (122), dinner-timeline (125, Thanksgiving is soon).
