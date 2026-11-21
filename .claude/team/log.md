@@ -946,3 +946,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Backlog: product-research added ranks 146-153 (home office deduction, mileage deduction, charitable giving, estimated tax safe harbor, mortgage interest, credits to graduate, dimensional weight, fuel tank runtime); several need 2026 IRS figures verified first (irs.gov was unreachable earlier), so prefer 152/153/151 or items with user-supplied rates.
 - Health: deploys for severance, points-value, balance-transfer green; job-offer was in progress. Marketing/SEO: not run. Daily report not yet due.
 - Next cycle: 151 credits-to-graduate, 152 dimensional-weight, 153 fuel-tank-runtime (source-free); 109 needs MET source.
+
+## 2026-11-21 13:20 UTC — cycle (sixth item)
+- Shipped: Credits to graduate https://cappycalc.com/other/credits-to-graduate/ (120 req, 45 done, 15 now, 15/term -> 60 left, 4 terms, 2 y, $24,000 at $400) and Dimensional weight https://cappycalc.com/everyday/dimensional-weight/ (20x14x10 / 139 = 20.14 lb, 12 lb actual -> 21 billable; 12x10x8, 9 lb -> 9). Verify: 350 pages, 0 problems.
+- Next cycle: 153 fuel-tank-runtime (source-free), 146-150 need 2026 IRS figures verified; 109 needs MET source; consider marketing brief for today (not run this cycle).
