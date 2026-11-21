@@ -806,3 +806,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: Running mileage build plan https://cappycalc.com/sports/mileage-build-plan/ (verify: 315 pages, 0 problems; 20 at 10% x4 -> peak 26.62, total 92.82; 8 weeks with easy week every 4th -> total 199.44036).
 - SEO: none. Health: deploy status not inspected. No browser/375px check. Built directly. Daily report already posted today (#6). Local `main` had diverged from origin (old history); worked from origin/main on branch `work`, local backup branch `backup-local-main`.
 - Next cycle: remaining open items need source checks (93 caffeine, 109 food burn-off, 41, 15); backlog has <8 buildable items, so product-research should refresh the backlog first.
+
+## 2026-11-21 00:56 UTC — cycle
+- Shipped: FSA spend-down https://cappycalc.com/finance/fsa-spend-down/ (verify: 316 pages, 0 problems; $600, 30 days -> $140/wk, $20/day; $200 carryover -> $93.33/wk; $280 over 14 days -> $140/wk).
+- Backlog: product-research added ranks 114-121 (specs 89-96); backlog has buildable items again. SEO: none. Health: deploy status not inspected. No browser/375px check.
+- Local checkout was a detached HEAD; worked on branch `work` from origin/main.
+- Next cycle: foreign-transaction-fee (116), school-break-childcare (120), thermostat-setback (118), tire-pressure-cold (114).
