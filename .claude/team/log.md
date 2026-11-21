@@ -842,3 +842,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-21 03:58 UTC — cycle (second item)
 - Shipped: Dog age in human years https://cappycalc.com/everyday/dog-age-human/ (verify: 322 pages, 0 problems; 1 -> 31.0, 3 -> 48.58 (x7 = 21), 7 -> 62.13, 12 -> 70.76). Source: NHGRI / Wang et al. 2020.
 - Next cycle: pet-food-duration (115), caffeine-half-life (93, needs source check); backlog has few buildable items left, run product-research.
+
+## 2026-11-21 04:00 UTC — cycle (third item)
+- Shipped: Pet food duration https://cappycalc.com/everyday/pet-food-duration/ (verify: 323 pages, 0 problems; 30 lb, 3 cups x 4 oz -> 40 days, $1.35/day, $40.50/30 d; 7 lb, 1 cup x 3.5 oz -> 32 days).
+- Next cycle: only caffeine-half-life (93, source check) and blocked items remain buildable-wise: run product-research for a refresh. Deploy runs for this cycle's pushes not yet inspected.
