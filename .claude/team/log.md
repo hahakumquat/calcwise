@@ -829,3 +829,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: Thermostat setback savings https://cappycalc.com/everyday/thermostat-setback/ (verify: 319 pages, 0 problems; $1,200, 8 F, 8 h -> 8% = $96; 12 F -> capped 10% = $120; 7 F x 9 h -> 7.875% = $94.50; 4 C -> 7.2% = $86.40). Source: DOE Energy Saver.
 - SEO: none. Health: last deploy (run 44852871974) succeeded. No browser/375px check. Built directly (no agents).
 - Next cycle: tire-pressure-cold (114), road-trip-time (119), dog-age-human (121), pet-food-duration (115).
+
+## 2026-11-21 02:58 UTC — cycle (second item)
+- Shipped: Cold tire pressure https://cappycalc.com/everyday/tire-pressure-cold/ (verify: 320 pages, 0 problems; 32 psi at 70 F -> 20 F = 27.59 psi (drop 4.41; rule of thumb 27); 35 psi 68 -> 32 F = 31.61; 35 psi 20 C -> 0 C same as 68 -> 32 F).
+- Next cycle: road-trip-time (119), dog-age-human (121), pet-food-duration (115). Deploy of this cycle's pushes not yet inspected.
