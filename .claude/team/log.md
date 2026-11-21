@@ -890,3 +890,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: Daily interest https://cappycalc.com/finance/daily-interest/ ($5,000 at 24% -> $3.29/day, $100/mo, $1,200/yr; 360 basis $3.33) and Credit card annual fee https://cappycalc.com/finance/credit-card-annual-fee/ ($95 fee, $12k, 2% vs 1% -> +$25, break-even $9,500; with $50 perks $4,500). Verify: 333 pages, 0 problems. No browser/375px check.
 - Health: previous deploys green. Marketing: not run this cycle (earlier cycle today). SEO: none this cycle.
 - Next cycle: ranks 132 (trip-budget), 133 (airport-leave-time), 137 (needs citation), 130; caffeine-half-life needs source check.
+
+## 2026-11-21 07:55 UTC — cycle
+- Shipped: Trip budget https://cappycalc.com/everyday/trip-budget/ ($2,000 - $1,200, 10% buffer, 7 days -> $102.86/day; no buffer $114.29) and Airport leave time https://cappycalc.com/everyday/airport-leave-time/ (14:30, 190 min -> 11:20; 01:00 -> 21:50 previous day). Verify: 335 pages, 0 problems. No browser/375px check.
+- Note: local `main` in the sandbox had diverged from origin; worked from origin/main on branch `work`.
+- Health: not checked beyond verify. Marketing/SEO: none this cycle.
+- Next cycle: ranks 130 (car-lease-vs-buy), 137 (needs citation), 134, 136.
