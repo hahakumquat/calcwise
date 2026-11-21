@@ -855,3 +855,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-21 05:00 UTC — cycle (second item)
 - Shipped: Holiday tipping budget https://cappycalc.com/everyday/holiday-tipping-budget/ (verify: 325 pages, 0 problems; 1x$100 + 1x$50 + 3x$25 + 1x$60 = $285, 6 people, $47.50/wk over 6 weeks, 9.5% of $3,000; 4x$10 + 2x$40 = $120).
 - Next cycle: round-up-savings (128), christmas-tree-cost (122), dinner-timeline (125, Thanksgiving is soon).
+
+## 2026-11-21 05:55 UTC — cycle
+- Shipped: Round-up savings https://cappycalc.com/finance/round-up-savings/ (verify: 326 pages, 0 problems; 20 x $0.50 x 52 = $520/yr, 7% 10 yr = $7,184.55 on $5,200; 10 x $0.40 x 2x, 0%, 5 yr = $2,080). Select inputs arrive as strings: use Number(), not num().
+- SEO: none. Health: deploys not inspected. No browser/375px check. Built directly (no agents), cycle cut short at ~5 min of work.
+- Next cycle: christmas-tree-cost (122), dinner-timeline (125, ship by 11-25); caffeine-half-life (93) needs source check.
