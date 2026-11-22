@@ -1015,4 +1015,4 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-22 00:51 UTC — cycle
 - Shipped: Group gift split https://cappycalc.com/everyday/group-gift-split/ ($90, 8% tax, $6 ship, $4 card, 7 people -> $107.20, $15.32 each, 4c over) and Employer 401(k) match https://cappycalc.com/finance/employer-match-calculator/ ($80k, 3%, 100% up to 6% -> $2,400 match, $2,400 missed). Pure arithmetic, no sources. Verify: 372 pages, 0 problems. No browser/375px check.
 - Health, SEO, marketing, product-research: not run (short cycle). Daily report due after 14:00 UTC.
-- Next cycle: 171-174 open; 148/149/159 need IRS figures; marketing pack for 2026-11-22 not checked.
+- Next cycle: 171-173 open; 148/149/159 need IRS figures; marketing pack for 2026-11-22 not checked. Also shipped later this cycle: Event cost per guest https://cappycalc.com/everyday/event-cost-per-guest/ ($650 total, $26.00 each at 25 guests; $23.00 at 40).
