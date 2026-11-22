@@ -110,9 +110,9 @@ export default defineCalculator({
   examples: [
     {
       // 60,000 × 8% = 4,800; × 0.75 = 3,600; spent 3,600 × 0.6 = 2,160; saved 1,440; /12 = 120.
-      // FV = 1,440 × (1.05^10 − 1) / 0.05 = 1,440 × 12.577893 = 18,112.09.
+      // FV = 1,440 × (1.05^10 − 1) / 0.05 = 1,440 × 12.577893 = 18,112.17.
       values: { pay: 60000, raise: 8, tax: 25, spent: 60, rate: 5, years: 10 },
-      expect: { gross: 4800, net: 3600, spentYear: 2160, savedYear: 1440, savedMonth: 120, future: 18112.09 },
+      expect: { gross: 4800, net: 3600, spentYear: 2160, savedYear: 1440, savedMonth: 120, future: 18112.17 },
       tolerance: 0.01,
     },
     {

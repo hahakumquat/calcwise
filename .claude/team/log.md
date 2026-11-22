@@ -1017,3 +1017,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Health, SEO, marketing, product-research: not run (short cycle). Daily report due after 14:00 UTC.
 - Next cycle: 171-173 open; 148/149/159 need IRS figures; marketing pack for 2026-11-22 not checked. Also shipped later this cycle: Event cost per guest https://cappycalc.com/everyday/event-cost-per-guest/ ($650 total, $26.00 each at 25 guests; $23.00 at 40).
 - Note: commit 768ef01 was pushed with a smoke failure (meta description 162 chars) because verify was piped through tail; fixed in ecf32cd within a minute (its deploy was cancelled, ecf32cd deploy green, verify job passed). Always check verify's exit code, not just its output.
+
+## 2026-11-22 01:51 UTC — cycle
+- Shipped: Resale profit https://cappycalc.com/finance/resale-profit-calculator/ ($60, 12% + $0.30, $7 ship, $15 cost, 1.5 h -> profit $30.50, $20.33/h), Gig driver profit https://cappycalc.com/finance/gig-driver-profit/ ($280 earned, 8 h, 150 mi at 25 mpg $3.50, $0.10/mi -> net $244, $30.50/h) and Weight change rate https://cappycalc.com/health/weight-change-rate/ (200 to 194 lb in 21 d -> -2 lb/week, -1.0%/week). Verify: 376 pages, 0 problems; deploy and verify jobs green. No browser/375px check.
+- Fix: lifestyle-creep example expected value corrected 18,112.09 -> 18,112.17 (1,440 x 12.577893; found by marketing agent).
+- Marketing: pack for 2026-11-22 rendered on `marketing` branch (brief, 5 reel frames, 5 carousel slides, X image, posting guide): https://github.com/hahakumquat/calcwise/tree/marketing/2026-11-22
+- Health: deploy green. SEO, product-research: not run.
+- Next cycle: 148/149/159 need IRS figures; backlog has few buildable items left (run product-research); SEO pass overdue; daily report due after 14:00 UTC.
