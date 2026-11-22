@@ -35,7 +35,7 @@ export default defineCalculator({
     const extraTotal = extraYear * y;
     return {
       extraYear,
-      pct,
+      pct: pct / 100,
       newYear,
       extraTotal,
       tone: extraYear > 0 ? 'warn' : 'good',
@@ -80,8 +80,8 @@ export default defineCalculator({
   related: ['bill-negotiation-savings', 'subscription-cost', 'annual-vs-monthly-plan', 'percentage-change', 'inflation', 'hours-of-work-cost'],
   examples: [
     // diff 2.50; x12 = 30; 2.5/15.49 = 16.1394%; new year 215.88; x3 = 90
-    { values: { oldPrice: 15.49, newPrice: 17.99, perYear: 12, years: 3 }, expect: { extraYear: 30, pct: 16.139445, newYear: 215.88, extraTotal: 90 }, tolerance: 1e-4 },
+    { values: { oldPrice: 15.49, newPrice: 17.99, perYear: 12, years: 3 }, expect: { extraYear: 30, pct: 0.16139445, newYear: 215.88, extraTotal: 90 }, tolerance: 1e-4 },
     // 100 -> 80 yearly: -20 x1 = -20, -20%
-    { values: { oldPrice: 100, newPrice: 80, perYear: 1, years: 2 }, expect: { extraYear: -20, pct: -20, newYear: 80, extraTotal: -40 }, tolerance: 1e-6 },
+    { values: { oldPrice: 100, newPrice: 80, perYear: 1, years: 2 }, expect: { extraYear: -20, pct: -0.2, newYear: 80, extraTotal: -40 }, tolerance: 1e-6 },
   ],
 });

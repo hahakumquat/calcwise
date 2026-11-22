@@ -37,7 +37,7 @@ export default defineCalculator({
     const yearly = (goal * 12) / (1 - t / 100);
     const needed = yearly / (y / 100);
     const gap = Math.max(0, needed - cur);
-    const progress = Math.min(1, cur / needed) * 100;
+    const progress = Math.min(1, cur / needed);
 
     const yields = [2, 3, 4, 5, 6, 8];
     const steps = [
@@ -95,7 +95,7 @@ export default defineCalculator({
   related: ['dividend-calculator', 'yield-on-cost', 'savings-goal', 'portfolio-income-per-day'],
   examples: [
     // 1000*12 = 12000; /0.04 = 300000; gap 275000; progress 25000/300000 = 8.3333%
-    { values: { goal: 1000, yield: 4, tax: 0, current: 25000 }, expect: { yearly: 12000, needed: 300000, gap: 275000, progress: 8.3333 }, tolerance: 0.001 },
+    { values: { goal: 1000, yield: 4, tax: 0, current: 25000 }, expect: { yearly: 12000, needed: 300000, gap: 275000, progress: 0.083333 }, tolerance: 0.001 },
     // 12000/0.85 = 14117.647; /0.04 = 352941.18
     { values: { goal: 1000, yield: 4, tax: 15, current: 0 }, expect: { needed: 352941.1765, gap: 352941.1765, progress: 0 }, tolerance: 0.001 },
   ],

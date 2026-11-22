@@ -1165,3 +1165,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Product-research, health, SEO, marketing: not run. Daily report already posted (#8).
 - Blocked: 148/149/159 need IRS figures; 197 needs WHO check.
 - Next cycle: 213 pay-cut-tradeoff, 211 net-worth-milestones, 214; SEO pass.
+
+## 2026-11-22 23:55 UTC — cycle
+- Shipped: Pay cut tradeoff /finance/pay-cut-tradeoff/ ($80,000, 40 to 32 h, 10% cut -> hourly $38.46 -> $43.27, +12.5%, lose $8,000 a year, 416 h back, $19.23 per free hour, break-even cut 20%; hand-checked). Linked from salary-to-hourly.
+- Fixed: `percent` outputs multiply by 100, so dividend-income-goal `progress` and price-hike-impact `pct` were displaying 100x too large (833%, 1613.9%). Both now return fractions; examples updated. Other recent percent outputs audited, fine.
+- Verify exit 0, 414 pages, 0 problems. No browser/375px check. Product-research, health, SEO, marketing: not run.
+- Blocked: 148/149/159 need IRS figures; 197 needs WHO check.
+- Next cycle: 211 net-worth-milestones, 214 family-plan-split; SEO pass. Watch for the percent-format pitfall (fraction, not percentage points).

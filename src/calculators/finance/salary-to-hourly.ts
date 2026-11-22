@@ -85,7 +85,7 @@ export default defineCalculator({
       { q: 'Does overtime change the calculation?', a: 'For hourly workers, yes: hours over 40 a week are usually paid at 1.5×. This calculator assumes all hours are paid at the same rate.' },
     ],
   },
-  related: ['take-home-pay', 'income-tax', 'retirement', 'percentage'],
+  related: ['take-home-pay', 'income-tax', 'retirement', 'percentage', 'pay-cut-tradeoff'],
   examples: [
     { values: { mode: 'toHourly', salary: 60000, hourly: null, hours: 40, weeks: 52 }, expect: { hourlyRate: 28.846153846, biweekly: 2307.6923077 } },
     { values: { mode: 'toSalary', salary: null, hourly: 25, hours: 40, weeks: 50 }, expect: { annual: 50000, weekly: 1000, daily: 200 } },
