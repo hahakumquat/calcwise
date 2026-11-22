@@ -87,7 +87,7 @@ export default defineCalculator({
       { label: 'Investor.gov: Compound interest calculator (SEC)', url: 'https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator' },
     ],
   },
-  related: ['roi', 'compound-interest', 'rule-of-72', 'investment', 'inflation'],
+  related: ['roi', 'compound-interest', 'rule-of-72', 'investment', 'inflation', 'loss-recovery'],
   examples: [
     {
       // 2.5^(1/8): ln 2.5 = 0.916291, /8 = 0.114536, exp = 1.121349 → 12.1349%; total 150%, simple 18.75%.

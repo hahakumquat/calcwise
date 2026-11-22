@@ -57,7 +57,7 @@ export default defineCalculator({
       { q: 'How do I reverse a percentage increase?', a: 'Divide by the multiplier rather than subtracting the same percentage. After a 25% increase (×1.25), divide by 1.25 to get back — that is a 20% decrease.' },
     ],
   },
-  related: ['percentage', 'percent-error', 'ratio', 'fraction'],
+  related: ['percentage', 'percent-error', 'ratio', 'fraction', 'loss-recovery'],
   examples: [
     { values: { from: 50, to: 65 }, expect: { change: 0.3, direction: 'Increase', diff: 15 } },
     { values: { from: 80, to: 60 }, expect: { change: -0.25, direction: 'Decrease' } },

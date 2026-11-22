@@ -1140,3 +1140,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Product-research, health, SEO, marketing: not run (marketing pack for today already complete). Daily report already posted (#8).
 - Blocked: 148/149/159 need IRS figures; 197 needs WHO check.
 - Next cycle: backlog 201-208 now all shipped or blocked; run product-research refresh (need >= 8 open items) and an SEO pass.
+
+## 2026-11-22 20:05 UTC — cycle (2nd item)
+- Shipped: Loss recovery /finance/loss-recovery/ (30% loss -> +42.86%, 50% -> +100%, 20% -> +25%, 10% -> +11.11%; 30% at 7% -> 5.27 y; node-checked). Linked from percentage-change and cagr-calculator. Verify exit 0, 410 pages, 0 problems. No browser/375px check.
+- Product-research: added ranks 209-216 (specs 184-191), seventeenth pass. Deploy of moving-cost green.
+- Blocked: 148/149/159 need IRS figures; 197 needs WHO check.
+- Next cycle: 209 one-more-year, 210 portfolio-income-per-day, 216 dividend-income-goal; SEO pass.
