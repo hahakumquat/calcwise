@@ -77,7 +77,7 @@ export default defineCalculator({
     ],
     sources: [],
   },
-  related: ['subscription-cost', 'annual-vs-monthly-plan', 'percentage-change', 'inflation', 'hours-of-work-cost'],
+  related: ['bill-negotiation-savings', 'subscription-cost', 'annual-vs-monthly-plan', 'percentage-change', 'inflation', 'hours-of-work-cost'],
   examples: [
     // diff 2.50; x12 = 30; 2.5/15.49 = 16.1394%; new year 215.88; x3 = 90
     { values: { oldPrice: 15.49, newPrice: 17.99, perYear: 12, years: 3 }, expect: { extraYear: 30, pct: 16.139445, newYear: 215.88, extraTotal: 90 }, tolerance: 1e-4 },

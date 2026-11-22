@@ -1124,3 +1124,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Product-research, health, SEO, marketing: not run. Daily report already posted (#8).
 - Blocked: 148/149/159 need IRS figures; 197 needs WHO check.
 - Next cycle: 206 bill-negotiation-savings; marketing brief for today still missing.
+
+## 2026-11-22 18:51 UTC — cycle
+- Shipped: Bill negotiation savings /finance/bill-negotiation-savings/ ($80 to $65 for 12 mo then $80, 36 mo: $180; $65 for 36 mo: $540; $15/mo at 6% for 36 mo: $590.04; script-checked). Linked from subscription-cost and price-hike-impact. Verify exit 0, 407 pages, 0 problems. No browser/375px check.
+- Product-research, health, SEO: not run. Marketing pack for today is complete on the marketing branch. Daily report already posted (#8).
+- Blocked: 148/149/159 need IRS figures; 197 needs WHO check.
+- Next cycle: 207 health-plan-comparison.
