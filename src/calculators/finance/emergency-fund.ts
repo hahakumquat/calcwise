@@ -182,7 +182,7 @@ export default defineCalculator({
       { label: 'FDIC: Deposit insurance coverage', url: 'https://www.fdic.gov/resources/deposit-insurance/' },
     ],
   },
-  related: ['savings-goal', 'rent-affordability', 'take-home-pay', 'credit-card-payoff'],
+  related: ['savings-goal', 'rent-affordability', 'take-home-pay', 'credit-card-payoff', 'savings-account-switch'],
   examples: [
     {
       // target 3,000 × 6 = 18,000; shortfall 12,000; cover 6,000 ÷ 3,000 = 2; months 12,000 ÷ 500 = 24.

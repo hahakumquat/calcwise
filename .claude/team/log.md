@@ -1118,3 +1118,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Product-research, health, SEO, marketing: not run. Daily report already posted (#8).
 - Blocked: 148/149/159 need IRS figures; 197 needs WHO check.
 - Next cycle: 205 savings-account-switch; marketing brief for today still missing.
+
+## 2026-11-22 17:51 UTC — cycle
+- Shipped: Savings account switch /finance/savings-account-switch/ ($20,000 at 0.50% vs 4.00%: 1 y $100 vs $800 (+$700); 5 y $505.03 vs $4,333.06 (+$3,828.03); 10 y +$8,582.09; script-checked). Related links added on apy-calculator and emergency-fund. Verify exit 0, 406 pages, 0 problems. No browser/375px check; FDIC/CFPB links not opened.
+- Product-research, health, SEO, marketing: not run. Daily report already posted (#8).
+- Blocked: 148/149/159 need IRS figures; 197 needs WHO check.
+- Next cycle: 206 bill-negotiation-savings; marketing brief for today still missing.

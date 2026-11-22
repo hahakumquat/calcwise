@@ -89,7 +89,7 @@ export default defineCalculator({
       { label: 'Investor.gov: Compound interest calculator (SEC)', url: 'https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator' },
     ],
   },
-  related: ['cd', 'compound-interest', 'apr', 'simple-interest', 'savings-goal'],
+  related: ['cd', 'compound-interest', 'apr', 'simple-interest', 'savings-goal', 'savings-account-switch'],
   examples: [
     {
       // (1 + 0.045/365)^365 = exp(365 * ln(1.00012329)) = exp(0.044999 - ...) ≈ 1.046027 -> 4.6027%; $10,000 -> $460.27
