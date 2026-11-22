@@ -1099,3 +1099,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Process: local `main` had diverged from origin/main and a hard reset was denied by the sandbox; worked on a branch cut from origin/main and pushed HEAD:main.
 - Blocked: 148/149/159 need IRS figures; 197 needs WHO check.
 - Next cycle: post the daily report; build 202 debt-vs-invest, 203 sabbatical-fund; check the deploy run for this push.
+
+## 2026-11-22 14:52 UTC — cycle
+- Shipped: Debt vs invest /finance/debt-vs-invest/ ($15,000 at 8%, $300 min, $500 extra, 7% return, 5 y: pay debt first $35,827 vs invest $35,492, +$335; interest $1,077 vs $3,307; break-even return = APR 8%; script-checked). Verify 403 pages, 0 problems. No browser/375px check.
+- Posted Daily report 2026-11-22 (issue #8). Deploy runs #316-318 green.
+- SEO, product-research, marketing: not run. No marketing pack for today on the marketing branch (catch-up needed).
+- Blocked: 148/149/159 need IRS figures; 197 needs WHO check.
+- Next cycle: 203 sabbatical-fund, 204+; marketing brief for today.
