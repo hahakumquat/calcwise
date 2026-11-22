@@ -115,7 +115,7 @@ export default defineCalculator({
     ],
     sources: [SOURCES.bengen, SOURCES.trinity, SOURCES.mmm],
   },
-  related: ['safe-withdrawal-rate', 'years-to-fi', 'fire-number', 'cost-of-waiting', 'coast-fire'],
+  related: ['safe-withdrawal-rate', 'years-to-fi', 'fire-number', 'cost-of-waiting', 'coast-fire', 'portfolio-income-per-day'],
   examples: [
     // 850000*1.05 = 892500; +30000 = 922500; income 34000 -> 36900; gain 2900; /12 = 241.6667; 2900/34000 = 0.0852941
     { values: { portfolio: 850000, savings: 30000, ret: 5, rate: 4, spending: 40000 }, expect: { after: 922500, incomeNow: 34000, incomeAfter: 36900, gain: 2900, gainMonth: 241.6667, gainPct: 0.0852941 }, tolerance: 0.0001 },
