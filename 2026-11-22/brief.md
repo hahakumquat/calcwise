@@ -11,10 +11,10 @@ Taken from each calculator's `examples` in `src/calculators` on main and hand-ch
 |---|---|---|
 | Deal check | sale 140, was 200, typical 160 | advertised 30%, real 12.5%, advertised saving $60, real saving $20, "was" price $40 above typical |
 | Employer match | salary 80000, you 3%, match rate 100%, cap 6% | match $2,400, missed $2,400, extra cost to reach cap $2,400, total into 401(k) $4,800, badge "Missing $2,400 a year" |
-| Lifestyle creep | pay 60000, raise 8%, tax 25%, spent 60%, return 5%, 10 years | raise $4,800 gross, $3,600 after tax, spent $2,160, saved $1,440 a year ($120 a month), saved share after 10 years $18,112.09 |
+| Lifestyle creep | pay 60000, raise 8%, tax 25%, spent 60%, return 5%, 10 years | raise $4,800 gross, $3,600 after tax, spent $2,160, saved $1,440 a year ($120 a month), saved share after 10 years $18,112.17 |
 | Group gift split | price 90, tax 8%, shipping 6, card 4, people 7 | total $107.20, each pays $15.32, collected $107.24, 4 cents left over, badge "$15.32 each" |
 
-Hand-check: (200-140)/200 = 30%; (160-140)/160 = 12.5%; 200-160 = 40. 80000 x 3% = 2400 matched at 100% = 2400; cap 6% would be 4800, so missed 2400; 2400 + 2400 = 4800 total. 60000 x 8% = 4800, x 0.75 = 3600, x 0.6 = 2160 spent, 1440 saved, 1440 x ((1.05^10 - 1) / 0.05) = 1440 x 12.5779 = 18112.09. 90 x 1.08 = 97.20 + 6 + 4 = 107.20, / 7 = 15.3143 rounded up to 15.32, x 7 = 107.24.
+Hand-check: (200-140)/200 = 30%; (160-140)/160 = 12.5%; 200-160 = 40. 80000 x 3% = 2400 matched at 100% = 2400; cap 6% would be 4800, so missed 2400; 2400 + 2400 = 4800 total. 60000 x 8% = 4800, x 0.75 = 3600, x 0.6 = 2160 spent, 1440 saved, 1440 x ((1.05^10 - 1) / 0.05) = 1440 x 12.5779 = 18112.17. 90 x 1.08 = 97.20 + 6 + 4 = 107.20, / 7 = 15.3143 rounded up to 15.32, x 7 = 107.24.
 Estimates and examples only. Deal check: "typical price" is the user's own figure, the calculator cannot look prices up. Match plans differ (vesting, true-up). The 5% return and 25% tax are assumptions. Describe the math, never tell anyone what to do.
 
 ## 1. Reel / TikTok (about 12 s, 9:16)
