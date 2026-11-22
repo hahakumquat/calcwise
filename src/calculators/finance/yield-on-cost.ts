@@ -113,7 +113,7 @@ export default defineCalculator({
     ],
     sources: [{ label: 'SEC Investor.gov: Dividend yield', url: 'https://www.investor.gov/introduction-investing/investing-basics/glossary/dividend-yield' }],
   },
-  related: ['dividend-calculator', 'dividend-payout-ratio-calculator', 'compound-interest', 'investment'],
+  related: ['dividend-calculator', 'dividend-payout-ratio-calculator', 'compound-interest', 'investment', 'dividend-income-goal'],
   examples: [
     // cost 100*50 = 5000; income 100*2 = 200; YoC 2/50 = 0.04; current yield 2/80 = 0.025
     // 1.07^10 = 1.96715136; dividend 2*1.96715136 = 3.93430271; YoC 3.93430271/50 = 0.0786861; income 393.43

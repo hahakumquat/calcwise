@@ -109,7 +109,7 @@ export default defineCalculator({
     ],
     sources: [{ label: 'SEC Investor.gov: Dividend reinvestment plans', url: 'https://www.investor.gov/introduction-investing/investing-basics/glossary/dividend-reinvestment-plan' }],
   },
-  related: ['compound-interest', 'investment', 'rule-of-72', 'dividend-payout-ratio-calculator'],
+  related: ['compound-interest', 'investment', 'rule-of-72', 'dividend-payout-ratio-calculator', 'dividend-income-goal'],
   examples: [
     // 10000*1.09^10 = 23673.6367; year1 = 400; year10 = 10000*1.09^9*0.04 = 868.76; total = 400*(1.09^10-1)/0.09 = 6077.17
     { values: { start: 10000, yield: 4, growth: 5, years: 10, drip: 'on' }, expect: { finalValue: 23673.64, year1: 400, lastYear: 868.7573, totalDiv: 6077.17, contributed: 10000 } },
