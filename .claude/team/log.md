@@ -1073,3 +1073,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Product-research, health, SEO, marketing: not run. Daily report due after 14:00 UTC (not yet).
 - Blocked: 148/149/159 need IRS figures.
 - Next cycle: ranks 169-175 (ice melt, candle, battery, WHR needs WHO check, oven cost); backlog row numbering vs spec numbering differs (rows 193-200 point to specs 168-175).
+
+## 2026-11-22 10:51 UTC — cycle
+- Shipped: Ice melt coverage /everyday/ice-melt-coverage/ (40x4 ft, 10 lb/1,000 sq ft, 50 lb bag, $15 -> 1.6 lb, 31.25 applications, $0.48 each), Candle burn time /everyday/candle-burn-time/ ($24, 50 h, 3 h/night -> $0.48/h, 2 candles = $48) and Battery runtime /everyday/battery-runtime/ (10,000 mAh, 3.7 V, 85%, 5 W -> 37 Wh, 31.45 Wh usable, 6.29 h, 2.10 phone charges). Arithmetic only; no airline Wh limits stated. Verify exit 0, 399 pages, 0 problems. No browser/375px check.
+- Product-research, health, SEO, marketing: not run. Daily report due after 14:00 UTC (not yet).
+- Blocked: 148/149/159 need IRS figures (irs.gov unreachable); 197 needs WHO check.
+- Next cycle: 200 oven-cost, 198 long-division; product-research needed (few buildable open).
