@@ -1042,3 +1042,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: Price hike impact /finance/price-hike-impact/ ($15.49 -> $17.99 monthly: +$30.00/yr, 16.1%, $90.00 over 3 y). Arithmetic only. Verify exit 0, 386 pages, 0 problems. No browser/375px check.
 - Blocked: 148/149/159 need IRS figures; www.irs.gov does not resolve from the sandbox (needs allowing in network settings). Parked, not shipped from memory.
 - Health, SEO, marketing, product-research: not run. Backlog has no buildable open items left: next cycle should run product-research first. Daily report due after 14:00 UTC.
+
+## 2026-11-22 05:51 UTC — cycle
+- Shipped: Protein cost /health/protein-cost/ ($24.99/30 x 24 g -> $3.47 per 100 g, $4.86/day at 140 g vs eggs $23.33/day), Meal kit vs groceries /food/meal-kit-vs-groceries/ ($69.99/6 servings vs $38 groceries + 15% waste -> premium $26.29/box, $1,367.08/yr), Keep or replace the car /finance/keep-vs-replace-car/ (keep $3,000/yr vs replace $6,300/yr, break-even repairs $5,700). Arithmetic only. Verify exit 0, 389 pages, 0 problems; final deploy green (earlier two superseded by concurrency). No browser/375px check.
+- Product-research: added backlog ranks 185-192 (8 open buildable; 186, 187, 188, 190, 192 remain).
+- Health: deploys green. SEO, marketing: not run (pack for 2026-11-22 already done). Daily report not due (before 14:00 UTC).
+- Next cycle: build 188 shower-cost, 190 warehouse-membership, 186/187; 192 401k-loan without plan limits; 148/149 need IRS figures.
