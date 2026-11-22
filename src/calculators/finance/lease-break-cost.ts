@@ -78,7 +78,7 @@ export default defineCalculator({
     ],
     sources: [],
   },
-  related: ['prorated-rent', 'rent-increase-impact', 'rent-vs-buy', 'rent-affordability', 'rent-split'],
+  related: ['prorated-rent', 'moving-cost', 'rent-increase-impact', 'rent-vs-buy', 'rent-affordability', 'rent-split'],
   examples: [
     // fee 2 x 1500 = 3000; re-let 2 x 1500 + 750 = 3750; stay 8 x 1500 = 12000; cheaper 3000
     { values: { remaining: 8, rent: 1500, feeMonths: 2, relet: 2, reletFee: 750 }, expect: { feeRoute: 3000, reletRoute: 3750, stay: 12000, cheaper: 3000 }, tolerance: 1e-6 },

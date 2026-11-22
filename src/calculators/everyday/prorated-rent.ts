@@ -70,7 +70,7 @@ export default defineCalculator({
       { label: 'Proration (Investopedia)', url: 'https://www.investopedia.com/terms/p/proration.asp' },
     ],
   },
-  related: ['rent-split', 'rent-affordability', 'date-difference', 'daily-spending-allowance', 'bill-splitter'],
+  related: ['moving-cost', 'rent-split', 'rent-affordability', 'date-difference', 'daily-spending-allowance', 'bill-splitter'],
   examples: [
     { values: { rent: 1500, days: 30, start: 12 }, expect: { prorated: 950, daily: 50, stay: 19, yearly: 936.9863 }, tolerance: 1e-3 },
     { values: { rent: 1240, days: 31, start: 1 }, expect: { prorated: 1240, daily: 40, stay: 31 }, tolerance: 1e-6 },

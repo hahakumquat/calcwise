@@ -1134,3 +1134,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-22 18:55 UTC — cycle (2nd item)
 - Shipped: Health plan comparison /finance/health-plan-comparison/ (A $200/$500/20%/$4,000 vs B $120/$3,000/30%/$7,000 at $5,000 spend: A $3,800, B $5,040, A cheaper by $1,240; crossover $1,700; script- and hand-checked). Linked from hsa-fsa-savings and fsa-spend-down. Verify exit 0, 408 pages, 0 problems. No browser/375px check; HealthCare.gov source links not opened (proxy blocked the host).
 - Next cycle: 208 moving-cost; consider a product-research refresh and SEO pass.
+
+## 2026-11-22 19:55 UTC — cycle
+- Shipped: Moving cost /everyday/moving-cost/ (defaults: 480+120+60+75+150+0 + overlap 10 x 1,800 / 30 = 600 -> $1,485 = 0.825 months of rent; hand-checked). Linked from prorated-rent and lease-break-cost. Verify exit 0, 409 pages, 0 problems. No browser/375px check; "months blank at zero rent" not covered by an example (type disallows null).
+- Product-research, health, SEO, marketing: not run (marketing pack for today already complete). Daily report already posted (#8).
+- Blocked: 148/149/159 need IRS figures; 197 needs WHO check.
+- Next cycle: backlog 201-208 now all shipped or blocked; run product-research refresh (need >= 8 open items) and an SEO pass.
