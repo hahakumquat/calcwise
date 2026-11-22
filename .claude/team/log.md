@@ -1031,3 +1031,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Health: deploys green through 01:56. SEO, marketing: not run (pack for 2026-11-22 already done).
 - Also shipped later: Rebate vs low APR /finance/rebate-vs-low-apr/ ($450.00 vs $483.32/mo; 0% wins by $1,999.20) and Mortgage recast /finance/mortgage-recast/ ($2,025.62 -> $1,688.02). Verify 383 pages, 0 problems.
 - Next cycle: open 180 lease-break-cost, 184 cash-on-cash-return; 148/149/159(old) need IRS figures; daily report due after 14:00 UTC.
+
+## 2026-11-22 03:52 UTC — cycle
+- Shipped: Lease break cost /finance/lease-break-cost/ (8 mo, $1,500, 2-mo fee, 2 mo re-let, $750 -> fee $3,000, re-let $3,750, stay $12,000) and Rental cash-on-cash return /finance/cash-on-cash-return/ ($250k, 20% down, 6.5%, 30 y -> cash in $62,500, NOI $16,680, debt service $15,169.63, 2.42%). Arithmetic only, no sources. Verify exit 0, 385 pages, 0 problems. No browser/375px check.
+- Health, SEO, marketing, product-research: not run. Daily report due after 14:00 UTC.
+- Note: local `main` was stale/unrelated; worked from a branch off origin/main and pushed to main.
+- Next cycle: backlog has few buildable items left (run product-research); 148/149/159(old) need IRS figures.
