@@ -6,7 +6,7 @@ export default defineCalculator({
   slug: 'event-cost-per-guest',
   title: 'Event Cost Per Guest Calculator',
   category: 'everyday',
-  description: 'Work out what a party or event costs per guest. Split food and drinks that grow with headcount from venue and decor that do not, and compare a second guest count.',
+  description: 'Work out what a party costs per guest. Separate food and drinks that grow with headcount from venue and decor that do not, and compare a second guest count.',
   keywords: ['event cost per guest', 'party cost per person', 'cost per guest calculator', 'nye party budget per person', 'how much does a party cost per head', 'holiday party cost'],
   updated: '2026-11-22',
   popular: false,
