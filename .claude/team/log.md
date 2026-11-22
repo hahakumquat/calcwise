@@ -1067,3 +1067,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Health, SEO, marketing: not run. Daily report due after 14:00 UTC.
 - Blocked: 148/149/159 need IRS figures (irs.gov unreachable).
 - Next cycle: build top of 193-200; SEO pass overdue.
+
+## 2026-11-22 09:55 UTC — cycle
+- Shipped: Laundry cost /everyday/laundry-cost/ (defaults -> $1.05 a load, $218.40 a year, dryer $0.60) and Distance, rate and time /math/distance-rate-time/ (150 mi at 60 mph -> 2 h 30 min; 55 mph x 2.5 h -> 137.5 mi; 150 mi / 3 h -> 50 mph). Verify 396 pages, 0 problems. No browser/375px check. Khan Academy source link not opened.
+- Product-research, health, SEO, marketing: not run. Daily report due after 14:00 UTC (not yet).
+- Blocked: 148/149/159 need IRS figures.
+- Next cycle: ranks 169-175 (ice melt, candle, battery, WHR needs WHO check, oven cost); backlog row numbering vs spec numbering differs (rows 193-200 point to specs 168-175).
