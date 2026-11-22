@@ -157,7 +157,7 @@ export default defineCalculator({
       { label: 'IRS: Health FSA limits (2027 figure reported, confirm with your plan)', url: 'https://www.irs.gov/newsroom' },
     ],
   },
-  related: ['take-home-pay', '401k-max-out', 'bonus-tax', 'income-tax'],
+  related: ['take-home-pay', '401k-max-out', 'bonus-tax', 'income-tax', 'health-plan-comparison'],
   examples: [
     {
       // Taxable 85,000-16,100 = 68,900: 1,240 + 4,560 + 22%×18,500 = 9,870. After 4,400: 64,500 -> 1,240 + 4,560 + 22%×14,100 = 8,902. Federal 968.

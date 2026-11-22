@@ -83,7 +83,7 @@ export default defineCalculator({
     ],
     sources: [{ label: 'IRS Publication 969: Health savings accounts and other tax-favored health plans', url: 'https://www.irs.gov/publications/p969' }],
   },
-  related: ['hsa-fsa-savings', 'savings-goal', 'sinking-fund'],
+  related: ['hsa-fsa-savings', 'health-plan-comparison', 'savings-goal', 'sinking-fund'],
   examples: [
     // 2026-12-01 to 2026-12-31 = 30 days; 30/7 = 4.2857 weeks; 600/4.2857 = 140/wk; 600/30 = 20/day.
     { values: { balance: 600, today: '2026-12-01', deadline: '2026-12-31', carryover: 0 }, expect: { days: 30, perWeek: 140, perDay: 20, toSpend: 600 } },
