@@ -116,7 +116,7 @@ export default defineCalculator({
     ],
     sources: [{ label: 'US Consumer Financial Protection Bureau: consumer tools and guidance', url: 'https://www.consumerfinance.gov/' }],
   },
-  related: ['tip', 'unit-price', 'discount'],
+  related: ['tip', 'unit-price', 'income-based-bill-split', 'discount'],
   examples: [
     // Sum 100; tip = 20% × 100 = 20; total = 100 + 8 + 20 = 128.
     // A = 30 + 8×0.3 + 20×0.3 = 38.40; B = 20 + 1.6 + 4 = 25.60; C = 50 + 4 + 10 = 64.00.

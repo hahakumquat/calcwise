@@ -1112,3 +1112,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Product-research, health, SEO, marketing: not run. Daily report already posted (#8).
 - Blocked: 148/149/159 need IRS figures; 197 needs WHO check.
 - Next cycle: 204 income-based bill split; marketing brief for today still missing.
+
+## 2026-11-22 17:00 UTC — cycle
+- Shipped: Income-based bill split /finance/income-based-bill-split/ (A $4,000, B $2,000, bills $2,400 -> $1,600 / $800, both 40% of income; 50/50 = $1,200, diff $400/mo = $4,800/yr). Related links added on rent-split and bill-splitter. Verify exit 0, 405 pages, 0 problems. No browser/375px check.
+- Product-research, health, SEO, marketing: not run. Daily report already posted (#8).
+- Blocked: 148/149/159 need IRS figures; 197 needs WHO check.
+- Next cycle: 205 savings-account-switch; marketing brief for today still missing.
