@@ -109,7 +109,7 @@ export default defineCalculator({
       { label: 'Khan Academy: Long division', url: 'https://www.khanacademy.org/math/arithmetic/arith-review-multiply-divide/arith-review-long-division/v/long-division-with-remainders' },
     ],
   },
-  related: ['fraction', 'gcf-lcm', 'decimal-to-fraction', 'prime-factorization'],
+  related: ['fraction', 'gcf-lcm', 'decimal-to-fraction', 'prime-factorization', 'rounding'],
   examples: [
     // 3 × 5 = 15; 17 − 15 = 2; 2/5 = 0.4
     { values: { dividend: 17, divisor: 5 }, expect: { quotient: 3, remainder: 2, result: '3 R 2', decimal: '3.4', check: '3 × 5 + 2 = 17' } },

@@ -107,7 +107,7 @@ export default defineCalculator({
       { label: 'Khan Academy: Distance, rate and time', url: 'https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-equations-and-inequalities' },
     ],
   },
-  related: ['road-trip-time', 'pace'],
+  related: ['road-trip-time', 'pace', 'airport-leave-time', 'drive-vs-fly-cost', 'goal-pace'],
   examples: [
     // 150 / 60 = 2.5 h = 2 h 30 min
     { values: { solve: 'time', system: 'imperial', distance: 150, speed: 60 }, expect: { result: '2 h 30 min', distanceOut: '150 mi', speedOut: '60 mph', timeOut: '2 h 30 min' } },

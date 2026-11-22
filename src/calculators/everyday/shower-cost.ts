@@ -92,7 +92,7 @@ export default defineCalculator({
     ],
     sources: [],
   },
-  related: ['energy-upgrade-payback', 'electricity-cost', 'heating-cost', 'gas-cost'],
+  related: ['energy-upgrade-payback', 'electricity-cost', 'heating-cost', 'gas-cost', 'laundry-cost'],
   examples: [
     // gal 16.8; kWh 16.8*8.34*60/3412 = 2.463775; heat 0.394204; water 0.1008; per 0.495004; year *364 = 180.1815
     { values: { gpm: 2.1, minutes: 8, perWeek: 7, coldF: 55, hotF: 115, eff: 100, energy: 0.16, water: 6 }, expect: { gallons: 16.8, kwh: 2.4638, perShower: 0.495, perYear: 180.18 }, tolerance: 0.01 },

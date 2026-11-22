@@ -78,7 +78,7 @@ export default defineCalculator({
     ],
     sources: [],
   },
-  related: ['unit-price', 'wrapping-paper'],
+  related: ['unit-price', 'wrapping-paper', 'wind-chill', 'heating-cost'],
   examples: [
     // area 40*4 = 160; lb 160*10/1000 = 1.6; bag 50/1.6 = 31.25; cost 15/31.25 = 0.48
     { values: { length: 40, width: 4, rate: 10, bag: 50, price: 15 }, expect: { lbEach: 1.6, perBag: 31.25, costEach: 0.48, area: 160 }, tolerance: 0.01 },

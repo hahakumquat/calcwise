@@ -84,7 +84,7 @@ export default defineCalculator({
     ],
     sources: [],
   },
-  related: ['electricity-cost', 'shower-cost'],
+  related: ['electricity-cost', 'shower-cost', 'oven-cost', 'energy-upgrade-payback'],
   examples: [
     // energy 0.5 + 5*45/60 = 4.25 kWh; *0.16 = 0.68; water 20/1000*6 = 0.12; soap 0.25 -> 1.05; year 1.05*4*52 = 218.40; dryer 3.75*0.16 = 0.60
     { values: { perWeek: 4, washKwh: 0.5, dryerKw: 5, dryerMin: 45, energy: 0.16, gal: 20, water: 6, soap: 0.25 }, expect: { perLoad: 1.05, perYear: 218.4, dryerCost: 0.6, kwh: 4.25 }, tolerance: 0.01 },

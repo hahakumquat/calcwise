@@ -80,7 +80,7 @@ export default defineCalculator({
     ],
     sources: [],
   },
-  related: ['electricity-cost', 'heating-cost', 'thermostat-setback', 'gas-cost', 'thermostat-setback'],
+  related: ['electricity-cost', 'heating-cost', 'thermostat-setback', 'gas-cost', 'shower-cost', 'laundry-cost'],
   examples: [
     // kWh 51/1000*10*3*365 = 558.45; saved 558.45*0.16 = 89.352; months 30/89.352*12 = 4.02900
     { values: { units: 10, oldW: 60, newW: 9, hours: 3, price: 0.16, cost: 30 }, expect: { kwh: 558.45, saved: 89.352, months: 4.029 }, tolerance: 1e-3 },

@@ -82,7 +82,7 @@ export default defineCalculator({
     ],
     sources: [],
   },
-  related: ['electricity-cost', 'laundry-cost'],
+  related: ['electricity-cost', 'laundry-cost', 'shower-cost', 'energy-upgrade-payback'],
   examples: [
     // kwh 4*2.4*.5=4.8 *0.16=0.768; therms 4*15000*.5/1e5=0.3 *1.5=0.45; year 12 -> 9.216, 5.40
     { values: { hours: 4, bakes: 12, duty: 50, kw: 2.4, energy: 0.16, btu: 15000, gas: 1.5 }, expect: { electric: 0.768, gasCost: 0.45, electricYear: 9.216, gasYear: 5.4 }, tolerance: 0.01 },

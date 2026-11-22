@@ -81,7 +81,7 @@ export default defineCalculator({
     ],
     sources: [],
   },
-  related: ['electricity-cost', 'unit-price'],
+  related: ['electricity-cost', 'unit-price', 'holiday-lights', 'wrapping-paper'],
   examples: [
     // 24/50 = 0.48/h; *3 = 1.44; 50/3 = 16.67; hours 31*3 = 93; 93/50 = 1.86 -> 2 candles; 2*24 = 48
     { values: { price: 24, burn: 50, perNight: 3, evenings: 31 }, expect: { perHour: 0.48, perEvening: 1.44, eveningsEach: 16.67, candles: 2, total: 48 }, tolerance: 0.01 },

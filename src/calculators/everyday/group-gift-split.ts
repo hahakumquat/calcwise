@@ -85,7 +85,7 @@ export default defineCalculator({
     ],
     sources: [],
   },
-  related: ['bill-splitter', 'gift-budget', 'tip', 'rent-split', 'holiday-tipping-budget'],
+  related: ['bill-splitter', 'gift-budget', 'tip', 'rent-split', 'holiday-tipping-budget', 'event-cost-per-guest'],
   examples: [
     // 90 × 1.08 = 97.20 + 6 + 4 = 107.20; ÷ 7 = 15.3143 → 15.32; 15.32 × 7 = 107.24; over 0.04.
     { values: { price: 90, tax: 8, shipping: 6, card: 4, people: 7 }, expect: { each: 15.32, total: 107.2, collected: 107.24, overage: 0.04 }, tolerance: 1e-6 },

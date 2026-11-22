@@ -78,7 +78,7 @@ export default defineCalculator({
     ],
     sources: [],
   },
-  related: ['electricity-cost', 'fuel-tank-runtime'],
+  related: ['electricity-cost', 'fuel-tank-runtime', 'energy-upgrade-payback', 'holiday-lights'],
   examples: [
     // Wh 10000*3.7/1000 = 37; usable 37*0.85 = 31.45; hours 31.45/5 = 6.29; charges 31.45/15 = 2.0967
     { values: { mah: 10000, volts: 3.7, watts: 5, eff: 85, phoneWh: 15 }, expect: { wh: 37, usable: 31.45, hours: 6.29, charges: 2.1 }, tolerance: 0.01 },
