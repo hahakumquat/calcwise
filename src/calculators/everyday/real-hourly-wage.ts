@@ -96,7 +96,7 @@ export default defineCalculator({
     ],
     sources: [{ label: 'Your Money or Your Life, Vicki Robin and Joe Dominguez (real hourly wage concept)', url: 'https://yourmoneyoryourlife.com/' }],
   },
-  related: ['commute-cost', 'salary-to-hourly', 'hours-worked', 'take-home-pay'],
+  related: ['commute-cost', 'salary-to-hourly', 'hours-worked', 'take-home-pay', 'childcare-vs-work'],
   examples: [
     // paid = 52000/2000 = 26; week hours 45; year 2250; real = (52000-2500)/2250 = 22; drop = 1-22/26 = 0.153846
     { values: { pay: 52000, hours: 40, weeks: 50, days: 5, minutes: 60, costs: 2500 }, expect: { stated: 26, real: 22, weekHours: 45, yearHours: 2250, drop: 0.153846 }, tolerance: 0.001 },
