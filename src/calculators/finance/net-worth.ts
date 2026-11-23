@@ -84,7 +84,7 @@ export default defineCalculator({
       { q: 'Should I include my home?', a: 'Yes, as an asset at market value with the mortgage as a liability — the difference is your home equity. Just remember you need somewhere to live, so home equity is not easy to spend.' },
     ],
   },
-  related: ['retirement', 'investment', 'savings-goal', 'credit-card-payoff', 'home-affordability'],
+  related: ['retirement', 'investment', 'savings-goal', 'net-worth-milestones', 'credit-card-payoff', 'home-affordability'],
   examples: [
     {
       values: { cash: 15000, investments: 20000, retirement: 60000, home: 350000, vehicles: 18000, otherAssets: null, mortgage: 260000, autoLoans: 12000, studentLoans: 15000, creditCards: 3000, otherDebts: null },
