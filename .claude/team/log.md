@@ -1364,3 +1364,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 241: Roth conversion, tax now vs later (/finance/roth-conversion/; $20,000, 22% now, 20 yrs at 6%, 24% later -> tax now $4,400, advantage $1,282.85; $10,000, 12%, 10 yrs at 5%, 22% -> $1,628.89; hand-checked). Verify passes (451 pages, 0 problems); no browser/375px check. Rates and return are inputs; Medicare/IRMAA, bracket creep and 5-year rule stated as not computed.
 - Roles not delegated (single small item). Deploy result not checked from the sandbox.
 - Next cycle: rank 253 (signon-bonus-clawback), 252, 256.
+
+## 2026-11-23 ~21:00 UTC — cycle (item 253)
+- Shipped rank 253: sign-on bonus clawback (/finance/signon-bonus-clawback/; $10,000, 12 months, left after 8, prorated, 30% -> owed $3,333.33, received $7,000, kept $3,666.67; all-or-nothing -> kept -$3,000; hand-checked). Verify passes (452 pages, 0 problems); no browser/375px check. Refund or deduction on repayment stated as not computed.
+- Roles not delegated (single small item). Deploy result not checked from the sandbox. Daily report #9 already posted.
+- Next cycle: rank 252 (tax-drag), 256, 254.
