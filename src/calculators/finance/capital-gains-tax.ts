@@ -145,7 +145,7 @@ export default defineCalculator({
       { label: 'IRS: Net Investment Income Tax', url: 'https://www.irs.gov/individuals/net-investment-income-tax' },
     ],
   },
-  related: ['tax-loss-harvesting', 'rsu-tax', 'income-tax', 'investment', 'roi', 'take-home-pay'],
+  related: ['tax-loss-harvesting', 'rsu-tax', 'income-tax', 'investment', 'roi', 'take-home-pay', 'shares-to-sell'],
   examples: [
     {
       // ordinary 43,900; 0% zone 5,550; 15% on 14,450 = 2,167.50; no NIIT.
