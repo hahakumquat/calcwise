@@ -1301,3 +1301,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-23 11:35 UTC — cycle (item 236)
 - Shipped: Equity dilution /finance/equity-dilution/ (1.0%; $5M at $20M pre -> 0.80%; $20M at $80M pre -> 0.64%; $500M exit -> $3.2M; 10% pool example 2% -> 1.44%; hand-checked). Illustration disclaimer shown. Linked from stock-option-exercise. Verify run before push. No browser/375px check.
 - Next cycle: 238 progressive-overload, 239 weekly-calorie-budget; then research refill (backlog nearly dry). Daily report after 14:00 UTC.
+
+## 2026-11-23 ~12:10 UTC — cycle (item 238)
+- Shipped: Progressive overload plan /health/progressive-overload/ (100->150 at +5 = 10 increases, 11 weeks; with deload every 4: 103.5 and 121.5 lb deloads, 13 weeks; 100->152 caps last jump at +2; hand-checked). Verify run before push. No browser/375px check.
+- Health: local `main` in the sandbox is an unrelated 50-commit history (CAGR, APY, prime number...) not on origin/main; not pushed, not reset (reset denied). Worked from worktree on origin/main. Owner may want to review the stale local branch `main`.
+- Next cycle: 239 weekly-calorie-budget; then research refill (backlog nearly dry). Daily report after 14:00 UTC.
