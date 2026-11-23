@@ -1314,3 +1314,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-23 ~12:25 UTC — cycle (research refill)
 - Research pass 21: added ranks 241-248 (specs 216-223) to the backlog: standard-vs-itemized, signup-bonus-pace, social-security-breakeven, gains-harvest-headroom, roth-conversion, cd-ladder, snow-removal-payback, antifreeze-mix. IRS figures must be source-checked before shipping defaults.
 - Next cycle: take rank 242 (or top open); daily report after 14:00 UTC.
+
+## 2026-11-23 ~13:00 UTC — cycle
+- Shipped rank 242: Standard vs itemized deduction calculator (/finance/standard-vs-itemized/). Verify passes (442 pages, 0 problems); no browser/375px check. IRS standard deduction is an example default with a note to check irs.gov.
+- SEO/health/marketing: not run this cycle (single item). Deploy workflow result not checked from the sandbox yet.
+- Note: local `main` was a stale branch; reset to origin/main before working.
+- Next cycle: check deploy verify job for this push, then take rank 243 (gains-harvest-headroom) or top open. Daily report after 14:00 UTC.
