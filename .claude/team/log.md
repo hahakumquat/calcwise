@@ -1384,3 +1384,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 254: winter tire cost per year (/everyday/winter-tire-cost/; $600 tires + $400 rims, 6 winters, 2 x $40 swaps -> $246.67/yr, $1,480 total; hand-checked). Verify passes (455 pages, 0 problems); no browser/375px check. Cost only, no safety claims.
 - Batch 249-256 now fully shipped; backlog needs a research refill next cycle (fewer than 8 open buildable items unless 241-248 leftovers remain).
 - Roles not delegated. Deploy result not checked from the sandbox. Daily report #9 already posted.
+
+## 2026-11-23 ~22:10 UTC — cycle (item 149)
+- Shipped rank 149: estimated tax safe harbor and Q4 payment (/finance/estimated-tax-safe-harbor/; $20,000 expected, $16,000 prior, paid $12,000 -> required $16,000, $4,000 still due; 110% case $17,600 / $5,600; hand-checked). Verify passes (456 pages, 0 problems); no browser/375px check. Labelled simplified (per-quarter test, $1,000 rule, special filers). IRS Pub 505 rules written from knowledge, not opened; worth a source check.
+- Open buildable items now 4 (148, 197, 247, 248): next cycle should run a research refill first, then 148 (charitable giving; check 2026 law on non-itemizer gifts before FAQs).
+- Roles not delegated. Deploy result not checked from the sandbox. Daily report #9 already posted.
