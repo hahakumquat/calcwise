@@ -1267,3 +1267,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: Portfolio rebalance /finance/portfolio-rebalance/ (70/20/5/5 vs 60/30/5/5 on $100k -> sell $10,000 stocks, buy $10,000 bonds; with $10k new money: trade mode -4,000/+13,000/+500/+500, buy-only mode 0/9,285.71/357.14/357.14; hand-checked). No tax advice, warning shown. Linked from investment and net-worth. Verify 0 problems (431 pages, 414 calculators). No browser/375px check.
 - Product-research, health, SEO, marketing: not run. Deploy runs not checked from here. Daily report due next cycle after 14:00 UTC.
 - Next cycle: 231 prorated-salary, 232 home-gym-payback.
+
+## 2026-11-23 10:05 UTC — cycle (item 231)
+- Shipped: Prorated salary /finance/prorated-salary/ ($72k, 30-day month, start 16th, 22 working days, 12 worked -> $3,000 by calendar, $3,272.73 by working days; hand-checked). Pre-tax only, method left to employer. Linked from paychecks-per-year. Verify run before push. No browser/375px check.
+- Next cycle: 232 home-gym-payback; then product-research refill (backlog will be dry); daily report after 14:00 UTC.
