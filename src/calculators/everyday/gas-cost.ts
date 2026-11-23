@@ -92,7 +92,7 @@ export default defineCalculator({
       { q: 'How is food counted?', a: 'Food per person per day is multiplied by the nights away plus one day, then by the number of people. Lodging is one room per night, split evenly.' },
     ],
   },
-  related: ['electricity-cost', 'unit-price', 'fuel-economy-converter', 'speed-converter', 'volume-converter'],
+  related: ['cost-per-mile', 'electricity-cost', 'unit-price', 'fuel-economy-converter', 'speed-converter', 'volume-converter'],
   examples: [
     // 300 mi at 25 mpg = 12 US gal; × $3.50 = $42
     { values: { distance: 482803.2, efficiency: 25 * 0.425143707, price: 3.5, priceUnit: 'gal', roundTrip: 'off', people: 2 }, expect: { cost: 42, perPerson: 21, perMile: 0.14 }, tolerance: 1e-6 },

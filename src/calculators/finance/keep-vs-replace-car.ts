@@ -93,7 +93,7 @@ export default defineCalculator({
       { q: 'Does this include the down payment or trade-in?', a: 'No. It only compares yearly running and payment costs. Add the down payment and trade-in value into your own thinking separately.' },
     ],
   },
-  related: ['car-affordability', 'auto-loan', 'car-lease-vs-buy', 'cost-per-use'],
+  related: ['cost-per-mile', 'car-affordability', 'auto-loan', 'car-lease-vs-buy', 'cost-per-use'],
   examples: [
     // keep 2400 + 600 = 3000; replace 12 × 450 = 5400 + 300 + 600 = 6300; diff 3300; monthly 275; break-even 6300 − 600 = 5700.
     { values: { repairs: 2400, maintOld: 600, payment: 450, insurance: 300, maintNew: 600 }, expect: { keep: 3000, replace: 6300, difference: 3300, monthly: 275, breakEven: 5700 }, tolerance: 1e-9 },
