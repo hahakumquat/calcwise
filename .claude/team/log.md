@@ -1342,3 +1342,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Research refill: ranks 249-256 added (specs 224-231), backlog has 12 open buildable items. Daily report #9 already posted.
 - Note: local `main` branch is stale/unrelated; cycles work on detached origin/main and push HEAD:main.
 - Next cycle: rank 250 (purchase-opportunity-cost) or 241 (roth-conversion).
+
+## 2026-11-23 ~17:00 UTC — cycle (second item)
+- Shipped rank 250: purchase opportunity cost (/finance/purchase-opportunity-cost/; $1,200 at 7% for 30 yrs -> $9,134.71, 3% inflation -> $3,763.38 real; hand-checked). Verify passes (447 pages, 0 problems); no browser/375px check. Return is an assumption, stated on page.
+- Next cycle: rank 241 (roth-conversion) or 255/249/251.
