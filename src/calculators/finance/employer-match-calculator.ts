@@ -87,7 +87,7 @@ export default defineCalculator({
     ],
     sources: [],
   },
-  related: ['401k-max-out', 'retirement', 'raise-calculator', 'paychecks-per-year', 'lifestyle-creep'],
+  related: ['401k-max-out', 'retirement', 'raise-calculator', 'paychecks-per-year', 'lifestyle-creep', 'savings-rate-escalator'],
   examples: [
     // 3% × 80,000 = 2,400 × 100% = 2,400 match; max 6% × 80,000 = 4,800; missed 2,400; extra 3% × 80,000 = 2,400; total 2,400 + 2,400 = 4,800.
     { values: { salary: 80000, you: 3, rate: 100, cap: 6 }, expect: { match: 2400, missed: 2400, extra: 2400, total: 4800 }, tolerance: 1e-6 },
