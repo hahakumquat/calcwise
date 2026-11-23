@@ -114,7 +114,7 @@ export default defineCalculator({
       { label: 'BLS: Employer costs for employee compensation', url: 'https://www.bls.gov/news.release/ecec.toc.htm' },
     ],
   },
-  related: ['cost-of-living-salary', 'raise-calculator', 'take-home-pay', 'salary-to-hourly', '401k-max-out'],
+  related: ['cost-of-living-salary', 'raise-calculator', 'take-home-pay', 'salary-to-hourly', '401k-max-out', 'degree-payback'],
   examples: [
     {
       // A: 100,000 + 10,000 + 4,000 = 114,000; B: 108,000 + 0 + 3,240 = 111,240; diff 2,760; A/day 114,000/245 = 465.3061; B/day 111,240/240 = 463.5.
