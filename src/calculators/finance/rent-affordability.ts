@@ -195,7 +195,7 @@ export default defineCalculator({
       { label: 'SSA: Contribution and benefit base', url: 'https://www.ssa.gov/oact/cola/cbb.html' },
     ],
   },
-  related: ['take-home-pay', 'bonus-tax', 'home-affordability', '401k-max-out'],
+  related: ['take-home-pay', 'bonus-tax', 'home-affordability', '401k-max-out', 'living-alone-cost'],
   examples: [
     {
       // taxable 60,000 - 16,100 = 43,900: 12,400×10% + 31,500×12% = 1,240 + 3,780 = 5,020.
