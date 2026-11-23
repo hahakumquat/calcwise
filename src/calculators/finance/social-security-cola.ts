@@ -73,7 +73,7 @@ export default defineCalculator({
     ],
     sources: [{ label: 'Social Security Administration: 2027 COLA announcement', url: 'https://www.ssa.gov/news/en/press/releases/2026-10-14.html' }],
   },
-  related: ['inflation', 'compound-interest', 'rule-of-72'],
+  related: ['social-security-breakeven', 'inflation', 'compound-interest', 'rule-of-72'],
   examples: [
     // 2000 × 1.036 = 2072; raise 72; year 864.
     { values: { benefit: 2000, cola: 3.6, partB: 0 }, expect: { newBenefit: 2072, raise: 72, raiseYear: 864, netRaise: 72 } },
