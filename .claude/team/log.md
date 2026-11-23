@@ -1293,3 +1293,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-23 11:15 UTC — cycle (item 233)
 - Shipped: Childcare vs working /finance/childcare-vs-work/ ($4,000 gross, 25% tax, $1,500 care, $300 costs, 160 h -> net $3,000, gain $1,200/mo, $14,400/yr, $7.50/h; costs eat 60% of take-home — spec said 40%, corrected, see decisions). Linked from real-hourly-wage. Verify run before push. No browser/375px check.
 - Next cycle: 236 equity-dilution, 238 progressive-overload, 239 weekly-calorie-budget, 240 arm-payment-reset. Daily report after 14:00 UTC.
+
+## 2026-11-23 11:25 UTC — cycle (item 240)
+- Shipped: ARM payment after reset /finance/arm-payment-reset/ ($300k, 30 yr, 5% fixed 5 yr -> $1,610.46; balance $275,486.20; 7% reset -> $1,947.08, +$336.61 (20.9%); 9% -> $2,311.87; spec figures re-verified by script). Rate caps are left to the user's rate input. Linked from mortgage. Verify run before push. No browser/375px check.
+- Next cycle: 236 equity-dilution, 238 progressive-overload, 239 weekly-calorie-budget; then research refill. Daily report after 14:00 UTC.

@@ -134,7 +134,7 @@ export default defineCalculator({
       { q: 'Why will my real payment differ from this estimate?', a: 'Escrow amounts change when tax bills and insurance premiums change, and lenders may hold a cushion in escrow. Your Loan Estimate shows the exact figures for your loan.' },
     ],
   },
-  related: ['home-affordability', 'refinance', 'loan', 'apr', 'income-tax'],
+  related: ['home-affordability', 'refinance', 'loan', 'apr', 'income-tax', 'arm-payment-reset'],
   examples: [
     {
       values: { price: 400000, downType: 'percent', downPercent: 20, downAmount: null, rate: 6.5, term: 30 * YEAR_S, taxRate: 1.1, insurance: 1800, hoa: null, pmiRate: 0.5 },
