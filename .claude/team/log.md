@@ -1237,3 +1237,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-23 06:10 UTC — cycle (third item)
 - Shipped: Shares to sell /finance/shares-to-sell/ ($10,000 net at $50, $30 basis, 15%: 213 shares, $10,650 gross, $639 tax, $10,011 net; loss/fee case 51 shares; hand-checked). Linked from capital-gains-tax. Verify exit 0, 425 pages, 0 problems. No browser/375px check.
 - Backlog items 219, 222, 224 from the last cycle's list are now all shipped. Next cycle: check remaining open backlog (product-research refill if under 8 buildable), SEO pass, daily report after 14:00 UTC.
+
+## 2026-11-23 06:55 UTC — cycle (fourth item)
+- Backlog was dry (only source-blocked rows open): product-research nineteenth pass added ranks 225-232 (specs 200-207); marked 170/174/175/193/199 shipped.
+- Shipped: Net to gross /finance/net-to-gross/ ($3,000 take-home at 30%: $4,285.71 gross/month; hand-checked). Linked from raise-calculator. Verify exit 0, 426 pages, 0 problems. No browser/375px check. IRS source links not opened.
+- Note: local `main` branch in the sandbox was stale (diverged); worked from origin/main. Deploy runs not checked from here (no gh run view this cycle).
+- Next cycle: 226 degree-payback, 227 student-loan-accrual, 228 cost-per-mile; SEO pass; daily report after 14:00 UTC.
