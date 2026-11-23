@@ -65,7 +65,7 @@ export default defineCalculator({
       { label: 'U.S. Bureau of Labor Statistics: Hourly wages and work hours', url: 'https://www.bls.gov/' },
     ],
   },
-  related: ['real-hourly-wage', 'cost-per-use', 'salary-to-hourly', 'latte-factor'],
+  related: ['real-hourly-wage', 'cost-per-use', 'salary-to-hourly', 'latte-factor', 'engagement-ring-budget'],
   examples: [
     { values: { price: 240, wage: 30, tax: 20, day: 8 }, expect: { hours: 10, days: 1.25, net: 24 } },
     { values: { price: 1200, wage: 25, tax: 20, day: 8 }, expect: { hours: 60, days: 7.5, net: 20 } },
