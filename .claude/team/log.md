@@ -1310,3 +1310,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-23 ~12:15 UTC — cycle (item 239)
 - Shipped: Weekly calorie budget /health/weekly-calorie-budget/ (2000 target, 2000+500 feast -> 500 over; 3 days -> 166.67 each, 1833.33/day; week 14000; under-target case 13400; hand-checked). Warn tone below 1200 kcal/day not covered by tests. Verify run before push. No browser/375px check.
 - Next cycle: backlog is dry after 239; run product-research refill first. Daily report after 14:00 UTC.
+
+## 2026-11-23 ~12:25 UTC — cycle (research refill)
+- Research pass 21: added ranks 241-248 (specs 216-223) to the backlog: standard-vs-itemized, signup-bonus-pace, social-security-breakeven, gains-harvest-headroom, roth-conversion, cd-ladder, snow-removal-payback, antifreeze-mix. IRS figures must be source-checked before shipping defaults.
+- Next cycle: take rank 242 (or top open); daily report after 14:00 UTC.
