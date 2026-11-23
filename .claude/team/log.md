@@ -1178,3 +1178,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Product-research, health, SEO, marketing: not run. Daily report is due next cycle after 14:00 UTC.
 - Blocked: 148/149/159 need IRS figures; 197 needs WHO check.
 - Next cycle: 214 family-plan-split, 215 life-in-weeks; SEO pass.
+
+## 2026-11-23 00:55 UTC — cycle (second item)
+- Shipped: Family plan split /finance/family-plan-split/ ($22 plan, 4 people, $11 solo -> $5.50 each, saves $264 a year, break-even 2; $30/2 people/$12 -> costs $72 a year more, break-even 3; hand-checked). Linked from subscription-cost. Verify exit 0, 416 pages, 0 problems. No browser/375px check.
+- Product-research, health, SEO, marketing: not run. Daily report due next cycle after 14:00 UTC.
+- Blocked: 148/149/159 need IRS figures; 197 needs WHO check.
+- Next cycle: 215 life-in-weeks; SEO pass.

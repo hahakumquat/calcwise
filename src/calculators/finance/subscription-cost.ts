@@ -141,7 +141,7 @@ export default defineCalculator({
       { label: 'Investor.gov: Compound interest calculator', url: 'https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator' },
     ],
   },
-  related: ['bill-negotiation-savings', 'savings-goal', 'compound-interest', 'rule-of-72', 'savings-challenge', 'latte-factor', 'gym-cost-per-visit'],
+  related: ['family-plan-split', 'bill-negotiation-savings', 'savings-goal', 'compound-interest', 'rule-of-72', 'savings-challenge', 'latte-factor', 'gym-cost-per-visit'],
   examples: [
     {
       // 10 + 15 + 5 monthly = 30 a month; × 12 = 360 a year; weekly 360 ÷ 52 = 6.9231;
