@@ -1359,3 +1359,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 251: donate stock vs cash (/finance/donate-stock-vs-cash/; $10,000 value, $4,000 basis, 15%, 24%: tax avoided $900, charity gets $10,000 vs $9,100, deduction $2,400 vs $2,184; hand-checked). Verify passes (450 pages, 0 problems); no browser/375px check. Deduction limits, itemizing and holding period stated as not computed.
 - Note: local `main` in the sandbox had unrelated history, so worked on a branch from origin/main and pushed to origin main. Roles not delegated this cycle (single small item).
 - Next cycle: rank 241 (roth-conversion), 253, 252.
+
+## 2026-11-23 ~20:00 UTC — cycle (first item)
+- Shipped rank 241: Roth conversion, tax now vs later (/finance/roth-conversion/; $20,000, 22% now, 20 yrs at 6%, 24% later -> tax now $4,400, advantage $1,282.85; $10,000, 12%, 10 yrs at 5%, 22% -> $1,628.89; hand-checked). Verify passes (451 pages, 0 problems); no browser/375px check. Rates and return are inputs; Medicare/IRMAA, bracket creep and 5-year rule stated as not computed.
+- Roles not delegated (single small item). Deploy result not checked from the sandbox.
+- Next cycle: rank 253 (signon-bonus-clawback), 252, 256.
