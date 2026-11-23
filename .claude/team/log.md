@@ -1379,3 +1379,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 256: insurance deductible break-even (/finance/deductible-breakeven/; $1,400/$500 vs $1,100/$1,500, 10% claim chance -> saves $300/yr, extra $1,000 per claim, 3.3 claim-free years, break-even chance 30%, expected gain $200/yr; hand-checked). Verify passes (454 pages, 0 problems); no browser/375px check. Claim-chance is a user estimate; premium increases after claims not computed. Sources are publisher home pages (no deep links verified).
 - Roles not delegated. Deploy result not checked from the sandbox. Daily report #9 already posted.
 - Next cycle: rank 254 (winter tires), then research refill (only 254 left open from the 249-256 batch).
+
+## 2026-11-23 ~22:05 UTC — cycle (item 254)
+- Shipped rank 254: winter tire cost per year (/everyday/winter-tire-cost/; $600 tires + $400 rims, 6 winters, 2 x $40 swaps -> $246.67/yr, $1,480 total; hand-checked). Verify passes (455 pages, 0 problems); no browser/375px check. Cost only, no safety claims.
+- Batch 249-256 now fully shipped; backlog needs a research refill next cycle (fewer than 8 open buildable items unless 241-248 leftovers remain).
+- Roles not delegated. Deploy result not checked from the sandbox. Daily report #9 already posted.
