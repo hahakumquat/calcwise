@@ -1326,3 +1326,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - SEO/health/marketing: not run this cycle (single item). Deploy workflow result not checked from the sandbox.
 - Note: HEAD was detached at origin/main; pushing HEAD:main. Daily report not posted (cycle started before 14:00 UTC); next cycle should post it.
 - Next cycle: post daily report, then rank 246 or top open.
+
+## 2026-11-23 ~15:00 UTC — cycle
+- Shipped rank 243: 0% capital gains headroom (/finance/gains-harvest-headroom/), reverse link added from capital-gains-tax. Verify passes (444 pages, 0 problems); no browser/375px check.
+- Bracket top is a user input with a note to check irs.gov; no IRS figure claimed as fact.
+- Note: spec 218 was simplified (no tax-rate/tax-due output); the spec's example (top 96,700, income 70,000) is not used verbatim.
