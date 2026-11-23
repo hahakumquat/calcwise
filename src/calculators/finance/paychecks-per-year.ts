@@ -109,7 +109,7 @@ export default defineCalculator({
       { label: 'Pay period (Wikipedia)', url: 'https://en.wikipedia.org/wiki/Pay_period' },
     ],
   },
-  related: ['take-home-pay', 'salary-to-hourly', 'daily-spending-allowance', 'budget-50-30-20'],
+  related: ['take-home-pay', 'salary-to-hourly', 'daily-spending-allowance', 'budget-50-30-20', 'ytd-income-projection'],
   examples: [
     // Verified by an independent day-by-day count: Fri 2027-01-01 + 14k, k = 0..26, last 2027-12-31
     { values: { freq: 'biweekly', anchor: '2027-01-01', year: 2027, amount: 1000 }, expect: { count: 27, total: 27000 }, tolerance: 1e-9 },
