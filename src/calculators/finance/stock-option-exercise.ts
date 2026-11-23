@@ -98,7 +98,7 @@ export default defineCalculator({
       { label: 'Strike price (Investopedia)', url: 'https://www.investopedia.com/terms/s/strikeprice.asp' },
     ],
   },
-  related: ['rsu-tax', 'rsu-fire', 'stock-profit-calculator', 'capital-gains-tax', 'tax-loss-harvesting'],
+  related: ['rsu-tax', 'rsu-fire', 'stock-profit-calculator', 'capital-gains-tax', 'tax-loss-harvesting', 'equity-dilution'],
   examples: [
     // 10,000 × $2 = 20,000 cost; ($10 − $2) × 10,000 = 80,000 spread; 10,000 × $10 = 100,000 value
     { values: { options: 10000, strike: 2, fmv: 10, vestPct: 100 }, expect: { cost: 20000, spread: 80000, perShare: 8, positionValue: 100000, breakEven: 2 }, tolerance: 1e-6 },
