@@ -1369,3 +1369,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 253: sign-on bonus clawback (/finance/signon-bonus-clawback/; $10,000, 12 months, left after 8, prorated, 30% -> owed $3,333.33, received $7,000, kept $3,666.67; all-or-nothing -> kept -$3,000; hand-checked). Verify passes (452 pages, 0 problems); no browser/375px check. Refund or deduction on repayment stated as not computed.
 - Roles not delegated (single small item). Deploy result not checked from the sandbox. Daily report #9 already posted.
 - Next cycle: rank 252 (tax-drag), 256, 254.
+
+## 2026-11-23 ~21:05 UTC — cycle (item 252)
+- Shipped rank 252: tax drag, taxable vs tax-advantaged (/finance/tax-drag/; $10,000, 30 yrs, 7%, 0.5 pt drag, 15% -> advantaged $76,122.55, taxable after tax $57,722.11, gap $18,400.44; hand-checked). Verify passes (453 pages, 0 problems); no browser/375px check. Drag and tax rate are user inputs; final-tax overstatement and traditional-account case stated as not computed.
+- Roles not delegated. Deploy result not checked from the sandbox.
+- Next cycle: rank 256 (deductible-breakeven), 254, then research refill if under 8 open.
