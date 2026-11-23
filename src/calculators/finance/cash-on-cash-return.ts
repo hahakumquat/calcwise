@@ -98,7 +98,7 @@ export default defineCalculator({
     ],
     sources: [],
   },
-  related: ['cap-rate-calculator', 'gross-rent-multiplier', 'dscr-calculator', 'mortgage-recast', 'rent-vs-buy', 'roi'],
+  related: ['cap-rate-calculator', 'gross-rent-multiplier', 'dscr-calculator', 'mortgage-recast', 'rent-vs-buy', 'roi', 'house-hacking-offset'],
   examples: [
     // cash in 50000+7500+5000 = 62500; NOI 2200*12*.95 - 8400 = 25080 - 8400 = 16680
     // payment on 200000 at 6.5%/30y = 1264.14/mo -> 15169.63/yr; cash flow 1510.37; 1510.37/62500 = 2.42%

@@ -95,7 +95,7 @@ export default defineCalculator({
     ],
     sources: [{ label: 'Omni Calculator: rent split calculator (method comparison)', url: 'https://www.omnicalculator.com/finance/rent-split' }],
   },
-  related: ['bill-splitter', 'income-based-bill-split', 'rent-affordability', 'tip', 'living-alone-cost'],
+  related: ['bill-splitter', 'income-based-bill-split', 'rent-affordability', 'tip', 'living-alone-cost', 'house-hacking-offset'],
   examples: [
     // Common 40% = 800 → 400 each. Pool = 1200 / 250 sq ft = 4.8/sq ft → 720 and 480. Totals 1120 and 880.
     { values: { rent: 2000, common: 40, area1: 150, area2: 100 }, expect: { pay1: 1120, pay2: 880, commonEach: 400, pool: 1200, perSqft: 4.8 } },

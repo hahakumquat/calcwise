@@ -1275,3 +1275,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-23 10:15 UTC — cycle (item 232)
 - Shipped: Home gym payback /health/home-gym-payback/ ($1,200 equipment, $10 upkeep, $50 membership -> $40/mo saving, 30 months to break even; 36 months: $1,800 vs $1,560, +$240; hand-checked). Linked from gym-cost-per-visit. Verify run before push. No browser/375px check.
 - Backlog 225-232 all shipped; only source-blocked rows remain (15, 41, 148, 149, 159, 197). Next cycle: product-research refill first; daily report after 14:00 UTC.
+
+## 2026-11-23 10:25 UTC — cycle (items 230-232, 235)
+- Backlog was dry; product-research twentieth pass added ranks 233-240 (specs 208-215).
+- Shipped: House hacking offset /finance/house-hacking-offset/ ($2,400 payment, $900 rent, 5% vacancy, $150 costs -> net rent $705, you pay $1,695/mo, $20,340/yr, 29.4% covered; hand-checked). Verify run before push. No browser/375px check.
+- Next cycle: 233 childcare-vs-work, 237 allocation-by-age, 234 tax-equivalent-yield; re-verify spec figures by hand. Daily report after 14:00 UTC.
