@@ -121,7 +121,7 @@ export default defineCalculator({
       { q: 'What happens if I enter 0 visits?', a: 'The cost per visit is undefined because you cannot divide by zero. The calculator says so and still shows your total spend, which you would pay with no visits at all.' },
     ],
   },
-  related: ['subscription-cost', 'latte-factor', 'weight-loss-goal', 'tdee', 'calories-burned'],
+  related: ['subscription-cost', 'latte-factor', 'weight-loss-goal', 'tdee', 'calories-burned', 'home-gym-payback'],
   examples: [
     // 60 × 12 = 720; 10 × 12 = 120 visits; 720 ÷ 120 = 6. Drop-in 15 × 120 = 1,800; saving 1,080; break-even 60 ÷ 15 = 4.
     { values: { fee: 60, joining: 0, months: 12, visits: 10, dropin: 15 }, expect: { perVisit: 6, total: 720, dropinTotal: 1800, saving: 1080, breakeven: 4 }, tolerance: 1e-9 },
