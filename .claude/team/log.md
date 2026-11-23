@@ -1331,3 +1331,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 243: 0% capital gains headroom (/finance/gains-harvest-headroom/), reverse link added from capital-gains-tax. Verify passes (444 pages, 0 problems); no browser/375px check.
 - Bracket top is a user input with a note to check irs.gov; no IRS figure claimed as fact.
 - Note: spec 218 was simplified (no tax-rate/tax-due output); the spec's example (top 96,700, income 70,000) is not used verbatim.
+
+## 2026-11-23 ~16:00 UTC — cycle
+- Shipped rank 246: Social Security claiming age breakeven (/finance/social-security-breakeven/; 62 at $2,000 vs 67 at $2,800 -> breakeven 79.5; 67 at $2,500 vs 70 at $3,100 -> 82.5; hand-checked). Verify passes (445 pages, 0 problems); no browser/375px check. Benefits are user inputs from ssa.gov; COLA/tax/discounting ignored and stated. Linked from social-security-cola.
+- Daily report #9 already posted 14:52 UTC. Previous deploys (through 069c84f) green.
+- Next cycle: rank 245 (cd-ladder) or 241 (roth-conversion); backlog has 5 open items, research refill needed soon.
