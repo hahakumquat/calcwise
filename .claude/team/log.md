@@ -1400,3 +1400,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 259: HSA invest vs spend (/finance/hsa-invest-vs-spend/; $1,000, 20 yrs, 7%, 15% -> HSA $3,869.68, taxable after tax $3,439.23, advantage $430.45; $500/10 yrs/5%/20% -> $62.89; hand-checked). Verify passes (458 pages, 0 problems); no browser/375px check. Return and tax rate are inputs; state HSA taxes and dividend drag stated as not computed.
 - Roles not delegated. Deploy result not checked from the sandbox. Daily report #9 already posted.
 - Next cycle: rank 261, 260.
+
+## 2026-11-24 ~00:00 UTC — cycle (item 261)
+- Shipped rank 261: write-off value (/finance/write-off-value/; $1,000 at 22% fed, 5% state, 15.3% SE -> saves $411.30, cost $588.70; hand-checked). Verify passes (459 pages, 0 problems); no browser/375px check. Rates are inputs; half-SE deduction and QBI stated as not computed.
+- Roles not delegated. Deploy result not checked from the sandbox. Daily report for 2026-11-23 already posted.
+- Next cycle: rank 260, 263, 262.
