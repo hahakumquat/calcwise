@@ -89,7 +89,7 @@ export default defineCalculator({
     ],
     sources: [{ label: 'Simple arithmetic on your own figures; the "months of salary" idea is a popular guideline, not a standard' }],
   },
-  related: ['hours-of-work-cost', 'savings-goal', 'take-home-pay', 'salary-to-hourly'],
+  related: ['wedding-budget', 'hours-of-work-cost', 'savings-goal', 'take-home-pay', 'salary-to-hourly'],
   examples: [
     // monthly 6000; months 5000/6000=0.83333; pct 0.069444; hourly 34.61538; hours 144.444; gap 4000/400=10
     { values: { cost: 5000, income: 72000, saved: 1000, monthly: 400 }, expect: { months: 0.833333, pct: 0.0694444, hours: 144.4444, saveMonths: 10 }, tolerance: 1e-4 },

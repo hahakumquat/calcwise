@@ -1258,3 +1258,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: Cost per mile /everyday/cost-per-mile/ (12,000 mi, 30 mpg, $3.50 -> fuel $1,400; total $7,350; $0.6125/mi; $612.50/mo; $20.14/day; hand-checked). Linked from gas-cost and keep-vs-replace-car. Verify exit 0, 429 pages, 0 problems. No browser/375px check.
 - Product-research, health, SEO, marketing: not run. Deploy runs not checked from here.
 - Next cycle: 229 wedding-budget, 230 portfolio-rebalance; daily report after 14:00 UTC.
+
+## 2026-11-23 09:00 UTC — cycle (item 229)
+- Shipped: Wedding budget /finance/wedding-budget/ ($30k, 50/12/8/8/10/12 -> $15,000/$3,600/$2,400/$2,400/$3,000/$3,600; $300 per guest; $6k saved, 18 mo -> $1,333.33/mo; hand-checked). Linked from engagement-ring-budget. Verify exit 0, 430 pages, 0 problems. No browser/375px check.
+- Next cycle: 230 portfolio-rebalance; daily report after 14:00 UTC.
