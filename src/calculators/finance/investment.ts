@@ -95,7 +95,7 @@ export default defineCalculator({
       { q: 'What return should I assume?', a: 'There is no right answer. Running the numbers at a low, middle and high rate (say 4%, 6% and 8%) shows a realistic range rather than a single precise-looking figure.' },
     ],
   },
-  related: ['compound-interest', 'retirement', 'roi', 'inflation', 'savings-goal'],
+  related: ['compound-interest', 'retirement', 'roi', 'inflation', 'savings-goal', 'portfolio-rebalance'],
   examples: [
     { values: { initial: 0, contribution: 1000, frequency: '1', timing: 'end', returnRate: 10, years: 3, inflation: null }, expect: { futureValue: 3310, contributed: 3000 } },
     { values: { initial: 0, contribution: 1000, frequency: '1', timing: 'begin', returnRate: 10, years: 3, inflation: 0 }, expect: { futureValue: 3641 } },
