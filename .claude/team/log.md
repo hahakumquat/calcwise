@@ -1389,3 +1389,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 149: estimated tax safe harbor and Q4 payment (/finance/estimated-tax-safe-harbor/; $20,000 expected, $16,000 prior, paid $12,000 -> required $16,000, $4,000 still due; 110% case $17,600 / $5,600; hand-checked). Verify passes (456 pages, 0 problems); no browser/375px check. Labelled simplified (per-quarter test, $1,000 rule, special filers). IRS Pub 505 rules written from knowledge, not opened; worth a source check.
 - Open buildable items now 4 (148, 197, 247, 248): next cycle should run a research refill first, then 148 (charitable giving; check 2026 law on non-itemizer gifts before FAQs).
 - Roles not delegated. Deploy result not checked from the sandbox. Daily report #9 already posted.
+
+## 2026-11-23 ~22:25 UTC — cycle (item 148 + research refill)
+- Shipped rank 148: charitable giving bunching (/finance/charitable-giving-tax-value/; std $32,200, other $24,000, gift $6,000, 22% -> extra deductions $3,800, saves $836; hand-checked). Verify passes (457 pages, 0 problems); no browser/375px check. Standard deduction and rate are inputs; deduction limits, AGI floors and non-itemizer deduction stated as not computed (2026 law not verified).
+- Research (product-research agent): ranks 257-264 added (specs 232-239); open buildable items now 11 (197, 247, 248, 257-264). Demand scores are estimates; one WebSearch only.
+- Next cycle: rank 259 (hsa-invest-vs-spend), 261, 260.
+- Deploy result not checked from the sandbox. Daily report #9 already posted.
