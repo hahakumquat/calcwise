@@ -85,7 +85,7 @@ export default defineCalculator({
       { label: 'Hourly wage (Investopedia)', url: 'https://www.investopedia.com/terms/h/hourlywage.asp' },
     ],
   },
-  related: ['salary-to-hourly', 'self-employment-tax', 'take-home-pay', 'real-hourly-wage', 'profit-margin'],
+  related: ['salary-to-hourly', 'self-employment-tax', 'take-home-pay', 'real-hourly-wage', 'profit-margin', 'w2-to-contractor-rate'],
   examples: [
     { values: { income: 60000, expenses: 5000, tax: 25, hours: 25, weeks: 6 }, expect: { rate: 73.913, revenue: 85000, billable: 1150, day: 591.304 }, tolerance: 1e-3 },
     { values: { income: 60000, expenses: 0, tax: 0, hours: 40, weeks: 4 }, expect: { rate: 31.25, billable: 1920 }, tolerance: 1e-6 },

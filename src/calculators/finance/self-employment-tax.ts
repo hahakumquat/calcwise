@@ -138,7 +138,7 @@ export default defineCalculator({
       { label: 'SSA: contribution and benefit base', url: 'https://www.ssa.gov/oact/cola/cbb.html' },
     ],
   },
-  related: ['income-tax', 'take-home-pay', 'bonus-tax', 'hsa-fsa-savings', 'salary-to-hourly'],
+  related: ['income-tax', 'take-home-pay', 'bonus-tax', 'hsa-fsa-savings', 'salary-to-hourly', 'w2-to-contractor-rate'],
   examples: [
     {
       // base 73,880; SS 9,161.12; Medicare 2,142.52; SE 11,303.64; half 5,651.82.
