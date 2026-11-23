@@ -168,7 +168,7 @@ export default defineCalculator({
       { label: 'IRS Rev. Proc. 2025-32: 2026 tax brackets and standard deductions', url: 'https://www.irs.gov/irb/2025-45_IRB' },
     ],
   },
-  related: ['take-home-pay', '401k-max-out', 'income-tax', 'rsu-tax', 'salary-to-hourly', 'tax-refund-estimator'],
+  related: ['take-home-pay', '401k-max-out', 'income-tax', 'rsu-tax', 'salary-to-hourly', 'tax-refund-estimator', 'bonus-vs-raise'],
   examples: [
     {
       // 22% × 10,000 = 2,200; FICA 6.2% × 10,000 + 1.45% × 10,000 = 765; state 5% = 500; net 6,535.
