@@ -1346,3 +1346,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-23 ~17:00 UTC — cycle (second item)
 - Shipped rank 250: purchase opportunity cost (/finance/purchase-opportunity-cost/; $1,200 at 7% for 30 yrs -> $9,134.71, 3% inflation -> $3,763.38 real; hand-checked). Verify passes (447 pages, 0 problems); no browser/375px check. Return is an assumption, stated on page.
 - Next cycle: rank 241 (roth-conversion) or 255/249/251.
+
+## 2026-11-23 ~17:00 UTC — cycle (third item)
+- Shipped rank 255: rent on credit card, fee vs rewards (/finance/rent-on-card/; $2,000 rent, 2.9% fee, 2 pts at 1.5c -> +$2/mo; 1 pt at 1c -> -$38/mo; hand-checked). Verify passes (448 pages, 0 problems); no browser/375px check. No spec file existed; built from backlog row.
+- Next cycle: rank 241 (roth-conversion) or 249/251.
