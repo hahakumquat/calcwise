@@ -75,7 +75,7 @@ export default defineCalculator({
     ],
     sources: [{ label: 'Apple: Use Screen Time on your iPhone', url: 'https://support.apple.com/en-us/102521' }],
   },
-  related: ['year-progress', 'habit-compounding', 'real-hourly-wage', 'dry-january'],
+  related: ['life-in-weeks', 'year-progress', 'habit-compounding', 'real-hourly-wage', 'dry-january'],
   examples: [
     // 55 years left; 5/24 × 55 = 11.458333; share 5/16 = 31.25%; 5 × 365 = 1825; 55/24 = 2.291667.
     { values: { hours: 5, age: 25, expected: 80, sleep: 8 }, expect: { years: 275 / 24, share: 31.25, perYear: 1825, swap: 55 / 24 }, tolerance: 1e-6 },

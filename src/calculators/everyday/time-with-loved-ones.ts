@@ -81,7 +81,7 @@ export default defineCalculator({
     ],
     sources: [],
   },
-  related: ['screen-time-life', 'year-progress'],
+  related: ['life-in-weeks', 'screen-time-life', 'year-progress'],
   examples: [
     // 85 − 65 = 20 years; 4 × 20 = 80 visits; 80 × 3 = 240 days; 2 × 52 × 20 = 2080 calls; 3 × 20 = 60 extra days.
     { values: { age: 65, expected: 85, visits: 4, days: 3, calls: 2 }, expect: { daysTogether: 240, visitsLeft: 80, callsLeft: 2080, yearsLeft: 20, extraDays: 60 }, tolerance: 1e-9 },
