@@ -1285,3 +1285,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: Allocation by age /finance/allocation-by-age/ (age 30, $50k -> 70/80/90% stocks; $35k/$40k/$45k; clamps 0-100; hand-checked). Rules-of-thumb disclaimer shown. Linked from portfolio-rebalance. Verify 0 problems (435 pages). No browser/375px check.
 - Product-research, health, SEO, marketing: not run. Deploy runs not checked from here. Daily report due next cycle after 14:00 UTC.
 - Next cycle: 233 childcare-vs-work, 234 tax-equivalent-yield.
+
+## 2026-11-23 11:05 UTC — cycle (item 234)
+- Shipped: Tax-equivalent yield /finance/tax-equivalent-yield/ (3.5% tax-free at 24% -> 4.605% taxable; 4.2% taxable -> 3.192% after tax; break-even 16.67%; hand-checked). Rate is an input, not advice. Linked from bond-yield-calculator. Verify run before push. No browser/375px check.
+- Next cycle: 233 childcare-vs-work; then 236, 238, 239, 240. Daily report after 14:00 UTC.

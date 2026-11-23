@@ -95,7 +95,7 @@ export default defineCalculator({
       { label: 'Yield to maturity (Wikipedia)', url: 'https://en.wikipedia.org/wiki/Yield_to_maturity' },
     ],
   },
-  related: ['present-value', 'npv-irr-calculator', 'cd', 'real-rate-of-return', 'apy-calculator'],
+  related: ['present-value', 'npv-irr-calculator', 'cd', 'real-rate-of-return', 'apy-calculator', 'tax-equivalent-yield'],
   examples: [
     { values: { price: 1000, face: 1000, coupon: 5, years: 10 }, expect: { ytm: 5, current: 5, annualCoupon: 50, totalReturn: 500 }, tolerance: 1e-4 },
     { values: { price: 600, face: 1000, coupon: 0, years: 10 }, expect: { ytm: 5.1741, totalReturn: 400 }, tolerance: 0.002 },
