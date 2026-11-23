@@ -1336,3 +1336,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 246: Social Security claiming age breakeven (/finance/social-security-breakeven/; 62 at $2,000 vs 67 at $2,800 -> breakeven 79.5; 67 at $2,500 vs 70 at $3,100 -> 82.5; hand-checked). Verify passes (445 pages, 0 problems); no browser/375px check. Benefits are user inputs from ssa.gov; COLA/tax/discounting ignored and stated. Linked from social-security-cola.
 - Daily report #9 already posted 14:52 UTC. Previous deploys (through 069c84f) green.
 - Next cycle: rank 245 (cd-ladder) or 241 (roth-conversion); backlog has 5 open items, research refill needed soon.
+
+## 2026-11-23 ~17:00 UTC — cycle
+- Shipped rank 245: CD ladder (/finance/cd-ladder/; 2 rungs $5,000 at 4%/12mo and 5%/24mo -> $10,712.50; 5 rungs at 5% terms 12-60mo -> $11,603.83; hand-checked). Rungs held to own maturity, no reinvestment, stated on page. No browser/375px check.
+- Research refill: ranks 249-256 added (specs 224-231), backlog has 12 open buildable items. Daily report #9 already posted.
+- Note: local `main` branch is stale/unrelated; cycles work on detached origin/main and push HEAD:main.
+- Next cycle: rank 250 (purchase-opportunity-cost) or 241 (roth-conversion).
