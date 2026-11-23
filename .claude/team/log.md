@@ -1374,3 +1374,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 252: tax drag, taxable vs tax-advantaged (/finance/tax-drag/; $10,000, 30 yrs, 7%, 0.5 pt drag, 15% -> advantaged $76,122.55, taxable after tax $57,722.11, gap $18,400.44; hand-checked). Verify passes (453 pages, 0 problems); no browser/375px check. Drag and tax rate are user inputs; final-tax overstatement and traditional-account case stated as not computed.
 - Roles not delegated. Deploy result not checked from the sandbox.
 - Next cycle: rank 256 (deductible-breakeven), 254, then research refill if under 8 open.
+
+## 2026-11-23 ~22:00 UTC — cycle (item 256)
+- Shipped rank 256: insurance deductible break-even (/finance/deductible-breakeven/; $1,400/$500 vs $1,100/$1,500, 10% claim chance -> saves $300/yr, extra $1,000 per claim, 3.3 claim-free years, break-even chance 30%, expected gain $200/yr; hand-checked). Verify passes (454 pages, 0 problems); no browser/375px check. Claim-chance is a user estimate; premium increases after claims not computed. Sources are publisher home pages (no deep links verified).
+- Roles not delegated. Deploy result not checked from the sandbox. Daily report #9 already posted.
+- Next cycle: rank 254 (winter tires), then research refill (only 254 left open from the 249-256 batch).
