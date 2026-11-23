@@ -84,7 +84,7 @@ export default defineCalculator({
     ],
     sources: [{ label: 'US Bureau of Labor Statistics: CPI inflation calculator', url: 'https://www.bls.gov/data/inflation_calculator.htm' }],
   },
-  related: ['take-home-pay', 'inflation', 'salary-to-hourly', 'income-tax', 'bonus-vs-raise'],
+  related: ['take-home-pay', 'inflation', 'salary-to-hourly', 'income-tax', 'bonus-vs-raise', 'salary-growth-projection'],
   examples: [
     // 60,000 × 5% = 3,000; 63,000; 250/mo; 57.6923/wk; 60,000/2080 = 28.8462; 63,000/2080 = 30.2885.
     // real = 1.05/1.033 − 1 = 0.016457; after tax 3,000 × 0.7035 = 2,110.5.

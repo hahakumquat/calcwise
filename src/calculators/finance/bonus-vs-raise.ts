@@ -112,7 +112,7 @@ export default defineCalculator({
     ],
     sources: [{ label: 'Simple arithmetic on your own figures; no external data' }],
   },
-  related: ['raise-calculator', 'bonus-tax', 'take-home-pay', 'salary-to-hourly'],
+  related: ['raise-calculator', 'bonus-tax', 'take-home-pay', 'salary-to-hourly', 'salary-growth-projection'],
   examples: [
     // extra 2400/yr; 5 years 12000; break-even 5000/2400 = 2.083333; diff 7000
     { values: { salary: 80000, raise: 3, bonus: 5000, years: 5, growth: 0 }, expect: { extraYear: 2400, raiseTotal: 12000, breakEven: 2.083333, difference: 7000 }, tolerance: 1e-4 },
