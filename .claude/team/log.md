@@ -1280,3 +1280,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Backlog was dry; product-research twentieth pass added ranks 233-240 (specs 208-215).
 - Shipped: House hacking offset /finance/house-hacking-offset/ ($2,400 payment, $900 rent, 5% vacancy, $150 costs -> net rent $705, you pay $1,695/mo, $20,340/yr, 29.4% covered; hand-checked). Verify run before push. No browser/375px check.
 - Next cycle: 233 childcare-vs-work, 237 allocation-by-age, 234 tax-equivalent-yield; re-verify spec figures by hand. Daily report after 14:00 UTC.
+
+## 2026-11-23 10:55 UTC — cycle (item 237)
+- Shipped: Allocation by age /finance/allocation-by-age/ (age 30, $50k -> 70/80/90% stocks; $35k/$40k/$45k; clamps 0-100; hand-checked). Rules-of-thumb disclaimer shown. Linked from portfolio-rebalance. Verify 0 problems (435 pages). No browser/375px check.
+- Product-research, health, SEO, marketing: not run. Deploy runs not checked from here. Daily report due next cycle after 14:00 UTC.
+- Next cycle: 233 childcare-vs-work, 234 tax-equivalent-yield.

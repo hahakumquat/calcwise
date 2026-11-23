@@ -132,7 +132,7 @@ export default defineCalculator({
     ],
     sources: [],
   },
-  related: ['investment', 'net-worth', 'capital-gains-tax', 'shares-to-sell'],
+  related: ['investment', 'net-worth', 'capital-gains-tax', 'shares-to-sell', 'allocation-by-age'],
   examples: [
     // total 100000; targets 60000,30000,5000,5000 -> -10000,+10000,0,0; drift max(|70-60|,|20-30|)=10
     { values: { a1v: 70000, a1t: 60, a2v: 20000, a2t: 30, a3v: 5000, a3t: 5, a4v: 5000, a4t: 5, cash: 0, mode: 'trade' }, expect: { a1x: -10000, a2x: 10000, a3x: 0, a4x: 0, turnover: 10000, sells: 10000, drift: 10, total: 100000 }, tolerance: 1e-6 },
