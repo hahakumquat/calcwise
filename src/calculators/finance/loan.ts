@@ -74,6 +74,6 @@ export default defineCalculator({
       { q: 'Does this include fees or insurance?', a: 'No. Origination fees, insurance and taxes are extra. Compare loans using the APR, which folds required fees into the rate.' },
     ],
   },
-  related: ['mortgage', 'compound-interest', 'apr', 'student-loan-payoff'],
+  related: ['mortgage', 'compound-interest', 'apr', 'student-loan-payoff', 'student-loan-accrual'],
   examples: [{ values: { principal: 10000, rate: 6, term: 60 * 2629746 }, expect: { payment: 193.328 }, tolerance: 0.01 }],
 });

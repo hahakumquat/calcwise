@@ -172,7 +172,7 @@ export default defineCalculator({
       { label: 'CFPB: Student loans', url: 'https://www.consumerfinance.gov/consumer-tools/student-loans/' },
     ],
   },
-  related: ['loan', 'debt-payoff-planner', 'credit-card-payoff', 'emergency-fund', 'degree-payback'],
+  related: ['loan', 'debt-payoff-planner', 'credit-card-payoff', 'emergency-fund', 'degree-payback', 'student-loan-accrual'],
   examples: [
     // 0% APR: $12,000 over 5 yr -> payment 12000 / 60 = $200. Extra $100 -> $300/month -> 12000 / 300 = 40 months. Interest 0.
     { values: { balance: 12000, rate: 0, term: 60 * MONTH_S, payment: null, extra: 100, lump: 0 }, expect: { standardPayment: 200, standardMonths: 60, extraMonths: 40, monthsSaved: 20, standardInterest: 0, extraInterest: 0, interestSaved: 0 } },
