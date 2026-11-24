@@ -1638,3 +1638,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-24 ~22:56 UTC — cycle (item 304, same cycle)
 - Shipped rank 304: HSA prorated limit (/finance/hsa-prorated-limit/; $4,400 x 5/12 = $1,833.33, $1,200 in -> $633.33 left; last-month rule -> $3,200; hand-checked). Verify passes (507 pages, 0 problems); no browser/375px check. Limit is a user input; Pub 969 linked (not opened).
 - Next cycle: backlog nearly dry — research refill first, then 197, 159, 41.
+
+## 2026-11-24 ~22:58 UTC — cycle (item 197, same cycle)
+- Shipped rank 197: waist-to-hip ratio (/health/waist-hip-ratio/; WHO 2008 cut-offs 0.90 men, 0.85 women, from memory, WHO report linked but not opened; examples hand-checked). Verify passes (508 pages, 0 problems); no browser/375px check.
+- Research refill (product-research): ranks 305-313 added (SS wage base bump, child tax credit, QCD, SS earnings test, home sale exclusion, saver's credit, etc.); open count ~13. Figures are user inputs; no web sources opened.
+- Next cycle: rank 305, 306, 309, then 159, 41.
