@@ -1537,3 +1537,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 287: repair or replace an appliance (/finance/repair-vs-replace/; $350 repair, 3 years vs $900 new, 10 years, $30 saving -> $116.67 vs $60 a year, replacing $56.67 cheaper, repair 38.9% of price; $500/2 y vs $800/8 y -> $250 vs $100; hand-checked). Verify passes (486 pages, 0 problems); no browser/375px check. 50% rule labelled a rule of thumb.
 - Roles not delegated. Deploy not checked from the sandbox. A `git reset --hard` was denied by the sandbox; used fast-forward merge. Daily report due: next cycle (this one started before 14:00 UTC).
 - Next cycle: daily report first; then rank 284, 285, 288; research refill needed (fewer than 8 buildable).
+
+## 2026-11-24 ~14:00 UTC — cycle (item 284, same cycle as 287)
+- Shipped rank 284: standby power cost (/everyday/standby-power-cost/; 15+10+1.5+3+2 = 31.5 W, 20 h a day, $0.16 -> 229.95 kWh, $36.79 a year, $3.07 a month, top device $17.52; 10 W at 24 h and $0.20 -> $17.52; hand-checked). Verify passes (487 pages, 0 problems); no browser/375px check. Watts are the user's meter readings; no typical figures claimed.
+- Deploys of 287/284 not checked from the sandbox. Daily report due: next cycle.
+- Next cycle: daily report first; then rank 285, 288; research refill needed (fewer than 8 buildable).
