@@ -1600,3 +1600,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 296: 529 state deduction (/finance/529-state-deduction/; $6,000 gift, $4,000 cap, 5% -> deductible $4,000, saves $200, no room; $2,500 -> $125, $1,500 room; hand-checked). Verify passes (499 pages, 0 problems); no browser/375px check.
 - Deploy health: 293 run green; 294 superseded; 295 was in progress at check time. Next cycle must confirm the latest run's `deploy` and `verify` are green.
 - Next cycle: rank 297, 298, 299, 300, 301, then 197, 159, 41.
+
+## 2026-11-24 ~19:55 UTC — cycle (item 297)
+- Deploy health: runs for 292-296 green (294 cancelled by concurrency, superseded).
+- Shipped rank 297: bonus gross-up (/finance/bonus-gross-up/; $5,000 net, 22% + 7.65% + 5% -> gross $7,651.11, withheld $2,651.11; hand-checked). Verify passes (500 pages, 0 problems); no browser/375px check. Flat rates only; stated on page.
+- Roles not delegated (built directly by lead). Daily report already posted (#10).
+- Next cycle: confirm deploy of 297 green; rank 298-301, then 197, 159, 41.
