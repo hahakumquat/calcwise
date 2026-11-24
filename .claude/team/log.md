@@ -1425,3 +1425,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 257: backdoor Roth pro-rata (/finance/backdoor-roth-pro-rata/; $45,000 pre-tax, $7,000 basis, $7,000 converted, 24% -> share 13.46%, taxable $6,057.69, tax $1,453.85; hand-checked). Verify passes; no browser/375px check. Basis is an input; income limits not computed.
 - Roles not delegated. Deploy results (262, 257) not checked from the sandbox.
 - Next cycle: rank 258, 264, then refresh backlog if under 8 open.
+
+## 2026-11-24 ~02:55 UTC — cycle (item 258)
+- Shipped rank 258: mega backdoor Roth room (/finance/mega-backdoor-roth/; $70,000 limit, $23,500 deferrals, $6,000 employer -> room $40,500, $1,557.69 over 26 paychecks; hand-checked). Verify passes (464 pages, 0 problems); no browser/375px check. Limit is an input (example, not current); plan eligibility and testing limits stated.
+- Roles not delegated. Deploy result not checked from the sandbox. Daily report for 2026-11-23 already posted.
+- Next cycle: rank 264, then refresh backlog (open items below 8).
