@@ -1658,3 +1658,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 307: QCD tax savings (/finance/qcd-tax-value/; $10,000 at 24%, standard deduction -> $2,400 saved; limit-bound and itemizer cases hand-checked). Verify passes (511 pages, 0 problems); no browser/375px check. QCD limit is a user input (default 108,000, IRS page linked, not opened); AGI effects not modelled (stated).
 - Not delegated (built directly by lead). No SEO change, no marketing. Local `main` branch was unrelated to origin/main, so worked from a branch off origin/main; a hard reset was denied by the sandbox, not needed.
 - Next cycle: confirm 307 deploy green; then 308, 309, 310, 159, 41.
+
+## 2026-11-24 ~23:56 UTC — cycle (item 308, same cycle)
+- Shipped rank 308: SS earnings test (/finance/social-security-earnings-test/; $50,000 vs $23,400 limit at 1:2 -> $13,300 withheld, $10,700 kept; under-limit and benefit-cap cases hand-checked). Verify passes (512 pages, 0 problems); no browser/375px check. Limit and ratio are user inputs; SSA page linked, not opened; credit-back at full retirement age not modelled (stated).
+- 307 deploy not yet checked. Next cycle: confirm 307/308 green; then 309, 310, 159, 41.
