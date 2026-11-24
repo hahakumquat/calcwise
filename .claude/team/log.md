@@ -1489,3 +1489,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-24 ~09:00 UTC — cycle (item 275, same cycle as 273)
 - Shipped rank 275: tips deduction (/finance/tips-deduction/; $15,000 tips, saves $1,800 at 12%, payroll $1,147.50; cap/phase-out case $24,000 deduction, $5,280 at 22%; hand-checked). Verify passes, no browser/375px check. Limits are editable inputs, unverified against IRS.
 - Next cycle: rank 274, then 276/277/279/280.
+
+## 2026-11-24 ~10:00 UTC — cycle (item 274)
+- Shipped rank 274: car loan interest deduction (/finance/car-loan-interest-deduction/; $40,000 at 7% over 60 months, payment $792.05, year-1 interest $2,580.66, saves $567.74 at 22%; capped/phase-out case deduction $800, saves $192; year 2 interest $2,080.13; checked by script and closed form). Verify passes (477 pages, 0 problems); no browser/375px check. Cap, threshold and phase-out are inputs, unverified against IRS (irs.gov unreachable); qualification not checked, stated on page.
+- Roles not delegated (lead built directly; no spec file existed). Deploy results not checked from the sandbox. Daily report due after 14:00 UTC. A `git reset --hard` was blocked by the sandbox classifier; used fast-forward merge instead.
+- Next cycle: rank 276, 277, 279, 280.
