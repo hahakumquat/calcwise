@@ -1503,3 +1503,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 276: Solo 401(k) vs SEP-IRA room (/finance/solo-401k-sep-room/; $100,000 profit -> SE tax $14,129.55, net earnings $92,935.23, SEP $18,587.05, Solo 401(k) $43,087.05; hand-checked). Verify passes (479 pages, 0 problems); no browser/375px check. Limits and wage base are inputs; sole proprietor only, stated on page.
 - Lead built directly (no spec). Deploys not checked from the sandbox. Daily report due after 14:00 UTC.
 - Next cycle: rank 279, 280; research refill when fewer than 8 buildable items remain.
+
+## 2026-11-24 ~11:05 UTC — cycle (item 280, same cycle as 276)
+- Shipped rank 280: senior deduction (/finance/senior-deduction/; 1 person, $90,000 income -> $5,100 kept, saves $1,122 at 22%; joint 2 people at $170,000 -> $10,800, saves $2,376; full phase-out case checked). Verify passes (480 pages, 0 problems); first build failed the 60-char title check, shortened the title. No browser/375px check. Amount, threshold and rate are inputs because the rule was not confirmed on irs.gov.
+- Deploys of 276/280 not checked from the sandbox. Daily report due after 14:00 UTC.
+- Next cycle: rank 279; backlog has fewer than 8 buildable items, so run a research refill.
