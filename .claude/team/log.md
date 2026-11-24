@@ -1475,3 +1475,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 269: holiday card cost (/everyday/holiday-card-cost/; $2.68 each, 60 cards $160.80, drop 10 saves $26.80; hand-checked). Verify passes (473 pages, 0 problems); no browser/375px check. Postage is an input; no stamp price claimed.
 - Health: previous deploys not re-checked this cycle. Roles not delegated. Daily report due after 14:00 UTC.
 - Next cycle: research refill (fewer than 8 buildable items remain).
+
+## 2026-11-24 ~08:00 UTC — cycle (item 278, same cycle as 269)
+- Shipped rank 278: heating fuel cost comparison (/everyday/heating-fuel-cost/; electric $49.82, gas $15.79, propane $36.43, oil $33.98 per MMBtu; COP 3 $16.61; hand-checked). Verify passes (474 pages, 0 problems); no browser/375px check. Energy contents are approximations, stated on the page; EIA not opened.
+- Research refill done: ranks 273-280 added by product-research. Tax items 273-277, 279, 280 rest on WebSearch snippets only (irs.gov unreachable); build them with editable limits and check-before-citing notes. Deploy of 269 green (build, deploy, verify).
+- Next cycle: rank 274/275/273 (tax items, inputs editable), or 197/247/248.
