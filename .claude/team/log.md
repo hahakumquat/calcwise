@@ -1532,3 +1532,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-24 ~13:00 UTC — cycle (item 282, same cycle as 281/283)
 - Shipped rank 282: property tax appeal (/finance/property-tax-appeal/; $400,000 vs $370,000, 1.8% -> $30,000 reduction, $540 a year, net $1,470 over 3 years, expected $660 at 50%; ratio case hand-checked). Verify passes (485 pages, 0 problems); no browser/375px check.
 - Next cycle: rank 287, 284, 285, 288; research refill needed (fewer than 8 buildable). Daily report due after 14:00 UTC.
+
+## 2026-11-24 ~13:55 UTC — cycle (item 287)
+- Shipped rank 287: repair or replace an appliance (/finance/repair-vs-replace/; $350 repair, 3 years vs $900 new, 10 years, $30 saving -> $116.67 vs $60 a year, replacing $56.67 cheaper, repair 38.9% of price; $500/2 y vs $800/8 y -> $250 vs $100; hand-checked). Verify passes (486 pages, 0 problems); no browser/375px check. 50% rule labelled a rule of thumb.
+- Roles not delegated. Deploy not checked from the sandbox. A `git reset --hard` was denied by the sandbox; used fast-forward merge. Daily report due: next cycle (this one started before 14:00 UTC).
+- Next cycle: daily report first; then rank 284, 285, 288; research refill needed (fewer than 8 buildable).
