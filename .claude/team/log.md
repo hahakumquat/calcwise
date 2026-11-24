@@ -1508,3 +1508,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 280: senior deduction (/finance/senior-deduction/; 1 person, $90,000 income -> $5,100 kept, saves $1,122 at 22%; joint 2 people at $170,000 -> $10,800, saves $2,376; full phase-out case checked). Verify passes (480 pages, 0 problems); first build failed the 60-char title check, shortened the title. No browser/375px check. Amount, threshold and rate are inputs because the rule was not confirmed on irs.gov.
 - Deploys of 276/280 not checked from the sandbox. Daily report due after 14:00 UTC.
 - Next cycle: rank 279; backlog has fewer than 8 buildable items, so run a research refill.
+
+## 2026-11-24 ~11:55 UTC — cycle (item 279)
+- Shipped rank 279: marketplace premium after subsidy (/finance/marketplace-subsidy/; $50,000 at 4%, benchmark $9,000, plan $8,400 -> contribution $2,000, subsidy $7,000, net $1,400, $116.67 a month; $9,600 plan -> $2,600; zero-subsidy case $8,400; hand-checked). Verify passes (481 pages, 0 problems); no browser/375px check. Percentage and poverty level are inputs (not checked against healthcare.gov); 400% line flagged as current-law dependent.
+- Roles not delegated. Deploys not checked from the sandbox. Daily report due after 14:00 UTC.
+- Next cycle: fewer than 8 buildable items remain (open: 197, 247, 248, source-check 15/41/159); run a research refill first.
