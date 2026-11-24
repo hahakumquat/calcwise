@@ -1446,3 +1446,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 268: pre-tax contribution cost (/finance/pretax-contribution-cost/; $200 x 26, 22% fed + 5% state -> tax saved $54, take-home cost $146, $3,796 a year for $5,200 saved; hand-checked). Verify passes (467 pages, 0 problems); no browser/375px check. Rates are inputs; FICA not reduced and Roth stated.
 - Roles not delegated. Deploy results (258, 264, 266) not checked from the sandbox. Daily report for 2026-11-23 posted earlier; today's is due after 14:00 UTC.
 - Next cycle: rank 267, 272, 265.
+
+## 2026-11-24 ~03:58 UTC — cycle (item 267)
+- Shipped rank 267: income timing tax shift (/finance/income-timing-tax-shift/; $10,000, 24% vs 22%, 12 months, 4.5% -> rate saving $200, time value $108, deferring $308 better; $5,000 at 22% vs 24% -> $56 worse; hand-checked). Verify passes (468 pages, 0 problems); no browser/375px check. Rates are inputs; deferral rules stated as not computed.
+- Roles not delegated. Deploy results not checked from the sandbox.
+- Next cycle: rank 272, 265, 271.
