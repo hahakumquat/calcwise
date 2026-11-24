@@ -1662,3 +1662,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-24 ~23:56 UTC — cycle (item 308, same cycle)
 - Shipped rank 308: SS earnings test (/finance/social-security-earnings-test/; $50,000 vs $23,400 limit at 1:2 -> $13,300 withheld, $10,700 kept; under-limit and benefit-cap cases hand-checked). Verify passes (512 pages, 0 problems); no browser/375px check. Limit and ratio are user inputs; SSA page linked, not opened; credit-back at full retirement age not modelled (stated).
 - 307 deploy not yet checked. Next cycle: confirm 307/308 green; then 309, 310, 159, 41.
+
+## 2026-11-24 ~23:58 UTC — cycle (item 309, same cycle)
+- Shipped rank 309: home sale exclusion (/finance/home-sale-exclusion/; $1.2M sale, $72k costs, $450k basis, $500k exclusion, 15% -> gain $678,000, taxable $178,000, tax $26,700; fully-excluded and loss cases hand-checked). Verify passes (513 pages, 0 problems); no browser/375px check. Exclusion and rate are user inputs; IRS Topic 701 linked, not opened; state tax, NIIT, partial exclusion and depreciation not modelled (stated).
+- Deploys: 307 green; 308 was queued, 309 not yet checked. Next cycle: confirm 308/309 green; then 310, 159, 41, 311.
