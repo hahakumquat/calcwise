@@ -1647,3 +1647,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-24 ~23:00 UTC — cycle (item 305, same cycle)
 - Shipped rank 305: SS wage base paycheck bump (/finance/ss-wage-base-paycheck-bump/; $250,000 / 26 = $9,615.38, $184,500 base, cap crossed in paycheck 20, 6 checks $596.15 bigger, $11,439 for year; hand-checked). Verify passes (509 pages, 0 problems); no browser/375px check. Wage base is a user input; SSA page linked, not opened.
 - Next cycle: confirm deploys of 303-305 green; then 306, 307, 308, 309, 159, 41.
+
+## 2026-11-24 ~23:01 UTC — cycle (item 306, same cycle)
+- Shipped rank 306: child tax credit with phase-out (/finance/child-tax-credit/; 2 x $2,200, MAGI $420,000 vs $400,000 -> 20 steps x $50 = $1,000 off, credit $3,400; part-step and full phase-out cases hand-checked). Verify passes (510 pages, 0 problems); no browser/375px check. Amounts and thresholds are user inputs; IRS page linked, not opened. Refundable part not modelled (stated).
+- Deploy of 197 was in progress, 303/304 green; 305/306 not yet checked.
+- Next cycle: confirm deploys green; then 307, 308, 309, 159, 41.
