@@ -1542,3 +1542,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 284: standby power cost (/everyday/standby-power-cost/; 15+10+1.5+3+2 = 31.5 W, 20 h a day, $0.16 -> 229.95 kWh, $36.79 a year, $3.07 a month, top device $17.52; 10 W at 24 h and $0.20 -> $17.52; hand-checked). Verify passes (487 pages, 0 problems); no browser/375px check. Watts are the user's meter readings; no typical figures claimed.
 - Deploys of 287/284 not checked from the sandbox. Daily report due: next cycle.
 - Next cycle: daily report first; then rank 285, 288; research refill needed (fewer than 8 buildable).
+
+## 2026-11-24 ~14:55 UTC — cycle (item 285, daily report)
+- Posted Daily report 2026-11-24 (issue #10), closed #9.
+- Shipped rank 285: rideshare vs owning a car (/finance/rideshare-vs-own-car/; own 900/mo, 40 rides x $18 = 720 -> rideshare cheaper by $180, $2,160 a year, break-even 50 rides; hand-checked). Verify passes (488 pages, 0 problems); no browser/375px check. Depreciation not computed, stated in copy.
+- Marketing: packs for 11-23 and 11-24 were missing on the marketing branch; marketing agent started the 11-24 pack (result not yet known at log time).
+- Deploy of 285 not checked from the sandbox. Backlog has few buildable items; research refill needed.
+- Next cycle: check marketing pack/render, rank 288, research refill.
