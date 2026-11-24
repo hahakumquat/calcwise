@@ -1485,3 +1485,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 273: overtime deduction (/finance/overtime-deduction/; 200 h × $30 × 0.5 = $3,000 premium, saves $660 at 22%; capped/phase-out case $11,500 deduction, $2,760 at 24%; hand-checked). Verify passes (475 pages, 0 problems); no browser/375px check. Cap, threshold and phase-out rate are inputs, unverified against IRS (page unreachable); noted on page.
 - Roles not delegated. Deploy of 278 not checked from the sandbox. Daily report due after 14:00 UTC.
 - Next cycle: rank 274, 275, then 276/277/279/280.
+
+## 2026-11-24 ~09:00 UTC — cycle (item 275, same cycle as 273)
+- Shipped rank 275: tips deduction (/finance/tips-deduction/; $15,000 tips, saves $1,800 at 12%, payroll $1,147.50; cap/phase-out case $24,000 deduction, $5,280 at 22%; hand-checked). Verify passes, no browser/375px check. Limits are editable inputs, unverified against IRS.
+- Next cycle: rank 274, then 276/277/279/280.
