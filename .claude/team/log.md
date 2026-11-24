@@ -1618,3 +1618,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Deploy of 298-300 not checked from the sandbox (no gh run access verified); next cycle must confirm the latest run's `deploy` and `verify` are green.
 - Roles not delegated (built directly by lead). No SEO change, no marketing. Daily report already posted (#10).
 - Next cycle: rank 301-304, then 197, 159, 41; research refill when under 8 open.
+
+## 2026-11-24 ~21:56 UTC — cycle (item 301, same cycle)
+- Shipped rank 301: winter mpg penalty (/everyday/winter-mpg-penalty/; 1,000 mi, 30 mpg, 15%, $3.40, 4 months -> winter mpg 25.5, 5.88 gal, $20.00 a month, $80.00 a season; hand-checked). Verify passes (504 pages, 0 problems); no browser/375px check. Drop is the user's estimate; stated on page.
+- Deploys of 300/301 not checked from the sandbox; next cycle must confirm the latest run's `deploy` and `verify` are green.
+- Next cycle: rank 302, 303, 304, then 197, 159, 41; research refill needed after 304.
