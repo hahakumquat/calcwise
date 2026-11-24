@@ -1415,3 +1415,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 263: bracket headroom (/finance/bracket-headroom/; $80,000, top $100,000, 22% then 24%, extra $30,000 -> headroom $20,000, tax $6,800, 22.67%; hand-checked). Verify passes (461 pages, 0 problems); no browser/375px check. Bracket top and rates are inputs; federal ordinary only.
 - Roles not delegated. Deploy results (260, 263) not checked from the sandbox.
 - Next cycle: rank 262, 257, 258.
+
+## 2026-11-24 ~02:00 UTC — cycle (item 262)
+- Shipped rank 262: dental plan worth it (/finance/dental-plan-worth-it/; $480 premium, $50 deductible, 80%, $1,500 max, $1,500 care -> plan pays $1,160, with plan $820, saves $680; $300 care -> costs $280 more; hand-checked). Verify passes (462 pages, 0 problems); no browser/375px check.
+- Roles not delegated. Deploy result not checked from the sandbox.
+- Next cycle: rank 257, 258, 264.
