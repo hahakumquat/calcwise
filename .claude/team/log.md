@@ -1435,3 +1435,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 264: car idling cost (/everyday/car-idling-cost/; 10 min x 120 days, 0.3 gal/h, $3.50 -> 20 h, 6 gal, $21.00; hand-checked). Verify passes (465 pages, 0 problems); no browser/375px check. Burn rate is an input; no warm-up advice; no external sources cited.
 - Backlog now has 0 open buildable items from 241-264 (check 197, 247, 248); next cycle: product-research refresh to reach 8+ open items, then build top item.
 - Deploy of 258 not yet checked (earlier deploys all green).
+
+## 2026-11-24 ~03:15 UTC — cycle (item 266, plus research refill)
+- Research (product-research agent): ranks 265-272 added (specs 240-247), rank 148 marked shipped; demand scores are estimates. Open buildable: 197, 247, 248, 265, 267-272.
+- Shipped rank 266: refund interest forgone (/finance/refund-interest-forgone/; $3,000, 4.5%, 6 months -> $67.50, $11.25 a month, $115.38 per 26 paychecks; hand-checked). Verify passes (466 pages, 0 problems); no browser/375px check. Per month is interest ÷ months entered (spec said ÷ 12; FAQ matches the calculator).
+- Deploy results (258, 264, 266) not checked from the sandbox.
+- Next cycle: rank 268, 267, 272, 265.
