@@ -1580,3 +1580,4 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-24 ~18:00 UTC — cycle (item 291, same cycle)
 - Shipped rank 291: subscription rotation (/finance/subscription-rotation/; $17.99 x 4 and $11.99 x 3 months -> all year $359.76, rotating $107.93, saves $251.83; hand-checked). Verify passes (494 pages, 0 problems); no browser/375px check.
 - Next cycle: rank 292, 293, 294, 295, 296. Deploys of 248/289/290/291 not checked from the sandbox; check first next cycle.
+- Deploy check ~17:57 UTC: run for 248 succeeded; runs for 289/290 were superseded (concurrency cancel) by the run for 291 (031fea2), which was still pending; next cycle must confirm its `deploy` and `verify` jobs are green.
