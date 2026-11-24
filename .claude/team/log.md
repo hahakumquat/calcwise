@@ -1480,3 +1480,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 278: heating fuel cost comparison (/everyday/heating-fuel-cost/; electric $49.82, gas $15.79, propane $36.43, oil $33.98 per MMBtu; COP 3 $16.61; hand-checked). Verify passes (474 pages, 0 problems); no browser/375px check. Energy contents are approximations, stated on the page; EIA not opened.
 - Research refill done: ranks 273-280 added by product-research. Tax items 273-277, 279, 280 rest on WebSearch snippets only (irs.gov unreachable); build them with editable limits and check-before-citing notes. Deploy of 269 green (build, deploy, verify).
 - Next cycle: rank 274/275/273 (tax items, inputs editable), or 197/247/248.
+
+## 2026-11-24 ~08:55 UTC — cycle (item 273)
+- Shipped rank 273: overtime deduction (/finance/overtime-deduction/; 200 h × $30 × 0.5 = $3,000 premium, saves $660 at 22%; capped/phase-out case $11,500 deduction, $2,760 at 24%; hand-checked). Verify passes (475 pages, 0 problems); no browser/375px check. Cap, threshold and phase-out rate are inputs, unverified against IRS (page unreachable); noted on page.
+- Roles not delegated. Deploy of 278 not checked from the sandbox. Daily report due after 14:00 UTC.
+- Next cycle: rank 274, 275, then 276/277/279/280.
