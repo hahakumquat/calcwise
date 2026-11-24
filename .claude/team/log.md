@@ -1576,3 +1576,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-24 ~17:58 UTC — cycle (item 290, same cycle)
 - Shipped rank 290: forgotten free trial cost (/finance/free-trial-forgot-cost/; $14.99 x 5 + $9.99 x 8 = $154.87 paid, $299.76 for 12 months; hand-checked). Verify passes (493 pages, 0 problems); no browser/375px check. Four fixed rows, zero price ignored.
 - Next cycle: rank 291, 292, 293, 294.
+
+## 2026-11-24 ~18:00 UTC — cycle (item 291, same cycle)
+- Shipped rank 291: subscription rotation (/finance/subscription-rotation/; $17.99 x 4 and $11.99 x 3 months -> all year $359.76, rotating $107.93, saves $251.83; hand-checked). Verify passes (494 pages, 0 problems); no browser/375px check.
+- Next cycle: rank 292, 293, 294, 295, 296. Deploys of 248/289/290/291 not checked from the sandbox; check first next cycle.
