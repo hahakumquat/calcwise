@@ -1549,3 +1549,4 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Marketing: packs for 11-23 and 11-24 were missing on the marketing branch; marketing agent started the 11-24 pack (result not yet known at log time).
 - Deploy of 285 not checked from the sandbox. Backlog has few buildable items; research refill needed.
 - Next cycle: check marketing pack/render, rank 288, research refill.
+- Update ~15:05 UTC: marketing pack for 2026-11-24 is complete on the marketing branch (brief, render.mjs, 12 PNGs, posting-guide.md; render workflow green). 11-23 recorded as missed. Deploy of 285 confirmed green. Follow-up for a later cycle: the standby-power-cost bar chart labels only Device 1, 3 and 5 on its x-axis.
