@@ -1524,3 +1524,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 281: state move tax savings (/finance/state-move-tax-savings/; $120,000, 6% vs 0%, rent +$300, move $4,000 -> saves $7,200, housing $3,600, net $3,600 a year, payback 13.3 months; negative-rent case net $2,800; hand-checked). Verify passes (483 pages, 0 problems); no browser/375px check. Rates are effective-rate inputs, no state table.
 - Roles not delegated. Deploys not checked from the sandbox. Daily report due after 14:00 UTC (not yet).
 - Next cycle: rank 283, 282, 287, 284.
+
+## 2026-11-24 ~12:58 UTC — cycle (item 283, same cycle as 281)
+- Shipped rank 283: phone upgrade vs keep (/finance/phone-upgrade-vs-keep/; $999, $300 credit, $150 resale, 3 years -> net $549, $15.25 a month; $89 battery, 1 year -> $7.42; upgrade costs $7.83 more a month, $94 a year; hand-checked). Verify passes (484 pages, 0 problems); no browser/375px check.
+- Next cycle: rank 282, 287, 284, 285; research refill when fewer than 8 buildable remain. Daily report due after 14:00 UTC.
