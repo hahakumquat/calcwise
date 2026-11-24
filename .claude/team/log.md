@@ -1634,3 +1634,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 303: gift tax annual exclusion (/finance/gift-tax-annual-exclusion/; $19,000 x 3 recipients = $57,000, $12,000 given -> $45,000 left, $20,000 planned -> $25,000; over-limit and gift-splitting cases hand-checked). Verify passes (506 pages, 0 problems); no browser/375px check. Exclusion is a user input; IRS FAQ linked as source (not opened).
 - Not delegated (built directly by lead). No SEO change, no marketing. Daily report already posted today.
 - Next cycle: rank 304, then 197, 159, 41; research refill needed after 304 (open items < 8).
+
+## 2026-11-24 ~22:56 UTC — cycle (item 304, same cycle)
+- Shipped rank 304: HSA prorated limit (/finance/hsa-prorated-limit/; $4,400 x 5/12 = $1,833.33, $1,200 in -> $633.33 left; last-month rule -> $3,200; hand-checked). Verify passes (507 pages, 0 problems); no browser/375px check. Limit is a user input; Pub 969 linked (not opened).
+- Next cycle: backlog nearly dry — research refill first, then 197, 159, 41.
