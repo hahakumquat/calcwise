@@ -1588,3 +1588,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 293: trade-in vs private sale (/finance/trade-in-vs-private-sale/; $14,000 offer, $15,500 price, $200 costs, 6% credit, 8 h x $20 -> trade-in $14,840, private $15,300, +$460, +$300 after time; hand-checked). Verify passes (496 pages, 0 problems); no browser/375px check.
 - Roles not delegated (built directly by lead). Daily report already posted (#10).
 - Next cycle: confirm deploy of 292/293 green; rank 294, 295, 296, then 197, 159, 41; research refill when under 8 open.
+
+## 2026-11-24 ~18:57 UTC — cycle (items 294, 295, same cycle)
+- Shipped rank 294: late payment cost (/finance/late-payment-cost/; $850, $35 fee, 29.99%, 10 days -> interest $6.98, cost $41.98, 4.94%, 180.3% annualized; hand-checked). Verify passes (497 pages, 0 problems); no browser/375px check. Simple interest only; stated on page.
+- Shipped rank 295: transit pass break-even (/everyday/transit-pass-break-even/; $127 pass, $2.75 fare -> 47 rides; 44 rides pass costs $6 more; 60 rides saves $38/month, $456/year; hand-checked). Verify passes (498 pages, 0 problems); no browser/375px check.
+- Deploys of 292-295 not checked from the sandbox; next cycle must confirm the latest run's `deploy` and `verify` jobs are green.
+- Next cycle: rank 296, then 197, 159, 41; research refill needed (only 296 left of the new batch).
