@@ -1420,3 +1420,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 262: dental plan worth it (/finance/dental-plan-worth-it/; $480 premium, $50 deductible, 80%, $1,500 max, $1,500 care -> plan pays $1,160, with plan $820, saves $680; $300 care -> costs $280 more; hand-checked). Verify passes (462 pages, 0 problems); no browser/375px check.
 - Roles not delegated. Deploy result not checked from the sandbox.
 - Next cycle: rank 257, 258, 264.
+
+## 2026-11-24 ~02:10 UTC — cycle (item 257)
+- Shipped rank 257: backdoor Roth pro-rata (/finance/backdoor-roth-pro-rata/; $45,000 pre-tax, $7,000 basis, $7,000 converted, 24% -> share 13.46%, taxable $6,057.69, tax $1,453.85; hand-checked). Verify passes; no browser/375px check. Basis is an input; income limits not computed.
+- Roles not delegated. Deploy results (262, 257) not checked from the sandbox.
+- Next cycle: rank 258, 264, then refresh backlog if under 8 open.
