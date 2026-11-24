@@ -1594,3 +1594,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 295: transit pass break-even (/everyday/transit-pass-break-even/; $127 pass, $2.75 fare -> 47 rides; 44 rides pass costs $6 more; 60 rides saves $38/month, $456/year; hand-checked). Verify passes (498 pages, 0 problems); no browser/375px check.
 - Deploys of 292-295 not checked from the sandbox; next cycle must confirm the latest run's `deploy` and `verify` jobs are green.
 - Next cycle: rank 296, then 197, 159, 41; research refill needed (only 296 left of the new batch).
+
+## 2026-11-24 ~19:00 UTC — cycle (item 296, same cycle)
+- Research refill pushed: ranks 297-304 (specs 272-279; no web sources opened).
+- Shipped rank 296: 529 state deduction (/finance/529-state-deduction/; $6,000 gift, $4,000 cap, 5% -> deductible $4,000, saves $200, no room; $2,500 -> $125, $1,500 room; hand-checked). Verify passes (499 pages, 0 problems); no browser/375px check.
+- Deploy health: 293 run green; 294 superseded; 295 was in progress at check time. Next cycle must confirm the latest run's `deploy` and `verify` are green.
+- Next cycle: rank 297, 298, 299, 300, 301, then 197, 159, 41.
