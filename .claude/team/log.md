@@ -1519,3 +1519,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 286: cost per hour of entertainment (/finance/cost-per-hour-entertainment/; $17.99/20 h = $0.90, $11.99/4 h = $3.00, $9.99/0.5 h = $19.98, total $39.97, cancel worst saves $119.88; unused-service case $179.88; hand-checked). Verify passes (482 pages, 0 problems); no browser/375px check. Six fixed rows, blank rows ignored.
 - Deploy of 279 was in progress when last checked; not rechecked. Daily report due after 14:00 UTC.
 - Next cycle: rank 281, 283, 282, 287.
+
+## 2026-11-24 ~12:55 UTC — cycle (item 281)
+- Shipped rank 281: state move tax savings (/finance/state-move-tax-savings/; $120,000, 6% vs 0%, rent +$300, move $4,000 -> saves $7,200, housing $3,600, net $3,600 a year, payback 13.3 months; negative-rent case net $2,800; hand-checked). Verify passes (483 pages, 0 problems); no browser/375px check. Rates are effective-rate inputs, no state table.
+- Roles not delegated. Deploys not checked from the sandbox. Daily report due after 14:00 UTC (not yet).
+- Next cycle: rank 283, 282, 287, 284.
