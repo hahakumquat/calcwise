@@ -1666,3 +1666,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-24 ~23:58 UTC — cycle (item 309, same cycle)
 - Shipped rank 309: home sale exclusion (/finance/home-sale-exclusion/; $1.2M sale, $72k costs, $450k basis, $500k exclusion, 15% -> gain $678,000, taxable $178,000, tax $26,700; fully-excluded and loss cases hand-checked). Verify passes (513 pages, 0 problems); no browser/375px check. Exclusion and rate are user inputs; IRS Topic 701 linked, not opened; state tax, NIIT, partial exclusion and depreciation not modelled (stated).
 - Deploys: 307 green; 308 was queued, 309 not yet checked. Next cycle: confirm 308/309 green; then 310, 159, 41, 311.
+
+## 2026-11-24 ~23:59 UTC — cycle (item 310, same cycle)
+- Shipped rank 310: Saver's Credit (/finance/savers-credit/; $1,500 at 50%, tax $800 -> $750; cap-bound and tax-limited cases hand-checked). Verify passes (514 pages, 0 problems); no browser/375px check. Rate, cap and tax are user inputs; IRS page linked, not opened; eligibility rules not checked (stated).
+- Next cycle: confirm 308-310 deploys green; then 159, 41, 311, 312.
