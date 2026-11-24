@@ -1410,3 +1410,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 260: COBRA vs marketplace (/finance/cobra-vs-marketplace/; 6 mo, $720 vs $410, deductible $200 vs $3,000, spend $3,000 -> COBRA cheaper by $940; spend $1,000 -> marketplace cheaper by $1,060; hand-checked). Verify passes (460 pages, 0 problems); no browser/375px check. Coinsurance and out-of-pocket max stated as not computed.
 - Roles not delegated. Deploy result not checked from the sandbox. Daily report for 2026-11-23 already posted.
 - Next cycle: rank 263, 262, 257.
+
+## 2026-11-24 ~00:55 UTC — cycle (item 263)
+- Shipped rank 263: bracket headroom (/finance/bracket-headroom/; $80,000, top $100,000, 22% then 24%, extra $30,000 -> headroom $20,000, tax $6,800, 22.67%; hand-checked). Verify passes (461 pages, 0 problems); no browser/375px check. Bracket top and rates are inputs; federal ordinary only.
+- Roles not delegated. Deploy results (260, 263) not checked from the sandbox.
+- Next cycle: rank 262, 257, 258.
