@@ -21,7 +21,7 @@ Hook text (0 to 1.5 s): "my stuff is 'off' and still costing me T_T"
 Beats (one still each, reel-01 to reel-05):
 1. 0 to 1.5 s, text card: "my stuff is 'off' and still costing me T_T" (hook, no calculator yet)
 2. 1.5 to 4 s, standby-power-cost inputs (form): "the setup" / "5 idle devices, 31.5 watts total, idle 20 h a day, $0.16 per kWh (example numbers)"
-3. 4 to 7 s, standby result card (stage): "*$36.79* a year doing nothing" / "229.95 kWh for stuff that is 'off'"
+3. 4 to 7 s, standby result card (stage): "*$36.79* a year doing nothing" / "about 230 kWh (229.95) for stuff that is 'off'"
 4. 7 to 10 s, standby chart (cost per device): "one 15 W box is *$17.52* of it" / "a plug-in meter tells you your real watts"
 5. 10 to 12 s, end card: "check your own idle stuff" / cappycalc.com/everyday/standby-power-cost
 Audio mood: sneaky "tiptoe" pizzicato energy that ends on a small deflated trombone-style note on the number, no vocals (royalty-free or in-app trend, no named tracks).
@@ -29,12 +29,12 @@ Caption: the math on idle devices. 5 devices at 15, 10, 1.5, 3 and 2 watts idle 
 Hashtags: #moneytok #frugalliving #vampirepower #electricitybill #relatable #mathmemes
 
 ## 2. Instagram carousel (5 slides, 4:5): "before you buy the new thing, do the per-year math"
-1. Cover: "before you buy the new thing: *3 per-year numbers*" / "(exact inputs on every slide)"
-2. Standby power cost (result card, w1-w5 15/10/1.5/3/2, 20 h, $0.16): "5 idle devices, 31.5 W, = *$36.79 a year* doing nothing" / "229.95 kWh at $0.16 per kWh"
+1. Cover: "before you buy the new thing: *3 per-year numbers*" / "(example inputs, calculator links in the caption)"
+2. Standby power cost (result card, w1-w5 15/10/1.5/3/2, 20 h, $0.16): "5 idle devices, 31.5 W, = *$36.79 a year* doing nothing" / "about 230 kWh at $0.16 per kWh"
 3. Standby power cost (chart, same inputs): "the 15 W one is *$17.52* of that" / "use your own meter readings, these are examples"
 4. Repair vs replace (result card, 350 / 3 / 900 / 10 / 30): "$350 repair for 3 years = *$116.67 a year*, new is $60 a year" / "replacing is $56.67 a year cheaper, but $900 up front"
 5. Phone upgrade vs keep (result card, 999 / 300 / 150 / 3 / 89 / 1): "new phone *$15.25 a month* vs $7.42 for an $89 fix" / "net cost $549 after credit and resale, a $7.83 a month gap"
-Caption: three per-year numbers, inputs on every slide. idle devices: 31.5 W for 20 hours a day at $0.16 per kWh is $36.79 a year. repair vs replace: a $350 repair that buys 3 years is $116.67 a year against $60 a year for a $900 appliance over 10 years with $30 a year in savings. phone: $999 minus $300 credit and $150 resale is $549, $15.25 a month over 3 years vs $7.42 a month for an $89 repair that buys 1 year. example numbers, your lifespans are guesses, not advice. https://cappycalc.com/everyday/standby-power-cost/ https://cappycalc.com/finance/repair-vs-replace/ https://cappycalc.com/finance/phone-upgrade-vs-keep/
+Caption: three per-year numbers, example inputs, listed in the caption. idle devices: 31.5 W for 20 hours a day at $0.16 per kWh is $36.79 a year. repair vs replace: a $350 repair that buys 3 years is $116.67 a year against $60 a year for a $900 appliance over 10 years with $30 a year in savings. phone: $999 minus $300 credit and $150 resale is $549, $15.25 a month over 3 years vs $7.42 a month for an $89 repair that buys 1 year. example numbers, your lifespans are guesses, not advice. https://cappycalc.com/everyday/standby-power-cost/ https://cappycalc.com/finance/repair-vs-replace/ https://cappycalc.com/finance/phone-upgrade-vs-keep/
 Hashtags: #personalfinance #moneytok #frugal #budgeting #financetok
 
 ## 3. X posts
