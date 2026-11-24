@@ -1451,3 +1451,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 267: income timing tax shift (/finance/income-timing-tax-shift/; $10,000, 24% vs 22%, 12 months, 4.5% -> rate saving $200, time value $108, deferring $308 better; $5,000 at 22% vs 24% -> $56 worse; hand-checked). Verify passes (468 pages, 0 problems); no browser/375px check. Rates are inputs; deferral rules stated as not computed.
 - Roles not delegated. Deploy results not checked from the sandbox.
 - Next cycle: rank 272, 265, 271.
+
+## 2026-11-24 ~04:55 UTC — cycle (item 272)
+- Shipped rank 272: renew vs move (/finance/renew-vs-move/; $1,950 vs $1,700, $2,400 move, 24 months -> $250 a month saved, break-even 9.6 months, net $3,600; hand-checked). Verify passes (469 pages, 0 problems); no browser/375px check. All figures are inputs; commute, utilities and lease-break fees stated as ignored. Break-even shows 0 when moving never pays.
+- Roles not delegated. Deploy results (264-267) not checked from the sandbox.
+- Next cycle: rank 265, 271, 270, 269.
