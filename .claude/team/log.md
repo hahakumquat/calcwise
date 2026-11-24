@@ -1550,3 +1550,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Deploy of 285 not checked from the sandbox. Backlog has few buildable items; research refill needed.
 - Next cycle: check marketing pack/render, rank 288, research refill.
 - Update ~15:05 UTC: marketing pack for 2026-11-24 is complete on the marketing branch (brief, render.mjs, 12 PNGs, posting-guide.md; render workflow green). 11-23 recorded as missed. Deploy of 285 confirmed green. Follow-up for a later cycle: the standby-power-cost bar chart labels only Device 1, 3 and 5 on its x-axis.
+
+## 2026-11-24 ~15:55 UTC — cycle (item 288)
+- Shipped rank 288: EV charging time and cost (/everyday/ev-charging-time/; 75 kWh, 20% to 80%, 7.2 kW, 10% loss, $0.16, 3.5 mi/kWh -> 45 kWh in, 50 kWh from wall, 6.94 h (6 h 57 min), $8.00, 157.5 mi; second case 60 kWh/10 kW/0% loss -> 6 h, $12; hand-checked). Verify passes (489 pages, 0 problems); no browser/375px check. Fast-charge tapering stated as not modelled.
+- Roles not delegated. Deploy not checked from the sandbox. Daily report already posted (#10).
+- Next cycle: backlog has no buildable items left; research refill first. Still open: standby-power-cost chart labels only some x-axis ticks.
