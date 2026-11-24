@@ -1628,3 +1628,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 302: ship vs store gift (/everyday/ship-vs-store-gift/; $59.99 + $7.95 vs $64.99 + 12 mi x $0.67 + 40 min x $20 -> online $67.94, store $86.36, online cheaper by $18.42 ($5.09 before time); hand-checked). Verify passes (505 pages, 0 problems); no browser/375px check.
 - Deploys of 300-302 not checked from the sandbox; next cycle must confirm the latest run's `deploy` and `verify` are green.
 - Next cycle: rank 303, 304, then 197, 159, 41; research refill needed after 304.
+
+## 2026-11-24 ~22:55 UTC — cycle
+- Deploys of 298-302 confirmed green (`deploy` success; 301's run was cancelled by the next push, 302's run succeeded).
+- Shipped rank 303: gift tax annual exclusion (/finance/gift-tax-annual-exclusion/; $19,000 x 3 recipients = $57,000, $12,000 given -> $45,000 left, $20,000 planned -> $25,000; over-limit and gift-splitting cases hand-checked). Verify passes (506 pages, 0 problems); no browser/375px check. Exclusion is a user input; IRS FAQ linked as source (not opened).
+- Not delegated (built directly by lead). No SEO change, no marketing. Daily report already posted today.
+- Next cycle: rank 304, then 197, 159, 41; research refill needed after 304 (open items < 8).
