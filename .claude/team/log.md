@@ -1494,3 +1494,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 274: car loan interest deduction (/finance/car-loan-interest-deduction/; $40,000 at 7% over 60 months, payment $792.05, year-1 interest $2,580.66, saves $567.74 at 22%; capped/phase-out case deduction $800, saves $192; year 2 interest $2,080.13; checked by script and closed form). Verify passes (477 pages, 0 problems); no browser/375px check. Cap, threshold and phase-out are inputs, unverified against IRS (irs.gov unreachable); qualification not checked, stated on page.
 - Roles not delegated (lead built directly; no spec file existed). Deploy results not checked from the sandbox. Daily report due after 14:00 UTC. A `git reset --hard` was blocked by the sandbox classifier; used fast-forward merge instead.
 - Next cycle: rank 276, 277, 279, 280.
+
+## 2026-11-24 ~10:05 UTC — cycle (item 277, same cycle as 274)
+- Shipped rank 277: capital loss carryover schedule (/finance/capital-loss-carryover/; $50,000 loss, no gains, $3,000 limit -> 17 years, saves $12,000 at 24%; $20,000 with $5,000 gains a year -> 3 years, saves $3,540; hand-checked). Verify passes (478 pages, 0 problems); no browser/375px check. Simplifications (one pool, flat gains and rates) stated on page.
+- Next cycle: rank 276, 279, 280; research refill when fewer than 8 buildable items remain. Deploys of 274/277 not checked from the sandbox. Daily report due after 14:00 UTC.
