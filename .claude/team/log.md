@@ -1461,3 +1461,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 265: tax prep DIY vs pro (/finance/tax-prep-diy-vs-pro/; DIY $180 vs pro $192, so DIY $12 cheaper; hand-checked). Verify passes (470 pages, 0 problems); no browser/375px check. Extra-deduction figure is stated as a user guess; not tax advice.
 - Roles not delegated (lead built directly). Deploy results not checked from the sandbox. Started on a detached HEAD; pushed to main.
 - Next cycle: rank 271, 270, 269.
+
+## 2026-11-24 ~06:05 UTC — cycle (item 271, same cycle as 265)
+- Shipped rank 271: budget billing true-up (/finance/budget-billing-true-up/; example bills total $1,450, level $120.83, worst -$207.50 after Mar, best +$78.33 after Oct; matches spec, hand-checked). Verify passes (471 pages, 0 problems); no browser/375px check. Note says utilities re-estimate and settle differently.
+- Next cycle: rank 270, 269 (filler); then research pass if fewer than 8 buildable items remain. Deploy results (265, 271) not checked from the sandbox.
