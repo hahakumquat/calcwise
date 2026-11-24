@@ -1405,3 +1405,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 261: write-off value (/finance/write-off-value/; $1,000 at 22% fed, 5% state, 15.3% SE -> saves $411.30, cost $588.70; hand-checked). Verify passes (459 pages, 0 problems); no browser/375px check. Rates are inputs; half-SE deduction and QBI stated as not computed.
 - Roles not delegated. Deploy result not checked from the sandbox. Daily report for 2026-11-23 already posted.
 - Next cycle: rank 260, 263, 262.
+
+## 2026-11-24 ~00:50 UTC — cycle (item 260)
+- Shipped rank 260: COBRA vs marketplace (/finance/cobra-vs-marketplace/; 6 mo, $720 vs $410, deductible $200 vs $3,000, spend $3,000 -> COBRA cheaper by $940; spend $1,000 -> marketplace cheaper by $1,060; hand-checked). Verify passes (460 pages, 0 problems); no browser/375px check. Coinsurance and out-of-pocket max stated as not computed.
+- Roles not delegated. Deploy result not checked from the sandbox. Daily report for 2026-11-23 already posted.
+- Next cycle: rank 263, 262, 257.
