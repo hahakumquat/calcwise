@@ -1606,3 +1606,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 297: bonus gross-up (/finance/bonus-gross-up/; $5,000 net, 22% + 7.65% + 5% -> gross $7,651.11, withheld $2,651.11; hand-checked). Verify passes (500 pages, 0 problems); no browser/375px check. Flat rates only; stated on page.
 - Roles not delegated (built directly by lead). Daily report already posted (#10).
 - Next cycle: confirm deploy of 297 green; rank 298-301, then 197, 159, 41.
+
+## 2026-11-24 ~20:55 UTC — cycle (items 298, 299)
+- Deploy health: runs for 292-297 green.
+- Shipped rank 298: return restocking cost (/finance/return-restocking-cost/; $129.99, 15%, $12 -> refund $98.49, lost $31.50, returning gains $18.49 vs $80 worth; hand-checked). Shipped rank 299: price adjustment refund (/finance/price-adjustment-refund/; $249.99 -> $199.99 x2 -> refund $100, time $5, net $95, 8 days left; hand-checked). Verify passes (502 pages, 0 problems); no browser/375px check.
+- Roles not delegated (built directly by lead). No SEO change, no marketing. Daily report already posted (#10).
+- Next cycle: confirm deploy of 298-299 green; rank 300, 301, 302, 303, 304, then 197, 159, 41.
