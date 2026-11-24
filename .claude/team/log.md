@@ -1456,3 +1456,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 272: renew vs move (/finance/renew-vs-move/; $1,950 vs $1,700, $2,400 move, 24 months -> $250 a month saved, break-even 9.6 months, net $3,600; hand-checked). Verify passes (469 pages, 0 problems); no browser/375px check. All figures are inputs; commute, utilities and lease-break fees stated as ignored. Break-even shows 0 when moving never pays.
 - Roles not delegated. Deploy results (264-267) not checked from the sandbox.
 - Next cycle: rank 265, 271, 270, 269.
+
+## 2026-11-24 ~05:55 UTC — cycle (item 265)
+- Shipped rank 265: tax prep DIY vs pro (/finance/tax-prep-diy-vs-pro/; DIY $180 vs pro $192, so DIY $12 cheaper; hand-checked). Verify passes (470 pages, 0 problems); no browser/375px check. Extra-deduction figure is stated as a user guess; not tax advice.
+- Roles not delegated (lead built directly). Deploy results not checked from the sandbox. Started on a detached HEAD; pushed to main.
+- Next cycle: rank 271, 270, 269.
