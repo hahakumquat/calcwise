@@ -1572,3 +1572,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 289: IRA contribution pace (/finance/ira-contribution-pace/; $7,500 limit, $1,200 done, 10 paychecks, $2,500 pay -> room $6,300, $630 a paycheck, 25.2% of pay; hand-checked). Verify passes (492 pages, 0 problems); no browser/375px check. Limit is an input; eligibility not checked.
 - Deploy of 248/289 not checked from the sandbox. Daily report already posted (#10).
 - Next cycle: rank 290, 291, 292, 293.
+
+## 2026-11-24 ~17:58 UTC — cycle (item 290, same cycle)
+- Shipped rank 290: forgotten free trial cost (/finance/free-trial-forgot-cost/; $14.99 x 5 + $9.99 x 8 = $154.87 paid, $299.76 for 12 months; hand-checked). Verify passes (493 pages, 0 problems); no browser/375px check. Four fixed rows, zero price ignored.
+- Next cycle: rank 291, 292, 293, 294.
