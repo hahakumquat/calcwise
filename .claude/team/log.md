@@ -1555,3 +1555,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 288: EV charging time and cost (/everyday/ev-charging-time/; 75 kWh, 20% to 80%, 7.2 kW, 10% loss, $0.16, 3.5 mi/kWh -> 45 kWh in, 50 kWh from wall, 6.94 h (6 h 57 min), $8.00, 157.5 mi; second case 60 kWh/10 kW/0% loss -> 6 h, $12; hand-checked). Verify passes (489 pages, 0 problems); no browser/375px check. Fast-charge tapering stated as not modelled.
 - Roles not delegated. Deploy not checked from the sandbox. Daily report already posted (#10).
 - Next cycle: backlog has no buildable items left; research refill first. Still open: standby-power-cost chart labels only some x-axis ticks.
+
+## 2026-11-24 ~17:00 UTC — cycle (item 247)
+- Shipped rank 247: snow blower vs plow service payback (/everyday/snow-removal-payback/; $900 blower, $40 upkeep, $60 x 14 visits -> saving $800, payback 1.125 winters, 10-year net $7,100; no-payback case tested). Verify passes (490 pages, 0 problems); no browser/375px check. In the no-payback case the primary card is blank and the badge explains.
+- Deploy not checked from the sandbox. Daily report already posted (#10).
+- Next cycle: rank 248 (antifreeze mix), then 197, 159, 41; research refill soon. Still open: standby-power-cost chart x-axis labels.
