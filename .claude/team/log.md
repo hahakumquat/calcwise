@@ -1560,3 +1560,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 247: snow blower vs plow service payback (/everyday/snow-removal-payback/; $900 blower, $40 upkeep, $60 x 14 visits -> saving $800, payback 1.125 winters, 10-year net $7,100; no-payback case tested). Verify passes (490 pages, 0 problems); no browser/375px check. In the no-payback case the primary card is blank and the badge explains.
 - Deploy not checked from the sandbox. Daily report already posted (#10).
 - Next cycle: rank 248 (antifreeze mix), then 197, 159, 41; research refill soon. Still open: standby-power-cost chart x-axis labels.
+
+## 2026-11-24 ~17:55 UTC — cycle (item 248)
+- Shipped rank 248: antifreeze mix (/everyday/antifreeze-mix/; 10 L at 30% -> 50% drains 2.857 L of mix, refill with pure antifreeze; 10 L at 80% -> 50% drains 3.75 L, refill with water; hand-checked). Verify passes (491 pages, 0 problems); no browser/375px check. No freeze temperatures claimed; manufacturer named as the authority.
+- Deploy health: runs for 4809986, 8e1c95b, 44f1400 all green (build, deploy, verify).
+- Research refill (ranks 289-296) delegated to product-research; result not known at log time.
+- Roles otherwise not delegated; deploy of 248 not checked from the sandbox.
