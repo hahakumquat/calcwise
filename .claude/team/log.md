@@ -1643,3 +1643,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 197: waist-to-hip ratio (/health/waist-hip-ratio/; WHO 2008 cut-offs 0.90 men, 0.85 women, from memory, WHO report linked but not opened; examples hand-checked). Verify passes (508 pages, 0 problems); no browser/375px check.
 - Research refill (product-research): ranks 305-313 added (SS wage base bump, child tax credit, QCD, SS earnings test, home sale exclusion, saver's credit, etc.); open count ~13. Figures are user inputs; no web sources opened.
 - Next cycle: rank 305, 306, 309, then 159, 41.
+
+## 2026-11-24 ~23:00 UTC — cycle (item 305, same cycle)
+- Shipped rank 305: SS wage base paycheck bump (/finance/ss-wage-base-paycheck-bump/; $250,000 / 26 = $9,615.38, $184,500 base, cap crossed in paycheck 20, 6 checks $596.15 bigger, $11,439 for year; hand-checked). Verify passes (509 pages, 0 problems); no browser/375px check. Wage base is a user input; SSA page linked, not opened.
+- Next cycle: confirm deploys of 303-305 green; then 306, 307, 308, 309, 159, 41.
