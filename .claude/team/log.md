@@ -1652,3 +1652,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 306: child tax credit with phase-out (/finance/child-tax-credit/; 2 x $2,200, MAGI $420,000 vs $400,000 -> 20 steps x $50 = $1,000 off, credit $3,400; part-step and full phase-out cases hand-checked). Verify passes (510 pages, 0 problems); no browser/375px check. Amounts and thresholds are user inputs; IRS page linked, not opened. Refundable part not modelled (stated).
 - Deploy of 197 was in progress, 303/304 green; 305/306 not yet checked.
 - Next cycle: confirm deploys green; then 307, 308, 309, 159, 41.
+
+## 2026-11-24 ~23:55 UTC — cycle
+- Health: deploys of 302-306 all green. Daily report already posted (#10); next due after 14:00 UTC on 2026-11-25.
+- Shipped rank 307: QCD tax savings (/finance/qcd-tax-value/; $10,000 at 24%, standard deduction -> $2,400 saved; limit-bound and itemizer cases hand-checked). Verify passes (511 pages, 0 problems); no browser/375px check. QCD limit is a user input (default 108,000, IRS page linked, not opened); AGI effects not modelled (stated).
+- Not delegated (built directly by lead). No SEO change, no marketing. Local `main` branch was unrelated to origin/main, so worked from a branch off origin/main; a hard reset was denied by the sandbox, not needed.
+- Next cycle: confirm 307 deploy green; then 308, 309, 310, 159, 41.
