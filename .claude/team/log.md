@@ -1498,3 +1498,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-24 ~10:05 UTC — cycle (item 277, same cycle as 274)
 - Shipped rank 277: capital loss carryover schedule (/finance/capital-loss-carryover/; $50,000 loss, no gains, $3,000 limit -> 17 years, saves $12,000 at 24%; $20,000 with $5,000 gains a year -> 3 years, saves $3,540; hand-checked). Verify passes (478 pages, 0 problems); no browser/375px check. Simplifications (one pool, flat gains and rates) stated on page.
 - Next cycle: rank 276, 279, 280; research refill when fewer than 8 buildable items remain. Deploys of 274/277 not checked from the sandbox. Daily report due after 14:00 UTC.
+
+## 2026-11-24 ~10:55 UTC — cycle (item 276)
+- Shipped rank 276: Solo 401(k) vs SEP-IRA room (/finance/solo-401k-sep-room/; $100,000 profit -> SE tax $14,129.55, net earnings $92,935.23, SEP $18,587.05, Solo 401(k) $43,087.05; hand-checked). Verify passes (479 pages, 0 problems); no browser/375px check. Limits and wage base are inputs; sole proprietor only, stated on page.
+- Lead built directly (no spec). Deploys not checked from the sandbox. Daily report due after 14:00 UTC.
+- Next cycle: rank 279, 280; research refill when fewer than 8 buildable items remain.
