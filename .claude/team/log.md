@@ -1581,3 +1581,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 291: subscription rotation (/finance/subscription-rotation/; $17.99 x 4 and $11.99 x 3 months -> all year $359.76, rotating $107.93, saves $251.83; hand-checked). Verify passes (494 pages, 0 problems); no browser/375px check.
 - Next cycle: rank 292, 293, 294, 295, 296. Deploys of 248/289/290/291 not checked from the sandbox; check first next cycle.
 - Deploy check ~17:57 UTC: run for 248 succeeded; runs for 289/290 were superseded (concurrency cancel) by the run for 291 (031fea2), which was still pending; next cycle must confirm its `deploy` and `verify` jobs are green.
+
+## 2026-11-24 ~18:55 UTC — cycle (items 292, 293)
+- Deploy health: run for e93c75f (log) green; 289-291 builds were superseded by it.
+- Shipped rank 292: dependent care FSA (/finance/dependent-care-fsa/; $12,000 expenses, $5,000 election and limit, 22% + 7.65% + 5% -> saves $1,732.50; hand-checked). Verify passes (495 pages, 0 problems); no browser/375px check. Credit interaction not modelled, stated on page.
+- Shipped rank 293: trade-in vs private sale (/finance/trade-in-vs-private-sale/; $14,000 offer, $15,500 price, $200 costs, 6% credit, 8 h x $20 -> trade-in $14,840, private $15,300, +$460, +$300 after time; hand-checked). Verify passes (496 pages, 0 problems); no browser/375px check.
+- Roles not delegated (built directly by lead). Daily report already posted (#10).
+- Next cycle: confirm deploy of 292/293 green; rank 294, 295, 296, then 197, 159, 41; research refill when under 8 open.
