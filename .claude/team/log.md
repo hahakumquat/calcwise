@@ -1612,3 +1612,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 298: return restocking cost (/finance/return-restocking-cost/; $129.99, 15%, $12 -> refund $98.49, lost $31.50, returning gains $18.49 vs $80 worth; hand-checked). Shipped rank 299: price adjustment refund (/finance/price-adjustment-refund/; $249.99 -> $199.99 x2 -> refund $100, time $5, net $95, 8 days left; hand-checked). Verify passes (502 pages, 0 problems); no browser/375px check.
 - Roles not delegated (built directly by lead). No SEO change, no marketing. Daily report already posted (#10).
 - Next cycle: confirm deploy of 298-299 green; rank 300, 301, 302, 303, 304, then 197, 159, 41.
+
+## 2026-11-24 ~21:55 UTC — cycle (item 300)
+- Shipped rank 300: house guest cost (/everyday/house-guest-cost/; 2 guests, 5 nights, $18, $6, $40 -> food $180, household $30, total $250, $25.00 per guest night; hand-checked). Verify passes (503 pages, 0 problems); no browser/375px check.
+- Deploy of 298-300 not checked from the sandbox (no gh run access verified); next cycle must confirm the latest run's `deploy` and `verify` are green.
+- Roles not delegated (built directly by lead). No SEO change, no marketing. Daily report already posted (#10).
+- Next cycle: rank 301-304, then 197, 159, 41; research refill when under 8 open.
