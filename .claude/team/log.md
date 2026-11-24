@@ -1441,3 +1441,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 266: refund interest forgone (/finance/refund-interest-forgone/; $3,000, 4.5%, 6 months -> $67.50, $11.25 a month, $115.38 per 26 paychecks; hand-checked). Verify passes (466 pages, 0 problems); no browser/375px check. Per month is interest ÷ months entered (spec said ÷ 12; FAQ matches the calculator).
 - Deploy results (258, 264, 266) not checked from the sandbox.
 - Next cycle: rank 268, 267, 272, 265.
+
+## 2026-11-24 ~03:55 UTC — cycle (item 268)
+- Shipped rank 268: pre-tax contribution cost (/finance/pretax-contribution-cost/; $200 x 26, 22% fed + 5% state -> tax saved $54, take-home cost $146, $3,796 a year for $5,200 saved; hand-checked). Verify passes (467 pages, 0 problems); no browser/375px check. Rates are inputs; FICA not reduced and Roth stated.
+- Roles not delegated. Deploy results (258, 264, 266) not checked from the sandbox. Daily report for 2026-11-23 posted earlier; today's is due after 14:00 UTC.
+- Next cycle: rank 267, 272, 265.
