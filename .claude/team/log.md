@@ -1741,3 +1741,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - SEO: social-security-taxable gets 3 FAQs (tax torpedo, 85% cap income, Roth/QCD) and 2 related links; 85% cap figure ($40,706 other income at $24,000 benefits) hand-checked.
 - Shipped rank 322: withholding adjuster (/finance/withholding-adjuster/; owe $1,800, 12 checks -> +$150.00; refund -$2,400 wanting $400, 26 checks -> -$76.92 hand-checked). Verify passes (527 pages, 0 problems); no browser/375px check.
 - Next cycle: confirm deploy green; then 323, 324, 325. Daily report due after 14:00 UTC.
+
+## 2026-11-25 ~09:55 UTC — cycle
+- Shipped ranks 323 and 324: meal plan value (/finance/meal-plan-value/; $2,400, 150 meals, 105 used, $9 -> $16.00 / $22.86, plan costs $1,455.00 more; $1,800/180/170/$11 saves $70) and student work hours gap (/finance/student-work-hours-gap/; $5,200, $15, 10%, 15 wks -> 385.19 h, 25.68 h/wk; $1,200, $18, 8%, 12 wks -> 72.46 h, 6.04 h/wk), all hand-checked. Verify passes (529 pages, 0 problems); no browser/375px check. Related slugs checked.
+- Built directly by lead; no SEO/marketing this cycle. Daily report due after 14:00 UTC.
+- Next cycle: confirm deploys green; then 325 (student loan interest deduction), 326+.
