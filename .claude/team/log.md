@@ -1841,3 +1841,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - SEO: extra FAQs and related links on mortgage and refinance (figures from existing examples).
 - Verify passes (553 pages, 0 problems); no browser/375px check. Local sandbox `main` is diverged (50 stale commits), so cycles build in a worktree off origin/main; do not push local main.
 - Next cycle: confirm deploy green; take 347, 349, 351, then 350.
+
+## 2026-11-25 ~18:10 UTC — cycle (items 347, 349, 351, second batch)
+- Shipped rank 347: tuition payment plan cost (/finance/tuition-payment-plan-cost/; $6,000, $50 fee, 5 instalments, 4% -> avg balance $3,600, fee APR 3.33%, net -$10). Rank 349: underpayment penalty (/finance/underpayment-penalty-estimate/; $20,000 annual, paid 4k/5k/3k/5k, 300/240/150/90 days, 8% -> $131.51 simple-interest estimate; Form 2210 differs, said on page). Rank 351: VO2 max estimate (/health/vo2max-estimate/; Uth 190/60 -> 48.45, Cooper 2,400 m -> 42.37).
+- Source note: PubMed links for Uth 2004 and Cooper 1968 on vo2max-estimate not opened (pubmed.ncbi.nlm.nih.gov does not resolve here); recheck when reachable.
+- Verify passes (556 pages, 0 problems); no browser/375px check.
+- Next cycle: confirm deploys green; take 350 (low value), then product-research refill (only 1 open).
