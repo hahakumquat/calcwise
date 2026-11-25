@@ -1795,3 +1795,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-25 ~13:10 UTC — cycle (item 332, same cycle)
 - Shipped rank 332: dishwasher vs hand wash (/everyday/dishwasher-vs-hand-wash/; 4 gal/0.9 kWh vs 15 gal/1.5 kWh at $0.005 and $0.16 -> $0.164 vs $0.315, saves $39.26/yr at 5 loads/wk; second case hand washing cheaper by $7.28/yr, hand-checked). Verify passes (539 pages, 0 problems); no browser/375px check. ENERGY STAR page linked, not opened.
 - Cycle total: ranks 330, 333, 336, 332 shipped. Next cycle: confirm deploys green (#498+); take 337, 334, 335; backlog has ~3 open so product-research should refill. Daily report due after 14:00 UTC (next cycle).
+
+## 2026-11-25 ~13:55 UTC — cycle (item 337)
+- Health: deploys through #497+ green (333 run cancelled by concurrency, superseded by later pushes).
+- Shipped rank 337: oven vs air fryer vs slow cooker cost (/everyday/cook-appliance-cost/; 2400 W/60 min, 1500 W/25 min, 200 W/8 h at $0.16 -> $0.384, $0.10, $0.256; air fryer saves $44.30/yr at 3 meals/wk, hand-checked). Verify passes (540 pages, 0 problems); no browser/375px check. No external sources.
+- Open items left: 334, 335 (low fit filler); backlog nearly dry, so next cycle: product-research refill, take 334/335. Daily report due in the first cycle that starts after 14:00 UTC (next one).
