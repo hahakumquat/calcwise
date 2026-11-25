@@ -1718,3 +1718,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Health: deploy #478 (rank 315) green; #479/#480 (316/317) in progress when last checked.
 - Shipped rank 318: calorie surplus for a lean bulk (/health/calorie-surplus-bulk/; 2,600 + 300 -> 2,900 kcal, 0.6 lb/wk, 7.2 lb in 12 wks; 250 x 8 wks -> 4 lb hand-checked). Verify passes (523 pages, 0 problems); no browser/375px check. Maintenance kcal and 3,500 rule are user inputs; CDC and NIH pages linked, not opened. Note: the build does not validate `related` slugs, so a dead link slipped into 316 once (fixed before push) — check them by hand.
 - Next cycle: confirm 316-318 deploys green; then 319-321, marketing brief. Daily report due after 14:00 UTC.
+
+## 2026-11-25 ~06:55 UTC — cycle
+- Health: deploys #478-482 (315-318) green.
+- Shipped rank 319: cycling power to weight (/sports/cycling-power-to-weight/; 260 W x 95% -> FTP 247 W, 3.29 W/kg at 75 kg; direct FTP 250 W -> 3.33 W/kg hand-checked). Verify passes (524 pages, 0 problems); no browser/375px check. Test factor is a user input; Wikipedia FTP page linked, not opened. Related slugs checked by hand.
+- Built directly by lead; no SEO/marketing this cycle. Daily report due after 14:00 UTC.
+- Next cycle: confirm 319 deploy green; then 320, 321, marketing brief.
