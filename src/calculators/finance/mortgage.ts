@@ -132,9 +132,11 @@ export default defineCalculator({
       { q: 'How much of my income should go to the mortgage?', a: 'A common guideline is to keep the full housing payment under 28% of gross monthly income and all debt payments under 36%. Lenders may approve more, but staying under these levels leaves room for savings and surprises.' },
       { q: 'Is it worth putting 20% down?', a: 'Putting 20% down avoids PMI and lowers the payment, but it is not required. If a large down payment would empty your emergency fund, a smaller one with PMI for a few years can be the safer choice.' },
       { q: 'Why will my real payment differ from this estimate?', a: 'Escrow amounts change when tax bills and insurance premiums change, and lenders may hold a cushion in escrow. Your Loan Estimate shows the exact figures for your loan.' },
+      { q: 'When does this calculator add PMI?', a: 'It adds PMI whenever the loan is more than 80% of the home price, meaning less than 20% down. The monthly charge is the loan amount times your PMI rate, divided by 12. For example, $300,000 with $30,000 down at a 0.6% PMI rate adds $135 a month. At exactly 20% down or more, PMI is zero.' },
+      { q: 'How much interest will I pay over a 30-year mortgage?', a: 'Total interest is the principal-and-interest payment times the number of payments, minus the loan. On a $400,000 home with 20% down at 6.5% over 30 years, the payment is about $2,022.62 and total interest is roughly $408,000, more than the $320,000 borrowed.' },
     ],
   },
-  related: ['home-affordability', 'refinance', 'loan', 'apr', 'income-tax', 'arm-payment-reset'],
+  related: ['home-affordability', 'refinance', 'loan', 'apr', 'income-tax', 'arm-payment-reset', 'extra-mortgage-payment', 'biweekly-mortgage', 'mortgage-points', 'rent-vs-buy'],
   examples: [
     {
       values: { price: 400000, downType: 'percent', downPercent: 20, downAmount: null, rate: 6.5, term: 30 * YEAR_S, taxRate: 1.1, insurance: 1800, hoa: null, pmiRate: 0.5 },

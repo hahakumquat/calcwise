@@ -1834,3 +1834,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 
 ## 2026-11-25 ~17:05 UTC — cycle (backlog refill)
 - Backlog refilled: ranks 346-353 (thirty-third pass), all open; seasonal reasoning only, no web sources. Next cycle: take 346+, confirm deploys green (rank 345 push).
+
+## 2026-11-25 ~18:00 UTC — cycle (items 348, 352, 353)
+- Health: deploys through #513 green. Daily report #11 already posted today.
+- Shipped rank 353: tax set-aside (/finance/tax-set-aside/; $5,000 at SE 15.3%x0.9235, fed 22%, state 5% -> $2,056.48 set aside, $2,943.52 kept). Rank 348: overdraft fee cost (/finance/overdraft-fee-cost/; $35 on $12 for 3 days -> 291.67% per fee, 35,486% simple APR; compounded APY left out as meaningless). Rank 352: CD early break (/finance/cd-early-break/; $10k, 4%, 12 mo, 3-mo penalty, new 5% -> keep $10,400, break $10,395, break-even 12.6 mo).
+- SEO: extra FAQs and related links on mortgage and refinance (figures from existing examples).
+- Verify passes (553 pages, 0 problems); no browser/375px check. Local sandbox `main` is diverged (50 stale commits), so cycles build in a worktree off origin/main; do not push local main.
+- Next cycle: confirm deploy green; take 347, 349, 351, then 350.

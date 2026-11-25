@@ -98,9 +98,11 @@ export default defineCalculator({
       { q: 'How much does the rate need to drop to make refinancing worthwhile?', a: 'There is no fixed rule. A drop of 0.75–1 percentage point is a common starting point, but what matters is whether the break-even point comes well before you expect to sell or pay off the loan.' },
       { q: 'Should I roll closing costs into the loan?', a: 'Rolling them in avoids paying cash now, but you pay interest on them for the life of the loan and the balance grows. If you can pay them upfront, the long-run cost is lower.' },
       { q: 'Does this include taxes and insurance?', a: 'No. Property tax and insurance usually stay the same after a refinance, so the comparison uses principal and interest only.' },
+      { q: 'How is the break-even point calculated here?', a: 'It is the closing costs divided by the drop in monthly principal-and-interest payment, rounded up to whole months. With the defaults ($5,000 costs, payment falling from $1,766.95 to $1,458.93, a saving of $308.02), break-even is 17 months.' },
+      { q: 'Can a lower payment still cost more overall?', a: 'Yes. Moving from 25 years left to a new 30-year loan lowers the payment but adds five years of interest. In the default example the lifetime cost is about $131 more, even though you save $308 a month. The lifetime figure counts the new payments plus cash costs, minus the remaining payments on the old loan.' },
     ],
   },
-  related: ['mortgage', 'home-affordability', 'apr', 'loan'],
+  related: ['mortgage', 'home-affordability', 'apr', 'loan', 'mortgage-points', 'extra-mortgage-payment', 'arm-payment-reset', 'loan-comparison'],
   examples: [
     {
       values: { balance: 250000, currentRate: 7, remaining: 25 * YEAR_S, newRate: 5.75, newTerm: 30 * YEAR_S, costs: 5000, rollCosts: 'cash' },
