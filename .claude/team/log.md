@@ -1847,3 +1847,6 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Source note: PubMed links for Uth 2004 and Cooper 1968 on vo2max-estimate not opened (pubmed.ncbi.nlm.nih.gov does not resolve here); recheck when reachable.
 - Verify passes (556 pages, 0 problems); no browser/375px check.
 - Next cycle: confirm deploys green; take 350 (low value), then product-research refill (only 1 open).
+
+## 2026-11-25 ~18:20 UTC — cycle (backlog refill)
+- Backlog refilled: ranks 354-361 (all open; seasonal reasoning, one CFPB search snippet). Rank 350 still open (low value). Deploy #515 green; #517 queued at last check. Next cycle: confirm #517 green, take 361, 360, 354, 355.
