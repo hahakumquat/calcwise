@@ -1683,3 +1683,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Marketing: brief for 2026-11-25 pushed to `marketing`; media agent rendering the PNG pack (result to be checked next cycle).
 - SEO: not run this cycle. Daily report due after 14:00 UTC.
 - Next cycle: confirm 311 deploy green; check media pack; then 41, 312, 313.
+
+## 2026-11-25 ~02:55 UTC — cycle
+- Health: deploys #464-473 green (rank 311 deploy green).
+- Shipped rank 312: American Opportunity credit (/finance/aotc-credit/; $5,000 expenses, MAGI $85,000 in $80k-$90k -> full $2,500, 50% kept, credit $1,250, refundable $500; small-expense and fully-phased-out cases hand-checked). Verify passes (517 pages, 0 problems); no browser/375px check. Tiers, range and refundable share are user inputs; IRS AOTC page linked, not opened; four-year limit not checked (stated).
+- Not delegated (built directly by lead). No SEO change. Media pack for 2026-11-25 not re-checked this cycle.
+- Next cycle: confirm 312 deploy green; check media pack; then 41, 313.
