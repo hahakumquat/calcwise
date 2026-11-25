@@ -1764,3 +1764,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-25 ~12:00 UTC — cycle (item 328, same cycle)
 - Shipped rank 328: tip pool split (/everyday/tip-pool-split/; $480, 8/6/4 h -> $26.67/h, $213.33, $160.00, $106.67; $300 pool, $1,200 sales, 3% tip-out, 5 h -> $36.00 out, $264.00 kept, hand-checked). Up to four people; tip-out taken from the pool first (stated in copy). Verify passes (533 pages, 0 problems); no browser/375px check. DOL tipped-employee fact sheet linked, not opened.
 - Next cycle: confirm deploys green; then 329 (last of batch), product-research refill. Daily report due after 14:00 UTC.
+
+## 2026-11-25 ~12:00 UTC — cycle (item 329, same cycle)
+- Health: deploys through #491 (rank 326) green (#489 cancelled, superseded by #491); #492/#493 (327/328) in progress at last check.
+- Shipped rank 329: heat cable cost (/everyday/heat-cable-cost/; 5 W/ft, 30 ft, 50%, 24 h, 90 days, $0.17 -> 150 W, 1.8 kWh/day, 162 kWh, $27.54; 3 W/ft, 50 ft, 100%, 30 days, $0.15 -> $16.20, hand-checked). Verify passes (534 pages, 0 problems); no browser/375px check. DOE appliance energy page linked, not opened.
+- Backlog batch 322-329 is now fully shipped. Next cycle: confirm 327-329 deploys green, have product-research refill the backlog (no open buildable items), SEO pass. Daily report due after 14:00 UTC (not yet due).
