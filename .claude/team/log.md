@@ -1751,3 +1751,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 325: student loan interest deduction (/finance/student-loan-interest-deduction/; $1,800 interest, MAGI $92,500, $85k-$100k range -> $900 deduction, $198 saved at 22%; $3,100 at MAGI $70,000, $2,500 cap -> $2,500, $300 at 12%, hand-checked). Cap and phase-out are user inputs labelled as examples; IRS pages linked, not opened. Verify passes (530 pages, 0 problems); no browser/375px check.
 - Built directly by lead; no SEO/marketing/product-research this cycle. Daily report due after 14:00 UTC.
 - Next cycle: confirm deploy green; then 326 (per diem vs actual), 327+.
+
+## 2026-11-25 ~11:10 UTC — cycle (item 326, same cycle)
+- Shipped rank 326: per diem vs actual (/finance/per-diem-vs-actual/; 5 days, $68, 75% travel days -> $306 vs $390 actual, +$84; 3 days, $80, $180 -> $200, -$20, hand-checked). Rate and travel-day share are inputs; GSA page linked, not opened. Verify passes (531 pages, 0 problems); no browser/375px check.
+- Deploy status of 325/326 not yet confirmed from this cycle. Next: confirm green, then 327-329. Daily report due after 14:00 UTC.
