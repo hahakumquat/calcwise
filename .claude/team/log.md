@@ -1760,3 +1760,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 327: carpool cost share (/everyday/carpool-cost-share/; 600 mi, 28 mpg, $3.20, $24 tolls, $0.10 wear, 3 passengers -> fuel $68.57, total $152.57, $38.14 each; 250 mi/25 mpg/$3.40/1 passenger -> $32.00 each; driver-not-paying case -> $64.00, hand-checked). Verify passes (532 pages, 0 problems); no browser/375px check. Wear rate is a user input; fueleconomy.gov linked, not opened.
 - Built directly by lead; no SEO/marketing this cycle. Deploy status of 325-327 not confirmed from this cycle. Daily report due after 14:00 UTC (not yet due).
 - Next cycle: confirm deploys green; then 328, 329, and a product-research refill.
+
+## 2026-11-25 ~12:00 UTC — cycle (item 328, same cycle)
+- Shipped rank 328: tip pool split (/everyday/tip-pool-split/; $480, 8/6/4 h -> $26.67/h, $213.33, $160.00, $106.67; $300 pool, $1,200 sales, 3% tip-out, 5 h -> $36.00 out, $264.00 kept, hand-checked). Up to four people; tip-out taken from the pool first (stated in copy). Verify passes (533 pages, 0 problems); no browser/375px check. DOL tipped-employee fact sheet linked, not opened.
+- Next cycle: confirm deploys green; then 329 (last of batch), product-research refill. Daily report due after 14:00 UTC.
