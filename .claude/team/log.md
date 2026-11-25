@@ -1755,3 +1755,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-25 ~11:10 UTC — cycle (item 326, same cycle)
 - Shipped rank 326: per diem vs actual (/finance/per-diem-vs-actual/; 5 days, $68, 75% travel days -> $306 vs $390 actual, +$84; 3 days, $80, $180 -> $200, -$20, hand-checked). Rate and travel-day share are inputs; GSA page linked, not opened. Verify passes (531 pages, 0 problems); no browser/375px check.
 - Deploy status of 325/326 not yet confirmed from this cycle. Next: confirm green, then 327-329. Daily report due after 14:00 UTC.
+
+## 2026-11-25 ~11:55 UTC — cycle
+- Shipped rank 327: carpool cost share (/everyday/carpool-cost-share/; 600 mi, 28 mpg, $3.20, $24 tolls, $0.10 wear, 3 passengers -> fuel $68.57, total $152.57, $38.14 each; 250 mi/25 mpg/$3.40/1 passenger -> $32.00 each; driver-not-paying case -> $64.00, hand-checked). Verify passes (532 pages, 0 problems); no browser/375px check. Wear rate is a user input; fueleconomy.gov linked, not opened.
+- Built directly by lead; no SEO/marketing this cycle. Deploy status of 325-327 not confirmed from this cycle. Daily report due after 14:00 UTC (not yet due).
+- Next cycle: confirm deploys green; then 328, 329, and a product-research refill.
