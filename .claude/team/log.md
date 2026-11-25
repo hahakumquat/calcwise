@@ -1693,3 +1693,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-25 ~03:55 UTC — cycle
 - Shipped rank 313: roast cooking time (/food/roast-cooking-time/; 12 lb x 15 min/lb = 3 h, serve 5:30 pm, 20 min rest -> in 2:10 pm, out 5:10 pm; second 10 lb x 20 case hand-checked). Verify passes (518 pages, 0 problems); no browser/375px check. Minutes per pound is a user input; USDA temp chart linked, not opened.
 - Not delegated (built directly by lead). No SEO/marketing this cycle. Buildable backlog is now only rank 41 (needs IRS source check) and 197/15 style source checks: next cycle should run product-research for a refill. Daily report due after 14:00 UTC.
+
+## 2026-11-25 ~04:05 UTC — cycle (item 314, same cycle)
+- Backlog refill: product-research added ranks 314-321 (specs 289-296), pushed.
+- Shipped rank 314: college net price (/finance/college-net-price/; $44,000 cost, $18,000 grants -> $26,000/yr, $104,000 over 4 yrs; grants-exceed-cost case hand-checked). Verify passes (519 pages, 0 problems); no browser/375px check. Inputs are user figures; Dept of Education pages linked, not opened.
+- Next cycle: confirm 313/314 deploys green; then 315-317, marketing brief. Daily report due after 14:00 UTC.
