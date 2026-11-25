@@ -1868,3 +1868,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 356: EV winter range (/everyday/ev-winter-range/; 300 mi, 25% loss, 75 kWh, $0.16 -> 225 mi, 75 lost, $0.040 -> $0.053 per mile, +$13.33 per 1,000 mi). Rank 357: bulk buy break-even (/finance/bulk-buy-break-even/; $24/48 vs $5/6, 2 a week, 20 weeks -> 40 used, $0.60 vs $0.833 per unit, saves $9.33, break-even 28.8). Rank 359: holiday weight burn-off (/health/holiday-weight-burn-off/; 4 lb, 3,500 kcal, 500 deficit -> 28 days).
 - Verify passes (563 pages, 0 problems); no browser/375px check. Built directly by the lead in worktree ../w2 (no agent delegation this cycle); no web sources opened, loss/3,500 figures labelled as user estimates/rules of thumb on page.
 - Next cycle: confirm deploy green; take 358, 346, 350, then refill backlog (few open).
+
+## 2026-11-25 ~22:00 UTC — cycle (items 346, 358)
+- Shipped rank 346: wash sale basis (/finance/wash-sale-basis/; sell 100 at $40 from $50, rebuy 60 at $42 -> loss $1,000, disallowed $600, allowed $400, new basis $52.00). Rank 358: water heater cost (/everyday/water-heater-cost/; 40 gal, 55 to 120 F, 0.92, $0.16 -> 6.91 kWh/day, $403.42/yr). 30-day rule stated as something to verify; no sources opened. Verify passes (565 pages, 0 problems); no browser/375px check. Built by the lead in worktree ../w3, no agent delegation.
+- Next cycle: confirm deploy green; only 350 (low value) open, so product-research refill first.
