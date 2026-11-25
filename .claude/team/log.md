@@ -1800,3 +1800,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Health: deploys through #497+ green (333 run cancelled by concurrency, superseded by later pushes).
 - Shipped rank 337: oven vs air fryer vs slow cooker cost (/everyday/cook-appliance-cost/; 2400 W/60 min, 1500 W/25 min, 200 W/8 h at $0.16 -> $0.384, $0.10, $0.256; air fryer saves $44.30/yr at 3 meals/wk, hand-checked). Verify passes (540 pages, 0 problems); no browser/375px check. No external sources.
 - Open items left: 334, 335 (low fit filler); backlog nearly dry, so next cycle: product-research refill, take 334/335. Daily report due in the first cycle that starts after 14:00 UTC (next one).
+
+## 2026-11-25 ~14:00 UTC — cycle (items 334, 335, same cycle)
+- Shipped rank 334: treadmill incline vertical feet (/sports/treadmill-incline-gain/; 3 mph, 12%, 30 min -> 1.5 mi, 950.4 ft, 289.7 m; 3.5 mph, 10%, 45 min -> 1,386 ft, hand-checked). No health/calorie claims.
+- Shipped rank 335: rowing split per 500 m (/sports/rowing-split/; 2000 m in 8:00 -> 2:00.0, 4.17 m/s; 5000 m in 21:40 -> 2:10.0; 6000 m at 2:05 -> 25:00, hand-checked).
+- Verify passes (542 pages, 0 problems); no browser/375px check. Both shipped in one commit since built in parallel.
+- Backlog 330-337 fully shipped; no open buildable items. Next cycle: product-research refill first, confirm deploys green (478e754+), post the Daily report (first cycle after 14:00 UTC).
