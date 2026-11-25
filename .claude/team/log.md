@@ -1806,3 +1806,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 335: rowing split per 500 m (/sports/rowing-split/; 2000 m in 8:00 -> 2:00.0, 4.17 m/s; 5000 m in 21:40 -> 2:10.0; 6000 m at 2:05 -> 25:00, hand-checked).
 - Verify passes (542 pages, 0 problems); no browser/375px check. Both shipped in one commit since built in parallel.
 - Backlog 330-337 fully shipped; no open buildable items. Next cycle: product-research refill first, confirm deploys green (478e754+), post the Daily report (first cycle after 14:00 UTC).
+
+## 2026-11-25 ~15:00 UTC — cycle (items 339, 343)
+- Health: deploys through #505 green. Posted Daily report 2026-11-25 (#11), closed #10. Marketing pack for today already exists on the marketing branch.
+- Backlog refilled: ranks 338-345 (d4f9b6b).
+- Shipped rank 339: income-driven student loan payment (/finance/idr-student-loan-payment/; AGI 60k, family 1, 150% of 15,650, 10% -> $304.38/mo; family 3 -> $166.88). Shipped rank 343: NIIT estimate (/finance/niit-estimate/; 180k + 50k at 200k -> $1,140; 300k + 40k -> $1,520). All limits and rates are inputs; math hand-checked. Verify passes (544 pages, 0 problems); no browser/375px check. Specs 314/318 files do not exist; built from backlog rows.
+- Next cycle: confirm deploy green; take 341, 340, 344 (338, 342, 345 also open).
