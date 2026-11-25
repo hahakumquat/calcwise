@@ -1817,3 +1817,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Health: #506 green; #507 (339, 343) queued at last check.
 - Shipped rank 341: 72(t) SEPP payment (/finance/sepp-72t-payment/; $500k, 5%, 35 yr -> $30,535.85/yr, penalty avoided $3,053.59; $300k, 4.5%, 30 yr -> $18,417.46). Shipped rank 340: inherited stock basis (/finance/inherited-stock-basis/; 100 sh, $20 cost, $80 at death, $85 sale, 15% -> step-up tax $75 vs carryover $975, avoided $900; step-down case $0 vs $100). Inputs are illustrative; IRS links not opened. Verify passes (546 pages, 0 problems); no browser/375px check.
 - Next cycle: confirm #507+ green; take 344, 338, 342 (345 low value).
+
+## 2026-11-25 ~15:15 UTC — cycle (items 338, 344, same cycle)
+- Shipped rank 344: home energy credit payback (/finance/home-energy-credit-payback/; $12,000, 30%, cap $2,000, saves $600/yr -> net $10,000, payback 16.7 yr; $20,000 uncapped, $4,000 liability -> $2,000 unused). Shipped rank 338: QBI deduction (/finance/qbi-deduction/; QBI $60k, taxable $70k -> $12,000, saves $2,640 at 22%; taxable $40k with $5k gains -> $7,000). All rates and limits are inputs; thresholds and wage limits not computed. Verify passes (548 pages, 0 problems); no browser/375px check.
+- Next cycle: confirm deploys green; take 342, 345, then product-research refill (only 2 open).
