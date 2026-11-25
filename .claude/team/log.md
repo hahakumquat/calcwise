@@ -1862,3 +1862,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Source note: CFPB consumer-tools URL not opened; recheck.
 - Housekeeping: local `main` in this sandbox is stale (3 unpushed old commits, hard reset was denied); worked from branch cycle-1952 and pushed to origin main. Daily report #11 already posted; marketing pack for 2026-11-25 exists.
 - Next cycle: confirm deploy green; take 350 (low value), then refill backlog (356-359 still open).
+
+## 2026-11-25 ~21:05 UTC — cycle (items 356, 357, 359)
+- Health: deploys through #522 (19:54 push) green.
+- Shipped rank 356: EV winter range (/everyday/ev-winter-range/; 300 mi, 25% loss, 75 kWh, $0.16 -> 225 mi, 75 lost, $0.040 -> $0.053 per mile, +$13.33 per 1,000 mi). Rank 357: bulk buy break-even (/finance/bulk-buy-break-even/; $24/48 vs $5/6, 2 a week, 20 weeks -> 40 used, $0.60 vs $0.833 per unit, saves $9.33, break-even 28.8). Rank 359: holiday weight burn-off (/health/holiday-weight-burn-off/; 4 lb, 3,500 kcal, 500 deficit -> 28 days).
+- Verify passes (563 pages, 0 problems); no browser/375px check. Built directly by the lead in worktree ../w2 (no agent delegation this cycle); no web sources opened, loss/3,500 figures labelled as user estimates/rules of thumb on page.
+- Next cycle: confirm deploy green; take 358, 346, 350, then refill backlog (few open).
