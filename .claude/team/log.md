@@ -1850,3 +1850,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 
 ## 2026-11-25 ~18:20 UTC — cycle (backlog refill)
 - Backlog refilled: ranks 354-361 (all open; seasonal reasoning, one CFPB search snippet). Rank 350 still open (low value). Deploy #515 green; #517 queued at last check. Next cycle: confirm #517 green, take 361, 360, 354, 355.
+
+## 2026-11-25 ~19:05 UTC — cycle (items 361, 360, 355)
+- Health: deploys through the 17:59 push green; 18:52 push in progress at last check.
+- Shipped rank 361: bonus allocation split (/finance/bonus-allocation-split/; $10,000 at 22%+7.65%+5%, 40/30/20 -> net $6,535, debt $2,614, savings $1,960.50, invest $1,307, spend $653.50). Rank 360: minimum payment trap (/finance/minimum-payment-trap/; $5,000, 20%, 2%/$25 -> 524 mo, $20,209.99 interest vs fixed $100: 109 mo, $5,840.10; percent taken on the pre-interest balance, said on page). Rank 355: security deposit return (/finance/security-deposit-return/; $1,800, deductions 225, 1% for 12 mo -> refund $1,593).
+- Source note: CFPB ask-cfpb and HUD URLs written from memory, not opened; recheck. Verify passes (559 pages, 0 problems); no browser/375px check.
+- Next cycle: confirm deploy green; take 354, then 350, then product-research refill.
