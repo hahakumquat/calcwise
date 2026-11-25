@@ -1709,3 +1709,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 316: PTO payout value (/finance/pto-payout-value/; 80 h x $30, 22% + 7.65% + 4% -> gross $2,400, withheld $807.60, net $1,592.40; second no-state case hand-checked). Verify passes (521 pages, 0 problems); no browser/375px check. Rates are user inputs; IRS Pub 15 and DOL pages linked, not opened.
 - Built directly by lead; no SEO/marketing this cycle. Daily report due after 14:00 UTC.
 - Next cycle: confirm 316 deploy green; then 317, 318.
+
+## 2026-11-25 ~06:00 UTC — cycle (item 317, same cycle)
+- Shipped rank 317: use tax on online purchases (/finance/use-tax-online-purchases/; $1,200 at 6% + 1.5% -> $90, with $30 paid -> $60; credit-exceeds case -> $0). Verify passes (522 pages, 0 problems); no browser/375px check. Rates are user inputs; Streamlined Sales Tax and FTA sites linked, not opened.
+- Next cycle: confirm 316/317 deploys green; then 318, marketing brief. Daily report due after 14:00 UTC.
