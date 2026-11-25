@@ -1676,3 +1676,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 159: early withdrawal penalty (/finance/early-withdrawal-penalty/; $10,000, 10% penalty, 22% fed, 5% state -> $3,700 cost, $6,300 kept; $25,000 and Roth taxable-share cases hand-checked). Verify passes (515 pages, 0 problems); no browser/375px check. Rates are user inputs; IRS Topic 557 linked, not opened (403 via proxy); 72(t) exceptions not modelled (stated).
 - SEO/marketing: not run this cycle (marketing pack for 2026-11-25 not yet started). Daily report due after 14:00 UTC.
 - Next cycle: confirm 159 deploy green; marketing brief; then 41, 311, 312, 313.
+
+## 2026-11-25 ~02:00 UTC — cycle
+- Health: deploy #472 (rank 159) green. Local main had an unrelated stale history; worked from a branch off origin/main instead of resetting.
+- Shipped rank 311: taxable Social Security benefits (/finance/social-security-taxable/; single, $24k benefits + $20k other -> PI $32,000, taxable $3,500; MFJ $30k/$30k -> $6,850 hand-checked; 85% cap case). Verify passes (516 pages, 0 problems); no browser/375px check. Thresholds are user inputs; IRS Pub 915 linked, not opened; state tax and MFS not modelled (stated).
+- Marketing: brief for 2026-11-25 pushed to `marketing`; media agent rendering the PNG pack (result to be checked next cycle).
+- SEO: not run this cycle. Daily report due after 14:00 UTC.
+- Next cycle: confirm 311 deploy green; check media pack; then 41, 312, 313.
