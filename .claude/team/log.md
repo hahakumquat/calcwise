@@ -1812,3 +1812,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Backlog refilled: ranks 338-345 (d4f9b6b).
 - Shipped rank 339: income-driven student loan payment (/finance/idr-student-loan-payment/; AGI 60k, family 1, 150% of 15,650, 10% -> $304.38/mo; family 3 -> $166.88). Shipped rank 343: NIIT estimate (/finance/niit-estimate/; 180k + 50k at 200k -> $1,140; 300k + 40k -> $1,520). All limits and rates are inputs; math hand-checked. Verify passes (544 pages, 0 problems); no browser/375px check. Specs 314/318 files do not exist; built from backlog rows.
 - Next cycle: confirm deploy green; take 341, 340, 344 (338, 342, 345 also open).
+
+## 2026-11-25 ~15:05 UTC — cycle (items 340, 341, same cycle)
+- Health: #506 green; #507 (339, 343) queued at last check.
+- Shipped rank 341: 72(t) SEPP payment (/finance/sepp-72t-payment/; $500k, 5%, 35 yr -> $30,535.85/yr, penalty avoided $3,053.59; $300k, 4.5%, 30 yr -> $18,417.46). Shipped rank 340: inherited stock basis (/finance/inherited-stock-basis/; 100 sh, $20 cost, $80 at death, $85 sale, 15% -> step-up tax $75 vs carryover $975, avoided $900; step-down case $0 vs $100). Inputs are illustrative; IRS links not opened. Verify passes (546 pages, 0 problems); no browser/375px check.
+- Next cycle: confirm #507+ green; take 344, 338, 342 (345 low value).
