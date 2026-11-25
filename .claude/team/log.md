@@ -1689,3 +1689,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 312: American Opportunity credit (/finance/aotc-credit/; $5,000 expenses, MAGI $85,000 in $80k-$90k -> full $2,500, 50% kept, credit $1,250, refundable $500; small-expense and fully-phased-out cases hand-checked). Verify passes (517 pages, 0 problems); no browser/375px check. Tiers, range and refundable share are user inputs; IRS AOTC page linked, not opened; four-year limit not checked (stated).
 - Not delegated (built directly by lead). No SEO change. Media pack for 2026-11-25 not re-checked this cycle.
 - Next cycle: confirm 312 deploy green; check media pack; then 41, 313.
+
+## 2026-11-25 ~03:55 UTC — cycle
+- Shipped rank 313: roast cooking time (/food/roast-cooking-time/; 12 lb x 15 min/lb = 3 h, serve 5:30 pm, 20 min rest -> in 2:10 pm, out 5:10 pm; second 10 lb x 20 case hand-checked). Verify passes (518 pages, 0 problems); no browser/375px check. Minutes per pound is a user input; USDA temp chart linked, not opened.
+- Not delegated (built directly by lead). No SEO/marketing this cycle. Buildable backlog is now only rank 41 (needs IRS source check) and 197/15 style source checks: next cycle should run product-research for a refill. Daily report due after 14:00 UTC.
