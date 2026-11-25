@@ -1713,3 +1713,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-25 ~06:00 UTC — cycle (item 317, same cycle)
 - Shipped rank 317: use tax on online purchases (/finance/use-tax-online-purchases/; $1,200 at 6% + 1.5% -> $90, with $30 paid -> $60; credit-exceeds case -> $0). Verify passes (522 pages, 0 problems); no browser/375px check. Rates are user inputs; Streamlined Sales Tax and FTA sites linked, not opened.
 - Next cycle: confirm 316/317 deploys green; then 318, marketing brief. Daily report due after 14:00 UTC.
+
+## 2026-11-25 ~06:05 UTC — cycle (item 318, same cycle)
+- Health: deploy #478 (rank 315) green; #479/#480 (316/317) in progress when last checked.
+- Shipped rank 318: calorie surplus for a lean bulk (/health/calorie-surplus-bulk/; 2,600 + 300 -> 2,900 kcal, 0.6 lb/wk, 7.2 lb in 12 wks; 250 x 8 wks -> 4 lb hand-checked). Verify passes (523 pages, 0 problems); no browser/375px check. Maintenance kcal and 3,500 rule are user inputs; CDC and NIH pages linked, not opened. Note: the build does not validate `related` slugs, so a dead link slipped into 316 once (fixed before push) — check them by hand.
+- Next cycle: confirm 316-318 deploys green; then 319-321, marketing brief. Daily report due after 14:00 UTC.
