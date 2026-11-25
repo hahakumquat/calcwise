@@ -1704,3 +1704,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 315: tax refund splitter (/finance/tax-refund-splitter/; $2,400, 50% debt at 22%, 30% savings at 4% -> $1,200 / $720 / $480 left, gain $292.80; all-to-debt case hand-checked). Verify passes (520 pages, 0 problems); no browser/375px check. Rates are user inputs; IRS refunds page linked, not opened.
 - Built directly by lead; no SEO/marketing this cycle (2026-11-25 media pack not re-checked). Daily report due after 14:00 UTC.
 - Next cycle: confirm 315 deploy green; then 316, 317, 318.
+
+## 2026-11-25 ~05:55 UTC — cycle
+- Shipped rank 316: PTO payout value (/finance/pto-payout-value/; 80 h x $30, 22% + 7.65% + 4% -> gross $2,400, withheld $807.60, net $1,592.40; second no-state case hand-checked). Verify passes (521 pages, 0 problems); no browser/375px check. Rates are user inputs; IRS Pub 15 and DOL pages linked, not opened.
+- Built directly by lead; no SEO/marketing this cycle. Daily report due after 14:00 UTC.
+- Next cycle: confirm 316 deploy green; then 317, 318.
