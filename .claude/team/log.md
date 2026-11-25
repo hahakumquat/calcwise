@@ -1778,3 +1778,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-25 ~12:15 UTC — cycle (item 331, same cycle)
 - Shipped rank 331: furnace filter cost (/everyday/furnace-filter-cost/; $8, 1 filter, 60 days -> 6.08 changes, $48.67/yr, $4.06/mo; B $22/180 days -> $44.61, A costs $4.06 more; $15 x2, 90 days -> $121.67/yr, $10.14/mo, hand-checked). Verify passes (535 pages, 0 problems); no browser/375px check. DOE furnaces page linked, not opened.
 - Next cycle: confirm deploys green; take 330, 332, 333. Daily report due after 14:00 UTC.
+
+## 2026-11-25 ~12:55 UTC — cycle (item 330)
+- Shipped rank 330: medical expense floor (/finance/medical-expense-floor/; AGI $80k, 7.5%, $9,500 -> floor $6,000, deductible $3,500, saves $198.00 at 22%; $60k AGI, $4,000 -> $500 short, $0 saved, hand-checked). Floor %, standard deduction, rate are inputs; IRS pages linked, not opened. Verify passes (536 pages, 0 problems); no browser/375px check.
+- Next cycle: confirm deploys green; take 333, 336, 332. Daily report due after 14:00 UTC.
