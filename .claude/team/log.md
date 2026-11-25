@@ -1786,3 +1786,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-25 ~13:00 UTC — cycle (item 333, same cycle)
 - Shipped rank 333: semester refund budget (/finance/semester-refund-budget/; $3,200, 15 wk, $1,800 fixed, $350 one-offs -> $1,050 left, $70.00/wk, $10.00/day; $1,500/16 wk/$1,200/$400 -> -$100, -$6.25/wk, hand-checked). Notes that borrowed aid is not free money. Verify passes (537 pages, 0 problems); no browser/375px check. StudentAid.gov page linked, not opened.
 - Next cycle: confirm deploys green; take 336, 332, 337. Daily report due after 14:00 UTC.
+
+## 2026-11-25 ~13:05 UTC — cycle (item 336, same cycle)
+- Health: deploys through #497 green; #498 (330) in progress at last check.
+- Shipped rank 336: utility split by days present (/everyday/utility-days-split/; $150, 30/30/10 days -> $2.1429/day, $64.29, $64.29, $21.43; $90, 28/14 -> $60.00, $30.00, hand-checked). Up to five people. Verify passes (538 pages, 0 problems); no browser/375px check. No external sources (pure arithmetic).
+- Next cycle: confirm deploys green; take 332, 337, 334. Daily report due after 14:00 UTC.
