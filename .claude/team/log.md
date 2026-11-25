@@ -1734,3 +1734,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-25 ~08:00 UTC — cycle (item 321, same cycle)
 - Shipped rank 321: humidifier runtime (/everyday/humidifier-runtime/; 4 L at 300 mL/h -> 13.3 h per tank, 0.9 refills/day at 12 h, 3.6 L, $0.051/day, $1.53 per 30 days; 2 L at 250 mL/h, 350 W, $0.20 -> 8 h, 1 refill, $0.56/day hand-checked). Verify passes (526 pages, 0 problems); no browser/375px check. Related slugs checked by hand.
 - Backlog 314-321 batch is now fully shipped; next cycle should have product-research refill the backlog, confirm 319-321 deploys green, and write the marketing brief. Daily report due after 14:00 UTC.
+
+## 2026-11-25 ~09:00 UTC — cycle
+- Health: deploys #478-484 (315-321) green. Marketing pack for 2026-11-25 already complete on the marketing branch.
+- Backlog refill: product-research added ranks 322-329 (specs 297-304).
+- SEO: social-security-taxable gets 3 FAQs (tax torpedo, 85% cap income, Roth/QCD) and 2 related links; 85% cap figure ($40,706 other income at $24,000 benefits) hand-checked.
+- Shipped rank 322: withholding adjuster (/finance/withholding-adjuster/; owe $1,800, 12 checks -> +$150.00; refund -$2,400 wanting $400, 26 checks -> -$76.92 hand-checked). Verify passes (527 pages, 0 problems); no browser/375px check.
+- Next cycle: confirm deploy green; then 323, 324, 325. Daily report due after 14:00 UTC.
