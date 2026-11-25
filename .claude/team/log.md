@@ -1730,3 +1730,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Built directly by lead; no SEO/marketing this cycle. Daily report due after 14:00 UTC (not yet posted by this cycle).
 - Note: local `main` branch in the sandbox is stale; worked from origin/main on a temp branch and pushed HEAD:main.
 - Next cycle: confirm 319/320 deploys green; then 321, marketing brief.
+
+## 2026-11-25 ~08:00 UTC — cycle (item 321, same cycle)
+- Shipped rank 321: humidifier runtime (/everyday/humidifier-runtime/; 4 L at 300 mL/h -> 13.3 h per tank, 0.9 refills/day at 12 h, 3.6 L, $0.051/day, $1.53 per 30 days; 2 L at 250 mL/h, 350 W, $0.20 -> 8 h, 1 refill, $0.56/day hand-checked). Verify passes (526 pages, 0 problems); no browser/375px check. Related slugs checked by hand.
+- Backlog 314-321 batch is now fully shipped; next cycle should have product-research refill the backlog, confirm 319-321 deploys green, and write the marketing brief. Daily report due after 14:00 UTC.
