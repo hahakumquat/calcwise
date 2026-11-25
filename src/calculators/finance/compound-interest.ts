@@ -88,9 +88,12 @@ export default defineCalculator({
       { q: 'What is the rule of 72?', a: 'Divide 72 by the annual interest rate to estimate how many years it takes to double your money. At 6%, that is about 12 years. It is a quick approximation that works well for rates between about 4% and 12%.' },
       { q: 'What is the difference between APR and APY?', a: 'APR is the nominal yearly rate before compounding. APY includes the effect of compounding within the year, so it is the rate you actually earn. Banks advertise savings with APY because it is the larger number.' },
       { q: 'Does this account for taxes or inflation?', a: 'No. Interest in a regular account is usually taxable each year, and inflation reduces what the final balance can buy. Use the inflation calculator to convert the result into today\'s dollars.' },
+      { q: 'Does daily compounding beat monthly compounding by much?', a: 'Not by much. $10,000 at 5% for 10 years grows to $16,470.09 compounded monthly and $16,486.65 compounded daily, a difference of about $16.55 over a decade. The rate and the number of years matter far more than the compounding frequency.' },
+      { q: 'How much does starting 10 years earlier help?', a: 'A lot, because the last years of growth are the biggest. Saving $200 a month at 7% compounded monthly reaches about $104,185 after 20 years but about $243,994 after 30 years. The extra 10 years add roughly $139,809 while you only deposit another $24,000.' },
+      { q: 'What if I deposit at the start of each month instead?', a: 'This calculator assumes deposits at the end of each month. Depositing at the start gives every deposit one extra month of growth, which multiplies the contribution part of the result by the monthly growth factor (about 1.0058 at 7%). For $200 a month over 30 years that is roughly $1,400 more, so the difference is small.' },
     ],
   },
-  related: ['investment', 'savings-goal', 'simple-interest', 'cd', 'inflation', 'retirement', 'rule-of-72'],
+  related: ['investment', 'savings-goal', 'simple-interest', 'cd', 'inflation', 'retirement', 'rule-of-72', 'apy-calculator', 'cost-of-waiting'],
   examples: [
     { values: { principal: 1000, contribution: null, rate: 5, frequency: '1', time: 10 * YEAR_S }, expect: { futureValue: 1628.894627, totalInterest: 628.894627 } },
     { values: { principal: 0, contribution: 100, rate: 0, frequency: '12', time: 2 * YEAR_S }, expect: { futureValue: 2400, totalInterest: 0 } },
