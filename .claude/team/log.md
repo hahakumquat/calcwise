@@ -1698,3 +1698,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Backlog refill: product-research added ranks 314-321 (specs 289-296), pushed.
 - Shipped rank 314: college net price (/finance/college-net-price/; $44,000 cost, $18,000 grants -> $26,000/yr, $104,000 over 4 yrs; grants-exceed-cost case hand-checked). Verify passes (519 pages, 0 problems); no browser/375px check. Inputs are user figures; Dept of Education pages linked, not opened.
 - Next cycle: confirm 313/314 deploys green; then 315-317, marketing brief. Daily report due after 14:00 UTC.
+
+## 2026-11-25 ~04:55 UTC — cycle
+- Health: last deploys (#472-475 incl. 314) green.
+- Shipped rank 315: tax refund splitter (/finance/tax-refund-splitter/; $2,400, 50% debt at 22%, 30% savings at 4% -> $1,200 / $720 / $480 left, gain $292.80; all-to-debt case hand-checked). Verify passes (520 pages, 0 problems); no browser/375px check. Rates are user inputs; IRS refunds page linked, not opened.
+- Built directly by lead; no SEO/marketing this cycle (2026-11-25 media pack not re-checked). Daily report due after 14:00 UTC.
+- Next cycle: confirm 315 deploy green; then 316, 317, 318.
