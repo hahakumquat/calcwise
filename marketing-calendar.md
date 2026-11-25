@@ -14,11 +14,11 @@ Lives on the `marketing` branch because `main` is off limits to the marketing cy
 | Sun 11-22 | Black Friday deal check, employer match, lifestyle creep, group gift split (recently shipped) | /finance/black-friday-deal-check/ | week before Black Friday (done) |
 | Mon 11-23 | 401(k) catch-up / 50+ | /finance/401k-max-out/ | missed (no pack), dropped |
 | Tue 11-24 | Idle devices, repair vs replace, phone upgrade | /everyday/standby-power-cost/, /finance/repair-vs-replace/, /finance/phone-upgrade-vs-keep/ | Black Friday week, per-year math before buying (done) |
-| Wed 11-25 | Bonus after-tax payday | /finance/bonus-tax/ | pre-Thanksgiving payday |
+| Wed 11-25 | Tax rules nobody explained (swapped from bonus tax, which stays on 12-04) | /finance/early-withdrawal-penalty/, savers-credit, home-sale-exclusion, qcd-tax-value | newly shipped, year-end planning |
 | Fri 11-27 | Black Friday | budget / savings-goal calculators (pick one) | spending vs saving |
 | Tue 12-01 | Capital gains (moved from 11-20) | /finance/capital-gains-tax/ | year-end selling decisions |
 | Mon 11-30 | Cyber Monday + December kickoff | pick from everyday/finance | |
-| Wed 12-02 | Giving Tuesday follow-up / year-end HSA (moved from 11-17) | /finance/hsa-fsa-savings/ | use-it-or-lose-it FSA |
+| Wed 12-02 | Giving Tuesday follow-up (QCD /finance/qcd-tax-value/ also fits) / year-end HSA (moved from 11-17) | /finance/hsa-fsa-savings/ | use-it-or-lose-it FSA |
 | Fri 12-04 | Bonus tax round 2 (different salary) | /finance/bonus-tax/ | holiday bonuses |
 | Mon 12-07 | FIRE new-year setup teaser | /fire/ calculators | resolutions lead-in |
 | Wed 12-09 | Self-employment quarterly set-aside | /finance/self-employment-tax/ | |
