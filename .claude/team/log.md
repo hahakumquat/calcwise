@@ -1769,3 +1769,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Health: deploys through #491 (rank 326) green (#489 cancelled, superseded by #491); #492/#493 (327/328) in progress at last check.
 - Shipped rank 329: heat cable cost (/everyday/heat-cable-cost/; 5 W/ft, 30 ft, 50%, 24 h, 90 days, $0.17 -> 150 W, 1.8 kWh/day, 162 kWh, $27.54; 3 W/ft, 50 ft, 100%, 30 days, $0.15 -> $16.20, hand-checked). Verify passes (534 pages, 0 problems); no browser/375px check. DOE appliance energy page linked, not opened.
 - Backlog batch 322-329 is now fully shipped. Next cycle: confirm 327-329 deploys green, have product-research refill the backlog (no open buildable items), SEO pass. Daily report due after 14:00 UTC (not yet due).
+
+## 2026-11-25 ~12:10 UTC — cycle (refill + SEO, same cycle)
+- Backlog refill (thirty-first pass): product-research added ranks 330-337 (specs 305-312), all open; seasonal reasoning only, no web sources.
+- SEO: compound-interest gets 3 FAQs (daily vs monthly $16,470.09 vs $16,486.65; start 10 years earlier $104,185 vs $243,994; start-of-month deposits ~ $1,400) and 2 related links; figures hand-checked. Verify 0 problems.
+- Next cycle: confirm 327-329 deploys green, then take 330, 331, 332. Daily report due after 14:00 UTC.
