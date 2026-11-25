@@ -1826,3 +1826,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Health: deploys through #509 green.
 - Shipped rank 342: prepay property tax (/finance/prepay-property-tax/; std 14,600, other itemized 9,000, state tax 5,000, property 3,000, prepay 3,000, cap 10,000, 22% -> gain 2,000, saves $440, 1,000 wasted by cap; with 4,000 other itemized standard still wins, $0). Cap and standard deduction are inputs. Verify passes (549 pages, 0 problems); no browser/375px check.
 - Next cycle: confirm deploy green; take 345 (low value) then product-research refill (only 1 open).
+
+## 2026-11-25 ~16:55 UTC — cycle (item 345)
+- Health: deploy #509-next (rank 342 push) failed with a GitHub Pages 500 while creating the deployment (not a code failure); re-ran via workflow_dispatch, build and deploy jobs green, verify job running at last check.
+- Shipped rank 345: running shoe cost per mile (/sports/running-shoe-cost/; $140, 400 mi, 150 used, 20 mi/wk -> $0.35/mi, 250 left, 12.5 wk, $364/yr; $90, 300 mi, 12 mi/wk -> $0.30/mi, 25 wk, $187.20/yr, hand-checked). Mileage per pair is the user's own estimate. Verify passes (550 pages, 0 problems); no browser/375px check.
+- Backlog 338-345 fully shipped; no open buildable items except old low-value rows. Next cycle: product-research refill first, confirm this push deploys green.
