@@ -1782,3 +1782,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-25 ~12:55 UTC — cycle (item 330)
 - Shipped rank 330: medical expense floor (/finance/medical-expense-floor/; AGI $80k, 7.5%, $9,500 -> floor $6,000, deductible $3,500, saves $198.00 at 22%; $60k AGI, $4,000 -> $500 short, $0 saved, hand-checked). Floor %, standard deduction, rate are inputs; IRS pages linked, not opened. Verify passes (536 pages, 0 problems); no browser/375px check.
 - Next cycle: confirm deploys green; take 333, 336, 332. Daily report due after 14:00 UTC.
+
+## 2026-11-25 ~13:00 UTC — cycle (item 333, same cycle)
+- Shipped rank 333: semester refund budget (/finance/semester-refund-budget/; $3,200, 15 wk, $1,800 fixed, $350 one-offs -> $1,050 left, $70.00/wk, $10.00/day; $1,500/16 wk/$1,200/$400 -> -$100, -$6.25/wk, hand-checked). Notes that borrowed aid is not free money. Verify passes (537 pages, 0 problems); no browser/375px check. StudentAid.gov page linked, not opened.
+- Next cycle: confirm deploys green; take 336, 332, 337. Daily report due after 14:00 UTC.
