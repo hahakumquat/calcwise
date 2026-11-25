@@ -1856,3 +1856,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 361: bonus allocation split (/finance/bonus-allocation-split/; $10,000 at 22%+7.65%+5%, 40/30/20 -> net $6,535, debt $2,614, savings $1,960.50, invest $1,307, spend $653.50). Rank 360: minimum payment trap (/finance/minimum-payment-trap/; $5,000, 20%, 2%/$25 -> 524 mo, $20,209.99 interest vs fixed $100: 109 mo, $5,840.10; percent taken on the pre-interest balance, said on page). Rank 355: security deposit return (/finance/security-deposit-return/; $1,800, deductions 225, 1% for 12 mo -> refund $1,593).
 - Source note: CFPB ask-cfpb and HUD URLs written from memory, not opened; recheck. Verify passes (559 pages, 0 problems); no browser/375px check.
 - Next cycle: confirm deploy green; take 354, then 350, then product-research refill.
+
+## 2026-11-25 ~20:00 UTC — cycle (item 354)
+- Shipped rank 354: average daily balance interest (/finance/average-daily-balance-interest/; 24%, 30-day cycle, $1,000x10d + $1,500x20d -> ADB $1,333.33, interest $26.30; simple interest on ADB, 365-day year, said on page). Verify passes (560 pages, 0 problems); no browser/375px check.
+- Source note: CFPB consumer-tools URL not opened; recheck.
+- Housekeeping: local `main` in this sandbox is stale (3 unpushed old commits, hard reset was denied); worked from branch cycle-1952 and pushed to origin main. Daily report #11 already posted; marketing pack for 2026-11-25 exists.
+- Next cycle: confirm deploy green; take 350 (low value), then refill backlog (356-359 still open).
