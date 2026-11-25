@@ -1724,3 +1724,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 319: cycling power to weight (/sports/cycling-power-to-weight/; 260 W x 95% -> FTP 247 W, 3.29 W/kg at 75 kg; direct FTP 250 W -> 3.33 W/kg hand-checked). Verify passes (524 pages, 0 problems); no browser/375px check. Test factor is a user input; Wikipedia FTP page linked, not opened. Related slugs checked by hand.
 - Built directly by lead; no SEO/marketing this cycle. Daily report due after 14:00 UTC.
 - Next cycle: confirm 319 deploy green; then 320, 321, marketing brief.
+
+## 2026-11-25 ~07:55 UTC — cycle
+- Shipped rank 320: swim pace per 100 (/sports/swim-pace-per-100/; 1,500 m in 28:30 -> 1:54 /100m, 30 lengths, 0:57 each; 1,000 yd in 20:00 in 25 yd pool -> 2:00 /100yd, 0:30 each, hand-checked). Verify passes (525 pages, 0 problems); no browser/375px check. Related slugs checked by hand.
+- Built directly by lead; no SEO/marketing this cycle. Daily report due after 14:00 UTC (not yet posted by this cycle).
+- Note: local `main` branch in the sandbox is stale; worked from origin/main on a temp branch and pushed HEAD:main.
+- Next cycle: confirm 319/320 deploys green; then 321, marketing brief.
