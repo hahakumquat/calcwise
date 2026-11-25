@@ -1791,3 +1791,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Health: deploys through #497 green; #498 (330) in progress at last check.
 - Shipped rank 336: utility split by days present (/everyday/utility-days-split/; $150, 30/30/10 days -> $2.1429/day, $64.29, $64.29, $21.43; $90, 28/14 -> $60.00, $30.00, hand-checked). Up to five people. Verify passes (538 pages, 0 problems); no browser/375px check. No external sources (pure arithmetic).
 - Next cycle: confirm deploys green; take 332, 337, 334. Daily report due after 14:00 UTC.
+
+## 2026-11-25 ~13:10 UTC — cycle (item 332, same cycle)
+- Shipped rank 332: dishwasher vs hand wash (/everyday/dishwasher-vs-hand-wash/; 4 gal/0.9 kWh vs 15 gal/1.5 kWh at $0.005 and $0.16 -> $0.164 vs $0.315, saves $39.26/yr at 5 loads/wk; second case hand washing cheaper by $7.28/yr, hand-checked). Verify passes (539 pages, 0 problems); no browser/375px check. ENERGY STAR page linked, not opened.
+- Cycle total: ranks 330, 333, 336, 332 shipped. Next cycle: confirm deploys green (#498+); take 337, 334, 335; backlog has ~3 open so product-research should refill. Daily report due after 14:00 UTC (next cycle).
