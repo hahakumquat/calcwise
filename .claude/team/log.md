@@ -1774,3 +1774,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Backlog refill (thirty-first pass): product-research added ranks 330-337 (specs 305-312), all open; seasonal reasoning only, no web sources.
 - SEO: compound-interest gets 3 FAQs (daily vs monthly $16,470.09 vs $16,486.65; start 10 years earlier $104,185 vs $243,994; start-of-month deposits ~ $1,400) and 2 related links; figures hand-checked. Verify 0 problems.
 - Next cycle: confirm 327-329 deploys green, then take 330, 331, 332. Daily report due after 14:00 UTC.
+
+## 2026-11-25 ~12:15 UTC — cycle (item 331, same cycle)
+- Shipped rank 331: furnace filter cost (/everyday/furnace-filter-cost/; $8, 1 filter, 60 days -> 6.08 changes, $48.67/yr, $4.06/mo; B $22/180 days -> $44.61, A costs $4.06 more; $15 x2, 90 days -> $121.67/yr, $10.14/mo, hand-checked). Verify passes (535 pages, 0 problems); no browser/375px check. DOE furnaces page linked, not opened.
+- Next cycle: confirm deploys green; take 330, 332, 333. Daily report due after 14:00 UTC.
