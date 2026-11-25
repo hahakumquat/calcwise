@@ -1821,3 +1821,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-25 ~15:15 UTC — cycle (items 338, 344, same cycle)
 - Shipped rank 344: home energy credit payback (/finance/home-energy-credit-payback/; $12,000, 30%, cap $2,000, saves $600/yr -> net $10,000, payback 16.7 yr; $20,000 uncapped, $4,000 liability -> $2,000 unused). Shipped rank 338: QBI deduction (/finance/qbi-deduction/; QBI $60k, taxable $70k -> $12,000, saves $2,640 at 22%; taxable $40k with $5k gains -> $7,000). All rates and limits are inputs; thresholds and wage limits not computed. Verify passes (548 pages, 0 problems); no browser/375px check.
 - Next cycle: confirm deploys green; take 342, 345, then product-research refill (only 2 open).
+
+## 2026-11-25 ~16:00 UTC — cycle (item 342)
+- Health: deploys through #509 green.
+- Shipped rank 342: prepay property tax (/finance/prepay-property-tax/; std 14,600, other itemized 9,000, state tax 5,000, property 3,000, prepay 3,000, cap 10,000, 22% -> gain 2,000, saves $440, 1,000 wasted by cap; with 4,000 other itemized standard still wins, $0). Cap and standard deduction are inputs. Verify passes (549 pages, 0 problems); no browser/375px check.
+- Next cycle: confirm deploy green; take 345 (low value) then product-research refill (only 1 open).
