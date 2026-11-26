@@ -2059,3 +2059,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Health: deploy not re-read this cycle; daily report already posted at ~15:30.
 - Shipped rank 450 standard error of the mean (/statistics/standard-error/; s 12, n 36 -> SE 2, n needed for SE 1 = 144; s 15, n 100 -> 1.5). Verify passes (650 pages); no 375px check.
 - Open: 441, 444, 449 (source checks), 422, 15, 41; 31/40 blocked on www.irs.gov. Next cycle: research refill (fewer than 8 buildable).
+
+## 2026-11-26 ~22:00 UTC — cycle (item 444)
+- Health: deploy not re-read this cycle; daily report already posted at ~15:30.
+- Research refill delegated (ranks 451-458). Shipped rank 444 Treasury bill yield (/finance/treasury-bill-yield/; $10,000 face, $9,800 price, 182 d -> discount 3.956%, yield 4.093%, gain $200). treasurydirect.gov unreachable (DNS), so formulas are hand-checked only and the copy says so. Verify passes (651 pages); no 375px check.
+- Open: 441, 449 (source checks), 422, 15, 41, new 451-458. Next: top of the new refill ranks.
