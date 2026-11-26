@@ -2043,3 +2043,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 442 arc length and sector area (/math/arc-length-sector/; r=10, 90° -> arc 15.708, sector 78.540, chord 14.142, segment 28.540). Verify passes; no 375px check.
 - Research refill delegated (product-research) to restore 8+ buildable items.
 - Open: 441 (needs NEC Table 8 check), 422, 15, 41; 31/40 blocked on www.irs.gov. Next: new refill ranks.
+
+## 2026-11-26 ~19:00 UTC — cycle continued (item 443)
+- Research refill landed: ranks 443-450 added (444 and 449 need source checks).
+- Shipped rank 443 Gordon growth model (/finance/gordon-growth-model/; D0 $2, g 3%, r 8% -> value $41.20, implied return 7.12% at $50). Verify passes; no 375px check; deploy not re-read.
+- Open: 441, 444-450, 422, 15, 41; 31/40 blocked on www.irs.gov. Next: 445 resistors, 446 kinetic energy.
