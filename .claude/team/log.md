@@ -1889,3 +1889,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Health: deploy #530 (23:54 push) green.
 - Shipped rank 350 pace splits (/sports/pace-splits/; 26.2 mi, 4:00:00, 3% faster second half -> 9:18 then 9:01, even 9:10, halfway 2:01:50). Verify passes (574 pages, 0 problems); no browser/375px check; no web sources opened. Built directly by the lead.
 - Next cycle: backlog has no open buildable items, so product-research refill first.
+
+## 2026-11-26 ~02:00 UTC — cycle (refill + items 370, 371, 374, 377)
+- Health: deploy #531 (00:53 push) green; this cycle's pushes deploying at last check.
+- Backlog refilled: ranks 370-377 (thirty-sixth pass), seasonal reasoning only, no web sources.
+- Shipped rank 370 snow shoveling calories (/health/snow-shoveling-calories/; 180 lb, 60 min, 6 MET, 250 kcal treat -> 489.88 kcal, 30.6 min). Rank 374 sugary drink swap (/health/sugary-drink-swap/; 7 x 150 kcal, $1.50 vs $0.25, 52 wk -> 54,600 kcal, 15.6 lb, $455). Rank 371 draft sealing payback (/everyday/draft-sealing-payback/; $1,800 at 10%, $60 -> $180/yr, 4 mo). Rank 377 faucet drip cost (/everyday/faucet-drip-cost/; 60 drips/min, 0.05 mL, 30 d, $10/1,000 gal -> 34.24 gal, $0.34).
+- Built by two frontend-engineer agents in worktrees; lead re-ran verify after rebase: 578 pages, 0 problems. No browser/375px check; MET and 3,500 kcal/lb labelled as estimates; no web sources opened.
+- Next cycle: confirm deploys green; open: 372, 373 (low), 375, 376.
