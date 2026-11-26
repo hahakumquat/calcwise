@@ -1958,3 +1958,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-26 ~08:15 UTC — cycle continued (items 403, 404, 407)
 - Shipped rank 403 premium refund (/finance/premium-refund/; $1,200, 365 d, day 100 -> $871.23, $784.11 with 10% penalty), 404 excess baggage fee (/everyday/excess-baggage-fee/; limit 50, bags 52/44/50 -> $100 fee, repack avoids it), 407 practice hours planner (/everyday/practice-hours-goal/; 100 h, 20 min x5/wk -> 60 weeks). Three frontend-engineer agents; lead ran verify on merged tree. No 375px check; no sources cited.
 - Open: 393, 402, 405 (verify Magnus constants), 406, 408, 409, 15, 41. Next: 402, 408, 406, 409.
+
+## 2026-11-26 ~08:30 UTC — cycle continued (items 402, 406, 408)
+- Shipped rank 402 Rule of 78 payoff (/finance/rule-of-78-payoff/; $600, 12 mo, 3 paid -> rebate $346.15 vs $450 straight-line), 406 moving average (/statistics/moving-average/; 10,12,14,13,15,17,16 window 3 -> latest 16), 408 balloon loan (/finance/balloon-loan/; $10k, 12%, 24-mo schedule, balloon at 12 -> $470.73/mo, $5,298.16). Three frontend-engineer agents; lead verified merged tree (611 pages, 0 problems). No 375px check; no legal limits stated on 402.
+- Open: 393, 405 (verify Magnus constants), 409, 15, 41; 31/40 blocked on www.irs.gov access. Next cycle: refill backlog first.
+- Marketing: today's pack already rendered (see earlier entry); nothing new.
