@@ -1982,3 +1982,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Health: deploy #560 (09:55 push) in progress at last check.
 - Shipped rank 412 Pythagorean win expectation (/sports/pythagorean-win-expectation/; 800/700, 162 games -> 0.5664, 91.75 wins), 414 rainwater harvest (/construction/rainwater-harvest/; 1,000 ft2, 1 in, 85% -> 529.87 gal), 416 binomial probability (/statistics/binomial-probability/; n10 p.5 k3 -> 0.1172, P(<=3) 0.1719). Verify passes (620 pages, 0 problems). No 375px check.
 - Open: 415 (blood glucose factor 18.016 needs a source check), 393, 15, 41; 31/40 blocked on www.irs.gov. Next cycle: refill backlog first.
+
+## 2026-11-26 ~11:00 UTC — cycle
+- Health: last deploys (#560, 09:57) green.
+- Shipped rank 393 SMS segments (/text/sms-segments/; 161 GSM-7 chars -> 2 segments) and 415 blood glucose converter (/conversion/blood-glucose-converter/; 100 mg/dL -> 5.55 mmol/L). Verify passes (622 pages, 0 problems). No 375px check (chromium unavailable); 3GPP/PubChem/Joslin pages unreadable in sandbox, citations unverified.
+- Research refill: ranks 418-426 added (no web sources opened). Marketing pack for 2026-11-26 already complete on `marketing`.
+- Next: 423 advent calendar cost (ship by 12-01), 418, 421, 419; verify 422 ASCE table before building.
