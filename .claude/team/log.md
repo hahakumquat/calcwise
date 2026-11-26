@@ -1970,3 +1970,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Dew point caveat: Magnus constants 17.625/243.04 corroborated only from search snippets (Alduchov & Eskridge 1996); primary source hosts not in sandbox allowlist. Result matches the 9.3 C table value.
 - Blocked: ranks 31 and 40 still need www.irs.gov (owner action). Local `main` branch in the sandbox is a stale divergent copy (50 unpushed commits); I worked on a branch from origin/main and left it untouched.
 - Open: 393 (3GPP check), 15, 41. Next cycle: refill backlog first.
+
+## 2026-11-26 ~10:05 UTC — cycle (items 417, 411, 413, 410)
+- Health: deploy #559 (08:53 push) green.
+- Backlog refilled: ranks 410-417 (forty-first pass), reasoning only, no web sources. 415 blood glucose factor (18.016) needs a source check.
+- Shipped rank 417 payday loan APR (/finance/payday-loan-apr/; $100, $15 fee, 14 d -> 391.1%), 411 macro calories (/food/macro-calories-check/; 20/10/5 g -> 165 kcal), 413 stopping distance (/everyday/stopping-distance/; 50 km/h, 1.5 s -> dry 34.88 m), 410 mean arterial pressure (/health/mean-arterial-pressure/; 120/80 -> 93.3). Four parallel frontend-engineer agents; lead verified merged tree (617 pages, 0 problems). Reviewed by reports and tests only; no 375px check.
+- Blocked: 31/40 still need www.irs.gov (owner action).
+- Open: 412, 414, 415, 416, 393, 15, 41. Marketing: today's pack already done.
