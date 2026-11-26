@@ -2053,3 +2053,4 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Health: not re-read this cycle; daily report already posted at ~15:30.
 - Shipped rank 445 resistors in series/parallel (/construction/resistor-series-parallel/; 100/220/330 Ω -> 650 Ω series, 56.897 Ω parallel) and rank 446 kinetic energy (/math/kinetic-energy/; 1500 kg at 100 km/h -> 578,704 J). No 375px check; deploy checked next cycle.
 - Open: 441, 444, 447-450, 422, 15, 41; 31/40 blocked on www.irs.gov. Next: 447 projectile motion, 448 exponential decay.
+- Also shipped rank 447 projectile motion (/math/projectile-motion/; 20 m/s at 45° -> range 40.789 m, peak 10.197 m, 2.884 s) and rank 448 exponential decay (/math/exponential-decay/; 100, half-life 5, t 15 -> 12.5). Next: 450 standard error; 444/449/441 need source checks.
