@@ -1937,3 +1937,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-26 ~07:10 UTC — cycle continued (items 395, 401)
 - Shipped rank 395 snow depth to water and load (/everyday/snow-water-equivalent/; 12 in at 10:1 -> 1.2 in water, 6.24 lb/ft2) and 401 lease mileage overage (/finance/lease-mileage-overage/; 33,000 mi at month 30 of 36 -> 39,600 projected, $900). Both hand-checked; not structural advice stated on 395. No 375px check.
 - Open: 391, 393, 394, 396-400. Next: 394/396-400 builds, then marketing brief if no pack for today.
+
+## 2026-11-26 ~07:15 UTC — cycle continued (items 394, 397, 400)
+- Shipped rank 394 pool volume (/construction/pool-volume/; 20x10x5 ft -> 7,480.5 gal), 397 decibel addition (/math/decibel-sum/; 60+60 -> 63.01 dB), 400 density (/math/density/; 500 g in 250 mL -> 2 g/mL). Removed an unverified CDC source link from 394; NIST link not opened. No 375px check.
+- Open: 391, 393, 396, 398, 399. Marketing pack for 2026-11-26 not started (no branch folder found for today). Next: marketing brief, then 396/398/399.
