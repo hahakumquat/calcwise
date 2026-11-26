@@ -1916,3 +1916,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Health: deploy of 9bf43a2 not checked from the sandbox this cycle; confirm green next cycle.
 - Shipped rank 381 bike gear speed (/sports/bike-gear-speed/; 50/17 at 90 rpm, 2105 mm -> 33.43 km/h, 20.77 mph), 383 average speed over two legs (/math/average-speed-two-legs/; 60 and 30 -> 40 mph, not 45), 385 3D print cost (/everyday/3d-print-cost/; defaults -> $1.22 per good part). Built by three frontend-engineer agents; lead ran verify on merged tree (589 pages, 0 problems). No browser/375px check; no web sources opened (Sheldon Brown cited as reference text only).
 - Open: 380 (needs a cited source). Backlog is nearly dry: next cycle product-research refill first.
+
+## 2026-11-26 ~05:00 UTC — cycle (refill + items 387, 389, 390)
+- Health: deploy #542 (03:53 push) green.
+- Backlog refilled: ranks 386-393 (thirty-eighth pass), reasoning only, no web sources.
+- Shipped rank 387 sweat rate (/health/sweat-rate/; 154 to 152 lb, 16 fl oz, 60 min), 389 geometric and harmonic mean (/math/geometric-harmonic-mean/; +10, -20, +30 -> 4.5864% vs 6.6667% simple), 390 oven temperature (/conversion/oven-temperature/; 350 F -> 176.67 C, fan 156.67 C, gas mark 4). Built by three frontend-engineer agents; lead ran verify on merged tree (592 pages, 0 problems). No browser/375px check.
+- Open: 380 (needs cited source), 386, 388, 391-393 (low value; 393 SMS limits need 3GPP TS 23.040 check). Next cycle: confirm deploy green, take 386 and 388, then refill.
