@@ -2064,3 +2064,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Health: deploy not re-read this cycle; daily report already posted at ~15:30.
 - Research refill delegated (ranks 451-458). Shipped rank 444 Treasury bill yield (/finance/treasury-bill-yield/; $10,000 face, $9,800 price, 182 d -> discount 3.956%, yield 4.093%, gain $200). treasurydirect.gov unreachable (DNS), so formulas are hand-checked only and the copy says so. Verify passes (651 pages); no 375px check.
 - Open: 441, 449 (source checks), 422, 15, 41, new 451-458. Next: top of the new refill ranks.
+
+## 2026-11-26 ~23:00 UTC — cycle (item 451)
+- Health: deploy not re-read this cycle; daily report already posted at ~15:30.
+- Shipped rank 451 fund year-end distribution tax (/finance/fund-distribution-tax/; 500 sh, NAV $40, $2 dist, 15% -> distribution $1,000, tax $150, NAV after $38). Sources IRS Topic 404/Pub 550, SEC Investor.gov unopened. No 375px check.
+- Open: 452-458 (457 needs source check), 441, 449, 422, 15, 41; 31/40 blocked on www.irs.gov. Next: 452 interest-free days, 453 shift differential.
