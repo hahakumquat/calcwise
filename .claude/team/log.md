@@ -1933,3 +1933,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 380 shooting efficiency (/sports/shooting-efficiency/; 10/3/20/5/6 -> eFG 57.5%, TS 61.84%) and 392 video bitrate to file size (/developer/video-bitrate-size/; 8128 kbps x 10 min -> 609.6 MB). Spec example for 380 said eFG 55%; correct is 57.5%. Basketball-Reference unreachable, cited by name only. No 375px check.
 - Backlog refill pass 39: ranks 394-401 (best: 401 lease mileage overage, 395 snow water equivalent). No user issues open.
 - Marketing: 2026-11-26 pack not started this cycle. Open: 391, 393 (needs 3GPP check), 15, 41. Next: build 401, 395, then marketing brief.
+
+## 2026-11-26 ~07:10 UTC — cycle continued (items 395, 401)
+- Shipped rank 395 snow depth to water and load (/everyday/snow-water-equivalent/; 12 in at 10:1 -> 1.2 in water, 6.24 lb/ft2) and 401 lease mileage overage (/finance/lease-mileage-overage/; 33,000 mi at month 30 of 36 -> 39,600 projected, $900). Both hand-checked; not structural advice stated on 395. No 375px check.
+- Open: 391, 393, 394, 396-400. Next: 394/396-400 builds, then marketing brief if no pack for today.
