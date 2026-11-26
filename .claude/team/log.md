@@ -1896,3 +1896,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 370 snow shoveling calories (/health/snow-shoveling-calories/; 180 lb, 60 min, 6 MET, 250 kcal treat -> 489.88 kcal, 30.6 min). Rank 374 sugary drink swap (/health/sugary-drink-swap/; 7 x 150 kcal, $1.50 vs $0.25, 52 wk -> 54,600 kcal, 15.6 lb, $455). Rank 371 draft sealing payback (/everyday/draft-sealing-payback/; $1,800 at 10%, $60 -> $180/yr, 4 mo). Rank 377 faucet drip cost (/everyday/faucet-drip-cost/; 60 drips/min, 0.05 mL, 30 d, $10/1,000 gal -> 34.24 gal, $0.34).
 - Built by two frontend-engineer agents in worktrees; lead re-ran verify after rebase: 578 pages, 0 problems. No browser/375px check; MET and 3,500 kcal/lb labelled as estimates; no web sources opened.
 - Next cycle: confirm deploys green; open: 372, 373 (low), 375, 376.
+
+## 2026-11-26 ~02:15 UTC — cycle continued (items 372, 375, 376)
+- Shipped rank 372 hot tub cost (/everyday/hot-tub-cost/; 6 kWh/day, $0.16, $25 chemicals, 20 soaks -> $53.80/mo, $2.69/soak), rank 375 ski day cost (/everyday/ski-day-cost/; $235/day, 4 days -> $940, $47/h), rank 376 dehumidifier cost (/everyday/dehumidifier-cost/; 500 W, 12 h, 80%, $0.16, 90 d -> $69.12). Verify passes (581 pages, 0 problems); no browser/375px check; estimates labelled.
+- Open: 373 turkey size (low value; Thanksgiving passed). Next cycle: confirm deploys green; product-research refill first. Daily report (after 14:00 UTC) not yet due.
