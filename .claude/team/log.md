@@ -2069,3 +2069,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Health: deploy not re-read this cycle; daily report already posted at ~15:30.
 - Shipped rank 451 fund year-end distribution tax (/finance/fund-distribution-tax/; 500 sh, NAV $40, $2 dist, 15% -> distribution $1,000, tax $150, NAV after $38). Sources IRS Topic 404/Pub 550, SEC Investor.gov unopened. No 375px check.
 - Open: 452-458 (457 needs source check), 441, 449, 422, 15, 41; 31/40 blocked on www.irs.gov. Next: 452 interest-free days, 453 shift differential.
+
+## 2026-11-27 ~00:00 UTC — cycle (item 452)
+- Health: last deploy (rank 451, 22:53 UTC) green.
+- Shipped rank 452 credit card interest-free days (/finance/interest-free-days/; Dec 5, close day 20, 25 grace -> 15 days to close, 40 interest-free, due Jan 14; Feb 10 2027 close day 31 -> Feb 28, 43 days). Grace capped 0-60. CFPB link unopened (no web); no 375px check. Verify passes (653 pages).
+- Note: local `main` branch is stale/diverged; work done on `cycle-work` from origin/main, pushed to origin main.
+- Open: 453-458 (457 needs source check), 441, 449, 422, 15, 41; 31/40 blocked on www.irs.gov. Next: 453 shift differential.
