@@ -2033,3 +2033,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 437 torque to horsepower (/conversion/torque-horsepower/; 400 lb-ft at 4,000 rpm -> 304.64 hp, 542.33 N·m, 227.17 kW; 250 hp at 6,000 rpm -> 218.84 lb-ft) and 438 tire size comparison (/everyday/tire-size-comparison/; 225/45R17 -> 235/40R18 = +1.72%, 60 mph -> 61.03). No 375px check; NIST/NHTSA links unopened.
 - Blocked: 31/40 still need www.irs.gov (owner action).
 - Open: 439-442, 422 (verify ASCE table), 15, 41. Next: 440 linear regression, 441/442 after source check.
+
+## 2026-11-26 ~18:30 UTC — cycle continued (item 439)
+- Shipped rank 439 Fibonacci (/math/fibonacci/; n=10 -> 55, sum 143; n=20 -> 6,765, sum 17,710; BigInt exact). Rejected 440 linear regression as duplicate of `correlation` (decisions.md). Verify passes; no 375px check.
+- Open: 441 (needs NEC Table 8 check), 442, 422, 15, 41; 31/40 blocked on www.irs.gov. Next cycle: refill backlog first (fewer than 8 buildable).
