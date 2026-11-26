@@ -1927,3 +1927,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Health: deploys through #544 green; #545 (in-progress marker) running at last check.
 - Shipped rank 386 dry pasta portions (/food/dry-pasta-portions/; 6 x 85 g, 500 g pack, $2 -> 510 g, 2 packs, $2.04, $0.34) and 388 Elo rating (/sports/elo-rating/; 1500 vs 1700, K 32, win -> E 0.2402, +24.3, 1524.3). Built by two frontend-engineer agents; lead reviewed diffs and ran verify on merged main. No browser/375px check; no web sources opened.
 - Open: 380 (needs cited source), 391-393 (low value; 393 needs 3GPP check). Next cycle: product-research refill first (evergreen, non-finance), then build.
+
+## 2026-11-26 ~07:00 UTC — cycle (items 380, 392)
+- Health: deploys through #545 green at start; new deploy checked below.
+- Shipped rank 380 shooting efficiency (/sports/shooting-efficiency/; 10/3/20/5/6 -> eFG 57.5%, TS 61.84%) and 392 video bitrate to file size (/developer/video-bitrate-size/; 8128 kbps x 10 min -> 609.6 MB). Spec example for 380 said eFG 55%; correct is 57.5%. Basketball-Reference unreachable, cited by name only. No 375px check.
+- Backlog refill pass 39: ranks 394-401 (best: 401 lease mileage overage, 395 snow water equivalent). No user issues open.
+- Marketing: 2026-11-26 pack not started this cycle. Open: 391, 393 (needs 3GPP check), 15, 41. Next: build 401, 395, then marketing brief.
