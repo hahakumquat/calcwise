@@ -2027,3 +2027,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 435 meeting cost (/everyday/meeting-cost/; 8 people, $60/h, 60 min, 50/yr -> $480 per meeting, $24,000/yr) and 436 lottery odds (/statistics/lottery-odds/; 69/5/26 -> 1 in 292,201,338; 49/6 -> 13,983,816). Verify passes (640 pages, 0 problems). No 375px check; no specs files existed for 410/411.
 - Blocked: 31/40 still need www.irs.gov (owner action).
 - Open: 437-442, 422 (verify ASCE table), 15, 41. Next: 437 torque to horsepower, 438 tire size.
+
+## 2026-11-26 ~18:00 UTC — cycle (items 437, 438)
+- Health: deploy #(16:54 push) green; later deploy not re-read.
+- Shipped rank 437 torque to horsepower (/conversion/torque-horsepower/; 400 lb-ft at 4,000 rpm -> 304.64 hp, 542.33 N·m, 227.17 kW; 250 hp at 6,000 rpm -> 218.84 lb-ft) and 438 tire size comparison (/everyday/tire-size-comparison/; 225/45R17 -> 235/40R18 = +1.72%, 60 mph -> 61.03). No 375px check; NIST/NHTSA links unopened.
+- Blocked: 31/40 still need www.irs.gov (owner action).
+- Open: 439-442, 422 (verify ASCE table), 15, 41. Next: 440 linear regression, 441/442 after source check.
