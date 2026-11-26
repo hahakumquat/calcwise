@@ -122,7 +122,7 @@ export const UNIT_GROUPS = {
   },
   power: {
     base: 'w',
-    units: [lin('w', 'W', 1), lin('kw', 'kW', 1000), lin('mw', 'MW', 1e6), lin('hp', 'hp', 745.69987158227)],
+    units: [lin('w', 'W', 1), lin('kw', 'kW', 1000), lin('mw', 'MW', 1e6), lin('hp', 'hp', 745.69987158227), lin('ps', 'PS', 735.49875), lin('btuh', 'BTU/h', 1055.05585262 / 3600), lin('rton', 'RT', (12000 * 1055.05585262) / 3600)],
   },
   pressure: {
     base: 'pa',
