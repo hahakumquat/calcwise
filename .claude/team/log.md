@@ -1963,3 +1963,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 402 Rule of 78 payoff (/finance/rule-of-78-payoff/; $600, 12 mo, 3 paid -> rebate $346.15 vs $450 straight-line), 406 moving average (/statistics/moving-average/; 10,12,14,13,15,17,16 window 3 -> latest 16), 408 balloon loan (/finance/balloon-loan/; $10k, 12%, 24-mo schedule, balloon at 12 -> $470.73/mo, $5,298.16). Three frontend-engineer agents; lead verified merged tree (611 pages, 0 problems). No 375px check; no legal limits stated on 402.
 - Open: 393, 405 (verify Magnus constants), 409, 15, 41; 31/40 blocked on www.irs.gov access. Next cycle: refill backlog first.
 - Marketing: today's pack already rendered (see earlier entry); nothing new.
+
+## 2026-11-26 ~08:55 UTC — cycle (items 409, 405)
+- Health: deploy #555-557 green (last push 07:58 UTC).
+- Shipped rank 409 coefficient of variation (/statistics/coefficient-of-variation/; 2,4,4,4,5,5,7,9 -> mean 5, SD 2, CV 40%) and rank 405 dew point (/everyday/dew-point/; 20 C at 50% RH -> 9.26 C). Verify passes (613 pages, 0 problems). No 375px check.
+- Dew point caveat: Magnus constants 17.625/243.04 corroborated only from search snippets (Alduchov & Eskridge 1996); primary source hosts not in sandbox allowlist. Result matches the 9.3 C table value.
+- Blocked: ranks 31 and 40 still need www.irs.gov (owner action). Local `main` branch in the sandbox is a stale divergent copy (50 unpushed commits); I worked on a branch from origin/main and left it untouched.
+- Open: 393 (3GPP check), 15, 41. Next cycle: refill backlog first.
