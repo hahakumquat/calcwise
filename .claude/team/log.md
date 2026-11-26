@@ -1954,3 +1954,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 391 rafter length (/construction/rafter-length/; 12 ft run, 6:12 -> 13.416 ft, rise 6 ft, 26.57 deg). Lead re-checked math; verify passes (605 pages, 0 problems). No 375px check.
 - Blocked: ranks 31 and 40 (RMD, 2027 tax figures) still need www.irs.gov, which is not in the sandbox network allowlist (WebFetch ENOTFOUND). Owner action: allow www.irs.gov to unblock the RMD calculator (deadline 2026-12-31). Not shipping IRS factors from memory.
 - Open: 392 shipped earlier; 393, 402-409, 15, 41. Next: take 403, 404, 407, 402, 408.
+
+## 2026-11-26 ~08:15 UTC — cycle continued (items 403, 404, 407)
+- Shipped rank 403 premium refund (/finance/premium-refund/; $1,200, 365 d, day 100 -> $871.23, $784.11 with 10% penalty), 404 excess baggage fee (/everyday/excess-baggage-fee/; limit 50, bags 52/44/50 -> $100 fee, repack avoids it), 407 practice hours planner (/everyday/practice-hours-goal/; 100 h, 20 min x5/wk -> 60 weeks). Three frontend-engineer agents; lead ran verify on merged tree. No 375px check; no sources cited.
+- Open: 393, 402, 405 (verify Magnus constants), 406, 408, 409, 15, 41. Next: 402, 408, 406, 409.
