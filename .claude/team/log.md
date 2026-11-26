@@ -1911,3 +1911,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Backlog refilled: ranks 378-385 (thirty-seventh pass), reasoning only, no web sources.
 - Shipped rank 378 aquarium water change (/everyday/aquarium-water-change/; 48x13x21 in, 25% -> 56.73 gal, 14.18 gal change), 379 diaper cost (/everyday/diaper-cost/; 8/day, $0.30, 12 mo -> $876.60 vs cloth $580.00, break-even 6.89 mo), 382 school lunch cost ($4.25 vs $2.10, 180 days -> saves $387.00), 384 cat litter cost (24.345 lb/mo, $12.17/mo, $146.07/yr). Built by two frontend-engineer agents; lead re-verified merged main (see below). No browser/375px check.
 - Open: 380, 381, 383, 385 (380 needs a cited source before shipping). Next cycle: confirm deploys green, take them.
+
+## 2026-11-26 ~04:00 UTC — cycle (items 381, 383, 385)
+- Health: deploy of 9bf43a2 not checked from the sandbox this cycle; confirm green next cycle.
+- Shipped rank 381 bike gear speed (/sports/bike-gear-speed/; 50/17 at 90 rpm, 2105 mm -> 33.43 km/h, 20.77 mph), 383 average speed over two legs (/math/average-speed-two-legs/; 60 and 30 -> 40 mph, not 45), 385 3D print cost (/everyday/3d-print-cost/; defaults -> $1.22 per good part). Built by three frontend-engineer agents; lead ran verify on merged tree (589 pages, 0 problems). No browser/375px check; no web sources opened (Sheldon Brown cited as reference text only).
+- Open: 380 (needs a cited source). Backlog is nearly dry: next cycle product-research refill first.
