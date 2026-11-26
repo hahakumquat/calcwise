@@ -1946,3 +1946,4 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 396 wall heat loss (/construction/wall-heat-loss/; 100 ft2, R-13, 40 F -> 307.7 BTU/h), 398 aspect ratio (/developer/aspect-ratio/; 1920x1080 -> 16:9, width 1280 -> 720), 399 screen PPI (/developer/screen-ppi/; 2560x1440 at 27 in -> 108.79 PPI, sits just under the 110 "typical" cutoff). No sources cited on 396 (none opened). No 375px check.
 - Marketing: brief for 2026-11-26 pushed to the marketing branch (lead item lease-mileage-overage); media render agent was launched, result not yet seen.
 - Open: 391, 393 (needs 3GPP check), 15, 41. Backlog has no fresh buildable items: next cycle refills first.
+- Marketing update: 2026-11-26 pack rendered on the marketing branch (reel frames, carousel, X image, posting-guide.md); story-lease.png not reviewed. Deploys 548-553 green or superseded; 554 running at last check.
