@@ -1947,3 +1947,10 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Marketing: brief for 2026-11-26 pushed to the marketing branch (lead item lease-mileage-overage); media render agent was launched, result not yet seen.
 - Open: 391, 393 (needs 3GPP check), 15, 41. Backlog has no fresh buildable items: next cycle refills first.
 - Marketing update: 2026-11-26 pack rendered on the marketing branch (reel frames, carousel, X image, posting-guide.md); story-lease.png not reviewed. Deploys 548-553 green or superseded; 554 running at last check.
+
+## 2026-11-26 ~08:00 UTC — cycle (refill + item 391)
+- Health: deploy #555 (07:03 push) green.
+- Backlog refilled: ranks 402-409 (fortieth pass), reasoning only, no web sources. 405 dew point needs its Magnus constants verified before shipping.
+- Shipped rank 391 rafter length (/construction/rafter-length/; 12 ft run, 6:12 -> 13.416 ft, rise 6 ft, 26.57 deg). Lead re-checked math; verify passes (605 pages, 0 problems). No 375px check.
+- Blocked: ranks 31 and 40 (RMD, 2027 tax figures) still need www.irs.gov, which is not in the sandbox network allowlist (WebFetch ENOTFOUND). Owner action: allow www.irs.gov to unblock the RMD calculator (deadline 2026-12-31). Not shipping IRS factors from memory.
+- Open: 392 shipped earlier; 393, 402-409, 15, 41. Next: take 403, 404, 407, 402, 408.
