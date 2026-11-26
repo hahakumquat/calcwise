@@ -1988,3 +1988,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 393 SMS segments (/text/sms-segments/; 161 GSM-7 chars -> 2 segments) and 415 blood glucose converter (/conversion/blood-glucose-converter/; 100 mg/dL -> 5.55 mmol/L). Verify passes (622 pages, 0 problems). No 375px check (chromium unavailable); 3GPP/PubChem/Joslin pages unreadable in sandbox, citations unverified.
 - Research refill: ranks 418-426 added (no web sources opened). Marketing pack for 2026-11-26 already complete on `marketing`.
 - Next: 423 advent calendar cost (ship by 12-01), 418, 421, 419; verify 422 ASCE table before building.
+
+## 2026-11-26 ~12:00 UTC — cycle (items 423, 418, 421, 419)
+- Health: no new deploy failures known at start (deploy status not re-read this cycle).
+- Shipped rank 423 advent calendar cost (/finance/advent-calendar-cost/; $30, 24 days, $0.75 retail -> $1.25/day, $12 premium 66.7%), 418 twelve days of Christmas (/everyday/twelve-days-of-christmas/; 12 -> 364 gifts), 421 Santa sleigh speed (/other/santa-sleigh-speed/; 2e9 x 0.5 km, 32 h -> 8,680.6 km/s, 2.9% of light), 419 Hanukkah candles (/everyday/hanukkah-candles/; 8 nights + shamash -> 44). Four parallel frontend-engineer agents; lead verified merged tree (626 pages, 0 problems). Santa got a 375px check via system Chrome; the other three have no visual check.
+- Blocked: 31/40 still need www.irs.gov (owner action).
+- Open: 420, 422 (verify ASCE table), 424-426, 15, 41. Marketing pack for today already done. Next: refill if <8 buildable.
