@@ -2048,3 +2048,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Research refill landed: ranks 443-450 added (444 and 449 need source checks).
 - Shipped rank 443 Gordon growth model (/finance/gordon-growth-model/; D0 $2, g 3%, r 8% -> value $41.20, implied return 7.12% at $50). Verify passes; no 375px check; deploy not re-read.
 - Open: 441, 444-450, 422, 15, 41; 31/40 blocked on www.irs.gov. Next: 445 resistors, 446 kinetic energy.
+
+## 2026-11-26 ~20:00 UTC — cycle (items 445, 446)
+- Health: not re-read this cycle; daily report already posted at ~15:30.
+- Shipped rank 445 resistors in series/parallel (/construction/resistor-series-parallel/; 100/220/330 Ω -> 650 Ω series, 56.897 Ω parallel) and rank 446 kinetic energy (/math/kinetic-energy/; 1500 kg at 100 km/h -> 578,704 J). No 375px check; deploy checked next cycle.
+- Open: 441, 444, 447-450, 422, 15, 41; 31/40 blocked on www.irs.gov. Next: 447 projectile motion, 448 exponential decay.
