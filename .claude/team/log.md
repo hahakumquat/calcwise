@@ -2251,3 +2251,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Research refill: ranks 507-514 added (specs 482-489). Shipped via frontend-engineer, each with its own verify: 507 personal-inflation-rate, 508 gift-card-balance, 509 batch-drink-abv, 510 tree-light-strands, 511 ribbon-length, 512 sound-delay-distance (/finance/..., /food/..., /everyday/..., /other/sound-delay-distance/). Math spot-checked by lead. No 375px check; no sources cited for 512 (weather.gov/hyperphysics unreachable).
 - Deploys: 507-510 and 512 green incl. verify job; 511's run was cancelled by the 512 push (concurrency) and is covered by 512's green deploy.
 - Open: 513, 514 buildable; 505, 441, 449, 422, 15, 41, 473 blocked on source checks. Next: 513, then 514, then research refill (finance/seasonal veins nearly exhausted). Daily report 2026-11-27 already posted.
+
+## Cycle 21:51 UTC (rank 513)
+- Shipped: Tablecloth Size calculator, https://cappycalc.com/everyday/tablecloth-size/ (rank 513). verify green locally (0 problems).
+- SEO: none this cycle (single item). Health: not checked beyond deploy run. Marketing: today's pack already done earlier. Daily report 2026-11-27 already posted.
+- Not browser-checked at 375px (no visual run); layout follows neighbour patterns.
+- Next: 514 yarn yardage, then research refill.
