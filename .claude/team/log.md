@@ -2261,3 +2261,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## Cycle 21:51 UTC (addendum, rank 514)
 - Shipped: Yarn Yardage calculator, https://cappycalc.com/everyday/yarn-yardage/ (rank 514). verify green (0 problems). Not browser-checked at 375px.
 - Open buildables: none left (513, 514 done). Next cycle: research refill first.
+
+## Cycle 21:51 UTC (addendum 2, rank 517 + refill)
+- Shipped: Combined Work Rate calculator, https://cappycalc.com/math/combined-work-rate/ (rank 517); research refill ranks 515-522 added. verify green (0 problems). Not browser-checked at 375px.
+- Open: 515, 516 (needs WHO/CDC wording check), 518-522 buildable. Next: 518, 520, 521.
