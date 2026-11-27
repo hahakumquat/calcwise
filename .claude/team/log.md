@@ -2106,3 +2106,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 457 jet lag recovery (/health/jet-lag-recovery/; 6 zones west x1.0 = 6 d, east x1.5 = 9 d; 3 east = 4.5 d). Factors editable and labelled rough rule of thumb; CDC source link not opened (no web). No 375px check.
 - Marketing brief for 2026-11-27 and research refill (ranks 467-474) delegated in parallel.
 - Open: 441, 449, 422, 15, 41 (source checks), new 467-474; 31/40 blocked on www.irs.gov.
+
+- Also shipped ranks 468 dollars off vs percent off (/finance/dollars-off-vs-percent-off/; $100, $20 off vs 15% -> $80 vs $85, break-even $133.33), 472 bowling average (/sports/bowling-average/; 1800/10 games, target 185 over 5 -> 195 per game) and 474 date night budget (/everyday/date-night-budget/; $150 x 2/mo split -> $3,600/yr, $1,800 share). No 375px check.
+- Marketing: 2026-11-27 pack (brief, 19 PNGs, posting guide) rendered on marketing branch; owner must re-read r/shrinkflation rules before posting.
+- Also shipped ranks 467 buy N get M free (/finance/buy-n-get-m/; $10 buy 2 get 1 -> 33.3% off, $20), 469 giving plan (/finance/giving-plan/; $60k at 5% -> $3,000/yr, $115.38 per 26 paychecks) and 470 percentile rank (/statistics/percentile-rank/). Verify passes. Open: 471 deck boards, 473 ladder (source check), 441, 449, 422, 15, 41; 31/40 blocked on www.irs.gov. Next: 471, then refill.
