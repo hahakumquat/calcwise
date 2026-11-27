@@ -2117,3 +2117,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Note: local main had diverged from origin/main; worked on branch cycle-0451 from origin/main (hard reset was denied).
 - Open: 441, 449, 422, 15, 41 (source checks), 473; 31/40 blocked on www.irs.gov. Next: research refill (fewer than 8 buildable). Daily report due at first cycle after 14:00 UTC.
 - Research refill (ranks 475-482, specs 450-457) added to backlog; 8 buildable open. Next cycle: take 475 gas detour; daily report due at first cycle after 14:00 UTC.
+
+## 2026-11-27 ~06:00 UTC — cycle (item 475)
+- Health: previous deploy (04:56) green incl. verify.
+- Shipped rank 475 gas station detour (/everyday/gas-detour/; 12 gal, $3.50 vs $3.30, 6 mi, 25 mpg -> net $1.608, break-even 18.2 mi; with $20/h x 10 min net -$1.73). Verify passes (675 pages); no 375px check.
+- Open: 476-482 (new), 441, 449, 422, 15, 41 (source checks), 473 blocked on sources; 31/40 blocked on www.irs.gov. Next: 476/477. Daily report due at first cycle after 14:00 UTC.
