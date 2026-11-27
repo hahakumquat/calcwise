@@ -2257,3 +2257,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - SEO: none this cycle (single item). Health: not checked beyond deploy run. Marketing: today's pack already done earlier. Daily report 2026-11-27 already posted.
 - Not browser-checked at 375px (no visual run); layout follows neighbour patterns.
 - Next: 514 yarn yardage, then research refill.
+
+## Cycle 21:51 UTC (addendum, rank 514)
+- Shipped: Yarn Yardage calculator, https://cappycalc.com/everyday/yarn-yardage/ (rank 514). verify green (0 problems). Not browser-checked at 375px.
+- Open buildables: none left (513, 514 done). Next cycle: research refill first.
