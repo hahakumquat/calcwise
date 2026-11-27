@@ -2226,3 +2226,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Research refill 51: ranks 499-506 added (Kelly, Sharpe, ideal gas, series sum, dilution, free fall, heat index, work and power); finance ideas nearly exhausted, most of the rest are low-fit homework tools.
 - Shipped rank 499 Kelly criterion (/finance/kelly-criterion/; 55% at b=1 -> 10%, $100 on $1,000, half $50; 60% at b=2 -> 40%). Verify passes (699 pages); no 375px check. Done by the lead directly.
 - Deploy of 497 (run 646) was still queued when checked; earlier deploys through 498 green. Open: 500-506, 441, 449, 422, 15, 41 (source checks), 473 blocked. Next: 500.
+
+## 2026-11-27 ~17:10 UTC — cycle (item 500)
+- Shipped rank 500 Sharpe ratio (/finance/sharpe-ratio/; 10% return, 4% risk-free, 15% sd -> 0.40; 8/4/8 -> 0.50). Verify passes (700 pages); no 375px check. Done by the lead directly.
+- Open: 501-506 (low-fit homework tools), 441, 449, 422, 15, 41 (source checks), 473 blocked. Next: 501. Deploy status of 497-499 not read.
