@@ -2085,3 +2085,4 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Health: last deploy not re-read this cycle (no GitHub CLI check run); daily report posts at first cycle after 14:00 UTC.
 - Shipped rank 454 rep challenge total (/health/rep-challenge/; 10 reps, +2 a day, 30 days -> last day 68, total 1,170; 5, +1 -> 585). Verify passes (655 pages); no 375px check.
 - Open: 455, 456, 458 (457 needs source check), 441, 449, 422, 15, 41; 31/40 blocked on www.irs.gov. Next: 455 generator size.
+- Also shipped rank 455 generator size (/construction/generator-size/; fridge 700/2,200, blower 600/1,500, lights 300 -> running 1,600, surge 1,500, min 3,100 W, 3,720 W with 20% headroom). Verify passes (656 pages). Next: 456 half age plus seven.
