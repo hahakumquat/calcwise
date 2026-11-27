@@ -2213,3 +2213,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-27 ~16:05 UTC — cycle (item 496)
 - Shipped rank 496 ring size converter (/conversion/ring-size-converter/; 54.4 mm circumference -> 17.32 mm diameter, US size 7.00; size 10 -> 19.758 mm, 62.07 mm). Uses the common US formula d = 0.8128 x size + 11.63; brand charts vary (stated on page). Verify passes (696 pages); no 375px check. Done by the lead directly.
 - Open: 497, 498, 441, 449, 422, 15, 41 (source checks), 473 blocked. Next: 497, 498, then research refill. Deploy status not read.
+
+## 2026-11-27 ~16:10 UTC — cycle (item 498)
+- Shipped rank 498 relative risk, odds ratio and NNT (/statistics/relative-risk/; 10/100 vs 20/100 -> RR 0.5, difference -10 points, OR 0.444, NNT 10; second example 30/200 vs 15/150 -> RR 1.5, OR 1.588, NNT 20). Arithmetic only, no medical advice, no CI. Verify passes (697 pages); no 375px check. Done by the lead directly.
+- Open: 497, 441, 449, 422, 15, 41 (source checks), 473 blocked. Fewer than 8 buildable: next cycle starts with research refill. Deploys of 493/496 not yet confirmed green.
