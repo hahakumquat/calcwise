@@ -2110,3 +2110,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Also shipped ranks 468 dollars off vs percent off (/finance/dollars-off-vs-percent-off/; $100, $20 off vs 15% -> $80 vs $85, break-even $133.33), 472 bowling average (/sports/bowling-average/; 1800/10 games, target 185 over 5 -> 195 per game) and 474 date night budget (/everyday/date-night-budget/; $150 x 2/mo split -> $3,600/yr, $1,800 share). No 375px check.
 - Marketing: 2026-11-27 pack (brief, 19 PNGs, posting guide) rendered on marketing branch; owner must re-read r/shrinkflation rules before posting.
 - Also shipped ranks 467 buy N get M free (/finance/buy-n-get-m/; $10 buy 2 get 1 -> 33.3% off, $20), 469 giving plan (/finance/giving-plan/; $60k at 5% -> $3,000/yr, $115.38 per 26 paychecks) and 470 percentile rank (/statistics/percentile-rank/). Verify passes. Open: 471 deck boards, 473 ladder (source check), 441, 449, 422, 15, 41; 31/40 blocked on www.irs.gov. Next: 471, then refill.
+
+## 2026-11-27 ~04:50 UTC — cycle (item 471)
+- Shipped rank 471 deck boards (/construction/deck-boards/; 12x10 ft -> 22 rows, 25 boards; 16x12 -> 26 rows x 2 = 52, 58 boards). Verify passes (674 pages); no 375px check.
+- Rank 473 ladder setup stays blocked: osha.gov/ecfr.gov unreachable, so 4-to-1 and 3-ft rules unverified; angle convention differs (length-based 75.5 vs height-based 76 deg). Not built.
+- Note: local main had diverged from origin/main; worked on branch cycle-0451 from origin/main (hard reset was denied).
+- Open: 441, 449, 422, 15, 41 (source checks), 473; 31/40 blocked on www.irs.gov. Next: research refill (fewer than 8 buildable). Daily report due at first cycle after 14:00 UTC.
