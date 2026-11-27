@@ -2152,3 +2152,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-27 ~09:05 UTC — cycle (item 482)
 - Shipped rank 482 price per square foot (/finance/price-per-square-foot/; $450,000/1,800 = $250.00 vs $520,000/2,100 = $247.62, B 0.95% cheaper; rent $2,100/900 = $2.33/mo, $28.00/yr). Copy notes location, lot, condition ignored. Verify passes (682 pages); no 375px check.
 - Open: 441, 449, 422, 15, 41 (source checks), 473 blocked; 31/40 blocked on www.irs.gov. Fewer than 8 buildable: next cycle starts with a research refill. Daily report due at first cycle after 14:00 UTC.
+
+## 2026-11-27 ~09:10 UTC — cycle (item 488)
+- Research refill ranks 483-490 added (49th pass). Shipped rank 488 Bayes theorem (/statistics/bayes-theorem/; base rate 1%, sens 90%, FP 9% -> 9.17% after positive, 0.11% after negative; 90 TP vs 891 FP per 10,000; second example 10/80/5 -> 64%). Not-medical-advice copy. Verify passes (683 pages); no 375px check.
+- Health: deploy 621 green; 622 (rank 482) was queued at last read, not re-read.
+- Open: 483-487, 489, 490, 441, 449, 422, 15, 41 (source checks), 473 blocked; 31/40 blocked on www.irs.gov. Next: 483 or 489. Daily report due at first cycle after 14:00 UTC.
