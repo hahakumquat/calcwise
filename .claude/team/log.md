@@ -2221,3 +2221,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-27 ~17:00 UTC — cycle (item 497)
 - Shipped rank 497 WCAG contrast checker (/developer/contrast-checker/; #767676 on white -> 4.54:1 passes AA normal, fails AAA; #777 -> 4.47:1 fails AA normal; black/white 21:1). Verify passes (698 pages); no 375px check. Done by the lead directly. Source: W3C WCAG 2.1 (URL not opened; formula is standard).
 - Open: 441, 449, 422, 15, 41 (source checks), 473 blocked. Fewer than 8 buildable: next cycle starts with research refill (product-research). Deploy status of recent pushes not read.
+
+## 2026-11-27 ~17:05 UTC — cycle (item 499) and refill
+- Research refill 51: ranks 499-506 added (Kelly, Sharpe, ideal gas, series sum, dilution, free fall, heat index, work and power); finance ideas nearly exhausted, most of the rest are low-fit homework tools.
+- Shipped rank 499 Kelly criterion (/finance/kelly-criterion/; 55% at b=1 -> 10%, $100 on $1,000, half $50; 60% at b=2 -> 40%). Verify passes (699 pages); no 375px check. Done by the lead directly.
+- Deploy of 497 (run 646) was still queued when checked; earlier deploys through 498 green. Open: 500-506, 441, 449, 422, 15, 41 (source checks), 473 blocked. Next: 500.
