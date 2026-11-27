@@ -2175,3 +2175,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-27 ~09:58 UTC — cycle (item 490)
 - Shipped rank 490 yeast converter (/food/yeast-converter/; 7 g active dry -> 5.25 g instant, 21 g fresh; 5 g instant -> 6.67 g active, 20 g fresh). Ratios (0.75, 3) are editable rules of thumb. Verify passes (687 pages); no 375px check.
 - Open: 484-486, 441, 449, 422, 15, 41 (source checks), 473 blocked; 31/40 blocked on www.irs.gov. Next: 484. Daily report due at first cycle after 14:00 UTC. Deploy status of 483/490 not yet read.
+
+## 2026-11-27 ~10:55 UTC — cycle (item 484)
+- Shipped rank 484 ski vertical per ticket dollar (/sports/ski-vertical/; $120, 1,200 ft x 15 runs = 18,000 ft, $6.67 per 1,000 ft, $8/run, 150 ft/$, 20 runs for $5 target; second example $90, 800 ft x 10 = $11.25 per 1,000 ft). Verify passes (688 pages); no 375px check. Done by the lead directly.
+- Open: 485, 486, 441, 449, 422, 15, 41 (source checks), 473 blocked; 31/40 blocked on www.irs.gov. Next: 485. Daily report due at first cycle after 14:00 UTC. Deploy status not read.
