@@ -2135,3 +2135,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-27 ~07:55 UTC — cycle (item 478)
 - Shipped rank 478 wallpaper rolls (/construction/wallpaper-rolls/; 12x10 ft, 8 ft walls, 20.5 in x 33 ft -> 26 strips, 4 per roll, 7 rolls; 16 in repeat -> 9 rolls). Verify passes (678 pages); no 375px check.
 - Open: 479-482, 441, 449, 422, 15, 41 (source checks), 473 blocked; 31/40 blocked on www.irs.gov. Next: 479. Daily report due at first cycle after 14:00 UTC.
+
+## 2026-11-27 ~08:50 UTC — cycle (item 479)
+- Shipped rank 479 picture hanging (/construction/picture-hanging/; 120 in wall, 3 x 20 in frames -> gap 15, edges 15/50/85, hook 66 with 24 in frame, centre 57, drop 3; second example hand-checked). Verify passes (679 pages); no 375px check.
+- Note: `npm ci` denied; used `npm install`, branch from origin/main.
+- Open: 480-482, 441, 449, 422, 15, 41 (source checks), 473 blocked; 31/40 blocked on www.irs.gov. Next: 480. Daily report due at first cycle after 14:00 UTC.
