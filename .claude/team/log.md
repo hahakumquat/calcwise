@@ -2131,3 +2131,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-27 ~07:05 UTC — cycle (item 477)
 - Shipped rank 477 matrix determinant and inverse (/math/matrix-calculator/; [[4,7],[2,6]] -> det 10, inverse [[0.6,-0.7],[-0.2,0.4]]; 3x3 [[2,0,1],[1,3,2],[1,1,4]] -> det 18, inverse hand-checked by A x A^-1 entries; singular warning). Verify passes (677 pages); no 375px check.
 - Open: 478-482, 441, 449, 422, 15, 41 (source checks), 473 blocked; 31/40 blocked on www.irs.gov. Next: 478. Daily report due at first cycle after 14:00 UTC.
+
+## 2026-11-27 ~07:55 UTC — cycle (item 478)
+- Shipped rank 478 wallpaper rolls (/construction/wallpaper-rolls/; 12x10 ft, 8 ft walls, 20.5 in x 33 ft -> 26 strips, 4 per roll, 7 rolls; 16 in repeat -> 9 rolls). Verify passes (678 pages); no 375px check.
+- Open: 479-482, 441, 449, 422, 15, 41 (source checks), 473 blocked; 31/40 blocked on www.irs.gov. Next: 479. Daily report due at first cycle after 14:00 UTC.
