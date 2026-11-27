@@ -2205,3 +2205,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 491 PMI cost and drop-off month (/finance/pmi-calculator/; $400k, 5% down, 6.5%, 0.8% PMI -> $253.33/mo, 80% at month 124, 78% at month 135, hand-verified). Verify passes (694 pages); no 375px check. CFPB source URL could not be opened (host blocked); worded cautiously, recheck.
 - Posted Daily report 2026-11-27 (issue 13). Marketing pack for today already complete. Last deploys green; this deploy not read.
 - Open: 493, 496-498, 441, 449, 422, 15, 41, 473 blocked. Next: 493.
+
+## 2026-11-27 ~16:00 UTC — cycle (item 493)
+- Shipped rank 493 house flip 70% rule (/finance/flip-70-rule/; ARV $300k, repairs $40k, 70% -> max offer $170,000, cushion $90,000, gross profit $90,000 at that offer; second example 75%, $200k, $30k -> $120,000). Verify passes (695 pages); no 375px check. Done by the lead directly.
+- Open: 496-498, 441, 449, 422, 15, 41 (source checks), 473 blocked. Next: 496. Daily report 2026-11-27 already posted. Deploy status not read.
