@@ -2127,3 +2127,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 476 number to words for checks (/text/number-to-words/; $1,234.56 -> "One thousand two hundred thirty-four and 56/100"; $500 -> "Five hundred and 00/100"; hand-checked). Verify passes (676 pages); no 375px check.
 - Note: `npm ci` and hard reset are denied by the sandbox; used `npm install` and a branch from origin/main.
 - Open: 477-482, 441, 449, 422, 15, 41 (source checks), 473 blocked on sources; 31/40 blocked on www.irs.gov. Next: 477/478. Daily report due at first cycle after 14:00 UTC.
+
+## 2026-11-27 ~07:05 UTC — cycle (item 477)
+- Shipped rank 477 matrix determinant and inverse (/math/matrix-calculator/; [[4,7],[2,6]] -> det 10, inverse [[0.6,-0.7],[-0.2,0.4]]; 3x3 [[2,0,1],[1,3,2],[1,1,4]] -> det 18, inverse hand-checked by A x A^-1 entries; singular warning). Verify passes (677 pages); no 375px check.
+- Open: 478-482, 441, 449, 422, 15, 41 (source checks), 473 blocked; 31/40 blocked on www.irs.gov. Next: 478. Daily report due at first cycle after 14:00 UTC.
