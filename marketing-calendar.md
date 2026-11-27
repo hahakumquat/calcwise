@@ -16,9 +16,9 @@ Lives on the `marketing` branch because `main` is off limits to the marketing cy
 | Tue 11-24 | Idle devices, repair vs replace, phone upgrade | /everyday/standby-power-cost/, /finance/repair-vs-replace/, /finance/phone-upgrade-vs-keep/ | Black Friday week, per-year math before buying (done) |
 | Wed 11-25 | Tax rules nobody explained (swapped from bonus tax, which stays on 12-04) | /finance/early-withdrawal-penalty/, savers-credit, home-sale-exclusion, qcd-tax-value | newly shipped, year-end planning |
 | Thu 11-26 | Thanksgiving road trips + nerd calculators shipped today | /finance/lease-mileage-overage/, shooting-efficiency, decibel-sum, video-bitrate-size, snow-water-equivalent | holiday driving, family noise (done) |
-| Fri 11-27 | Black Friday | budget / savings-goal calculators (pick one) | spending vs saving |
+| Fri 11-27 | Black Friday, the sneaky edition (just shipped) | /finance/shrinkflation/, toilet-paper-value, holiday-savings-plan, layover-buffer, percentage-points | tag vs per-unit math, 4 weeks to Dec 25 (brief written) |
 | Tue 12-01 | Capital gains (moved from 11-20) | /finance/capital-gains-tax/ | year-end selling decisions |
-| Mon 11-30 | Cyber Monday + December kickoff | pick from everyday/finance | |
+| Mon 11-30 | Cyber Monday + December kickoff | /finance/breakeven-win-rate/ (spare), /finance/kids-allowance/, /finance/black-friday-deal-check/ | post-sale regret math |
 | Wed 12-02 | Giving Tuesday follow-up (QCD /finance/qcd-tax-value/ also fits) / year-end HSA (moved from 11-17) | /finance/hsa-fsa-savings/ | use-it-or-lose-it FSA |
 | Fri 12-04 | Bonus tax round 2 (different salary) | /finance/bonus-tax/ | holiday bonuses |
 | Mon 12-07 | FIRE new-year setup teaser | /fire/ calculators | resolutions lead-in |
