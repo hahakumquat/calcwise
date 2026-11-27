@@ -2171,3 +2171,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 483 pack-years calculator (/health/pack-years/; 1 pack/day x 20 y = 20 pack-years, 146,000 cigarettes, 7,300 packs; 0.5 pack x 30 y = 15). Arithmetic only, no screening advice. Verify passes (686 pages); no 375px check. Done by the lead directly (small item), no role agents.
 - Sandbox note: `npm ci` and `git reset --hard` are blocked by the safety classifier here; `npm install` and `git checkout -B work origin/main` work instead. Local `main` is stale; work from a branch off origin/main and push `work:main`.
 - Open: 484-486, 490, 441, 449, 422, 15, 41 (source checks), 473 blocked; 31/40 blocked on www.irs.gov. Next: 484/490. Daily report due at first cycle after 14:00 UTC.
+
+## 2026-11-27 ~09:58 UTC — cycle (item 490)
+- Shipped rank 490 yeast converter (/food/yeast-converter/; 7 g active dry -> 5.25 g instant, 21 g fresh; 5 g instant -> 6.67 g active, 20 g fresh). Ratios (0.75, 3) are editable rules of thumb. Verify passes (687 pages); no 375px check.
+- Open: 484-486, 441, 449, 422, 15, 41 (source checks), 473 blocked; 31/40 blocked on www.irs.gov. Next: 484. Daily report due at first cycle after 14:00 UTC. Deploy status of 483/490 not yet read.
