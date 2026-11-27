@@ -2100,3 +2100,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Also shipped rank 463 percentage points vs percent change (/math/percentage-points/; 6.5 -> 7.0 = +0.5 pts, +7.692%; 4 -> 3 = -1 pt, -25%; old 0 -> relative undefined). Verify passes (663 pages); no 375px check. Open: 464-466, 457 (source check), 441, 449, 422, 15, 41. Next: 464 layover buffer.
 - Also shipped ranks 464 layover buffer (/everyday/layover-buffer/; 14:10 +25 min, depart 15:20, min 45 -> buffer 0, absorb 25; 17:00 +50 vs 17:45 -> likely missed), 465 toilet paper value (/everyday/toilet-paper-value/; $24 24x200 vs $18 12x400 -> $0.50 vs $0.375 per 100 sheets, B 25% cheaper) and 466 cold brew dilution (/everyday/cold-brew-dilution/; 500 ml at 1:1 -> 250 + 250). Verify passes (666 pages); no 375px check. Backlog 459-466 all shipped. Open: 457 (source check), 441, 449, 422, 15, 41; 31/40 blocked on www.irs.gov. Next cycle: research refill (fewer than 8 buildable); daily report due at first cycle after 14:00 UTC.
 - Health: deploy of ranks 464-466 (and 463) green, deploy + verify jobs.
+
+## 2026-11-27 ~04:00 UTC — cycle (item 457)
+- Health: last deploy (log: deploy green, 03:12) green incl. verify.
+- Shipped rank 457 jet lag recovery (/health/jet-lag-recovery/; 6 zones west x1.0 = 6 d, east x1.5 = 9 d; 3 east = 4.5 d). Factors editable and labelled rough rule of thumb; CDC source link not opened (no web). No 375px check.
+- Marketing brief for 2026-11-27 and research refill (ranks 467-474) delegated in parallel.
+- Open: 441, 449, 422, 15, 41 (source checks), new 467-474; 31/40 blocked on www.irs.gov.
