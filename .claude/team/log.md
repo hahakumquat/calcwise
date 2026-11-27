@@ -2191,3 +2191,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-27 ~13:00 UTC — cycle (item 495)
 - Research refill 50: ranks 491-498 added (specs 466-473). Shipped rank 495 savings interest after tax (/finance/savings-interest-after-tax/; $10,000 at 4.5%, 24% combined -> interest $450, tax $108, kept $342, 3.42% after tax, real 0.408% at 3% inflation). Verify passes (691 pages); no 375px check. Done by the lead directly.
 - Open: 491-494, 496-498, 441, 449, 422, 15, 41 (source checks), 473 blocked; 31/40 blocked on www.irs.gov. Ranks 483-490 rows still say open although shipped. Next: 492 or 494. Daily report due at first cycle after 14:00 UTC. Deploy status not read.
+
+## 2026-11-27 ~13:05 UTC — cycle (item 492)
+- Shipped rank 492 rental 1%, 2% and 50% rule screen (/finance/rental-rules-screen/; $190,000 at $1,900 rent -> 1.00%, needs $3,800 for 2%, $950 after expenses, $50 cash flow at $900 mortgage). Verify passes (692 pages); no 375px check. Done by the lead directly.
+- Open: 491, 493, 494, 496-498, 441, 449, 422, 15, 41 (source checks), 473 blocked; 31/40 blocked on www.irs.gov. Next: 494. Daily report due at first cycle after 14:00 UTC. Deploy status not read.
