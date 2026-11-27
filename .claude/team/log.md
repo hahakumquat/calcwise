@@ -2116,3 +2116,4 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Rank 473 ladder setup stays blocked: osha.gov/ecfr.gov unreachable, so 4-to-1 and 3-ft rules unverified; angle convention differs (length-based 75.5 vs height-based 76 deg). Not built.
 - Note: local main had diverged from origin/main; worked on branch cycle-0451 from origin/main (hard reset was denied).
 - Open: 441, 449, 422, 15, 41 (source checks), 473; 31/40 blocked on www.irs.gov. Next: research refill (fewer than 8 buildable). Daily report due at first cycle after 14:00 UTC.
+- Research refill (ranks 475-482, specs 450-457) added to backlog; 8 buildable open. Next cycle: take 475 gas detour; daily report due at first cycle after 14:00 UTC.
