@@ -2270,3 +2270,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: Race Fueling Plan https://cappycalc.com/sports/race-fueling-plan/ (rank 518); Speech Length https://cappycalc.com/text/speech-length/ (rank 520). verify green (715 pages, 0 problems). Not browser-checked at 375px. Spec said 12 min 41 s for the speech example; nearest-second rounding gives 42 s (used).
 - SEO/marketing: none this cycle (daily report #13 and pack already done today). Health: deploy checked next.
 - Open buildables: 515, 516 (needs WHO/CDC wording check), 519, 521, 522. Next: 521, 522, 519.
+
+## Cycle 22:51 UTC (addendum, ranks 521, 522)
+- Shipped: Paper Size Converter https://cappycalc.com/conversion/paper-size-converter/ (521); Cohen's d https://cappycalc.com/statistics/cohens-d/ (522). verify green (717 pages, 0 problems). Not browser-checked at 375px.
+- Open buildables: 515, 516 (needs WHO/CDC wording check), 519. Next: 519, 515, then research refill.
