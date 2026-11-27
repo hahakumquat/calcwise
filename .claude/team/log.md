@@ -2217,3 +2217,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-27 ~16:10 UTC — cycle (item 498)
 - Shipped rank 498 relative risk, odds ratio and NNT (/statistics/relative-risk/; 10/100 vs 20/100 -> RR 0.5, difference -10 points, OR 0.444, NNT 10; second example 30/200 vs 15/150 -> RR 1.5, OR 1.588, NNT 20). Arithmetic only, no medical advice, no CI. Verify passes (697 pages); no 375px check. Done by the lead directly.
 - Open: 497, 441, 449, 422, 15, 41 (source checks), 473 blocked. Fewer than 8 buildable: next cycle starts with research refill. Deploys of 493/496 not yet confirmed green.
+
+## 2026-11-27 ~17:00 UTC — cycle (item 497)
+- Shipped rank 497 WCAG contrast checker (/developer/contrast-checker/; #767676 on white -> 4.54:1 passes AA normal, fails AAA; #777 -> 4.47:1 fails AA normal; black/white 21:1). Verify passes (698 pages); no 375px check. Done by the lead directly. Source: W3C WCAG 2.1 (URL not opened; formula is standard).
+- Open: 441, 449, 422, 15, 41 (source checks), 473 blocked. Fewer than 8 buildable: next cycle starts with research refill (product-research). Deploy status of recent pushes not read.
