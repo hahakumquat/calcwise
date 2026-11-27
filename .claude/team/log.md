@@ -2238,3 +2238,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-27 ~19:00 UTC — cycle (item 503)
 - Shipped rank 503 Solution dilution (/other/solution-dilution/; 70% to 50%, 500 mL -> 357.1 mL stock + 142.9 mL water). Verify passes (702 pages); no 375px check. Done by the lead directly; no agents used.
 - Note: local `main` was an unrelated stale branch; worked from origin/main. Open: 504-506, 441, 449, 422, 15, 41, 473 blocked. Next: 504. Deploy status of 497-501 not read.
+
+## 2026-11-27 ~19:55 UTC — cycle (item 504)
+- Shipped rank 504 Free fall (/other/free-fall/; 100 m -> 4.516 s, 44.287 m/s = 159.43 km/h; 20 m -> 2.020 s, 19.806 m/s). Verify passes (703 pages); no 375px check. Done by the lead directly; no agents used.
+- Open: 505, 506, 441, 449, 422, 15, 41, 473 blocked. Next: 506, then 505 (needs NWS coefficient check). Deploy status of recent pushes not read.
