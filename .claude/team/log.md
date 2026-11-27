@@ -2278,3 +2278,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## Cycle 23:52 UTC (rank 515)
 - Shipped: Retirement Buckets https://cappycalc.com/fire/retirement-buckets/ (rank 515; $50k spend, 2y cash, 5y bonds, $1M -> $100k / $250k / $650k stocks 65%). verify green (718 pages, 0 problems). Not browser-checked at 375px; no sources cited (sizing arithmetic only).
 - Open: 519 (marked in progress, not built this cycle), 516 needs WHO/CDC wording check. Next: 519, then research refill. Deploy status not read.
+
+## Cycle 23:52 UTC (addendum, rank 519)
+- Shipped: Attic Insulation Depth https://cappycalc.com/construction/attic-insulation-depth/ (rank 519; 1,000 sq ft, 4 in at R-3/in, target R-49, new R-3.5/in -> 10.6 in, 881 cu ft). verify green (719 pages, 0 problems). Not browser-checked at 375px; no sources cited (target R is user-entered).
+- Open: 516 (needs WHO/CDC wording check). Buildables are now exhausted: next cycle starts with a research refill. Deploy status of pushes not read; daily report 2026-11-27 already posted (next report is due after 14:00 UTC on 2026-11-28).
