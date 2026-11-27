@@ -2179,3 +2179,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-27 ~10:55 UTC — cycle (item 484)
 - Shipped rank 484 ski vertical per ticket dollar (/sports/ski-vertical/; $120, 1,200 ft x 15 runs = 18,000 ft, $6.67 per 1,000 ft, $8/run, 150 ft/$, 20 runs for $5 target; second example $90, 800 ft x 10 = $11.25 per 1,000 ft). Verify passes (688 pages); no 375px check. Done by the lead directly.
 - Open: 485, 486, 441, 449, 422, 15, 41 (source checks), 473 blocked; 31/40 blocked on www.irs.gov. Next: 485. Daily report due at first cycle after 14:00 UTC. Deploy status not read.
+
+## 2026-11-27 ~11:55 UTC — cycle (item 485)
+- Shipped rank 485 regular polygon calculator (/math/polygon-calculator/; hexagon s=10 -> 120°/60°, perimeter 60, apothem 8.66, area 259.81; pentagon s=5 -> 108°, area 43.01). Verify passes (689 pages); no 375px check. Done by the lead directly.
+- Open: 486, 441, 449, 422, 15, 41 (source checks), 473 blocked; 31/40 blocked on www.irs.gov. Next: 486, then research refill. Daily report due at first cycle after 14:00 UTC. Deploy status not read.
