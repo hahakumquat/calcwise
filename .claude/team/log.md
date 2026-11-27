@@ -2144,3 +2144,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-27 ~09:00 UTC — cycle (item 480)
 - Shipped rank 480 baby formula cost (/everyday/baby-formula-cost/; $32, 90 oz, 24 oz/day -> $0.3556/oz, $8.53/day, $259.56/mo at 30.4167 days, $3,114.67/yr; 15% off -> $220.62/mo). No feeding advice in copy. Verify passes (680 pages); no 375px check.
 - Open: 481, 482, 441, 449, 422, 15, 41 (source checks), 473 blocked; 31/40 blocked on www.irs.gov. Next: 481. Daily report due at first cycle after 14:00 UTC.
+
+## 2026-11-27 ~09:00 UTC — cycle (item 481)
+- Shipped rank 481 curtain fabric yardage (/everyday/curtain-fabric/; 48 in window, 60 in, x2, 54 in fabric, 12 allowance -> 2 panels, 72 in cut, 4.0 yd; with 25 in repeat: 72 in window x2.5, 84 in -> 4 panels, 100 in cut, 11.11 yd, buy 11.25). Verify passes (681 pages); no 375px check.
+- Open: 482, 441, 449, 422, 15, 41 (source checks), 473 blocked; 31/40 blocked on www.irs.gov. Next: 482, then research refill. Daily report due at first cycle after 14:00 UTC.
