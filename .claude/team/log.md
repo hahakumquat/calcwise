@@ -2187,3 +2187,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-27 ~11:58 UTC — cycle (item 486)
 - Shipped rank 486 frequency and wavelength (/conversion/frequency-wavelength/; 100 MHz light -> 2.998 m, period 10 ns; 500 nm -> 599.585 THz; 440 Hz sound at 343 m/s -> 77.95 cm). Verify passes (690 pages); no 375px check. Done by the lead directly.
 - Open: 441, 449, 422, 15, 41 (source checks), 473 blocked; 31/40 blocked on www.irs.gov. Fewer than 8 buildable: next cycle starts with a research refill. Daily report due at first cycle after 14:00 UTC. Deploy status not read.
+
+## 2026-11-27 ~13:00 UTC — cycle (item 495)
+- Research refill 50: ranks 491-498 added (specs 466-473). Shipped rank 495 savings interest after tax (/finance/savings-interest-after-tax/; $10,000 at 4.5%, 24% combined -> interest $450, tax $108, kept $342, 3.42% after tax, real 0.408% at 3% inflation). Verify passes (691 pages); no 375px check. Done by the lead directly.
+- Open: 491-494, 496-498, 441, 449, 422, 15, 41 (source checks), 473 blocked; 31/40 blocked on www.irs.gov. Ranks 483-490 rows still say open although shipped. Next: 492 or 494. Daily report due at first cycle after 14:00 UTC. Deploy status not read.
