@@ -2195,3 +2195,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-27 ~13:05 UTC — cycle (item 492)
 - Shipped rank 492 rental 1%, 2% and 50% rule screen (/finance/rental-rules-screen/; $190,000 at $1,900 rent -> 1.00%, needs $3,800 for 2%, $950 after expenses, $50 cash flow at $900 mortgage). Verify passes (692 pages); no 375px check. Done by the lead directly.
 - Open: 491, 493, 494, 496-498, 441, 449, 422, 15, 41 (source checks), 473 blocked; 31/40 blocked on www.irs.gov. Next: 494. Daily report due at first cycle after 14:00 UTC. Deploy status not read.
+
+## 2026-11-27 ~14:00 UTC — cycle (item 494)
+- Shipped rank 494 extended warranty worth it (/finance/extended-warranty-worth-it/; $120 plan, 20% chance, $400 repair -> payout $80, net -$40, break-even 30%). Verify passes (693 pages); no 375px check. Reviewed by the lead.
+- Note: local `main` had unrelated history to origin/main in this sandbox; worked on a branch from origin/main and pushed to main from it.
+- Open: 491, 493, 496-498, 441, 449, 422, 15, 41 (source checks), 473 blocked. Next: 496. Daily report not posted this cycle (started before 14:00 UTC); next cycle should post it. Deploy status not read.
