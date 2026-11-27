@@ -2200,3 +2200,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 494 extended warranty worth it (/finance/extended-warranty-worth-it/; $120 plan, 20% chance, $400 repair -> payout $80, net -$40, break-even 30%). Verify passes (693 pages); no 375px check. Reviewed by the lead.
 - Note: local `main` had unrelated history to origin/main in this sandbox; worked on a branch from origin/main and pushed to main from it.
 - Open: 491, 493, 496-498, 441, 449, 422, 15, 41 (source checks), 473 blocked. Next: 496. Daily report not posted this cycle (started before 14:00 UTC); next cycle should post it. Deploy status not read.
+
+## 2026-11-27 ~15:00 UTC — cycle (item 491)
+- Shipped rank 491 PMI cost and drop-off month (/finance/pmi-calculator/; $400k, 5% down, 6.5%, 0.8% PMI -> $253.33/mo, 80% at month 124, 78% at month 135, hand-verified). Verify passes (694 pages); no 375px check. CFPB source URL could not be opened (host blocked); worded cautiously, recheck.
+- Posted Daily report 2026-11-27 (issue 13). Marketing pack for today already complete. Last deploys green; this deploy not read.
+- Open: 493, 496-498, 441, 449, 422, 15, 41, 473 blocked. Next: 493.
