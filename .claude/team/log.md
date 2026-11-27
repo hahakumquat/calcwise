@@ -2122,3 +2122,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Health: previous deploy (04:56) green incl. verify.
 - Shipped rank 475 gas station detour (/everyday/gas-detour/; 12 gal, $3.50 vs $3.30, 6 mi, 25 mpg -> net $1.608, break-even 18.2 mi; with $20/h x 10 min net -$1.73). Verify passes (675 pages); no 375px check.
 - Open: 476-482 (new), 441, 449, 422, 15, 41 (source checks), 473 blocked on sources; 31/40 blocked on www.irs.gov. Next: 476/477. Daily report due at first cycle after 14:00 UTC.
+
+## 2026-11-27 ~07:00 UTC — cycle (item 476)
+- Shipped rank 476 number to words for checks (/text/number-to-words/; $1,234.56 -> "One thousand two hundred thirty-four and 56/100"; $500 -> "Five hundred and 00/100"; hand-checked). Verify passes (676 pages); no 375px check.
+- Note: `npm ci` and hard reset are denied by the sandbox; used `npm install` and a branch from origin/main.
+- Open: 477-482, 441, 449, 422, 15, 41 (source checks), 473 blocked on sources; 31/40 blocked on www.irs.gov. Next: 477/478. Daily report due at first cycle after 14:00 UTC.
