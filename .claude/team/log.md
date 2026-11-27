@@ -2234,3 +2234,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-27 ~18:00 UTC — cycle (item 501)
 - Shipped rank 501 Ideal gas law (/other/ideal-gas-law/; 1 mol, 0 C, 1 atm -> 22.414 L; plus P, n, T cases). Verify passes (701 pages); no 375px check. Done by the lead directly.
 - Skipped 502 series-sum as duplicate of sequence-calculator (decisions.md). Open: 503-506, 441, 449, 422, 15, 41, 473 blocked. Next: 503. Deploy status of 497-500 not read.
+
+## 2026-11-27 ~19:00 UTC — cycle (item 503)
+- Shipped rank 503 Solution dilution (/other/solution-dilution/; 70% to 50%, 500 mL -> 357.1 mL stock + 142.9 mL water). Verify passes (702 pages); no 375px check. Done by the lead directly; no agents used.
+- Note: local `main` was an unrelated stale branch; worked from origin/main. Open: 504-506, 441, 449, 422, 15, 41, 473 blocked. Next: 504. Deploy status of 497-501 not read.
