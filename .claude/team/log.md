@@ -2246,3 +2246,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-27 ~20:00 UTC — cycle (item 506)
 - Shipped rank 506 Work and power (/other/work-and-power/; 250 N, 4 m, 5 s -> 1,000 J, 200 W, 0.268 hp; 50 N, 10 m, 20 s -> 500 J, 25 W). Verify passes (704 pages); no 375px check. Done by the lead directly.
 - Open: 505 (needs NWS coefficient check), 441, 449, 422, 15, 41, 473 blocked. Fewer than 8 buildable: next cycle starts with research refill. Deploy status of recent pushes not read.
+
+## 2026-11-27 ~21:10 UTC — cycle (items 507-512)
+- Research refill: ranks 507-514 added (specs 482-489). Shipped via frontend-engineer, each with its own verify: 507 personal-inflation-rate, 508 gift-card-balance, 509 batch-drink-abv, 510 tree-light-strands, 511 ribbon-length, 512 sound-delay-distance (/finance/..., /food/..., /everyday/..., /other/sound-delay-distance/). Math spot-checked by lead. No 375px check; no sources cited for 512 (weather.gov/hyperphysics unreachable).
+- Deploys: 507-510 and 512 green incl. verify job; 511's run was cancelled by the 512 push (concurrency) and is covered by 512's green deploy.
+- Open: 513, 514 buildable; 505, 441, 449, 422, 15, 41, 473 blocked on source checks. Next: 513, then 514, then research refill (finance/seasonal veins nearly exhausted). Daily report 2026-11-27 already posted.
