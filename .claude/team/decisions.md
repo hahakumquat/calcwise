@@ -11,3 +11,5 @@
 - 2026-11-20 — Rejected backlog rank 90 (fire/savings-rate): fire/years-to-fi already is the savings-rate calculator with the same curve; a second page would cannibalise it. (Lead)
 - 2026-11-23 — Spec 208 (childcare-vs-work) said 40% of net pay goes to costs; (1,500+300)/3,000 is 60% (40% is what is left). Built with 60%. (Lead)
 - 2026-11-26 — Rejected backlog rank 440 (statistics/linear-regression): statistics/correlation already outputs slope, intercept, r² and a scatter with the least-squares line; a second page would cannibalise it. (Lead)
+
+- 2026-11-27: Skipped backlog rank 502 (`math/series-sum`). `sequence-calculator` already computes nth term, sum and infinite geometric sum, so a new page would cannibalise it. Safer reversible option: leave 502 closed; improve the existing page instead if wanted.

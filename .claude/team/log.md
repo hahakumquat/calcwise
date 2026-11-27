@@ -2230,3 +2230,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-27 ~17:10 UTC — cycle (item 500)
 - Shipped rank 500 Sharpe ratio (/finance/sharpe-ratio/; 10% return, 4% risk-free, 15% sd -> 0.40; 8/4/8 -> 0.50). Verify passes (700 pages); no 375px check. Done by the lead directly.
 - Open: 501-506 (low-fit homework tools), 441, 449, 422, 15, 41 (source checks), 473 blocked. Next: 501. Deploy status of 497-499 not read.
+
+## 2026-11-27 ~18:00 UTC — cycle (item 501)
+- Shipped rank 501 Ideal gas law (/other/ideal-gas-law/; 1 mol, 0 C, 1 atm -> 22.414 L; plus P, n, T cases). Verify passes (701 pages); no 375px check. Done by the lead directly.
+- Skipped 502 series-sum as duplicate of sequence-calculator (decisions.md). Open: 503-506, 441, 449, 422, 15, 41, 473 blocked. Next: 503. Deploy status of 497-500 not read.
