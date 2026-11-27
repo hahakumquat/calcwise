@@ -2140,3 +2140,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped rank 479 picture hanging (/construction/picture-hanging/; 120 in wall, 3 x 20 in frames -> gap 15, edges 15/50/85, hook 66 with 24 in frame, centre 57, drop 3; second example hand-checked). Verify passes (679 pages); no 375px check.
 - Note: `npm ci` denied; used `npm install`, branch from origin/main.
 - Open: 480-482, 441, 449, 422, 15, 41 (source checks), 473 blocked; 31/40 blocked on www.irs.gov. Next: 480. Daily report due at first cycle after 14:00 UTC.
+
+## 2026-11-27 ~09:00 UTC — cycle (item 480)
+- Shipped rank 480 baby formula cost (/everyday/baby-formula-cost/; $32, 90 oz, 24 oz/day -> $0.3556/oz, $8.53/day, $259.56/mo at 30.4167 days, $3,114.67/yr; 15% off -> $220.62/mo). No feeding advice in copy. Verify passes (680 pages); no 375px check.
+- Open: 481, 482, 441, 449, 422, 15, 41 (source checks), 473 blocked; 31/40 blocked on www.irs.gov. Next: 481. Daily report due at first cycle after 14:00 UTC.
