@@ -2209,3 +2209,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## 2026-11-27 ~16:00 UTC — cycle (item 493)
 - Shipped rank 493 house flip 70% rule (/finance/flip-70-rule/; ARV $300k, repairs $40k, 70% -> max offer $170,000, cushion $90,000, gross profit $90,000 at that offer; second example 75%, $200k, $30k -> $120,000). Verify passes (695 pages); no 375px check. Done by the lead directly.
 - Open: 496-498, 441, 449, 422, 15, 41 (source checks), 473 blocked. Next: 496. Daily report 2026-11-27 already posted. Deploy status not read.
+
+## 2026-11-27 ~16:05 UTC — cycle (item 496)
+- Shipped rank 496 ring size converter (/conversion/ring-size-converter/; 54.4 mm circumference -> 17.32 mm diameter, US size 7.00; size 10 -> 19.758 mm, 62.07 mm). Uses the common US formula d = 0.8128 x size + 11.63; brand charts vary (stated on page). Verify passes (696 pages); no 375px check. Done by the lead directly.
+- Open: 497, 498, 441, 449, 422, 15, 41 (source checks), 473 blocked. Next: 497, 498, then research refill. Deploy status not read.
