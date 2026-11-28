@@ -2372,3 +2372,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 ## Cycle 2026-11-28 ~16:00 UTC
 - Backlog refilled (ranks 563-570, specs 538-545; none existed). Shipped Holiday Ham Size /food/holiday-ham-size/, Charcuterie Board /food/charcuterie-board-quantity/, Holiday Sides Portions /food/holiday-sides-portions/, Fireplace Cost per Hour /everyday/fireplace-cost-per-hour/. verify green (763 pages, 0 problems). Not browser-checked at 375px; source URLs written from memory, not loaded: a later cycle should spot-check them.
 - Note: local `main` was stale/diverged from origin/main; worked from a branch off origin/main. No SEO/marketing this cycle. Open: 565, 566, 569, 570, 560 (needs IRS Pub 575 check).
+
+## Cycle 16:52 UTC (ranks 565, 566, 569, 570)
+- Shipped: Christmas Tree Water /everyday/christmas-tree-water/ (3 in trunk, 6 qt stand -> 3 qt/day, lasts 2 days); Gift Return Deadline /everyday/gift-return-deadline/ (bought 2026-11-27, 30 d + 31 d extension -> Wed 2027-01-27); Mail-in Rebate True Value /finance/mail-in-rebate-true-value/ ($100, $30 rebate, 70% claim, $85 alt -> expected $79, break-even 50%); Punch Card Value /finance/punch-card-loyalty-value/ ($5, 9 paid, $5 reward -> 10% off, $4.50/visit). verify green (767 pages, 0 problems). Not browser-checked at 375px; tree-water one-quart-per-inch rule and NCTA link unopened.
+- Health: last 5 deploys green at cycle start; this push's deploy not read. No SEO/marketing this cycle.
+- Open: 560 (needs IRS Pub 575 check), 505 blocked; backlog buildables now low, next cycle should refill.
