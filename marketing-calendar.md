@@ -17,6 +17,7 @@ Lives on the `marketing` branch because `main` is off limits to the marketing cy
 | Wed 11-25 | Tax rules nobody explained (swapped from bonus tax, which stays on 12-04) | /finance/early-withdrawal-penalty/, savers-credit, home-sale-exclusion, qcd-tax-value | newly shipped, year-end planning |
 | Thu 11-26 | Thanksgiving road trips + nerd calculators shipped today | /finance/lease-mileage-overage/, shooting-efficiency, decibel-sum, video-bitrate-size, snow-water-equivalent | holiday driving, family noise (done) |
 | Fri 11-27 | Black Friday, the sneaky edition (just shipped) | /finance/shrinkflation/, toilet-paper-value, holiday-savings-plan, layover-buffer, percentage-points | tag vs per-unit math, 4 weeks to Dec 25 (brief written) |
+| Sat 11-28 | December money math: student loan refinance, year in review return, I bond, holiday spending, BNPL | /finance/student-loan-refinance/ | day after Black Friday, year-end planning (brief written) |
 | Tue 12-01 | Capital gains (moved from 11-20) | /finance/capital-gains-tax/ | year-end selling decisions |
 | Mon 11-30 | Cyber Monday + December kickoff | /finance/breakeven-win-rate/ (spare), /finance/kids-allowance/, /finance/black-friday-deal-check/ | post-sale regret math |
 | Wed 12-02 | Giving Tuesday follow-up (QCD /finance/qcd-tax-value/ also fits) / year-end HSA (moved from 11-17) | /finance/hsa-fsa-savings/ | use-it-or-lose-it FSA |
