@@ -2354,3 +2354,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: Retaining Wall Blocks /construction/retaining-wall-blocks/ (20x3 ft, 12x4 in block, 5% waste -> 189 blocks, 20 caps); Carb Loading /health/carb-loading/ (70 kg at 10 g/kg -> 700 g/day, 2,800 kcal); Pregnancy Weight Gain /health/pregnancy-weight-gain/ (66 in, 140 lb -> BMI 22.6, 25-35 lb total; week 20 6.7-11.4 lb). verify green (752 pages, 0 problems). Not browser-checked at 375px; IOM/ACSM sources cited by name, unopened. Pregnancy: singleton only, first trimester 1.1-4.4 lb, weeks 1-13 scaled linearly (own simplification, stated on page).
 - Research: fifty-eighth refill ranks 555-562 (specs 530-537), reasoning only.
 - Open: 555-562. Daily report due after 14:00 UTC (next cycle). No SEO/marketing this cycle; deploy not read.
+
+## Cycle 12:52 UTC, second batch (ranks 555, 559, 561)
+- Shipped: Withdrawal Guardrails /fire/withdrawal-guardrails/ ($1M at 5%, portfolio $800k, 3% inflation -> cut to $46,350); Dog Calorie Needs /everyday/dog-calorie-needs/ (20 kg neutered, 350 kcal/cup -> 1,059 kcal, 3.03 cups); Cholesterol Ratios /health/cholesterol-ratios/ (200/50/150 -> LDL 120, non-HDL 150). verify green (755 pages, 0 problems). Playwright-checked at 375 and 1280, light and dark. Sources (Guyton-Klinger, ATP III, WSAVA, NRC) cited by name, unopened; guardrails is the simplified version, stated on page.
+- Open: 556-558, 560, 562. Daily report due after 14:00 UTC (next cycle). Deploys of both pushes not read.
