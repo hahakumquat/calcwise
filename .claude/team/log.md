@@ -2300,3 +2300,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Open: 524 Beaufort, 528 escrow need source checks; backlog refill needed soon. Daily report due after 14:00 UTC.
 - Health: last 4 deploys green at cycle start; this push's deploy not read.
 - Notes: local `main` branch is an unrelated stale history; worked on branch cycle-0252 and pushed to origin main. Did not marketing/SEO this cycle.
+
+## Cycle 03:52 UTC (rank 524 + refill)
+- Shipped: Beaufort Wind Scale https://cappycalc.com/other/beaufort-scale/ (524; 25 mph -> 21.72 kn -> Force 6; 40 kn -> Force 8). verify green (726 pages, 0 problems). Not browser-checked at 375px; source unlinked. Rounds to whole knots before lookup (table has gaps).
+- Research: fifty-fifth refill added ranks 531-538 (specs 506-513). 532 overlaps average-cost-basis; check IRS Pub 550 wording. 516/528 still need source checks.
+- Health: deploy of this push not read. No SEO/marketing this cycle (daily report due after 14:00 UTC).
+- Next: 531, 534, 535, 536, 537, 538, 533.
