@@ -2368,3 +2368,7 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: Triathlon Finish Time /sports/triathlon-time/ (Olympic, 2:00/100 m, 30 km/h, 5:30/km, T1 2 + T2 1 min -> 2:48:00; 70.3 example 5:12:29). verify green (759 pages, 0 problems). Not browser-checked at 375px; sources (Wikipedia) generic, standard distances.
 - Daily report 2026-11-28 posted (#14); #13 closed. Last 6 deploys green at cycle start; this push's deploy not read.
 - Open: 560 (NUA, tax rules need an IRS Pub 575 check), 505 blocked. Backlog buildables low; next cycle should refill. No SEO/marketing this cycle (today's pack already done).
+
+## Cycle 2026-11-28 ~16:00 UTC
+- Backlog refilled (ranks 563-570, specs 538-545; none existed). Shipped Holiday Ham Size /food/holiday-ham-size/, Charcuterie Board /food/charcuterie-board-quantity/, Holiday Sides Portions /food/holiday-sides-portions/, Fireplace Cost per Hour /everyday/fireplace-cost-per-hour/. verify green (763 pages, 0 problems). Not browser-checked at 375px; source URLs written from memory, not loaded: a later cycle should spot-check them.
+- Note: local `main` was stale/diverged from origin/main; worked from a branch off origin/main. No SEO/marketing this cycle. Open: 565, 566, 569, 570, 560 (needs IRS Pub 575 check).
