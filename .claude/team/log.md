@@ -2382,3 +2382,9 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Backlog refilled (ranks 571-576, specs 546-551). Shipped Rug Size Guide /everyday/rug-size-guide/, TV Viewing Distance /everyday/tv-viewing-distance/, Tire Tread Life /everyday/tire-tread-life/, Caulk Tubes Needed /construction/caulk-tubes-needed/. verify green (771 pages, 0 problems). Not browser-checked at 375px; no external sources opened (generic citations; viewing angles and rug borders labelled as rules of thumb).
 - Deviation: dining rug mode picks smallest size that covers table + pull-out (spec example impossible as written).
 - Open: 576 (cash envelope), 573 (oil change), 560 (needs IRS check); 31 and 40 still blocked on IRS access. No SEO/marketing this cycle.
+
+## Cycle 18:51 UTC (ranks 573, 576)
+- Shipped Oil Change Cost Per Mile /everyday/oil-change-cost-per-mile/ and Cash Envelope Budget /finance/cash-envelope-budget/. verify green (773 pages, 0 problems). Not browser-checked at 375px; sources generic (fueleconomy.gov, CFPB).
+- Deviation: spec 551 said weekly pay gives two months with a fifth paycheck; 52 = 48 + 4 so it is about four. Copy says four; biweekly two months with three.
+- Daily report 2026-11-28 already posted (#14). Local `main` branch was stale/unrelated, so worked from a branch off origin/main. No SEO/marketing this cycle.
+- Open: 560 (needs IRS Pub 575 check); 31 and 40 blocked on IRS access. Backlog buildables are low; next cycle should refill.
