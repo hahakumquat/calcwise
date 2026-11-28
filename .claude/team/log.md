@@ -2349,3 +2349,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: Baseboard and Crown Molding /construction/trim-molding-length/ (14x12 ft, both, 2 doors, 10% waste, 8 ft pieces -> 15 pieces); Creatine Dose /health/creatine-dose/ (80 kg -> load 24 g/day, 120 g over 5 days, maintenance 3 g floor, 100-day tub). verify green (749 pages, 0 problems). Not browser-checked at 375px; ISSN source cited by name, unopened.
 - Blocked/oddity: local `main` in the sandbox had 5 unpushed commits (ranks 148, 259-261, 263; not on origin/main) and was detached; hard reset was denied, so work was done on a branch from origin/main. Those commits are not shipped; check them.
 - Open: 551, 553, 554; 505 blocked. Daily report due after 14:00 UTC. No SEO/marketing this cycle; deploy not read.
+
+## Cycle 12:52 UTC (ranks 551, 553, 554; refill 555-562)
+- Shipped: Retaining Wall Blocks /construction/retaining-wall-blocks/ (20x3 ft, 12x4 in block, 5% waste -> 189 blocks, 20 caps); Carb Loading /health/carb-loading/ (70 kg at 10 g/kg -> 700 g/day, 2,800 kcal); Pregnancy Weight Gain /health/pregnancy-weight-gain/ (66 in, 140 lb -> BMI 22.6, 25-35 lb total; week 20 6.7-11.4 lb). verify green (752 pages, 0 problems). Not browser-checked at 375px; IOM/ACSM sources cited by name, unopened. Pregnancy: singleton only, first trimester 1.1-4.4 lb, weeks 1-13 scaled linearly (own simplification, stated on page).
+- Research: fifty-eighth refill ranks 555-562 (specs 530-537), reasoning only.
+- Open: 555-562. Daily report due after 14:00 UTC (next cycle). No SEO/marketing this cycle; deploy not read.
