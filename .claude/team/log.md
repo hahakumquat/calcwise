@@ -2316,3 +2316,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Shipped: Shareholder Yield /finance/shareholder-yield/ (500B cap, 15B div, 25B buyback, 5B issuance -> 7.0%); Cricket Run Rate /sports/cricket-run-rate/ (180 target, 98 after 12.3 ov -> 10.93 required; NRR +0.241); Per-36 Stats /sports/per-minute-stats/ (126 pts, 270 min -> 16.8 per 36). verify green (732 pages, 0 problems). Not browser-checked at 375px.
 - Open: 532, 538; 516/528 need source checks. Daily report due after 14:00 UTC.
 - Health: last 3 deploys green at cycle start; this push's deploy not read. No SEO/marketing this cycle.
+
+## Cycle 06:51 UTC (ranks 532, 538)
+- Shipped: Tax Lot Sale FIFO/LIFO/HIFO /finance/tax-lot-sale-methods/ (spec example: tax 675 / 360 / 0); Photo Exposure Equivalents /other/exposure-value/ (f/8 1/125 -> EV 12.97; f/4 -> 1/500 s). verify green (734 pages, 0 problems). Screenshots checked at 375px by the frontend agent; live result update on the tax-lot page not confirmed. Lots are entered as three parallel lists (shares, cost, long-term flag).
+- Open: backlog buildables exhausted, next cycle starts with a research refill; 516/528 need source checks. Daily report due after 14:00 UTC.
+- Health: this push's deploy not read. No SEO/marketing this cycle.
