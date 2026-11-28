@@ -88,7 +88,7 @@ export default defineCalculator({
     ],
     sources: [{ label: 'International Residential Code (ICC), section R311.7.5 stair treads and risers' }],
   },
-  related: ['square-footage', 'concrete', 'flooring'],
+  related: ['square-footage', 'concrete', 'flooring', 'ladder-setup'],
   examples: [
     { values: { rise: 108 * IN, target: 7.5 * IN, tread: 10 * IN }, expect: { risers: 14, riser: (108 / 14) * IN, treads: 13, run: 130 * IN, check: 'Within IRC limits (riser ≤ 7¾ in, tread ≥ 10 in)' } },
     { values: { rise: 96 * IN, target: 7 * IN, tread: 10 * IN }, expect: { risers: 14, treads: 13 } },

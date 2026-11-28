@@ -2388,3 +2388,8 @@ Newest entry at the bottom. One entry per daily run, ≤ 25 lines.
 - Deviation: spec 551 said weekly pay gives two months with a fifth paycheck; 52 = 48 + 4 so it is about four. Copy says four; biweekly two months with three.
 - Daily report 2026-11-28 already posted (#14). Local `main` branch was stale/unrelated, so worked from a branch off origin/main. No SEO/marketing this cycle.
 - Open: 560 (needs IRS Pub 575 check); 31 and 40 blocked on IRS access. Backlog buildables are low; next cycle should refill.
+
+## Cycle 19:51 UTC (ranks 473, 441)
+- Shipped Ladder Setup /construction/ladder-setup/ (24 ft -> base 6 ft, reach 23.24 ft, 75.5 deg; 20 ft landing -> 24 ft ladder) and Extension Cord Voltage Drop /everyday/extension-cord-voltage-drop/ (14 AWG 50 ft 1500 W -> 3.20%, 116.16 V). verify green (775 pages, 0 problems). Not browser-checked at 375px; OSHA 1926.1053 and NEC Table 8 values cited from memory, pages unopened.
+- Deviation: height mode base distance uses the support length (H/0.9682)/4, not the 3 ft extension. Backlog 473 source block resolved this way.
+- Open: 422 roof snow load, 449 ceiling fan size (both need a source check), 560 (IRS). Backlog buildables low; next cycle should refill. No SEO/marketing this cycle; previous deploys not re-read.
